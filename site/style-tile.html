@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Annie Besant · The Managed Child</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#fbfbf9;--text:#1a1a1a;--soft:#5f5f5f;--faint:#8c8c8c;
+  --line:#e0ded7;--line-2:#cfccc3;--dot:#b7b4aa;
+  --link:#1a1a1a;--ul:#b9b6ac;--hover:#efeee8;--mark:#33507a;--abg:#f6f5ef;
+  --serif:"Source Serif 4",Georgia,serif;--sans:"Source Sans 3",system-ui,sans-serif;--mono:"IBM Plex Mono",monospace;
+}
+html[data-theme="dark"]{--bg:#12151c;--text:#d7d5cc;--soft:#9a988f;--faint:#7c7a72;
+  --line:#262a33;--line-2:#3a3f4b;--dot:#3f4551;--link:#d7d5cc;--ul:#464b57;--hover:#1b1f28;--mark:#8fb0e0;--abg:#171b23;}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:var(--serif);
+  font-size:1.05rem;line-height:1.58;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+#progress{position:fixed;top:0;left:0;height:2px;background:var(--mark);width:0;z-index:90}
+
+/* ---------- masthead ---------- */
+.masthead{max-width:1180px;margin:0 auto;padding:1.6rem clamp(1rem,4vw,2rem) .4rem;
+  display:flex;align-items:stretch;gap:1rem}
+.logo{border:1px solid var(--line-2);width:5.4rem;min-width:5.4rem;display:flex;align-items:center;
+  justify-content:center;font-size:3.1rem;line-height:1;color:var(--text);position:relative}
+.logo::after{content:"";position:absolute;inset:3px;border:1px solid var(--line)}
+.navgrid{flex:1;display:grid;grid-template-columns:repeat(3,1fr);grid-auto-rows:1fr;gap:0;
+  border:1px dotted var(--dot)}
+.navgrid a{border:1px dotted var(--dot);margin:-1px 0 0 -1px;display:flex;align-items:center;justify-content:center;
+  font-family:var(--serif);font-variant:small-caps;letter-spacing:.14em;font-size:1rem;color:var(--text);
+  text-decoration:none;padding:.55rem;transition:background .15s}
+.navgrid a:hover{background:var(--hover)}
+.mast-rule{max-width:1180px;margin:.9rem auto 0;padding:0 clamp(1rem,4vw,2rem);height:1px}
+.mast-rule div{border-top:1px solid var(--line)}
+
+/* ---------- layout ---------- */
+.wrap{max-width:1180px;margin:0 auto;padding:1.6rem clamp(1rem,4vw,2rem) 5rem;
+  display:grid;grid-template-columns:13.5rem minmax(0,1fr);gap:2.6rem}
+.toc{position:sticky;top:1.4rem;align-self:start;font-family:var(--sans);font-size:.8rem;max-height:calc(100vh - 3rem);overflow:auto}
+.toc .h{font-weight:600;text-transform:uppercase;letter-spacing:.09em;font-size:.66rem;color:var(--faint);
+  margin:0 0 .7rem;padding-bottom:.5rem;border-bottom:1px solid var(--line)}
+.toc ul{list-style:none;margin:0;padding:0}
+.toc a{display:block;color:var(--soft);text-decoration:none;padding:.28rem 0 .28rem .7rem;border-left:2px solid transparent;line-height:1.3}
+.toc a:hover{color:var(--text)}
+.toc a.on{color:var(--text);border-left-color:var(--mark);font-weight:600}
+.article{min-width:0;padding-right:14.5rem;position:relative}
+.article>*{max-width:40rem}
+
+h1{font-family:var(--serif);font-weight:600;font-size:clamp(2.2rem,4.6vw,3.1rem);line-height:1.05;letter-spacing:-.01em;margin:.1rem 0 .35rem}
+.tags{font-family:var(--sans);font-size:.8rem;color:var(--soft);margin:0 0 .5rem}
+.tags a{color:var(--mark);text-decoration:none}
+.dek{color:var(--soft);font-size:1.08rem;margin:0 0 .9rem;font-style:italic}
+.metaline{font-family:var(--sans);font-size:.78rem;color:var(--faint);padding:.6rem 0;
+  border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-bottom:1.9rem;
+  display:flex;flex-wrap:wrap;gap:.2rem .55rem;align-items:baseline}
+.metaline .k{color:var(--faint)}.metaline em{font-style:italic;color:var(--soft)}
+.metaline .cert{border-bottom:1px dotted var(--faint);cursor:help;font-style:italic;color:var(--text)}
+.metaline .sep{opacity:.5}
+.metaline a{color:var(--soft);text-decoration:none;border-bottom:1px solid var(--line-2)}
+.abstract{background:var(--abg);border:1px solid var(--line);border-left:3px solid var(--line-2);padding:1rem 1.2rem;margin:0 0 1.4rem}
+.abstract p{margin:0}
+.navnote{font-family:var(--sans);font-size:.9rem;color:var(--soft);margin:0 0 2rem}
+.navnote .lbl{font-family:var(--serif);font-variant:small-caps;letter-spacing:.08em;color:var(--text);font-size:.96rem}
+p{margin:0 0 1.15rem}
+.lead::first-letter{font-family:var(--serif);font-weight:600;float:left;font-size:3.7rem;line-height:.78;padding:.02em .09em 0 0}
+h2{font-family:var(--sans);font-weight:600;font-size:1.28rem;margin:2.5rem 0 .8rem}
+h2 .s{color:var(--faint);font-weight:400;font-family:var(--mono);font-size:.72rem;margin-right:.55em}
+
+/* annotated (popup-bearing) links: dotted underline, Gwern-style */
+a.node{color:var(--link);text-decoration:none;border-bottom:1px dotted var(--faint);cursor:pointer;transition:background .15s,border-color .15s}
+a.node:hover,a.node:focus{background:var(--hover);border-bottom-style:solid;border-color:var(--mark);outline:none}
+a.plain{color:var(--link);border-bottom:1px solid var(--ul);text-decoration:none}
+
+/* sidenotes */
+.snref{font-family:var(--sans);font-size:.72em;vertical-align:super;line-height:0;color:var(--mark);font-weight:600;padding:0 .12em}
+.sidenote{float:right;clear:right;width:13rem;margin-right:-14.5rem;margin-top:.2rem;margin-bottom:1rem;font-size:.8rem;line-height:1.45;color:var(--soft);text-align:left}
+.sidenote .snref{margin-right:.3em}
+.sidenote .cert{font-style:italic;color:var(--text);border-bottom:1px dotted var(--faint);cursor:help}
+.note{border-left:2px solid var(--mark);padding:.2rem 0 .2rem 1.1rem;margin:1.6rem 0}
+.note b{font-family:var(--sans);font-size:.78rem;text-transform:uppercase;letter-spacing:.06em;color:var(--soft);display:block;margin-bottom:.3rem;font-weight:600}
+details{border-top:1px solid var(--line);margin-top:1.6rem}
+summary{font-family:var(--sans);font-size:.78rem;color:var(--soft);cursor:pointer;list-style:none;padding:.7rem 0}
+summary::-webkit-details-marker{display:none}
+summary::before{content:"+";color:var(--mark);margin-right:.55em;font-family:var(--mono)}
+details[open] summary::before{content:"\2013"}
+details .in{font-size:.95rem;color:var(--soft);padding:0 0 1rem}
+.foot{margin-top:3rem;padding-top:1.2rem;border-top:1px solid var(--line);font-family:var(--sans);font-size:.82rem;color:var(--soft)}
+.foot h3{font-size:.7rem;text-transform:uppercase;letter-spacing:.09em;color:var(--faint);margin:0 0 .5rem;font-weight:600}
+.foot .grp{margin-bottom:1rem}
+
+/* ---------- popup (desktop) / popin (mobile) ---------- */
+#pu-layer{position:absolute;top:0;left:0;width:100%;z-index:80;pointer-events:none}
+#pu-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.34);opacity:0;pointer-events:none;transition:opacity .18s;z-index:70}
+#pu-backdrop.on{opacity:1;pointer-events:auto}
+.popup{position:absolute;width:22rem;max-width:88vw;background:var(--bg);border:1px solid var(--line-2);
+  box-shadow:0 16px 40px -14px rgba(0,0,0,.5);pointer-events:auto;font-family:var(--serif)}
+.pu-bar{display:flex;align-items:center;gap:.5rem;border-bottom:1px solid var(--line);padding:.4rem .55rem;
+  background:var(--abg)}
+.pu-ic{background:none;border:none;color:var(--soft);cursor:pointer;display:flex;padding:.15rem;border-radius:3px}
+.pu-ic:hover{color:var(--text);background:var(--hover)}
+.pu-ttl{flex:1;font-weight:600;font-size:.98rem;color:var(--text);text-decoration:none;border-bottom:1px dotted var(--faint);
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pu-body{padding:.85rem 1rem 1rem}
+.popup.min .pu-body{display:none}
+.pu-src{font-family:var(--sans);font-size:.72rem;color:var(--faint);margin-bottom:.6rem;line-height:1.5}
+.pu-src .cert{font-style:italic;color:var(--soft);border-bottom:1px dotted var(--faint)}
+.pu-src .mi{color:var(--soft)}
+.pu-abs{font-size:.9rem;line-height:1.5;color:var(--text);margin-bottom:.7rem}
+.pu-toc{border:1px solid var(--line);background:var(--abg);padding:.55rem .7rem;margin-bottom:.7rem}
+.pu-toc ol{list-style:none;margin:0;padding:0;font-family:var(--sans);font-size:.78rem;columns:2;column-gap:1rem}
+.pu-toc li{padding:.12rem 0;color:var(--soft);break-inside:avoid}
+.pu-toc .n{font-family:var(--mono);color:var(--faint);font-size:.72em;margin-right:.35em}
+.pu-foot{display:flex;align-items:center;justify-content:space-between;border-top:1px solid var(--line);padding-top:.6rem}
+.pu-open{font-family:var(--sans);font-size:.78rem;color:var(--mark);text-decoration:none;border-bottom:1px solid var(--line-2)}
+.pu-gear{color:var(--faint);display:flex;cursor:pointer}
+.pu-gear:hover{color:var(--soft)}
+
+@media(max-width:1000px){
+  .navgrid{grid-template-columns:repeat(2,1fr)}
+  .wrap{grid-template-columns:1fr;gap:1.2rem}
+  .toc{position:static;border:1px solid var(--line);border-radius:4px;padding:.9rem 1rem;max-height:none}
+  .article{padding-right:0}.article>*{max-width:none}
+  .sidenote{float:none;width:auto;margin:.85rem 0;padding:.6rem .85rem;border-left:2px solid var(--line-2);background:var(--abg)}
+  /* popins: docked bottom panels */
+  .popup{position:fixed;left:0;right:0;bottom:0;width:100%;max-width:100%;top:auto;
+    max-height:76vh;overflow:auto;border:none;border-top:2px solid var(--mark);border-radius:14px 14px 0 0;
+    box-shadow:0 -12px 40px -8px rgba(0,0,0,.5);transform:translateY(100%);transition:transform .24s}
+  .popup.in{transform:none}
+  .pu-bar{position:sticky;top:0}
+}
+</style>
+</head>
+<body>
+<div id="progress"></div>
+
+<header class="masthead">
+  <div class="logo" title="The Managed Child">&#120077;</div>
+  <nav class="navgrid">
+    <a href="#">Index</a><a href="#">People</a><a href="#">Concepts</a>
+    <a href="#">Essays</a><a href="#">Map</a><a href="#">About</a>
+  </nav>
+</header>
+<div class="mast-rule"><div></div></div>
+
+<div class="wrap">
+  <aside class="toc" id="toc">
+    <p class="h">Contents</p>
+    <ul>
+      <li><a href="#sequence">The sequence</a></li>
+      <li><a href="#precision">What keeps it honest</a></li>
+      <li><a href="#apocrypha">An apocryphon</a></li>
+      <li><a href="#edges">Edges</a></li>
+    </ul>
+  </aside>
+
+  <article class="article">
+    <h1>Annie Besant</h1>
+    <p class="tags"><a href="#">people</a> · <a href="#">rail-zero</a> · <a href="#">the hinge</a></p>
+    <p class="dek">The living hinge joining the managerial trunk, the esoteric current, and the management of the child.</p>
+    <div class="metaline">
+      <span>1847–1933</span><span class="sep">·</span>
+      <span class="k">status</span> <em>finished</em><span class="sep">·</span>
+      <span class="k">certainty</span> <span class="cert" title="Validity of the core claim: established from primary sources and dated.">documented</span><span class="sep">·</span>
+      <a href="#edges">4 edges</a><span class="sep">·</span><a href="#">backlinks</a><span class="sep">·</span><a href="#">similar</a>
+    </div>
+
+    <div class="abstract"><p>The single most important connection in the structure, and it is fully documented with dates. The same person who helped build the modern machine for <a class="node" data-node="rule-by-trained-elite">rule&#8209;by&#8209;trained&#8209;elite</a> went on to run the occult project to produce a managed divine&#8209;child.</p></div>
+
+    <p class="navnote"><span class="lbl">Navigation:</span> hover (or tap) any dotted link to preview the node it points to &mdash; the <a class="node" data-node="the-root">root</a>, the <a class="node" data-node="fabian-society">Fabian Society</a>, the <a class="node" data-node="order-of-the-star">Order of the Star</a>. Preview panels are recursive: open a link inside a panel and another opens.</p>
+
+    <h2 id="sequence"><span class="s">§1</span>The sequence</h2>
+    <p class="lead">In 1885 she joined the <a class="node" data-node="fabian-society">Fabian Society</a> in its second year, when it had fewer than forty members.<span class="snref">1</span> She contributed to <em>Fabian Essays</em>; Shaw called her "the greatest orator in England."<span class="sidenote"><span class="snref">1</span>Dates checked against the Fabians' own materials and Besant's <em>Autobiography</em>. The two phases were sequential, not simultaneous. <span class="cert" title="documented">documented</span>.</span></p>
+    <p>Then in 1889 she converted to <a class="node" data-node="theosophical-society">Theosophy</a>, and let her Fabian membership lapse. She became President of the Theosophical Society (1907–1933) — architect of the <a class="node" data-node="order-of-the-star">Order of the Star in the East</a>, the project that groomed <a class="node" data-node="krishnamurti-jiddu">Krishnamurti</a> as a "vehicle" for the World&#8209;Teacher.<span class="snref">2</span><span class="sidenote"><span class="snref">2</span>Mary Lutyens, <em>The Years of Awakening</em> — the authorized biography is itself the managed-child thesis. <span class="cert" title="documented">documented</span>.</span></p>
+
+    <h2 id="precision"><span class="s">§2</span>What keeps it honest</h2>
+    <div class="note"><b>Precision</b>The honest claim is <em>not</em> "a Fabian plot ran the Theosophical Society." It is the sturdier, stranger fact: one of the era's foremost managerial-socialist organizers carried the same disposition — society improved by a guiding, initiated elite shaping the many, and especially the young — from the secular idiom straight into the esoteric one.</div>
+
+    <h2 id="apocrypha"><span class="s">§3</span>An apocryphon</h2>
+    <p>A claim that circulates as fact but does not survive checking: that the later "Lucifer Publishing" name proves a satanic through-line.<span class="snref">3</span> Noted, set aside, not repeated.<span class="sidenote"><span class="snref">3</span>Renamed Lucis (from <em>lux</em>, light) in 1924. <span class="cert" title="Traces to a fabricated or false source; recorded so it never enters the foundation.">apocryphal</span>.</span></p>
+
+    <h2 id="edges"><span class="s">§4</span>Edges</h2>
+    <p><a class="node" data-node="fabian-society">Fabian Society</a> · <a class="node" data-node="theosophical-society">Theosophical Society</a> · <a class="node" data-node="order-of-the-star">Order of the Star</a> · <a class="node" data-node="coefficients-club">Coefficients Club</a></p>
+
+    <details><summary>Held open</summary><div class="in">No documented transmission line runs from Besant into the secular child-institutions; her role is articulation and personnel overlap, not causation.</div></details>
+
+    <div class="foot">
+      <div class="grp"><h3>Backlinks</h3><a class="node" data-node="the-root">The Root</a> · <a class="node" data-node="fabian-society">Fabian Society</a></div>
+      <div class="grp"><h3>Similar</h3><a class="node" data-node="krishnamurti-jiddu">Krishnamurti</a> · <a class="node" data-node="theosophical-society">Theosophical Society</a></div>
+    </div>
+  </article>
+</div>
+
+<div id="pu-backdrop"></div>
+<div id="pu-layer"></div>
+
+<script>
+const NODES={
+ "the-root":{t:"The Root",src:"concept",dt:"—",c:"documented",abs:"Humanity as administrable stock, guided by an elect. The deepest object of the thesis: the managed child, the ranked race, the sorted soul, and the engineered public are one impulse in four theaters.",toc:["Documented core","The four theaters","Role in the thesis","Edges"]},
+ "rule-by-trained-elite":{t:"Rule by a Trained Elite",src:"concept",dt:"—",c:"documented",abs:"The trunk beneath every rail: Plato's guardians and noble lie \u2192 Bacon's Salomon's House \u2192 the Fabian permeation machine. A continuous doctrine that the many are best governed by a prepared few.",toc:["Plato","Bacon","The Fabians","Role in the thesis"]},
+ "fabian-society":{t:"Fabian Society",src:"institution",dt:"1884\u2013",c:"documented",abs:"Founded 1884; doctrine of \u201Cpermeation\u201D (their historian's word: \u201Choneycombing\u201D) \u2014 embed the program without a visible cadre. Webb's \u201Cinevitability of gradualness.\u201D Founded the LSE (1895).",toc:["Permeation","Gradualness","The Coefficients","Membership"]},
+ "theosophical-society":{t:"Theosophical Society",src:"institution",dt:"1875\u2013",c:"documented",abs:"Blavatsky \u2192 Besant; the managed World-Teacher project; the Order of the Star; Adyar. Hosted Montessori. The esoteric register of the same rule-by-elect disposition.",toc:["Blavatsky","Besant's presidency","Order of the Star","Adyar"]},
+ "order-of-the-star":{t:"Order of the Star in the East",src:"institution",dt:"1911\u20131929",c:"documented",abs:"The project that groomed Jiddu Krishnamurti as the \u201Cvehicle\u201D for the coming World-Teacher \u2014 a managed divine-child, complete with a custody battle. Dissolved by Krishnamurti himself in 1929.",toc:["The grooming","The custody case","Dissolution","Legacy"]},
+ "krishnamurti-jiddu":{t:"Jiddu Krishnamurti",src:"person",dt:"1895\u20131986",c:"documented",abs:"The groomed World-Teacher \u201Cvehicle,\u201D removed from his father's custody by Besant. Later repudiated the role and dissolved the Order \u2014 \u201Ctruth is a pathless land.\u201D The managed child who refused management.",toc:["Discovery","The custody battle","Repudiation","After"]},
+ "coefficients-club":{t:"The Coefficients Dining Club",src:"institution",dt:"1902\u20131909",c:"possible",abs:"Webb's monthly dining club seating Fabians beside imperial technocrats and the Milner/Round Table network. Documented in the participants' own memoirs; Besant's direct membership is not confirmed.",toc:["Membership","The trunk\u2013technocrat join","Sources"]}
+};
+const HOVER=matchMedia('(hover:hover) and (pointer:fine)').matches;
+const layer=document.getElementById('pu-layer'), backdrop=document.getElementById('pu-backdrop');
+let stack=[], hovered=new Set(), closeT=null;
+
+const ICON={hide:'<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="2.4"/><line x1="3" y1="21" x2="21" y2="3"/></svg>',
+  close:'<svg viewBox="0 0 24 24" width="13" height="13" stroke="currentColor" stroke-width="1.8"><line x1="5" y1="5" x2="19" y2="19"/><line x1="19" y1="5" x2="5" y2="19"/></svg>'};
+
+function panelHTML(n){
+  const toc=n.toc?('<div class="pu-toc"><ol>'+n.toc.map((s,i)=>'<li><span class="n">'+(i+1)+'</span>'+s+'</li>').join('')+'</ol></div>'):'';
+  return '<div class="pu-bar"><button class="pu-ic pu-hide" title="Minimize">'+ICON.hide+'</button>'+
+    '<a class="pu-ttl" href="#">'+n.t+'</a>'+
+    '<button class="pu-ic pu-close" title="Close">'+ICON.close+'</button></div>'+
+    '<div class="pu-body"><div class="pu-src">'+n.src+' · '+n.dt+' · <span class="cert" title="certainty">'+n.c+
+      '</span> · <span class="mi">similar \u2248 · backlinks \u22d4 · bibliography \u2630</span></div>'+
+    '<div class="pu-abs">'+n.abs+'</div>'+toc+
+    '<div class="pu-foot"><a class="pu-open" href="#">Open in full \u2197</a><span class="pu-gear" title="settings">\u2699</span></div></div>';
+}
+function build(n){const el=document.createElement('div');el.className='popup';el.innerHTML=panelHTML(n);
+  el.querySelector('.pu-close').onclick=()=>{closeAbove(stack.indexOf(el));syncBackdrop();};
+  el.querySelector('.pu-hide').onclick=()=>el.classList.toggle('min');
+  el.querySelectorAll('.pu-open,.pu-ttl,.pu-gear').forEach(x=>x.addEventListener('click',e=>e.preventDefault()));
+  el.querySelectorAll('a.node').forEach(a=>wire(a));
+  if(HOVER){el.addEventListener('mouseenter',()=>{hovered.add(el);clearTimeout(closeT);});
+    el.addEventListener('mouseleave',()=>{hovered.delete(el);sched();});}
+  return el;
+}
+function closeAbove(i){ if(i<0)i=0; while(stack.length>i){const el=stack.pop(); el.remove();} }
+function syncBackdrop(){ backdrop.classList.toggle('on', !HOVER && stack.length>0); }
+function place(el,link){
+  const r=link.getBoundingClientRect(), sx=scrollX, sy=scrollY;
+  el.style.visibility='hidden'; const pw=el.offsetWidth, ph=el.offsetHeight;
+  let left=Math.max(sx+8,Math.min(r.left+sx, sx+document.documentElement.clientWidth-pw-8));
+  let top=r.bottom+sy+8; if(top+ph > sy+innerHeight-8 && r.top+sy-ph-8>sy) top=r.top+sy-ph-8;
+  el.style.left=left+'px'; el.style.top=top+'px'; el.style.visibility='';
+}
+function open(link){
+  const n=NODES[link.dataset.node]; if(!n) return;
+  const parent=link.closest('.popup');
+  const base=parent?stack.indexOf(parent)+1:0;
+  if(stack.length>base && stack[base] && stack[base]._link===link) return; // already open
+  closeAbove(base);
+  const el=build(n); el._link=link; stack.push(el); layer.appendChild(el);
+  if(HOVER){ place(el,link); }
+  else { requestAnimationFrame(()=>el.classList.add('in')); syncBackdrop(); }
+}
+function sched(){ clearTimeout(closeT); closeT=setTimeout(()=>{ if(hovered.size===0) closeAbove(0); },200); }
+function wire(a){
+  if(HOVER){
+    a.addEventListener('mouseenter',()=>{hovered.add(a);clearTimeout(closeT);open(a);});
+    a.addEventListener('mouseleave',()=>{hovered.delete(a);sched();});
+    a.addEventListener('focus',()=>open(a));
+  } else {
+    a.addEventListener('click',e=>{e.preventDefault();open(a);});
+  }
+}
+document.querySelectorAll('a.node').forEach(wire);
+backdrop.addEventListener('click',()=>{closeAbove(0);syncBackdrop();});
+
+/* theme + progress + scroll-spy */
+const prog=document.getElementById('progress');
+addEventListener('scroll',()=>{const h=document.documentElement;prog.style.width=(h.scrollTop/(h.scrollHeight-h.clientHeight)*100)+'%';},{passive:true});
+const tl=[...document.querySelectorAll('.toc a')],m={};tl.forEach(l=>m[l.getAttribute('href').slice(1)]=l);
+new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){tl.forEach(l=>l.classList.remove('on'));(m[e.target.id]||{}).classList&&m[e.target.id].classList.add('on');}}),{rootMargin:"-10% 0px -75% 0px"}).observe&&document.querySelectorAll('h2[id]').forEach(h=>{const o=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){tl.forEach(l=>l.classList.remove('on'));if(m[e.target.id])m[e.target.id].classList.add('on');}}),{rootMargin:"-12% 0px -78% 0px"});o.observe(h);});
+</script>
+</body>
+</html>

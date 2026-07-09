@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Julian Huxley · UNESCO (1946) — The Managed Child</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper:#FBFAF7; --ink:#1A1815; --muted:#6B6459; --faint:#8F887C;
+    --rule:#E4DFD5; --rule-soft:#EFEBE2; --accent:#2A3A5C; --accent-2:#38507E;
+    --panel:#F4F1EA; --pop-bg:#FFFFFF; --pop-shadow:0 8px 34px rgba(26,24,21,.18),0 2px 6px rgba(26,24,21,.12);
+    --gold:#9C7A3C;
+    --serif:"Source Serif 4",Georgia,serif; --display:"EB Garamond",Georgia,serif;
+    --sans:"Source Sans 3",system-ui,sans-serif;
+    --measure:34rem; --margin-col:17rem;
+  }
+  html[data-theme="dark"]{
+    --paper:#12151C; --ink:#E8E4DA; --muted:#9B9484; --faint:#757062;
+    --rule:#262B36; --rule-soft:#1E222B; --accent:#9FB4D8; --accent-2:#B9C8E6;
+    --panel:#191D26; --pop-bg:#1B1F29; --pop-shadow:0 10px 40px rgba(0,0,0,.55),0 2px 6px rgba(0,0,0,.45);
+    --gold:#B8934E;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--serif);
+    font-size:1.06rem;line-height:1.68;font-feature-settings:"onum"1,"pnum"1;
+    text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased}
+  @media (prefers-reduced-motion:no-preference){
+    a,button,.lnk,.certainty{transition:color .16s ease,background-color .16s ease,border-color .16s ease}
+    body{transition:background-color .3s ease,color .3s ease}
+  }
+  ::selection{background:rgba(42,58,92,.16)}
+
+  /* reader mode: widen, drop the margin, quiet the chrome */
+  body.reader .margin{display:none}
+  body.reader .sheet{grid-template-columns:min(42rem,100%);justify-content:center}
+  body.reader .readhint,body.reader .eyebrow{opacity:.35}
+
+  /* ---- masthead ---- */
+  .masthead{max-width:calc(var(--measure) + var(--margin-col) + 6rem);margin:0 auto;
+    padding:2.2rem 2.5rem 1.1rem;display:flex;align-items:baseline;justify-content:space-between;
+    gap:1rem;border-bottom:1px solid var(--gold)}
+  .wordmark{font-family:var(--display);font-size:1.15rem;letter-spacing:.02em;color:var(--ink);text-decoration:none;white-space:nowrap}
+  .wordmark b{font-weight:500}
+  .wordmark span{color:var(--faint);font-style:italic;font-size:.92rem}
+  nav.crumbs{font-family:var(--sans);font-size:.78rem;letter-spacing:.04em;text-transform:uppercase;color:var(--faint)}
+  nav.crumbs a{color:var(--muted);text-decoration:none}
+  nav.crumbs a:hover{color:var(--accent)}
+  nav.crumbs .here{color:var(--ink)}
+
+  .readhint{max-width:calc(var(--measure) + var(--margin-col) + 6rem);margin:0 auto;
+    padding:.7rem 2.5rem 0;font-family:var(--sans);font-size:.8rem;color:var(--faint)}
+  .readhint b{color:var(--muted);font-weight:600}
+  .readhint .lnk{font-family:var(--sans)}
+
+  /* ---- layout ---- */
+  .sheet{max-width:calc(var(--measure) + var(--margin-col) + 6rem);margin:0 auto;
+    padding:1.4rem 2.5rem 6rem;display:grid;grid-template-columns:var(--measure) var(--margin-col);column-gap:3rem}
+  .body{grid-column:1;min-width:0}
+  .margin{grid-column:2;position:relative}
+  .margin-inner{position:sticky;top:2rem}
+  .margin-label{font-family:var(--sans);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--faint);margin-bottom:1.1rem;padding-bottom:.4rem;border-bottom:1px solid var(--rule-soft)}
+
+  .eyebrow{font-family:var(--sans);font-size:.74rem;font-weight:600;letter-spacing:.12em;
+    text-transform:uppercase;color:var(--accent);margin:0 0 .5rem}
+  h1.node-title{font-family:var(--display);font-weight:500;font-size:2.5rem;line-height:1.12;letter-spacing:-.005em;margin:0 0 .2rem}
+  .subtitle{font-family:var(--display);font-style:italic;font-size:1.28rem;color:var(--muted);margin:0 0 1.3rem;line-height:1.35}
+
+  /* metadata line = the annotation header */
+  .meta{font-family:var(--sans);font-size:.82rem;color:var(--muted);
+    border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);
+    padding:.7rem 0;margin:0 0 .4rem;display:flex;flex-wrap:wrap;gap:.35rem 1.4rem}
+  .meta .field{display:flex;gap:.45rem;align-items:baseline}
+  .meta .k{font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--faint)}
+  .meta .v{color:var(--ink)}
+  .certainty{font-family:var(--serif);font-style:italic;font-size:.96rem;color:var(--ink);
+    border-bottom:1px dotted var(--muted);cursor:help;padding-bottom:1px}
+  .certainty:hover,.certainty:focus-visible{color:var(--accent);border-color:var(--accent);outline:none}
+
+  /* the annotation-icon line: backlinks · similar · sources */
+  .annobar{font-family:var(--sans);font-size:.74rem;color:var(--faint);margin:0 0 2rem;
+    display:flex;gap:1.1rem;flex-wrap:wrap}
+  .annobar .lnk{color:var(--muted);border:none;background:none;padding:0;cursor:pointer;font:inherit}
+  .annobar .lnk:hover{color:var(--accent)}
+  .annobar .ic{color:var(--accent);margin-right:.25rem}
+
+  /* body prose */
+  .body p{margin:0 0 1.15rem}
+  .body p.lead::first-letter{font-family:var(--display);font-size:3.3rem;line-height:.82;float:left;
+    padding:.07em .09em 0 0;color:var(--accent);font-weight:500}
+  .body h2{font-family:var(--display);font-weight:500;font-size:1.05rem;letter-spacing:.1em;
+    text-transform:uppercase;color:var(--muted);margin:2.4rem 0 1rem}
+  .snmark{font-family:var(--sans);font-size:.62em;font-weight:600;vertical-align:super;color:var(--accent);
+    background:none;border:none;cursor:pointer;padding:0 .1em;line-height:0}
+  .snmark:hover,.snmark:focus-visible{color:var(--accent-2);text-decoration:underline;outline:none}
+
+  /* the transcludable link — the heart of the thing */
+  .lnk{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(42,58,92,.35);cursor:pointer}
+  .lnk:hover,.lnk:focus-visible{color:var(--accent-2);border-color:var(--accent-2);outline:none}
+  html[data-theme="dark"] .lnk{border-bottom-color:rgba(159,180,216,.4)}
+  body.nopop .lnk{cursor:default}
+
+  /* edges panel */
+  .panel{background:var(--panel);border:1px solid var(--rule);border-radius:3px;padding:1.2rem 1.35rem;margin:2.4rem 0}
+  .panel h3{font-family:var(--sans);font-size:.72rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 .9rem}
+  .edge{margin:0 0 .8rem}
+  .edge:last-child{margin-bottom:0}
+  .edge .rel{font-family:var(--sans);font-size:.72rem;color:var(--faint);display:block;margin-bottom:.1rem}
+  .edge .register{font-family:var(--sans);font-size:.62rem;letter-spacing:.05em;text-transform:uppercase;
+    color:var(--accent);margin-left:.5rem;border:1px solid rgba(42,58,92,.3);border-radius:2px;padding:.02rem .3rem}
+
+  .sources{margin:2.6rem 0 0}
+  .sources h3,.backlinks h3{font-family:var(--sans);font-size:.72rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 .7rem}
+  .sources ol{margin:0;padding-left:1.2rem}
+  .sources li{font-size:.88rem;color:var(--muted);margin-bottom:.5rem}
+  .backlinks{margin-top:2.4rem;padding-top:1.6rem;border-top:1px solid var(--rule)}
+  .backlinks p{font-size:.9rem;color:var(--muted);margin:0}
+
+  /* sidenotes */
+  .sidenote{font-size:.82rem;line-height:1.5;color:var(--muted);border-left:2px solid var(--rule);
+    padding:.1rem 0 .3rem .85rem;margin-bottom:1.6rem}
+  .sidenote .sn-n{font-family:var(--sans);font-weight:600;font-size:.7rem;color:var(--accent);margin-right:.35rem}
+  .sidenote .sn-cert{font-style:italic;color:var(--ink);border-bottom:1px dotted var(--muted);cursor:help}
+  .sidenote .sn-tag{display:inline-block;font-family:var(--sans);font-size:.64rem;letter-spacing:.05em;text-transform:uppercase;
+    color:var(--faint);border:1px solid var(--rule);border-radius:2px;padding:.04rem .3rem;margin-top:.35rem}
+  .sidenote .src{display:block;margin-top:.3rem;color:var(--faint);font-style:italic}
+
+  /* ---- tiny definition tooltip (certainty words only) ---- */
+  .tip{position:fixed;z-index:80;max-width:18rem;background:var(--pop-bg);color:var(--ink);
+    border:1px solid var(--rule);border-radius:4px;box-shadow:var(--pop-shadow);padding:.7rem .85rem;
+    font-size:.82rem;line-height:1.45;opacity:0;transform:translateY(4px);pointer-events:none;transition:opacity .13s,transform .13s}
+  .tip.show{opacity:1;transform:translateY(0)}
+  .tip .tip-k{font-family:var(--sans);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);display:block;margin-bottom:.25rem}
+
+  /* ============================================================
+     POPUP / POPIN — the transclusion panels (the real feature)
+     ============================================================ */
+  #stack{position:fixed;inset:0;pointer-events:none;z-index:60}
+  #backdrop{position:fixed;inset:0;background:rgba(20,18,15,.28);opacity:0;pointer-events:none;transition:opacity .2s}
+  #backdrop.on{opacity:1;pointer-events:auto}
+  html[data-theme="dark"] #backdrop{background:rgba(0,0,0,.5)}
+
+  .pu{position:fixed;pointer-events:auto;background:var(--pop-bg);color:var(--ink);
+    border:1px solid var(--rule);border-radius:5px;box-shadow:var(--pop-shadow);
+    display:flex;flex-direction:column;overflow:hidden}
+  @media (prefers-reduced-motion:no-preference){
+    .pu{animation:puIn .18s ease}
+  }
+  @keyframes puIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+
+  .pu-bar{display:flex;align-items:center;gap:.5rem;padding:.5rem .6rem .5rem .85rem;
+    border-bottom:1px solid var(--rule);background:var(--panel);flex:0 0 auto}
+  .pu-bar .pu-title{font-family:var(--display);font-size:1rem;font-weight:500;flex:1;
+    white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .pu-btn{font-family:var(--sans);font-size:.9rem;line-height:1;color:var(--muted);background:none;
+    border:1px solid transparent;border-radius:3px;padding:.22rem .4rem;cursor:pointer}
+  .pu-btn:hover{color:var(--accent);border-color:var(--rule)}
+  .pu-btn:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+
+  .pu-body{padding:.95rem 1.05rem 1.1rem;overflow-y:auto;overscroll-behavior:contain}
+  .pu-cert{font-family:var(--sans);font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);display:block;margin-bottom:.15rem}
+  .pu-meta{font-family:var(--sans);font-size:.72rem;color:var(--faint);margin:0 0 .7rem}
+  .pu-abstract{font-size:.92rem;line-height:1.55;margin:0 0 .85rem}
+  .pu-abstract .lnk{border-bottom-color:rgba(42,58,92,.4)}
+  .pu-edges{border-top:1px solid var(--rule-soft);padding-top:.7rem;margin-top:.4rem}
+  .pu-edges .pe{font-size:.85rem;margin-bottom:.45rem}
+  .pu-edges .pe .rel{font-family:var(--sans);font-size:.66rem;color:var(--faint);display:block}
+  .pu-foot{border-top:1px solid var(--rule);padding:.6rem .85rem;flex:0 0 auto;background:var(--pop-bg)}
+  .pu-foot .openfull{font-family:var(--sans);font-size:.8rem;color:var(--accent);background:none;border:none;cursor:pointer;padding:0}
+  .pu-foot .openfull:hover{text-decoration:underline}
+
+  /* desktop popup: floating, sized, positioned by JS */
+  @media (min-width:62.001rem){
+    .pu{width:23rem;max-height:74vh}
+    .pu-body{max-height:none}
+  }
+  /* mobile popin: stacked sheets anchored near the top, page peeks above */
+  @media (max-width:62rem){
+    .pu{left:.6rem;right:.6rem;width:auto;max-height:84vh;
+      top:calc(2.2rem + var(--depth,0)*1.6rem);border-radius:8px 8px 6px 6px}
+    .pu-body{flex:1 1 auto}
+  }
+
+  /* ---- floating control bar (Gwern-style corner toggles) ---- */
+  .controls{position:fixed;z-index:70;top:1rem;right:1rem;display:flex;flex-direction:column;gap:.35rem}
+  .ctrl{font-family:var(--sans);font-size:.66rem;letter-spacing:.04em;text-transform:uppercase;
+    width:2.9rem;height:2.3rem;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.1rem;
+    background:var(--pop-bg);color:var(--muted);border:1px solid var(--rule);border-radius:4px;cursor:pointer;box-shadow:var(--pop-shadow)}
+  .ctrl .ci{font-size:.95rem;line-height:1}
+  .ctrl:hover{color:var(--accent);border-color:var(--accent)}
+  .ctrl:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  .ctrl.active{color:var(--accent);border-color:var(--accent)}
+  @media (max-width:62rem){ .controls{top:auto;bottom:1rem;right:.7rem} }
+
+  /* footer legend */
+  footer{max-width:calc(var(--measure) + var(--margin-col) + 6rem);margin:0 auto;padding:2.2rem 2.5rem 5rem;border-top:1px solid var(--gold)}
+  .legend-title{font-family:var(--sans);font-size:.72rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 1rem}
+  .legend{display:grid;grid-template-columns:repeat(3,1fr);gap:1.4rem}
+  .legend dt{font-family:var(--serif);font-style:italic;color:var(--ink);margin-bottom:.2rem}
+  .legend dd{margin:0;font-size:.84rem;color:var(--muted)}
+  .colophon{margin-top:2rem;font-family:var(--sans);font-size:.74rem;color:var(--faint)}
+
+  @media (max-width:62rem){
+    .sheet{grid-template-columns:1fr}
+    .margin{display:none}
+    .legend{grid-template-columns:1fr;gap:1rem}
+    .masthead{flex-wrap:wrap;padding:1.6rem 1.2rem 1rem}
+    .readhint,.sheet,footer{padding-left:1.2rem;padding-right:1.2rem}
+    h1.node-title{font-size:2rem}
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <a class="wordmark" href="#"><b>The Managed Child</b> &nbsp;<span>a reference in progress</span></a>
+  <nav class="crumbs" aria-label="Breadcrumb">
+    <a href="#">Reference</a> &nbsp;/&nbsp; <a href="#">The Administrators</a> &nbsp;/&nbsp; <span class="here">Julian Huxley · UNESCO</span>
+  </nav>
+</header>
+
+<p class="readhint"><b>How to read this page.</b> Tap any linked name — like
+<button class="lnk" data-t="wells">H. G. Wells</button> or
+<button class="lnk" data-t="crowley">Crowley</button> — and its whole entry pops in. Tap a link <em>inside</em> that panel and another stacks on top. Hover a <span class="certainty" data-def="This page's overall evidential standing. Hover any italic word like this for its plain meaning.">documented</span> word for what it means. Corner buttons: dark, reader, popups off.</p>
+
+<main class="sheet">
+  <article class="body">
+    <p class="eyebrow">The Administrators · Node A-07</p>
+    <h1 class="node-title">Julian Huxley at UNESCO</h1>
+    <p class="subtitle">The man who wrote a world agency its founding philosophy — and wrote eugenics into it.</p>
+
+    <div class="meta">
+      <span class="field"><span class="k">Standing</span> <span class="certainty" data-def="Documented: verifiable in the record. Survives a hostile reader.">documented</span></span>
+      <span class="field"><span class="k">Register</span> <span class="v">Enactment</span></span>
+      <span class="field"><span class="k">Dates</span> <span class="v">1946–1948</span></span>
+      <span class="field"><span class="k">Rail</span> <span class="v">The Managing Institutions</span></span>
+    </div>
+    <div class="annobar">
+      <button class="lnk" data-t="_backlinks"><span class="ic">⤺</span>backlinks</button>
+      <button class="lnk" data-t="_similar"><span class="ic">≈</span>similar</button>
+      <button class="lnk" data-t="_sources"><span class="ic">▤</span>sources</button>
+    </div>
+
+    <p class="lead">The first Director-General of UNESCO did not inherit a mission; he authored one. In 1946, before the agency had done anything, Julian Huxley set down what it was <em>for</em>.<button class="snmark" data-sn="1" aria-label="source">1</button> The pamphlet he wrote for it reads less like a charter than like a creed — a statement that the new body existed to move humanity toward a single, consciously directed outlook.<button class="snmark" data-sn="2" aria-label="source">2</button></p>
+
+    <p>Huxley was a biologist by training and an evolutionary humanist by conviction, and he built both into the document. Its argument is that culture, like biology, can be steered — that the task ahead was to bring the whole species under one intellectual and moral programme. He did not hide where that logic pointed. In the same text he treated eugenics as compatible with the agency's purpose, something to be made thinkable again after the war rather than abandoned.<button class="snmark" data-sn="3" aria-label="source">3</button> He would go on to preside over the British Eugenics Society at the end of the 1950s.<button class="snmark" data-sn="4" aria-label="source">4</button></p>
+
+    <h2>Why this node is load-bearing</h2>
+
+    <p>Strip the vocabulary and what remains is an administrative statement of the project this whole reference is tracing: that the population is improvable stock, and that improving it is a task for a directing class working through institutions. Huxley states it in the dry register of a UN pamphlet. The same conviction appears elsewhere in the century dressed as fiction — in his brother's <button class="lnk" data-t="bnw">Brave New World</button> — and elsewhere again dressed as myth, in the esoteric current's talk of a new age with a new kind of child at its center.<button class="snmark" data-sn="5" aria-label="source">5</button></p>
+
+    <p>Whether those registers are connected by influence or only by a shared climate is a question this project keeps open on purpose. The <button class="lnk" data-t="wells">Wells</button>–Huxley circle is a documented association; the tie to <button class="lnk" data-t="crowley">the esoteric articulation</button> is a resemblance, not a receipt. Either way, the record reads the same: across the century, in bureaucratic prose and in mythic prose alike, the same idea keeps being stated — that the young are the material on which the coming order will be built.</p>
+
+    <div class="panel">
+      <h3>Edges — what this node connects to</h3>
+      <div class="edge"><span class="rel">shares programme with <span class="register">worked-off</span></span><button class="lnk" data-t="wells">H. G. Wells · <em>The Open Conspiracy</em></button></div>
+      <div class="edge"><span class="rel">fictional articulation of the same thesis <span class="register">worked-off</span></span><button class="lnk" data-t="bnw">Aldous Huxley · <em>Brave New World</em></button></div>
+      <div class="edge"><span class="rel">mythic articulation — resemblance, not documented tie <span class="register">same-field</span></span><button class="lnk" data-t="crowley">Aleister Crowley · the Aeon of the Child</button></div>
+      <div class="edge"><span class="rel">engineering-of-consent current <span class="register">worked-off</span></span><button class="lnk" data-t="bernays">Edward Bernays · <em>Propaganda</em></button></div>
+    </div>
+
+    <div class="sources">
+      <h3>Sources</h3>
+      <ol>
+        <li>Julian Huxley, <em>UNESCO: Its Purpose and Its Philosophy</em> (1946) — the founding pamphlet, written as first Director-General.</li>
+        <li>UNESCO institutional record: first Director-General, 1946–1948.</li>
+        <li>Standard biographical record of Huxley's evolutionary-humanist and eugenic commitments.</li>
+      </ol>
+    </div>
+
+    <div class="backlinks">
+      <h3>Backlinks</h3>
+      <p>Cited by the book chapter <button class="lnk" data-t="ch">The Administrators</button>. No published essay draws on this node yet.</p>
+    </div>
+  </article>
+
+  <aside class="margin" aria-label="Sources and notes">
+    <div class="margin-inner">
+      <p class="margin-label">Margin — the receipts</p>
+      <div class="sidenote" id="sn-1"><span class="sn-n">1.</span><span class="sn-cert" data-def="Documented: verifiable in the institutional record.">documented</span><span class="src">UNESCO record — first Director-General, 1946.</span></div>
+      <div class="sidenote" id="sn-2"><span class="sn-n">2.</span><span class="sn-cert" data-def="Documented: the text exists and says this.">documented</span> The claim that the agency should foster a single unified outlook is stated in the pamphlet.<span class="src"><em>UNESCO: Its Purpose and Its Philosophy</em>, 1946.</span></div>
+      <div class="sidenote" id="sn-3"><span class="sn-n">3.</span><span class="sn-cert" data-def="Documented: appears in the primary text.">documented</span> Eugenics is treated as compatible with the agency's mission.<span class="src"><em>UNESCO: Its Purpose and Its Philosophy</em>, 1946.</span></div>
+      <div class="sidenote" id="sn-4"><span class="sn-n">4.</span><span class="sn-cert" data-def="Documented: a matter of public record.">documented</span> President, British Eugenics Society, 1959–1962.<span class="src">Society records.</span></div>
+      <div class="sidenote" id="sn-5"><span class="sn-n">5.</span><span class="sn-cert" data-def="Possible: a resemblance worth pursuing, not yet a documented tie. Never cited as proof.">possible</span> The link between the bureaucratic and the esoteric statements is a resemblance, held open — not asserted.<span class="sn-tag">the either-way frame</span></div>
+    </div>
+  </aside>
+</main>
+
+<footer>
+  <p class="legend-title">How standing is marked on this site</p>
+  <dl class="legend">
+    <div><dt>documented</dt><dd>Verifiable in the record — who wrote, met, funded, or said what. Survives a hostile reader.</dd></div>
+    <div><dt>possible</dt><dd>A resemblance or suspected tie, legitimate to pursue but never cited as proof.</dd></div>
+    <div><dt>apocryphal</dt><dd>Circulates as fact but traces to a fabricated or fictional source. Flagged so it never enters the foundation.</dd></div>
+  </dl>
+  <p class="colophon">The Managed Child · reference node prototype. The analysis that shows its work.</p>
+</footer>
+
+<!-- floating control bar -->
+<div class="controls" role="group" aria-label="Reading controls">
+  <button class="ctrl" id="c-theme"><span class="ci">◐</span>dark</button>
+  <button class="ctrl" id="c-reader"><span class="ci">▤</span>read</button>
+  <button class="ctrl" id="c-pop"><span class="ci">◎</span>pops</button>
+</div>
+
+<div id="backdrop"></div>
+<div id="stack" aria-live="polite"></div>
+<div class="tip" id="tip" role="tooltip" aria-hidden="true"></div>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ---------- the annotation store (Tier-0 content, transcludable) ---------- */
+  var A = {
+    huxley:{ title:"Julian Huxley at UNESCO", cert:"documented",
+      meta:"The Administrators · 1946–1948 · enactment",
+      abstract:"First Director-General of UNESCO (1946–48). His founding pamphlet argued the agency should move humanity toward a single, consciously directed outlook — and treated eugenics as compatible with that mission.",
+      edges:["wells","bnw","crowley","bernays"] },
+    wells:{ title:"H. G. Wells · The Open Conspiracy", cert:"documented",
+      meta:"The Administrators · 1928 · worked-off",
+      abstract:"A 1928 tract calling openly for a competent directing class — a world 'directorate' — to take charge of human affairs and manage the species toward a planned future. Documented association with the Huxley circle.",
+      edges:["huxley","bernays"] },
+    bnw:{ title:"Aldous Huxley · Brave New World", cert:"documented",
+      meta:"The Fictions · 1932 · worked-off",
+      abstract:"The 1932 novel: childhood as a fully administered production line — hatcheries, conditioning, hypnopaedia. The managed child rendered as satire, written by Julian's own brother.",
+      edges:["huxley","crowley"] },
+    crowley:{ title:"Aleister Crowley · the Aeon of the Child", cert:"possible",
+      meta:"The Esoteric Current · same-field",
+      abstract:"The esoteric articulation: a proclaimed new age governed by the Crowned and Conquering Child. The tie to the technocratic institutions is a resemblance, not a receipt — this project keeps it open, and cites it as possible, never as proof.",
+      edges:["huxley"] },
+    bernays:{ title:"Edward Bernays · Propaganda", cert:"documented",
+      meta:"The Administrators · 1928 · worked-off",
+      abstract:"The 1928 statement of the engineering of consent: how an unseen managing class manufactures a public's desires. Freud's nephew; the technique by which the managed public is produced.",
+      edges:["wells","huxley"] },
+    ch:{ title:"Book · The Administrators", cert:"documented",
+      meta:"The Managed Child · chapter",
+      abstract:"The chapter that traverses this rail — Wells, the Huxleys, Russell, Bernays — the institutions that enacted the thesis in dry bureaucratic prose, while the esoteric current stated it in myth.",
+      edges:["huxley","wells","bernays"] },
+
+    /* the annotation-icon targets (backlinks / similar / sources) */
+    _backlinks:{ title:"Backlinks — what leans on this node", cert:"documented",
+      meta:"reverse citations, shown in context",
+      abstract:"Every place that cites Julian Huxley at UNESCO, shown with its surrounding context — the anti-conspiracy wiki's honesty made navigable.",
+      edges:["ch"] },
+    _similar:{ title:"Similar — other nodes on this rail", cert:"documented",
+      meta:"nearest neighbours",
+      abstract:"Nodes closest to this one in the lineage: the fictional and technocratic articulations of the same managed-child thesis.",
+      edges:["bnw","wells","bernays"] },
+    _sources:{ title:"Sources", cert:"documented",
+      meta:"primary + biographical",
+      abstract:"1 · Julian Huxley, <em>UNESCO: Its Purpose and Its Philosophy</em> (1946). 2 · UNESCO institutional record, first Director-General 1946–48. 3 · Standard biographical record of his eugenic commitments.",
+      edges:[] }
+  };
+
+  var CERT_DEFS = {
+    documented:"Documented: verifiable in the record. Survives a hostile reader.",
+    possible:"Possible: a resemblance worth pursuing, not yet documented. Never cited as proof.",
+    apocryphal:"Apocryphal: circulates as fact but traces to a fabricated or fictional source."
+  };
+  var CERT_NICE = { documented:"documented", possible:"possible", apocryphal:"apocryphal" };
+
+  var isMobile = function(){ return window.matchMedia("(max-width:62rem)").matches; };
+  var reduce   = window.matchMedia("(prefers-reduced-motion:reduce)").matches;
+  var stackEl  = document.getElementById("stack");
+  var backdrop = document.getElementById("backdrop");
+  var body     = document.body;
+  var open = [];   // array of {el, key}
+
+  /* ---------- build one popup/popin from an annotation ---------- */
+  function edgeName(k){ return A[k] ? A[k].title : k; }
+
+  function makePanel(key){
+    var a = A[key]; if(!a) return null;
+    var depth = open.length;
+    var pu = document.createElement("div");
+    pu.className = "pu";
+    pu.style.setProperty("--depth", depth);
+    pu.setAttribute("role","dialog");
+    pu.setAttribute("aria-label", a.title);
+
+    var edgesHTML = "";
+    if(a.edges && a.edges.length){
+      edgesHTML = '<div class="pu-edges">' + a.edges.map(function(k){
+        return '<div class="pe"><span class="rel">connects to</span>'+
+               '<button class="lnk" data-t="'+k+'">'+edgeName(k)+'</button></div>';
+      }).join("") + '</div>';
+    }
+
+    pu.innerHTML =
+      '<div class="pu-bar">'+
+        '<button class="pu-btn pu-eye" title="Collapse">◱</button>'+
+        '<span class="pu-title">'+a.title+'</span>'+
+        (isMobile()? '' : '<button class="pu-btn pu-full" title="Fullscreen">⤢</button>')+
+        '<button class="pu-btn pu-x" title="Close (Esc)" aria-label="Close">✕</button>'+
+      '</div>'+
+      '<div class="pu-body">'+
+        '<span class="pu-cert">'+CERT_NICE[a.cert]+'</span>'+
+        '<p class="pu-meta">'+a.meta+'</p>'+
+        '<p class="pu-abstract">'+a.abstract+'</p>'+
+        edgesHTML+
+      '</div>'+
+      '<div class="pu-foot"><button class="openfull">Open full entry →</button></div>';
+
+    // wire controls
+    pu.querySelector(".pu-x").addEventListener("click", function(){ closeTo(depth); });
+    pu.querySelector(".openfull").addEventListener("click", function(){ closeAll(); });
+    var eye = pu.querySelector(".pu-eye");
+    eye.addEventListener("click", function(){
+      var b = pu.querySelector(".pu-body"); var f = pu.querySelector(".pu-foot");
+      var hidden = b.style.display === "none";
+      b.style.display = hidden ? "" : "none"; f.style.display = hidden ? "" : "none";
+    });
+    var full = pu.querySelector(".pu-full");
+    if(full){ full.addEventListener("click", function(){
+      var on = pu.classList.toggle("full");
+      if(on){ pu.style.cssText += ";left:8vw;right:8vw;top:6vh;width:auto;max-height:82vh;"; }
+      else { pu.style.left=""; pu.style.right=""; pu.style.width=""; pu.style.top=""; pu.style.maxHeight=""; positionDesktop(pu, pu._anchor); }
+    }); }
+
+    return pu;
+  }
+
+  function positionDesktop(pu, anchor){
+    // place near the triggering element, flip to stay on-screen; cascade a little per depth
+    var r = anchor.getBoundingClientRect();
+    var w = pu.offsetWidth, h = pu.offsetHeight;
+    var pad = 10, casc = (open.length-1)*16;
+    var left = r.right + 12 + casc;
+    if(left + w > window.innerWidth - pad) left = r.left - w - 12;
+    if(left < pad) left = pad;
+    var top = r.top + casc;
+    if(top + h > window.innerHeight - pad) top = window.innerHeight - h - pad;
+    if(top < pad) top = pad;
+    pu.style.left = left + "px";
+    pu.style.top = top + "px";
+  }
+
+  function openPanel(key, anchor){
+    if(body.classList.contains("nopop")) return;
+    var pu = makePanel(key);
+    if(!pu) return;
+    pu._anchor = anchor;
+    stackEl.appendChild(pu);
+    open.push({el:pu, key:key});
+    if(isMobile()){ backdrop.classList.add("on"); }
+    else { positionDesktop(pu, anchor); }
+    // focus the close button for keyboard users
+    var x = pu.querySelector(".pu-x"); if(x) x.focus({preventScroll:true});
+  }
+
+  function closeTop(){ closeTo(open.length-1); }
+  function closeTo(idx){
+    while(open.length > idx){
+      var top = open.pop();
+      if(top && top.el && top.el.parentNode) top.el.parentNode.removeChild(top.el);
+    }
+    if(open.length === 0) backdrop.classList.remove("on");
+  }
+  function closeAll(){ closeTo(0); }
+
+  /* ---------- delegated open: any .lnk opens its target ---------- */
+  document.addEventListener("click", function(e){
+    var lnk = e.target.closest(".lnk");
+    if(lnk && lnk.dataset.t){ e.preventDefault(); openPanel(lnk.dataset.t, lnk); return; }
+    // click on backdrop closes the top popin
+    if(e.target === backdrop){ closeTop(); }
+  });
+
+  /* desktop hover-intent: hover a link to preview (popup) */
+  var hoverTimer=null;
+  document.addEventListener("mouseover", function(e){
+    if(isMobile() || body.classList.contains("nopop")) return;
+    var lnk = e.target.closest(".lnk");
+    if(!lnk || !lnk.dataset.t) return;
+    // only auto-open from the base page, not from within a popup, to avoid runaway
+    clearTimeout(hoverTimer);
+    hoverTimer = setTimeout(function(){
+      // don't stack duplicates of the immediate top
+      if(open.length && open[open.length-1].key === lnk.dataset.t) return;
+      openPanel(lnk.dataset.t, lnk);
+    }, 260);
+  });
+  document.addEventListener("mouseout", function(e){
+    if(e.target.closest && e.target.closest(".lnk")) clearTimeout(hoverTimer);
+  });
+
+  /* Esc closes the top panel */
+  document.addEventListener("keydown", function(e){
+    if(e.key === "Escape"){
+      if(open.length){ closeTop(); }
+      else { hideTip(); }
+    }
+  });
+
+  /* ---------- certainty tooltip (small, definition-only) ---------- */
+  var tip = document.getElementById("tip"), tipTimer=null;
+  function showTip(html,x,y){
+    clearTimeout(tipTimer);
+    tip.innerHTML = '<span class="tip-k">what this means</span>'+html;
+    tip.setAttribute("aria-hidden","false");
+    tip.style.left="-9999px"; tip.style.top="0";
+    tip.classList.add("show");
+    requestAnimationFrame(function(){
+      var w=tip.offsetWidth,h=tip.offsetHeight,pad=12;
+      var l=x+14,t=y+16;
+      if(l+w>window.innerWidth-pad) l=x-w-14; if(l<pad) l=pad;
+      if(t+h>window.innerHeight-pad) t=y-h-16; if(t<pad) t=pad;
+      tip.style.left=l+"px"; tip.style.top=t+"px";
+    });
+  }
+  function hideTip(){ tipTimer=setTimeout(function(){tip.classList.remove("show");tip.setAttribute("aria-hidden","true");},80); }
+  function bindCert(el){
+    var def = el.getAttribute("data-def") || CERT_DEFS[el.textContent.trim().toLowerCase()] || "Marks the claim's evidential standing.";
+    el.setAttribute("tabindex","0");
+    el.addEventListener("mouseenter",function(e){ showTip(def,e.clientX,e.clientY); });
+    el.addEventListener("mouseleave",hideTip);
+    el.addEventListener("focus",function(){ var r=el.getBoundingClientRect(); showTip(def,r.left+r.width/2,r.bottom); });
+    el.addEventListener("blur",hideTip);
+    el.addEventListener("click",function(e){ var r=el.getBoundingClientRect(); showTip(def,r.left+r.width/2,r.bottom); });
+  }
+  document.querySelectorAll(".certainty,.sn-cert").forEach(bindCert);
+  tip.addEventListener("mouseenter",function(){clearTimeout(tipTimer);});
+  tip.addEventListener("mouseleave",hideTip);
+
+  /* ---------- sidenote markers → open the matching sidenote as a small tip/popin ---------- */
+  document.querySelectorAll(".snmark").forEach(function(btn){
+    var side = document.getElementById("sn-"+btn.dataset.sn);
+    function fire(x,y){
+      if(isMobile()){
+        // reuse the tip as a compact source popin
+        showTip('<div style="font-size:.86rem;line-height:1.5">'+side.innerHTML+'</div>', x, y);
+      } else {
+        if(side){ side.style.borderLeftColor="var(--accent)"; }
+        showTip('<div style="font-size:.86rem;line-height:1.5">'+side.innerHTML+'</div>', x, y);
+      }
+    }
+    btn.addEventListener("click",function(e){e.preventDefault();var r=btn.getBoundingClientRect();fire(r.left,r.bottom);});
+    btn.addEventListener("mouseenter",function(e){ if(!isMobile()) fire(e.clientX,e.clientY); });
+    btn.addEventListener("mouseleave",function(){ if(!isMobile()){ if(side) side.style.borderLeftColor=""; hideTip(); }});
+  });
+
+  /* ---------- control bar ---------- */
+  var root = document.documentElement;
+  var cTheme=document.getElementById("c-theme"),
+      cReader=document.getElementById("c-reader"),
+      cPop=document.getElementById("c-pop");
+  cTheme.addEventListener("click",function(){
+    var dark = root.getAttribute("data-theme")==="dark";
+    root.setAttribute("data-theme", dark?"light":"dark");
+    cTheme.classList.toggle("active",!dark);
+    cTheme.querySelector(".ci").textContent = dark ? "◐" : "☾";
+  });
+  cReader.addEventListener("click",function(){
+    var on = body.classList.toggle("reader");
+    cReader.classList.toggle("active",on);
+  });
+  cPop.addEventListener("click",function(){
+    var off = body.classList.toggle("nopop");
+    cPop.classList.toggle("active",off);
+    cPop.querySelector(".ci").textContent = off ? "⊘" : "◎";
+    if(off) closeAll();
+  });
+
+  // reposition desktop popups on resize
+  window.addEventListener("resize",function(){
+    if(isMobile()) return;
+    open.forEach(function(o){ if(!o.el.classList.contains("full")) positionDesktop(o.el,o.el._anchor); });
+  });
+})();
+</script>
+</body>
+</html>
