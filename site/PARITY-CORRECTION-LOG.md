@@ -8,6 +8,22 @@ The **content and discipline layers were correct and were left untouched**: all 
 1. **DESIGN.md contradicted itself.** §2 said "Gwern-parity, no gold badges," but §2a/§3/§4 still defined a **gold grade-badge palette** and called it "the signature." → Reconciled: gold is **print/cover only**; the reading-UI accent is **indigo**; the signature is **plain certainty words**, no colour-coded grades.
 2. **Schema mismatch.** The first draft spec referenced `certainty`/`edges`/`abstract`, but the 78 real nodes use `grade`/`welds`/`hypotheses`. → Reconciled **without re-authoring any node**: reader-facing `certainty` is now **derived from `grade`** at build; `edges` = `welds` + `hypotheses`; the "transmission" axis = the edge-level `register` field; `abstract` added as optional with a body-paragraph fallback.
 
+## M0 build (2026-07) — skeleton
+The Astro project was built under `site/astro/` per spec Part VI M0. Notes:
+- **Content stays authoritative.** No node/chapter source file was edited. The
+  `glob` loader reads `data/nodes/**` and `book/chapters/**` in place.
+- **Signature enforced in the pipeline.** `src/lib/certainty.ts` derives the
+  plain certainty word from `grade`; a remark plugin
+  (`src/lib/remark-strip-scaffolding.mjs`) strips authoring scaffolding from
+  rendered bodies (the leading standing blockquote, `[WELD]`/`[HYPOTHESIS]`
+  heading tags, whole-italic stub guidance, and the empty section headings left
+  behind) so the internal grade vocabulary never reaches the reader.
+- **Known exception:** the `grading-system` node's own body is *about* the grade
+  vocabulary ("WELD/HYPOTHESIS/FICTION-ALERT; the grading is the argument"), so
+  those words appear there by authorial intent, not as a leak. Left as-is.
+- **Verified:** clean build of 92 pages, `astro check` clean (0/0/0), and the
+  node page renders fully with JavaScript disabled (control bar self-hides).
+
 ## Changes made (REPLACE / MODIFY / ADD / KEEP)
 **ADDED to `site/`:**
 - `PARITY-BUILD-SPEC.md` — authoritative backend+frontend audit + build spec (M0–M7, schemas, acceptance criteria).
