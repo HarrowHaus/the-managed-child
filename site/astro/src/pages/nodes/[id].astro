@@ -1,0 +1,121 @@
+---
+import { getCollection, render } from 'astro:content';
+import Reading from '../../layouts/Reading.astro';
+import MetadataLine from '../../components/MetadataLine.astro';
+import { standingFromGrade, titleCase } from '../../lib/certainty';
+
+// One page per node, keyed by the frontmatter `id` (the edge-target key, so
+// internal links resolve). DISCARD-graded nodes are omitted from the site.
+export async function getStaticPaths() {
+  const nodes = await getCollection('nodes', (n) => !standingFromGrade(n.data.grade).discarded);
+  const byId = new Map(nodes.map((n) => [n.data.id, n]));
+  return nodes.map((node) => ({
+    params: { id: node.data.id },
+    props: { node, byId },
+  }));
+}
+
+const { node, byId } = Astro.props;
+const d = node.data;
+const { Content } = await render(node);
+
+// Combine documented + suspected out-edges (schema: welds + hypotheses = edges).
+const edges = [...d.welds, ...d.hypotheses];
+const resolve = (id: string) => byId.get(id)?.data;
+
+const crumbs = [
+  { label: 'Reference', href: '/' },
+  { label: titleCase(d.category), href: `/#${d.category}` },
+  { label: d.title },
+];
+---
+<Reading title={d.title} crumbs={crumbs} readhint={true}>
+  <main class="sheet" id="main">
+    <article class="body">
+      <p class="eyebrow">{titleCase(d.category)}{d.map_node ? ` · map node ${d.map_node}` : ''}</p>
+      <h1 class="node-title">{d.title}</h1>
+
+      <MetadataLine
+        grade={d.grade}
+        tags={d.tags}
+        dates={d.dates}
+        category={d.category}
+        mapNode={d.map_node}
+      />
+
+      <div class="annobar" aria-label="Annotation navigation">
+        <a href="#backlinks"><span class="ic" aria-hidden="true">⤺</span>backlinks</a>
+        <a href="#sources"><span class="ic" aria-hidden="true">▤</span>sources</a>
+      </div>
+
+      <div class="prose prose--lead">
+        <Content />
+      </div>
+
+      {edges.length > 0 && (
+        <div class="panel">
+          <h3>Edges — what this node connects to</h3>
+          {edges.map((e) => {
+            const target = resolve(e.to);
+            const label = target ? target.title : e.to;
+            return (
+              <div class="edge">
+                <span class="rel">
+                  {e.type.replace(/-/g, ' ')}
+                  {e.register && <span class="transmission">{e.register}</span>}
+                </span>
+                {target ? (
+                  <a href={`/nodes/${e.to}`}>{label}</a>
+                ) : (
+                  <span>{label}</span>
+                )}
+                {e.source && <span class="rel" style="margin-top:.15rem">{e.source}</span>}
+              </div>
+            );
+          })}
+        </div>
+      )}
+
+      {d.sources.length > 0 && (
+        <div class="sources" id="sources">
+          <h3>Sources</h3>
+          <ol>
+            {d.sources.map((s) => {
+              // Split a trailing quality tag "… — [PRIMARY]" for quiet display.
+              const m = s.match(/^(.*?)\s*—\s*\[([^\]]+)\]\s*$/);
+              return m ? (
+                <li>{m[1]}<span class="tag">[{m[2]}]</span></li>
+              ) : (
+                <li>{s}</li>
+              );
+            })}
+          </ol>
+        </div>
+      )}
+
+      <div class="backlinks" id="backlinks">
+        <h3>Backlinks</h3>
+        <p>What leans on this node is assembled at build time and shown here in
+        context. This panel is populated in a later milestone (M5).</p>
+      </div>
+    </article>
+
+    <aside class="margin" aria-label="Sources and notes">
+      <div class="margin-inner">
+        <p class="margin-label">Margin — the receipts</p>
+        {d.sources.length > 0 ? (
+          <div class="sidenote">
+            <span class="sn-n">Sources</span>
+            {d.sources.map((s) => <span class="src">{s.replace(/\s*—\s*\[[^\]]+\]\s*$/, '')}</span>)}
+          </div>
+        ) : (
+          <div class="sidenote">
+            <span class="src">Sources and grades will appear in the margin as this
+            node is drafted. Margin sidenotes reflow to inline footnotes on
+            narrow screens (M4).</span>
+          </div>
+        )}
+      </div>
+    </aside>
+  </main>
+</Reading>

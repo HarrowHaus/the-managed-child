@@ -1,0 +1,69 @@
+---
+import { getCollection, render } from 'astro:content';
+import Reading from '../../layouts/Reading.astro';
+import { standingFromGrade } from '../../lib/certainty';
+
+// One page per book chapter. The sober-register spine of the argument; each
+// chapter draws on nodes (frontmatter `draws_on`), linked here so the reader
+// can drill from the argument down to its grounding entries.
+export async function getStaticPaths() {
+  const chapters = await getCollection('chapters');
+  const nodes = await getCollection('nodes', (n) => !standingFromGrade(n.data.grade).discarded);
+  const byId = new Map(nodes.map((n) => [n.data.id, n.data.title]));
+  return chapters.map((chapter) => ({
+    params: { slug: chapter.id },
+    props: { chapter, byId },
+  }));
+}
+
+const { chapter, byId } = Astro.props;
+const d = chapter.data;
+const { Content } = await render(chapter);
+
+const crumbs = [
+  { label: 'The Book', href: '/#book' },
+  ...(d.part ? [{ label: d.part }] : []),
+  { label: `${d.chapter}. ${d.title}` },
+];
+---
+<Reading title={`${d.chapter}. ${d.title}`} crumbs={crumbs}>
+  <main class="sheet" id="main">
+    <article class="body">
+      {d.part && <p class="eyebrow">{d.part}</p>}
+      <h1 class="node-title">{d.title}</h1>
+      <p class="subtitle">Chapter {d.chapter}</p>
+
+      <div class="prose">
+        <Content />
+      </div>
+
+      {d.draws_on.length > 0 && (
+        <div class="panel">
+          <h3>Draws on — the grounding nodes</h3>
+          {d.draws_on.map((id) => (
+            <div class="edge">
+              <span class="rel">reference node</span>
+              {byId.has(id) ? (
+                <a href={`/nodes/${id}`}>{byId.get(id)}</a>
+              ) : (
+                <span>{id}</span>
+              )}
+            </div>
+          ))}
+        </div>
+      )}
+    </article>
+
+    <aside class="margin" aria-label="Notes">
+      <div class="margin-inner">
+        <p class="margin-label">Margin — the receipts</p>
+        <div class="sidenote">
+          <span class="src">In sober register the citations live in the margin,
+          not the body. Sidenotes are generated from the chapter's footnotes in
+          a later milestone (M4); until then this chapter links its grounding
+          nodes below.</span>
+        </div>
+      </div>
+    </aside>
+  </main>
+</Reading>

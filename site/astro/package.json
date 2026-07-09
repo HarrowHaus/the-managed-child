@@ -1,0 +1,24 @@
+{
+  "name": "the-managed-child-site",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Gwern-parity reading environment for The Managed Child. Built from data/nodes, book, essays.",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check"
+  },
+  "dependencies": {
+    "@fontsource-variable/jetbrains-mono": "^5.0.0",
+    "@fontsource-variable/source-sans-3": "^5.0.0",
+    "@fontsource-variable/source-serif-4": "^5.0.0",
+    "@fontsource/eb-garamond": "^5.0.0",
+    "astro": "^5.0.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.9",
+    "typescript": "^5.9.3"
+  }
+}
