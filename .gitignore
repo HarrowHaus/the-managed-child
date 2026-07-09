@@ -3,3 +3,6 @@
 /build/
 /node_modules/
 data/_manifest.psv
+
+# Netlify CLI/deploy state
+.netlify/
