@@ -61,11 +61,11 @@
 - [ ] `fantasia`  - [ ] `inside-out`  - [ ] `pokemon`  - [ ] `harry-potter`  - [ ] `nickelodeon`
 
 ## PHASE 5 — The site
-*Design brief: `site/DESIGN.md` · Build plan: `site/BUILD.md`. Study set to review first: gwern.net, Public Domain Review, The Pudding, Molly White's Annotate, Stripe Press.*
+*Build authority: `site/PARITY-BUILD-SPEC.md` (milestones M0–M7). Design brief: `site/DESIGN.md`. Study set to review first: gwern.net, Public Domain Review, The Pudding, Molly White's Annotate, Stripe Press.*
 - [ ] Lock exact palette hexes + self-host fonts (Spectral / EB Garamond|Cormorant / mono)
 - [ ] Make ONE node page + ONE chapter beautiful (parchment/indigo) before scaling
-- [ ] Grade badges + hover 'shows-its-work' popover + sidenotes (the signature)
-- [ ] Choose SSG; render `data/nodes/**`  - [ ] Visible hoverable grades  - [ ] Cross-linking (essay→node→chapter)
+- [ ] Certainty words (plain: documented·possible·apocryphal) + hover 'shows-its-work' pop-frame + sidenotes (the signature — NOT gold badges)
+- [ ] Choose SSG; render `data/nodes/**`  - [ ] Visible hoverable certainty words (derived from grade)  - [ ] Cross-linking (essay→node→chapter)
 - [ ] Interactive lifespan continuum  - [ ] Animated four-idiom through-line  - [ ] Live hypothesis-density view  - [ ] Deploy
 
 ## PHASE 6 — Umbrella & Books Two/Three

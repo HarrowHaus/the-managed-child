@@ -12,7 +12,6 @@
     --paper:#FBFAF7; --ink:#1A1815; --muted:#6B6459; --faint:#8F887C;
     --rule:#E4DFD5; --rule-soft:#EFEBE2; --accent:#2A3A5C; --accent-2:#38507E;
     --panel:#F4F1EA; --pop-bg:#FFFFFF; --pop-shadow:0 8px 34px rgba(26,24,21,.18),0 2px 6px rgba(26,24,21,.12);
-    --gold:#9C7A3C;
     --serif:"Source Serif 4",Georgia,serif; --display:"EB Garamond",Georgia,serif;
     --sans:"Source Sans 3",system-ui,sans-serif;
     --measure:34rem; --margin-col:17rem;
@@ -21,7 +20,6 @@
     --paper:#12151C; --ink:#E8E4DA; --muted:#9B9484; --faint:#757062;
     --rule:#262B36; --rule-soft:#1E222B; --accent:#9FB4D8; --accent-2:#B9C8E6;
     --panel:#191D26; --pop-bg:#1B1F29; --pop-shadow:0 10px 40px rgba(0,0,0,.55),0 2px 6px rgba(0,0,0,.45);
-    --gold:#B8934E;
   }
   *{box-sizing:border-box}
   html{-webkit-text-size-adjust:100%}
@@ -42,7 +40,7 @@
   /* ---- masthead ---- */
   .masthead{max-width:calc(var(--measure) + var(--margin-col) + 6rem);margin:0 auto;
     padding:2.2rem 2.5rem 1.1rem;display:flex;align-items:baseline;justify-content:space-between;
-    gap:1rem;border-bottom:1px solid var(--gold)}
+    gap:1rem;border-bottom:1px solid var(--rule)}
   .wordmark{font-family:var(--display);font-size:1.15rem;letter-spacing:.02em;color:var(--ink);text-decoration:none;white-space:nowrap}
   .wordmark b{font-weight:500}
   .wordmark span{color:var(--faint);font-style:italic;font-size:.92rem}
@@ -197,7 +195,7 @@
   @media (max-width:62rem){ .controls{top:auto;bottom:1rem;right:.7rem} }
 
   /* footer legend */
-  footer{max-width:calc(var(--measure) + var(--margin-col) + 6rem);margin:0 auto;padding:2.2rem 2.5rem 5rem;border-top:1px solid var(--gold)}
+  footer{max-width:calc(var(--measure) + var(--margin-col) + 6rem);margin:0 auto;padding:2.2rem 2.5rem 5rem;border-top:1px solid var(--rule)}
   .legend-title{font-family:var(--sans);font-size:.72rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 1rem}
   .legend{display:grid;grid-template-columns:repeat(3,1fr);gap:1.4rem}
   .legend dt{font-family:var(--serif);font-style:italic;color:var(--ink);margin-bottom:.2rem}
