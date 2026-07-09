@@ -1,0 +1,1 @@
+pyftsubset NotoEmoji-Bold.ttf --unicodes=2620,2699,1F36C,1F3F4,1F916,1F917 --output-file=NotoEmoji-Bold-SUBSETTED.ttf

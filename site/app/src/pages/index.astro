@@ -1,0 +1,40 @@
+---
+import { getCollection } from 'astro:content';
+import GwernShell from '../layouts/GwernShell.astro';
+import { standingFromGrade, titleCase } from '../lib/certainty';
+
+const nodes = await getCollection('nodes', (n) => !standingFromGrade(n.data.grade).discarded);
+const chapters = (await getCollection('chapters')).sort((a, b) => a.data.chapter - b.data.chapter);
+const ORDER = ['concepts', 'people', 'works', 'institutions', 'events'] as const;
+const byCat = new Map<string, typeof nodes>();
+for (const c of ORDER) byCat.set(c, []);
+for (const n of nodes) byCat.get(n.data.category)?.push(n);
+for (const list of byCat.values()) list.sort((a, b) => a.data.title.localeCompare(b.data.title));
+---
+<GwernShell title="The Managed Child">
+  <p>A reference that shows its work. Every entry links to the entries it leans
+  on — hover any link to preview it, or read straight through. Standing is marked
+  in plain language: <em>documented</em>, <em>possible</em>, <em>apocryphal</em>.</p>
+
+  <h2 id="the-book">The Book</h2>
+  <ul>
+    {chapters.map((c) => (
+      <li><a class="link-page" href={`/book/${c.id}`}>{c.data.chapter}. {c.data.title}</a></li>
+    ))}
+  </ul>
+
+  {ORDER.map((cat) => {
+    const list = byCat.get(cat) ?? [];
+    if (list.length === 0) return null;
+    return (
+      <>
+        <h2 id={cat}>{titleCase(cat)}</h2>
+        <ul>
+          {list.map((n) => (
+            <li><a class="link-page" href={`/nodes/${n.data.id}`}>{n.data.title}</a></li>
+          ))}
+        </ul>
+      </>
+    );
+  })}
+</GwernShell>

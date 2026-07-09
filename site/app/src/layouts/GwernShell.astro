@@ -1,0 +1,84 @@
+---
+// The Gwern HTML contract (see site/FORK-PLAN.md §"THE HTML CONTRACT").
+//
+// The <head> is Gwern's own `include/inlined-head.html` injected verbatim: the
+// two inline color blocks (light + the dark `#inlined-styles-colors-dark` block
+// with its `media` attribute, which DarkMode.currentMode() REQUIRES), the
+// critical CSS, then head.css + head.js. Cherry-picking these breaks head.js
+// mid-execution, so we take the whole contract head. Then style.css + script.js
+// per inlined-asset-links.html.
+//
+// No Astro client JS: the only runtime is the vendored Gwern bundle. The core
+// text is readable with JS disabled (progressive enhancement, CLAUDE.md rule e).
+import { readFileSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
+
+const inlinedHead = readFileSync(
+  fileURLToPath(new URL('../../../vendor/gwern/include/inlined-head.html', import.meta.url)),
+  'utf8',
+);
+
+interface Props {
+  title: string;
+  bodyClass?: string;
+}
+const { title, bodyClass = '' } = Astro.props;
+---
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title} · The Managed Child</title>
+  <meta name="color-scheme" content="light dark" />
+
+  {/* Metas the forked content-extractor requires when a page is transcluded/
+      popped: page-body-classes (contentFromResponse) and a complete og:image
+      set (pageThumbnailAttributesFromDocument). Missing any of these throws
+      when another page pops this one. */}
+  <meta name="page-body-classes" content={`the-managed-child ${bodyClass}`.trim()} />
+  <meta name="og:title" content={title} />
+  <meta property="og:image" content="/static/img/icon/icons.svg" />
+  <meta property="og:image:alt" content="The Managed Child" />
+  <meta property="og:image:width" content="512" />
+  <meta property="og:image:height" content="512" />
+  <meta property="gwern:thumbnail:css-classes" content="" />
+
+  {/* Gwern's contract head, verbatim (color blocks + critical CSS + head.css + head.js). */}
+  <Fragment set:html={inlinedHead} />
+
+  {/* The main stylesheet (inlined-asset-links.html loads this + script.js). */}
+  <link rel="stylesheet" href="/static/css/style.css" />
+</head>
+
+<body class={`the-managed-child ${bodyClass}`.trim()}>
+  <main>
+    <a id="skip-to-content-link" href="#markdownBody">Skip to main content</a>
+
+    <noscript>
+      <div class="markdownBody noscript-container">
+        <p><strong>JavaScript is disabled.</strong> The core text below is fully
+        readable. Link pop-frames, transclusions, and margin sidenotes are
+        progressive enhancements that require JavaScript.</p>
+      </div>
+    </noscript>
+
+    <article>
+      <header>
+        <h1>{title}</h1>
+      </header>
+
+      <div class="markdownBody" id="page-metadata">
+        <slot name="metadata" />
+      </div>
+
+      <div class="markdownBody" id="markdownBody">
+        <slot />
+      </div>
+    </article>
+  </main>
+
+  <!-- Main runtime bundle (rewrite, extracts, transclude, sidenotes, …), deferred. -->
+  <script is:inline src="/static/js/script.js" defer></script>
+</body>
+</html>

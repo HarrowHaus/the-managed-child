@@ -1,22 +1,21 @@
 # CREDITS & ATTRIBUTION
-*Required especially under Route A (adapting Gwern's frontend).*
+*The reading UI is a fork of Gwern's frontend (DECISIONS.md S-11).*
 
-## Build status (as of M0 — skeleton)
-The Astro project (`site/astro/`) renders the content collections into static
-pages with the monochrome type system, dark mode, and control bar. **No Gwern
-frontend JS has been vendored yet** — M0 ships effectively zero client JS (only
-the theme/reader toggles). The pop-frame + transclusion + sidenote core (the
-Route A vs B decision, D-site-1) is deferred to M1–M4; the CSS/HTML class
-contract and the certainty signature were adapted from this repo's own
-`site/reference-implementation.html`. Update the section below once any Gwern
-module is actually vendored. Fonts are self-hosted via **Fontsource** (Source
-Serif 4, EB Garamond, Source Sans 3, JetBrains Mono — OFL).
+## Forked: gwern.net frontend
+The gwern.net frontend (frontend by **Said Achmiz**; gwern.net by **Gwern
+Branwen**) is released under **CC-0** (public domain), or **MIT** where CC-0 is
+legally problematic — per the `gwern/gwern.net` repo. Some files carry their own
+third-party headers (e.g. the original footnote-popup code, public domain).
 
-## If Route A (adapting Gwern.net frontend modules)
-The gwern.net frontend (by **Said Achmiz**, for **Gwern Branwen**) is released under **CC-0**, or **MIT** where CC-0 is legally problematic (see the `gwern/gwern.net` repo). If we vendor/adapt any of `transclude.js`, `extracts.js`, `popups.js`, `popins.js`, `popovers.js`, `sidenotes.js`, `rewrite.js`, `typography.js`, `reader-mode.js`, or the `GW` event core:
-- Preserve each file's original licence header and attribution.
-- Record here: which modules were vendored, from which commit, and any modifications.
-- Credit Said Achmiz (frontend) and Gwern Branwen (gwern.net) in the site footer/colophon.
+- **Vendored into:** [`vendor/gwern/`](vendor/gwern/) — `js/ css/ font/ include/ template/`.
+- **Upstream commit:** `b1f6ebf123507077b870db9d2b287d33fae043d6` (2026-07-09).
+- **Preserved:** every upstream licence/attribution header is kept verbatim; we
+  do not hand-edit vendored files (adapters live in our own layer).
+- **Excluded:** the Haskell/Hakyll build, nginx, `asset.php`, Python/Shell (Astro
+  replaces them), and `font/dropcap/` (~127 MB decorative images). See
+  [`vendor/gwern/PROVENANCE.md`](vendor/gwern/PROVENANCE.md).
+- Credit **Said Achmiz** (frontend) and **Gwern Branwen** (gwern.net) in the
+  site footer/colophon.
 
 ## Study references (not vendored, studied for design)
 gwern.net · Public Domain Review · The Pudding · Stripe Press · Molly White's "Annotate."

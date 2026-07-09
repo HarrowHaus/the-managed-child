@@ -1,0 +1,40 @@
+---
+// The page-metadata line, in Gwern's contract format (so his CSS styles it).
+// Gwern's own `page-confidence` field ("certainty: <em>word</em>") is exactly
+// our signature slot — we fill it with the plain word derived from `grade`
+// (documented/possible/apocryphal), never a badge (CLAUDE.md rule b).
+import { standingFromGrade, nodeRegister, titleCase } from '../lib/certainty';
+
+interface Props {
+  grade: string;
+  tags?: string[];
+  dates?: string;
+  status?: string;
+  category?: string;
+}
+const { grade, tags = [], dates, status, category } = Astro.props;
+const standing = standingFromGrade(grade);
+const register = nodeRegister(tags);
+const hasDates = dates && dates !== '-';
+---
+<div class="page-metadata-fields">
+  {category && (
+    <span class="page-type">{titleCase(category)}</span>
+  )}
+  {register && (
+    <span class="page-register">register: <em>{titleCase(register)}</em></span>
+  )}
+  {hasDates && (
+    <span class="page-date-range">{dates}</span>
+  )}
+  {status && (
+    <span class="page-status" title="Drafting status of this entry."><em>{status}</em></span>
+  )}
+  {standing.certainty ? (
+    <span class="page-confidence">certainty:
+      <em class="certainty-word" tabindex="0" title={standing.def!}>{standing.certainty}</em>
+    </span>
+  ) : standing.structural ? (
+    <span class="page-confidence"><em>{standing.structural}</em></span>
+  ) : null}
+</div>

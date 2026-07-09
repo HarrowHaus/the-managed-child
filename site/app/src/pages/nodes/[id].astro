@@ -1,0 +1,58 @@
+---
+import { getCollection, render } from 'astro:content';
+import GwernShell from '../../layouts/GwernShell.astro';
+import MetadataLine from '../../components/MetadataLine.astro';
+import { standingFromGrade } from '../../lib/certainty';
+
+// One page per node, keyed by frontmatter `id` (the edge-target key, and the
+// clean dot-free URL that lets Gwern's frontend auto-pop inter-node links).
+export async function getStaticPaths() {
+  const nodes = await getCollection('nodes', (n) => !standingFromGrade(n.data.grade).discarded);
+  const byId = new Map(nodes.map((n) => [n.data.id, n]));
+  return nodes.map((node) => ({ params: { id: node.data.id }, props: { node, byId } }));
+}
+
+const { node, byId } = Astro.props;
+const d = node.data;
+const { Content } = await render(node);
+const edges = [...d.welds, ...d.hypotheses];
+const resolve = (id: string) => byId.get(id)?.data;
+---
+<GwernShell title={d.title}>
+  <MetadataLine
+    slot="metadata"
+    grade={d.grade}
+    tags={d.tags}
+    dates={d.dates}
+    status={d.status}
+    category={d.category}
+  />
+
+  {/* The prose. Backtick node-ids in it are auto-linkified to /nodes/<id>,
+      which the forked runtime pops as transclusions. Source footnotes are
+      injected by rehype and reflow into the margin as sidenotes. */}
+  <Content />
+
+  {edges.length > 0 && (
+    <div class="aux-links-append">
+      <p><strong>Edges — what this node connects to.</strong> Hover (or tap) to preview each.</p>
+      <ul>
+        {edges.map((e) => {
+          const target = resolve(e.to);
+          const rel = e.type.replace(/-/g, ' ');
+          const trans = e.register ? ` · ${e.register}` : '';
+          return (
+            <li>
+              {target ? (
+                <a href={`/nodes/${e.to}`} class="link-annotated">{target.title}</a>
+              ) : (
+                <span>{e.to}</span>
+              )}
+              <span class="edge-rel"> — {rel}{trans}</span>
+            </li>
+          );
+        })}
+      </ul>
+    </div>
+  )}
+</GwernShell>

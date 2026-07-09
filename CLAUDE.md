@@ -27,6 +27,18 @@ import, merge, or cross-reference those here.
 - **Site aesthetic** → [`site/DESIGN.md`](site/DESIGN.md)
 - **Canonical visual reference** → [`site/reference-implementation.html`](site/reference-implementation.html)
 
+## Frontend route (settled — DECISIONS.md S-11)
+
+The reading UI is a **FORK of Gwern's open-source frontend** (CC-0/MIT),
+vendored into `site/vendor/gwern/` (`js/ css/ font/ include/ template/`). We
+conform our generated HTML to his class contract rather than building pop-frames
+from scratch. The **backend is Astro + Node build scripts** (his Haskell/Hakyll,
+nginx, `asset.php`, Python/Shell are NOT copied). **Route B** (Cytoscape /
+Scrollama, clean-room) is used **only** for the graph explorer + the two scroll
+set-pieces. Plan + HTML contract: [`site/FORK-PLAN.md`](site/FORK-PLAN.md).
+Attribution: [`site/CREDITS.md`](site/CREDITS.md). The from-scratch M0 Astro
+reading UI has been discarded and is being rebuilt on the fork.
+
 ## DESIGN DO-NOT LIST (non-negotiable)
 
 **(a) No grade badges, no grade-colour palette.** Do NOT build "grade badges" or

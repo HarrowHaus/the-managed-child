@@ -1,0 +1,11 @@
+# build output + deps + astro cache
+dist/
+node_modules/
+.astro/
+.DS_Store
+npm-debug.log*
+
+# synced from ../vendor/gwern at (pre)build — regenerated, not source
+public/static/
+# generated annotation snippets (from data/nodes at prebuild) — regenerated
+public/metadata/
