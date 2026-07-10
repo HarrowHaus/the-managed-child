@@ -60,10 +60,18 @@
 
 > Chosen for maximum overlap with corner 1: all 11 linked nodes (crowley, liber-al, besant, order-of-the-star, leadbeater, krishnamurti, bailey, lucis-trust, puharich, roddenberry, four-idiom-through-line) were already graded — no new carding. Reader-facing essay: `essays/the-four-idioms.md` (essay register). Book chapter `04-the-hinge-and-the-four-idioms` (sober register) remains a Phase-3 stub.
 
+### Corner 3 — administrators (the trunk)
+| entry | kind | status | notes |
+|---|---|---|---|
+| permeation | card | drafted (committed) | WELD; Webb "inevitability of gradualness" (26 Jun 1923) + Cole "honeycombing" (1961); no exception |
+| the-trunk | essay | committed (gold live) | PASSed critic (round 1) + operator-approved 2026-07-10; seam = continuity without direction (real tradition, not a directed relay) |
+
+> Reader-facing essay: `essays/the-trunk.md` (essay register). Book chapter `02-the-trunk` (sober register) remains a Phase-3 stub. One new card (`permeation`); the other four nodes reused from corner 1.
+
 ### Next candidates (by corner-1 reuse; see analysis 2026-07-10)
-- the-trunk (02): 4 reuse, 1 new (permeation)
 - the-seed (03): 2 reuse, 1 new (aeon-of-the-child)
 - measuring-the-child (05): 2 reuse, 2 new (galton-francis, pearson-karl)
+- engineering-consent (07): 2 reuse, 2 new (lippmann-dewey-debate, dewey-john)
 
 ## Later phases
 - Phase 3: the 13 book chapters (essayist + critic), each keystone-gated.
