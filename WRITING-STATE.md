@@ -103,11 +103,11 @@ Advance the cheapest-overlap corner toward these each session; stop at exception
 ## Finish-line sequencing (operator directive 2026-07-10) — NOT pure cost order
 Do the enactment/lifespan corners next to light the last rail and build the card library; SAVE the method essays for last (strongest over a fully-graded graph). Cheapest-overlap within each group.
 
-### Group A — enactment / lifespan (do next)
-- **conditioning-the-child (06)**: 1 reuse (watson-john-b), 3 new (jwt, psychological-care, holt-l-emmett)
+### Group A — enactment / lifespan (in progress)
+- ✅ **nursery-to-toy-aisle (11)** — DONE: fcc-1984 carded (WELD); essay gold + operator-approved 2026-07-10. Watson (nursery→JWT) + 1984 deregulation; no-relay seam held.
+- **conditioning-the-child (06)**: 1 reuse (watson-john-b), 3 new (jwt, psychological-care, holt-l-emmett) ← NEXT (cheapest remaining tie, 3 new)
 - **the-denominator (08)**: 2 reuse (managed-child, cubberley-ellwood), 3 new (mann-horace, gesell-arnold, spock-benjamin)
 - **the-child-grown-up (12)**: 1 reuse (roddenberry-gene), 3 new (lifespan-continuum, campbell-joseph, vogler-christopher)
-- **nursery-to-toy-aisle (11)**: 1 reuse (watson-john-b), 1 new (fcc-1984) ← cheapest in group
 
 ### Group B — method essays (SAVE for last, write over the fully-graded graph)
 - reverberation-not-conspiracy (09): 1 new (method-stance)
