@@ -6,27 +6,23 @@ category: concepts
 dates: "-"
 grade: FRAME
 map_node: "Cap.4"
-status: stub
-sources: []          # primary/secondary refs go here
-welds: []            # documented edges: [{to: id, type: influenced|met|funded|cited|founded|advised, grade: WELD, source: ...}]
-hypotheses: []       # ungraded/suspected edges, same shape
-tags: []
+status: drafted
+abstract: "The lifespan continuum is the frame that the managed child does not stop being managed at adulthood: one audience ages through one symbol-system, conditioned as a child (schedule, norm, advertisement) and addressed as an adult by the same industries with standardized narrative and consumption. It is a lens of this study for organizing documented facts, not itself a documented causal claim."
+sources: []
+welds: []
+hypotheses: []
+tags: [rail-lifespan, lifespan, frame]
 ---
 
 # The Lifespan Continuum
 
-> **FRAME** · map node Cap.4 · -
+The managed child, later. The same person is worked on across a whole life by the same apparatus.
 
-One audience aging through one symbol-system; children's media -> adult cinema.
-
-## Documented core [WELD]
-_STUB — expand from the lineage map + primary sources. Every claim carries a grade; every source is named._
-
-## Edges
-_Who this connects to, and how (worked-off = encounter documented; same-field = parallel). Mirror in frontmatter `welds`/`hypotheses`._
+## The frame
+The enactment rail does not end at childhood. The person scheduled by Holt, normed by Gesell, and reassured by Spock is later sold to as a child (the deregulated toy-cartoon) and, grown, is fed a standardized story by an industry that bought a screenwriting formula. One audience, one symbol-system, cradle to grave. This is a lens, not a mechanism: it lines up documented facts — the child-conditioning industries and the adult-narrative industries — so their continuity is visible.
 
 ## Held-open / discard
-_HYPOTHESIS and FICTION-ALERT items; anything graded down and why._
+This is a framing device, not a documented claim of transmission. It asserts no hidden hand joining the nursery to the multiplex; it only holds them in one view. Read as a lens it clarifies; read as a causal chain it would overreach, and it is not offered as one.
 
 ## Role in the thesis
-_How this node serves the root / a register / the continuum. Symptom-not-cause where relevant._
+The lifespan lens: how the root's management of the young extends, in the same industries and the same person, past the age of consent.
