@@ -6,27 +6,23 @@ category: concepts
 dates: "-"
 grade: PRINCIPLE
 map_node: "Audit"
-status: stub
-sources: []          # primary/secondary refs go here
-welds: []            # documented edges: [{to: id, type: influenced|met|funded|cited|founded|advised, grade: WELD, source: ...}]
-hypotheses: []       # ungraded/suspected edges, same shape
-tags: []
+status: drafted
+abstract: "The audit stance behind every connection in this study: an idea can recur across generations without anyone coordinating it. Two kinds of transmission are documented — a later mind working off an earlier published one (reading, absorption, extension, often with no meeting), and separate minds arriving at the same idea in a shared field with no contact between them. Where the record does seat such people together, it usually shows them disagreeing and parting. Demanding proof of coordination or shared intent before admitting a recurrence applies a standard the material never asked to meet."
+sources: []
+welds: []
+hypotheses: []
+tags: [audit, method, mechanism]
 ---
 
 # The Method Stance (reverberation not coordination)
 
-> **PRINCIPLE** · map node Audit · -
+How a recurrence is read. An idea can appear again and again without a single mind arranging it.
 
-Ideas move by working-off, no coordination/intent required.
+## The two documented paths
+An idea reaches a later mind two ways that leave a trail. **Working-off:** someone reads, or is taught by, an earlier source, and extends it — Vogler off Campbell's published book, Bernays off his uncle Freud, Wells taught by Huxley in a lecture hall. **Same-field:** separate people reach the same idea in a shared climate with no contact — the four idioms of the elect across seventy years, or the Galtonian tradition an American tester breathes without a line of citation. A recurrence with neither path documented is left as a resemblance, and no more.
 
-## Documented core [WELD]
-_STUB — expand from the lineage map + primary sources. Every claim carries a grade; every source is named._
-
-## Edges
-_Who this connects to, and how (worked-off = encounter documented; same-field = parallel). Mirror in frontmatter `welds`/`hypotheses`._
-
-## Held-open / discard
-_HYPOTHESIS and FICTION-ALERT items; anything graded down and why._
+## What contact usually shows
+Where the record does put these people in one room, it tends to show a quarrel rather than a plan: Russell resigning from the Coefficients, Wells losing his bid for the Fabian Society, Dewey answering Lippmann in a book of his own. Contact is cited together with the disagreement it produced, or it is not cited as agreement at all.
 
 ## Role in the thesis
-_How this node serves the root / a register / the continuum. Symptom-not-cause where relevant._
+The lens applied to every edge in the graph: each connection carries its transmission status, and a recurrence is never inflated into a coordinated one. It is the discipline that lets a real pattern be shown without a hidden hand being invented to explain it.
