@@ -107,7 +107,7 @@ Do the enactment/lifespan corners next to light the last rail and build the card
 - ✅ **nursery-to-toy-aisle (11)** — DONE: fcc-1984 carded; essay gold 2026-07-10.
 - ✅ **conditioning-the-child (06)** — DONE: holt-l-emmett + psychological-care + jwt carded (WELD); essay gold + operator-approved 2026-07-10. Little Albert held to contested per operator flag; evidence rests on published advice (Holt schedule + Watson's detachment text).
 - ✅ **the-denominator (08)** — DONE: mann-horace + gesell-arnold + spock-benjamin carded (WELD); essay gold + operator-approved 2026-07-10. Base rate carries the essay's full weight; esoteric held to a thin tributary; the "denominator error" named.
-- **the-child-grown-up (12)**: 1 reuse (roddenberry-gene), 3 new (lifespan-continuum, campbell-joseph, vogler-christopher) ← NEXT (last Group-A corner)
+- ✅ **the-child-grown-up (12)** — DONE: lifespan-continuum + campbell-joseph + vogler-christopher carded; essay gold + operator-approved 2026-07-10. Monomyth held contested; Vogler's industrial adoption the load; no roddenberry upgrade. **Group A complete.**
 
 ### Group B — method essays (SAVE for last, write over the fully-graded graph)
 - reverberation-not-conspiracy (09): 1 new (method-stance)

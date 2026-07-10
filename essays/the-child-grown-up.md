@@ -2,7 +2,7 @@
 title: "The Child Grown Up"
 subtitle: "The managed child does not walk free at eighteen — the same industries feed the adult a standardized story, and the thesis rides on the documented fact that Hollywood bought a formula, not on whether the myth behind it is true"
 date: 2026-07-10
-status: drafted
+status: approved
 rail: lifespan
 grounding_nodes:
   - lifespan-continuum
