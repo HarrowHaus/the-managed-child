@@ -61,3 +61,7 @@ them as pop-frames, not tooltips.
 **(e) JavaScript is optional for the core reading experience.** The site must be
 readable with JS disabled; JS only *enhances* (pop-frames, sidenote reflow,
 toggles). If a popup is the only way to reach content, that is a parity failure.
+
+## Writing system (how content gets made)
+
+Content is produced by a governed pipeline, not ad-hoc. Read `VOICE.md` (the enforceable voice), `PIPELINE.md` (stages + gates + phases), and `WRITING-STATE.md` (the live queue). Long-form entries are written by the `essayist` and judged by the `critic` against `evals/two-testimonies.GOLD.md`; node cards are written by the `carder`; grades are assigned by the `grader` and require an attached primary quote (no WELD without evidence). Agents are defined in `agents/`. The operator command is **`advance the queue`**. Only two things reach a human: grade **exceptions** and **keystone** essays/chapters. Never edit `evals/` or `VOICE.md` to make a weak draft pass.
