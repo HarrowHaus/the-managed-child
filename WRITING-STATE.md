@@ -2,10 +2,10 @@
 *The only record of what's done and what's next. Every agent updates this. A fresh session reads this file to know exactly where we are. Status values: queued → spine → graded → drafted → critiqued → human-gate → approved → committed.*
 
 ## Phase: 0 — CALIBRATION (do first)
-- [ ] Confirm critic scores evals/two-testimonies.GOLD.md = PASS and evals/anti-patterns.md "before" = REVISE
-- [ ] Confirm grader blocks an unsourced WELD on a test case
-- [ ] Lock VOICE.md
-> Gate: do not begin Phase 1 until all three are checked.
+- [x] Confirm critic scores evals/two-testimonies.GOLD.md = PASS and evals/anti-patterns.md "before" = REVISE
+- [x] Confirm grader blocks an unsourced WELD on a test case
+- [x] Lock VOICE.md
+> Gate: do not begin Phase 1 until all three are checked. — CLEARED 2026-07-10 (operator-confirmed).
 
 ## Phase: 1 — FIRST CORNER (depth-first)  — target: two essays + their linked nodes, whole
 
