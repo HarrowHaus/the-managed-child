@@ -109,8 +109,8 @@ So every page and every claim can carry a certainty word the way Gwern carries `
 
 ## 7. BUILD ORDER (design-side; slots into PLAN Phase 5)
 1. Tokens + type + the parchment/indigo reading surface (get *one node page* and *one chapter* beautiful first).
-2. Grade badges + hover popover + sidenotes (the signature) — prove "shows its work" on that one page.
-3. Node→node link popovers + backlinks (the graph felt through reading, before the graph is drawn).
+2. Certainty words (plain) + hover pop-frame + sidenotes (the signature) — prove "shows its work" on that one page.
+3. Node→node link pop-frames (transclude the target) + backlinks (the graph felt through reading, before the graph is drawn).
 4. Graph explorer.
 5. The two scroll set-pieces.
 6. Search, reader mode, hypothesis-density layer.

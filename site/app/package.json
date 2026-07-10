@@ -1,0 +1,24 @@
+{
+  "name": "the-managed-child-app",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "description": "The Managed Child — reading environment built on a fork of Gwern's frontend (site/vendor/gwern).",
+  "scripts": {
+    "sync-vendor": "node scripts/sync-vendor.mjs",
+    "gen-annotations": "node scripts/gen-annotations.mjs",
+    "prebuild-assets": "npm run sync-vendor && npm run gen-annotations",
+    "dev": "npm run prebuild-assets && astro dev",
+    "build": "npm run prebuild-assets && astro build",
+    "preview": "astro preview",
+    "check": "astro check"
+  },
+  "dependencies": {
+    "astro": "^5.0.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.0",
+    "@types/node": "^26.1.1",
+    "typescript": "^5.9.0"
+  }
+}

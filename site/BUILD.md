@@ -21,7 +21,7 @@ The site is a **Gwern-parity reading environment**, not a CMS blog. The governin
 ## The three surfaces, cross-linked
 1. **Reference (browse):** every node a page; **certainty word visible + hoverable** (plain language, per §IV.16); filter by rail, register, certainty.
 2. **Argument (read):** book chapters, each transcluding/linking the nodes they draw on.
-3. **Decodes (zoom):** essays, each claim linking back to its grounding node (voice wall holds; receipts one hover away).
+3. **Essays (about the work):** essays on the thesis/lineage/method, each claim linking back to its grounding node (receipts one hover away). *(The "Ask About Illuminati" media decodes are parked in `essays/_parked-decodes/`, out of the build — DECISIONS.md S-12.)*
 
 ## Signature interactions (corrected)
 - **Popups/popins (the real feature)** — hover (desktop) or tap (mobile) any link → the whole target **transcludes** into a panel; links inside stack recursively. Built as pop-frames, **not** tooltips. (Spec §IV.5.)

@@ -55,17 +55,19 @@
 - [ ] Ch 10 Liberation as the First Step  - [ ] Ch 11 Nursery to Toy Aisle  - [ ] Ch 12 The Child Grown Up
 - [ ] Ch 13 Either Way  - [ ] Front/back matter  - [ ] Editorial pass
 
-## PHASE 4 — The essays
-- [~] `cars-the-engine-that-prays` (in progress)
-- [ ] `finding-nemo-dory` front-matter package (half-title, title page, colophon, dedication, epigraphs, TOC)
-- [ ] `fantasia`  - [ ] `inside-out`  - [ ] `pokemon`  - [ ] `harry-potter`  - [ ] `nickelodeon`
+## PHASE 4 — The essays (about the work: thesis / lineage / method)
+*Essays here are **about the work itself**, drawing on `data/nodes/**` and linking each claim to its grounding node (DECISIONS.md S-12). The "Ask About Illuminati" media decodes are **parked** in `essays/_parked-decodes/` and reintroduced later — not this phase.*
+- [ ] Draft essay-about-the-work #1 off a locked keystone node (e.g. the root impulse) — every claim linked to its reference node
+- [ ] Draft essay-about-the-work #2 (e.g. a rail, the four-idiom through-line, or the grading method)
+- [ ] Wire the active `essays/` into the site build (essay routes + backlinks), excluding `_parked-decodes/`
+- [ ] (parked) Ask About Illuminati decodes — reintroduce later per DECISIONS.md S-12
 
 ## PHASE 5 — The site
-*Design brief: `site/DESIGN.md` · Build plan: `site/BUILD.md`. Study set to review first: gwern.net, Public Domain Review, The Pudding, Molly White's Annotate, Stripe Press.*
+*Build authority: `site/PARITY-BUILD-SPEC.md` (milestones M0–M7). Design brief: `site/DESIGN.md`. Study set to review first: gwern.net, Public Domain Review, The Pudding, Molly White's Annotate, Stripe Press.*
 - [ ] Lock exact palette hexes + self-host fonts (Spectral / EB Garamond|Cormorant / mono)
 - [ ] Make ONE node page + ONE chapter beautiful (parchment/indigo) before scaling
-- [ ] Grade badges + hover 'shows-its-work' popover + sidenotes (the signature)
-- [ ] Choose SSG; render `data/nodes/**`  - [ ] Visible hoverable grades  - [ ] Cross-linking (essay→node→chapter)
+- [ ] Certainty words (plain: documented·possible·apocryphal) + hover 'shows-its-work' pop-frame + sidenotes (the signature — NOT gold badges)
+- [ ] Choose SSG; render `data/nodes/**`  - [ ] Visible hoverable certainty words (derived from grade)  - [ ] Cross-linking (essay→node→chapter)
 - [ ] Interactive lifespan continuum  - [ ] Animated four-idiom through-line  - [ ] Live hypothesis-density view  - [ ] Deploy
 
 ## PHASE 6 — Umbrella & Books Two/Three

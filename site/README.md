@@ -1,5 +1,5 @@
 # SITE (Tier 3)
-The container that cross-links reference (`data/nodes`) + argument (`book`) + decodes (`essays`) into a **Gwern-parity reading environment**.
+The container that cross-links reference (`data/nodes`) + argument (`book`) + essays about the work (`essays`) into a **Gwern-parity reading environment**. (Essays here = essays about the thesis/lineage/method; the "Ask About Illuminati" media decodes are parked in `essays/_parked-decodes/`, out of the build — DECISIONS.md S-12.)
 
 **Read in this order:**
 1. [`PARITY-BUILD-SPEC.md`](PARITY-BUILD-SPEC.md) — the authoritative backend+frontend stack audit and the full build spec (schemas, milestones, acceptance criteria). **Build from this.**

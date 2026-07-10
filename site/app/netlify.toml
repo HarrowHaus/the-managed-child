@@ -1,0 +1,14 @@
+# Netlify build config for the fork app. The repo root is the CMS; this project
+# renders it. `base` runs the build from site/app; `publish` is the static output.
+[build]
+  base = "site/app"
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Annotation snippets are served from double-URL-encoded paths
+# (/metadata/annotation/%252F…). Netlify may 404 encoded slashes (%2F) by
+# default; if popup annotations fail on the deployed preview, this is why — the
+# local-page transclusion popups still work regardless. (Tracked in FORK-PLAN.md.)

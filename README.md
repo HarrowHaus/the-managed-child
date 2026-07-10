@@ -5,7 +5,7 @@
 ---
 
 ## What this is
-Not an essay and not a book — a **knowledge graph** that can be *read* as an argument (the book), *zoomed into* as decodes (the essays), and *browsed* as a reference (the data). Every node is an entity; every edge is a relationship **carrying a grade**; the thesis is what the graph supports.
+Not an essay and not a book — a **knowledge graph** that can be *read* as an argument (the book), *elaborated* as essays about the work (the thesis, lineage, and method), and *browsed* as a reference (the data). Every node is an entity; every edge is a relationship **carrying a grade**; the thesis is what the graph supports. *(The "Ask About Illuminati" media decodes are parked in `essays/_parked-decodes/`, reintroduced later — see `DECISIONS.md` S-12.)*
 
 The one thing that makes this different from everything else in its genre: **it shows its work.** Every edge is rated, every discard is named, every cabal or antisemitic claim is handled by an explicit rule *on the page*. It is, deliberately, the **anti-conspiracy wiki**.
 
@@ -30,7 +30,7 @@ data/
   schema/            the data model + controlled vocabulary
 map/                 lineage-map.md — the human-readable narrative of the rails
 book/                THE BOOK (Tier 1): outline + chapter stubs
-essays/              THE ESSAYS (Tier 2): published / in-progress / queue
+essays/              THE ESSAYS (about the work): scope + stub index (media decodes parked in _parked-decodes/)
 site/                THE WEBSITE (Tier 3): Gwern-parity build
   PARITY-BUILD-SPEC.md   authoritative backend+frontend stack audit + build spec
   GWERN-AUDIT.md         why the popup/transclusion system is the point

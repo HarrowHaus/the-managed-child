@@ -138,7 +138,7 @@ The frontend is where parity actually lives. Gwern's JS is released under **CC-0
 
 ## III.C Content model, hosting, licensing
 
-- **Content = our existing repo.** `data/nodes/**` (Markdown+YAML), `book/**`, `essays/**` are the CMS. No database.
+- **Content = our existing repo.** `data/nodes/**` (Markdown+YAML), `book/**`, `essays/**` are the CMS. No database. **`essays/**` means essays *about the work* (thesis / lineage / method), drawing on `data/nodes/**` — not media decodes.** The parked "Ask About Illuminati" decode series lives in `essays/_parked-decodes/` and is **excluded from the build** (the `_` prefix + a negated glob in the essays collection), reintroduced later (DECISIONS.md S-12).
 - **Hosting:** Netlify or Vercel, deploy-on-push (both are connectors).
 - **Licensing:** if Route A, vendor Gwern JS under its stated terms (CC-0/MIT), keep headers, credit Said Achmiz + Gwern Branwen in `site/CREDITS.md`. Our content stays under our own terms.
 
