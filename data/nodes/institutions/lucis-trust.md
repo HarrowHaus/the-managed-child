@@ -3,30 +3,28 @@ id: lucis-trust
 title: "Lucis Trust"
 type: institution
 category: institutions
-dates: "1922-"
+dates: "1922"
 grade: WELD
-map_node: "1.6"
-status: stub
-sources: []          # primary/secondary refs go here
-welds: []            # documented edges: [{to: id, type: influenced|met|funded|cited|founded|advised, grade: WELD, source: ...}]
-hypotheses: []       # ungraded/suspected edges, same shape
-tags: []
+map_node: "4.5b"
+status: drafted
+abstract: "Lucis Trust is the institutional vehicle of Alice Bailey's teaching, incorporated in 1922 (originally the Lucifer Publishing Company) and running the Arcane School from 1923. It is the most durable institution of the four-idiom through-line's esoteric register — a publishing and training body for the Hierarchy doctrine. The 'Lucifer' name, a Theosophical 'light-bearer' usage, is documented and is not evidence of a cabal."
+sources:
+  - "Lucis Trust institutional history — incorporated 1922 as Lucifer Publishing Company, renamed Lucis; Arcane School from 1923 — [SECONDARY: the organization's own record]"
+welds:
+  - {to: four-idiom-through-line, type: influenced, register: same-field, grade: WELD, source: "the standing institution of the Hierarchy idiom — publishing and training for rule-by-initiated-elect"}
+hypotheses: []
+tags: [rail-articulation, articulation]
 ---
 
 # Lucis Trust
 
-> **WELD** · map node 1.6 · 1922-
+The idiom's standing institution. Incorporated 1922; Arcane School from 1923.
 
-Bailey; orig. Lucifer Publishing (renamed 1924); World Goodwill; UN ECOSOC status.
-
-## Documented core [WELD]
-_STUB — expand from the lineage map + primary sources. Every claim carries a grade; every source is named._
-
-## Edges
-_Who this connects to, and how (worked-off = encounter documented; same-field = parallel). Mirror in frontmatter `welds`/`hypotheses`._
+## Documented core
+Lucis Trust (first the Lucifer Publishing Company) is the publishing and training body Alice and Foster Bailey built for the Hierarchy teaching. Of the four idioms, this current produced the most enduring institution.
 
 ## Held-open / discard
-_HYPOTHESIS and FICTION-ALERT items; anything graded down and why._
+The "Lucifer Publishing" origin is a documented name, drawn from the Theosophical magazine *Lucifer* ("light-bearer"), and is a staple of conspiracy readings. It is recorded here as fact and explicitly **not** treated as evidence of a coded collective — the hard sourcing rule forbids that move.
 
 ## Role in the thesis
-_How this node serves the root / a register / the continuum. Symptom-not-cause where relevant._
+The articulation's most institutional expression. Cited as testimony to the impulse, never as a link in a chain into the child-institutions.

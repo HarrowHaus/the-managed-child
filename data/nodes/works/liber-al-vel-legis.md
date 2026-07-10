@@ -6,27 +6,23 @@ category: works
 dates: "1904"
 grade: WELD
 map_node: "Seed"
-status: stub
-sources: []          # primary/secondary refs go here
-welds: []            # documented edges: [{to: id, type: influenced|met|funded|cited|founded|advised, grade: WELD, source: ...}]
-hypotheses: []       # ungraded/suspected edges, same shape
-tags: []
+status: drafted
+abstract: "The seed text of the esoteric articulation, received by Aleister Crowley in Cairo in April 1904. It declares the Aeon of the Crowned and Conquering Child (Chapter III) and, at I:10, states rule-by-elect in one line: 'Let my servants be few & secret: they shall rule the many & the known.' The root in a text — a child-aeon governed by a secret few."
+sources:
+  - "Liber AL vel Legis sub figura CCXX (The Book of the Law), 1904 — I:10, 'Let my servants be few & secret: they shall rule the many & the known'; Ch. III, the Crowned and Conquering Child — [PRIMARY] (text confirmed against Wikisource / Hermetic Library)"
+welds:
+  - {to: the-root, type: influenced, register: same-field, grade: WELD, source: "'few & secret… rule the many & the known' is the root — administration of the many by an elect — stated in the text"}
+  - {to: aeon-of-the-child, type: influenced, register: same-field, grade: WELD, source: "Chapter III proclaims the Aeon of the Crowned and Conquering Child"}
+hypotheses: []
+tags: [rail-articulation, articulation, seed]
 ---
 
 # Liber AL vel Legis (The Book of the Law)
 
-> **WELD** · map node Seed · 1904
+The seed document. Received by Crowley in Cairo, April 1904.
 
-The seed text. Crowned & Conquering Child (III); "few & secret...rule the many" (I:10) = the root in the text.
-
-## Documented core [WELD]
-_STUB — expand from the lineage map + primary sources. Every claim carries a grade; every source is named._
-
-## Edges
-_Who this connects to, and how (worked-off = encounter documented; same-field = parallel). Mirror in frontmatter `welds`/`hypotheses`._
-
-## Held-open / discard
-_HYPOTHESIS and FICTION-ALERT items; anything graded down and why._
+## Documented core
+Two lines carry the load. Chapter III proclaims the Crowned and Conquering Child as the ruling figure of the new aeon. I:10 states the political form: "Let my servants be few & secret: they shall rule the many & the known." A child-aeon and a ruling few, in one received text — the root's esoteric self-statement.
 
 ## Role in the thesis
-_How this node serves the root / a register / the continuum. Symptom-not-cause where relevant._
+The text is testimony to the root, not a cause of the child-institutions. Its evidential job is to show the impulse confessed in the stranger register; it is never cited as a chain into the sociology.
