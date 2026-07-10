@@ -42,8 +42,11 @@
 | webb-sidney | card | drafted (committed) |
 | wells-hg | card | committed (locked) |
 | coefficients-club | card | committed (locked) |
+| lippmann-walter | card | drafted (committed) |
+| huxley-th | card | drafted (committed) |
+| russell-bertrand | card | drafted (committed) — honesty case: quotes verbatim, "advocate" framing falsified |
 
-> DoD Phase 1: both essays PASS critic; every node above committed & graded; no hollow hovers in the two essays.
+> DoD Phase 1: **MET (2026-07-10).** Both corner essays PASS the critic (two-testimonies gold live; the-administrators PASSed + operator-approved). Every node linked by the two essays is committed & graded — zero stubs, zero hollow hovers. Zero internal grade vocabulary across all 94 built pages.
 
 ## Exceptions (grades the machine couldn't resolve — HUMAN rules on these)
 - **[RULED 2026-07-10] puharich-andrija → roddenberry-gene** — claim: "Gene Roddenberry attended Puharich's Ossining 'Nine' sessions in 1974–75." Sourcing: *The Only Planet of Choice* (Schlemmer, 1993), a partisan channeling transcript, + Jeffrey Kripal's *Mutants and Mystics* (2011), a reputable scholarly secondary; no neutral primary. **Operator ruling: promote to documented** (Kripal + transcript accepted as sufficient). Edge carded WELD (worked-off) on both `puharich-andrija` and `four-idiom-through-line`; `roddenberry-gene` carded as documented. The *further* claim that the sessions shaped *Star Trek*'s cosmology remains discarded.
