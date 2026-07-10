@@ -22,6 +22,7 @@ import, merge, or cross-reference those here.
 ## Sources of truth (by domain)
 
 - **Content law** → [`CONVENTIONS.md`](CONVENTIONS.md)
+- **Prose voice (book & essays)** → [`VOICE.md`](VOICE.md)
 - **Node schema** → [`data/schema/node-schema.md`](data/schema/node-schema.md)
 - **Site build authority** → [`site/PARITY-BUILD-SPEC.md`](site/PARITY-BUILD-SPEC.md)
 - **Site aesthetic** → [`site/DESIGN.md`](site/DESIGN.md)

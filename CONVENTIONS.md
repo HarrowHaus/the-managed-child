@@ -38,5 +38,11 @@ Each node is a Markdown file with YAML frontmatter (see `data/schema/node-schema
 ## 8. The voice wall (essays only)
 The **book** is the sober register. The **essays** are the inhabited voice. At conversion to essay prose, **every tag, grade, and node-number is stripped**; the seam between documented fact and synchromystic reading is carried *inside* the voice, never bracketed. The apparatus is scaffolding for us, never the reader.
 
+> **"Inhabited" = the author's *judgment* is present, not the author's *person*.** It is **not** licence for a first-person narrator who addresses the reader or instructs them how to feel.
+>
+> The register is **intellectual history with a thesis**: state the claim, lay the evidence, draw the connection, stop. No second person. No reaction-coaching. The honesty disciplines are written as **findings, not confessions**.
+>
+> Full spec — **[`VOICE.md`](VOICE.md)**. This file governs what may be *claimed*; `VOICE.md` governs how it is *said*.
+
 ---
 *If a proposed addition can't state its grade, name its source, and say which register it's in, it isn't ready. That refusal is the product's armor — the reason this survives readers the genre usually loses to.*

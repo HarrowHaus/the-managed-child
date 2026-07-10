@@ -14,21 +14,21 @@
 *Procedure per node in `PLAN.md` Phase 1; DoD there. Check a node when `status: locked`.*
 ### Batch 1 — spine concepts
 - [x] `the-root` (exemplar, locked)
-- [ ] `rule-by-trained-elite`  - [ ] `managed-child`  - [ ] `method-stance`  - [ ] `hard-sourcing-rule`
-- [ ] `grading-system`  - [ ] `four-idiom-through-line`  - [ ] `double-parentage`  - [ ] `lifespan-continuum`
+- [x] `rule-by-trained-elite`  - [x] `managed-child`  - [ ] `method-stance`  - [ ] `hard-sourcing-rule`
+- [ ] `grading-system`  - [x] `four-idiom-through-line`  - [ ] `double-parentage`  - [ ] `lifespan-continuum`
 - [ ] `aeon-of-the-child`  - [ ] `permeation`  - [ ] `moonchild`
 ### Batch 2 — keystone people
-- [ ] `crowley-aleister`  - [ ] `besant-annie`  - [ ] `huxley-julian`  - [ ] `watson-john-b`
+- [ ] `crowley-aleister`  - [ ] `besant-annie`  - [x] `huxley-julian`  - [ ] `watson-john-b`
 - [ ] `parsons-jack`  - [ ] `hall-g-stanley`  - [ ] `lippmann-walter`
 ### Batch 3 — Rail One + four idioms
 - [ ] `bailey-alice`  - [ ] `krishnamurti-jiddu`  - [ ] `leadbeater-cw`  - [ ] `steiner-rudolf`
 - [ ] `puharich-andrija`  - [ ] `roddenberry-gene`  - [ ] `jung-cg`
 ### Batch 4 — the enactment rail
 - [ ] `terman-lewis`  - [ ] `galton-francis`  - [ ] `pearson-karl`  - [ ] `bernays-edward`
-- [ ] `dewey-john`  - [ ] `holt-l-emmett`  - [ ] `gesell-arnold`  - [ ] `spock-benjamin`
+- [ ] `dewey-john`  - [ ] `holt-l-emmett`  - [ ] `gesell-arnold`  - [ ] `spock-benjamin`  <!-- bernays-edward: [x] locked (Administrators rail) -->
 - [ ] `mann-horace`  - [ ] `cubberley-ellwood`
 ### Batch 5 — trunk + technocrats
-- [ ] `webb-sidney`  - [ ] `webb-beatrice`  - [ ] `shaw-george-bernard`  - [ ] `wells-hg`
+- [ ] `webb-sidney`  - [ ] `webb-beatrice`  - [ ] `shaw-george-bernard`  - [x] `wells-hg`
 - [ ] `russell-bertrand`  - [ ] `burnham-james`  - [ ] `huxley-aldous`  - [ ] `huxley-th`
 ### Batch 6 — decode-prep + contested
 - [ ] `campbell-joseph`  - [ ] `vogler-christopher`  - [ ] `eliade-mircea`  - [ ] `wheatley-dennis`
@@ -57,8 +57,8 @@
 
 ## PHASE 4 — The essays (about the work: thesis / lineage / method)
 *Essays here are **about the work itself**, drawing on `data/nodes/**` and linking each claim to its grounding node (DECISIONS.md S-12). The "Ask About Illuminati" media decodes are **parked** in `essays/_parked-decodes/` and reintroduced later — not this phase.*
-- [ ] Draft essay-about-the-work #1 off a locked keystone node (e.g. the root impulse) — every claim linked to its reference node
-- [ ] Draft essay-about-the-work #2 (e.g. a rail, the four-idiom through-line, or the grading method)
+- [x] Draft essay-about-the-work #1 — **"The Administrators"** (Administrators rail: rule-by-trained-elite → Wells → Coefficients → Bernays → Huxley/UNESCO); every claim linked to its reference node. `essays/the-administrators.md`
+- [x] Draft essay-about-the-work #2 — **"Two Testimonies"** (the thesis: root → trunk → enactment → articulation → either-way), grounded in the four locked concept nodes. `essays/two-testimonies.md`
 - [ ] Wire the active `essays/` into the site build (essay routes + backlinks), excluding `_parked-decodes/`
 - [ ] (parked) Ask About Illuminati decodes — reintroduce later per DECISIONS.md S-12
 
