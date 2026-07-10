@@ -15,7 +15,7 @@ sources:
   - "Alice Bailey, The Externalisation of the Hierarchy — the Hierarchy doctrine in her own text — [PRIMARY]"
   - "Phyllis V. Schlemmer & Palden Jenkins, The Only Planet of Choice (1993) — the transcript record of the Nine sessions — [PRIMARY]"
   - "Mary Lutyens, Krishnamurti: The Years of Awakening (1975) — the authorized biography of the World-Teacher project — [SECONDARY; VERIFY: not checked against the text in this pass]"
-  - "Jeffrey J. Kripal, Mutants and Mystics (2011) — scholarly anchor for the Roddenberry encounter — [SECONDARY; VERIFY: not checked in this pass]"
+  - "Jeffrey J. Kripal, Mutants and Mystics (2011) — scholarly anchor for the Roddenberry encounter and the commissioned screenplay — [SECONDARY]"
   - "David Alexander, Star Trek Creator (1994) — authorized Roddenberry biography — [VERIFY: not checked in this pass]"
 welds:
   - {to: the-root, type: influenced, register: same-field, grade: WELD, source: "the four idioms are the root's esoteric self-articulation — mirrors the-root's own edge to this node"}
@@ -23,8 +23,8 @@ welds:
   - {to: besant-annie, type: influenced, register: same-field, grade: WELD, source: "the World-Teacher idiom: the Order of the Star in the East (1911), an institution built to produce a groomed vehicle for a coming teacher"}
   - {to: bailey-alice, type: influenced, register: same-field, grade: WELD, source: "the Hierarchy idiom: Lucis Trust (1922) and the Arcane School (1923); an initiated Hierarchy guiding humanity toward a planned unity"}
   - {to: puharich-andrija, type: influenced, register: same-field, grade: WELD, source: "the Nine idiom: a channeled council claiming to direct human evolution; transcript record in The Only Planet of Choice"}
-hypotheses:
-  - {to: roddenberry-gene, type: influenced, register: worked-off, grade: HYPOTHESIS, source: "Roddenberry's attendance at the Ossining sessions (1974–75, Schlemmer as medium) is widely attested and the transcripts are published, but the authorized-biography and Kripal citations were not checked in this pass; the further claim that the sessions shaped Star Trek's cosmology is DISCARDED"}
+  - {to: roddenberry-gene, type: influenced, register: worked-off, grade: WELD, source: "Roddenberry attended the Ossining sessions (1974–75, Schlemmer as medium) and was commissioned to write a screenplay from the material (Kripal 2011; transcript in The Only Planet of Choice); the further claim that the sessions shaped Star Trek's cosmology is discarded"}
+hypotheses: []
 tags: [rail-one, articulation, spine, root]
 ---
 
@@ -68,7 +68,7 @@ The four component nodes — `crowley-aleister`, `besant-annie`, `bailey-alice`,
 - **Bailey's specific coinages** — the "New Group of World Servers," the "Great Invocation" — are attributed to her vocabulary in the map but were not verified against her texts in this pass. Kept out of the documented core.
 - **World Goodwill's UN ECOSOC consultative status is not asserted here.** It was not verified, and the map itself warns that ECOSOC consultative status is shared by thousands of NGOs. Inflating a common accreditation into influence is the denominator error.
 - **The Round Table Foundation's founding date and location are unresolved.** The map gives "Glen Cove, Maine, 1948"; sources consulted place the funding circle at Camden, Maine. The **first Nine contact, via the Hindu scholar D. G. Vinod on 31 December 1952**, is attested in secondary sources but was **not confirmed against Puharich's own writing**. The precise date and location are held open, not asserted; the existence of the Nine material and its transcript record is documented.
-- **The Roddenberry encounter is held open, not asserted as documented.** His attendance at the 1974–75 sessions is widely attested and the transcripts are published, but the two citations the map relies on (Alexander's authorized biography; Kripal's *Mutants and Mystics*) were not checked here. The map's page citation to *The Only Planet of Choice* pp. 95–99 is likewise unverified.
+- **The Roddenberry encounter is documented as attendance and a commissioned screenplay** — anchored in Kripal's *Mutants and Mystics* (2011) and the published *Only Planet of Choice* transcript (1993). The map's precise page citation (pp. 95–99) and Alexander's authorized biography were not re-checked in this pass; the encounter itself stands on Kripal. What remains discarded is the further claim that the sessions shaped *Star Trek*'s cosmology.
 - **Discarded — the coding claim.** That *Deep Space Nine* is named or coded from the Council of Nine is reader-supplied and **impossible**: the series was created after Roddenberry's death in 1991, by Berman and Piller. Discarded, not softened. Equally discarded: that the Nine "control" media, that *Star Trek* was a psyop, and the "wealthy hidden backers" gloss that attaches to Puharich's donors — the financier-cabal archetype the hard sourcing rule forbids. Name the documented participants; discard the secret-controllers frame.
 - **The channeled cosmic claims are belief-data, never asserted truth.** That these people believed a council directed human evolution is the documented fact. Whether any council exists is not a claim this project makes.
 

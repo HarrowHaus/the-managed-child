@@ -34,8 +34,8 @@
 | order-of-the-star | card | drafted (committed) |
 | bailey-alice | card | drafted (committed) |
 | lucis-trust | card | drafted (committed) |
-| puharich-andrija | card | drafted (committed) — core WELD; roddenberry edge = EXCEPTION |
-| roddenberry-gene | card | BLOCKED — awaiting exception ruling (see Exceptions) |
+| puharich-andrija | card | drafted (committed) — core WELD; roddenberry edge ruled documented |
+| roddenberry-gene | card | drafted (committed) — documented per operator ruling 2026-07-10 |
 | huxley-julian | card | committed (locked) |
 | unesco-purpose-philosophy | card | queued (after the stop) |
 | fabian-society | card | queued (after the stop) |
@@ -46,7 +46,7 @@
 > DoD Phase 1: both essays PASS critic; every node above committed & graded; no hollow hovers in the two essays.
 
 ## Exceptions (grades the machine couldn't resolve — HUMAN rules on these)
-- **puharich-andrija → roddenberry-gene** — claim: "Gene Roddenberry attended Puharich's Ossining 'Nine' sessions in 1974–75." Sourcing is contestable-quality: *The Only Planet of Choice* (Schlemmer, 1993) records his participation but is a **partisan channeling transcript**; Jeffrey Kripal's *Mutants and Mystics* (2011) is a **reputable scholarly secondary**. No neutral primary. Grader will not resolve WELD on its own and it is not nothing → held at **HYPOTHESIS**, referred to the operator. **`roddenberry-gene` is blocked on this ruling.** (Note: the gold essay asserts this link as fact; the grader flags it as the corner's weakest weld.)
+- **[RULED 2026-07-10] puharich-andrija → roddenberry-gene** — claim: "Gene Roddenberry attended Puharich's Ossining 'Nine' sessions in 1974–75." Sourcing: *The Only Planet of Choice* (Schlemmer, 1993), a partisan channeling transcript, + Jeffrey Kripal's *Mutants and Mystics* (2011), a reputable scholarly secondary; no neutral primary. **Operator ruling: promote to documented** (Kripal + transcript accepted as sufficient). Edge carded WELD (worked-off) on both `puharich-andrija` and `four-idiom-through-line`; `roddenberry-gene` carded as documented. The *further* claim that the sessions shaped *Star Trek*'s cosmology remains discarded.
 
 ## Later phases
 - Phase 2: widen — remaining nodes, essay by essay.

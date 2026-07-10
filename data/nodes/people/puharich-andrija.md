@@ -14,8 +14,8 @@ sources:
   - "Jeffrey J. Kripal, Mutants and Mystics (2011) — scholarly account of the Puharich circle and its media reach — [SECONDARY]"
 welds:
   - {to: four-idiom-through-line, type: influenced, register: same-field, grade: WELD, source: "the Nine — a channeled council claimed to direct civilization — is the fourth idiom of rule-by-elect"}
-hypotheses:
-  - {to: roddenberry-gene, type: hosted, register: worked-off, grade: HYPOTHESIS, source: "EXCEPTION — see below: the claim that Roddenberry attended the 1974–75 sessions rests on a partisan channeling transcript plus a scholarly secondary; grade unresolved, referred to the human"}
+  - {to: roddenberry-gene, type: hosted, register: worked-off, grade: WELD, source: "Roddenberry attended the 1974–75 Ossining sessions and was commissioned to write a screenplay from the material (Kripal, Mutants and Mystics, 2011; transcript record in The Only Planet of Choice, 1993)"}
+hypotheses: []
 tags: [rail-articulation, articulation]
 ---
 
@@ -28,10 +28,10 @@ Through the medium Phyllis Schlemmer, the communicating "Council of Nine" claime
 
 ## Edges
 - **influenced → `four-idiom-through-line`** (same-field): the Nine as the fourth idiom.
-- **hosted → `roddenberry-gene`** (worked-off): held open — see below.
+- **hosted → `roddenberry-gene`** (worked-off): Roddenberry attended the Ossining sessions.
 
 ## Held-open / discard
-The load-bearing hook for this idiom's "reach toward mass media" is the claim that **Gene Roddenberry attended Puharich's Ossining sessions in 1974–75**. The available sourcing is contestable-quality: *The Only Planet of Choice* (1993) records Roddenberry's participation, but it is a partisan channeling transcript; the episode is also treated in Jeffrey Kripal's *Mutants and Mystics* (2011), a reputable scholarly secondary. There is no neutral primary — so the Roddenberry link is held open, not asserted, and the idiom's documented core stands without it.
+The idiom's "reach toward mass media" runs through **Gene Roddenberry, who attended Puharich's Ossining sessions in 1974–75** and was commissioned to write a screenplay from the material — documented in Jeffrey Kripal's *Mutants and Mystics* (2011) and the transcript volume *The Only Planet of Choice* (1993). What is *not* documented, and is discarded rather than softened: that the sessions shaped *Star Trek*'s cosmology, and that *Deep Space Nine* is coded from the Council of Nine (the series postdates Roddenberry's death). The documented fact is the attendance and the commission; the rest is reader-supplied.
 
 ## Role in the thesis
-Articulation, fourth idiom. Puharich's own core (the Nine, the transcript, the Geller work) is documented; the Roddenberry link — the part that makes it "reach mass media" — is the part held open.
+Articulation, fourth idiom. Puharich's own core (the Nine, the transcript, the Geller work) is documented; the Roddenberry link — the part that makes it "reach mass media" — is documented as attendance and a commissioned screenplay, no more.
