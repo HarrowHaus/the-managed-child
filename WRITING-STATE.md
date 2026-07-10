@@ -37,9 +37,9 @@
 | puharich-andrija | card | drafted (committed) — core WELD; roddenberry edge ruled documented |
 | roddenberry-gene | card | drafted (committed) — documented per operator ruling 2026-07-10 |
 | huxley-julian | card | committed (locked) |
-| unesco-purpose-philosophy | card | queued (after the stop) |
-| fabian-society | card | queued (after the stop) |
-| webb-sidney | card | queued (after the stop) |
+| unesco-purpose-philosophy | card | drafted (committed) |
+| fabian-society | card | drafted (committed) |
+| webb-sidney | card | drafted (committed) |
 | wells-hg | card | committed (locked) |
 | coefficients-club | card | committed (locked) |
 
