@@ -51,6 +51,19 @@
 ## Exceptions (grades the machine couldn't resolve — HUMAN rules on these)
 - **[RULED 2026-07-10] puharich-andrija → roddenberry-gene** — claim: "Gene Roddenberry attended Puharich's Ossining 'Nine' sessions in 1974–75." Sourcing: *The Only Planet of Choice* (Schlemmer, 1993), a partisan channeling transcript, + Jeffrey Kripal's *Mutants and Mystics* (2011), a reputable scholarly secondary; no neutral primary. **Operator ruling: promote to documented** (Kripal + transcript accepted as sufficient). Edge carded WELD (worked-off) on both `puharich-andrija` and `four-idiom-through-line`; `roddenberry-gene` carded as documented. The *further* claim that the sessions shaped *Star Trek*'s cosmology remains discarded.
 
+## Phase: 2 — WIDEN, corner by corner
+
+### Corner 2 — articulation (the four idioms)
+| entry | kind | status | notes |
+|---|---|---|---|
+| the-four-idioms | essay | committed (gold live) | PASSed critic + operator-approved 2026-07-10; pure reuse, zero new cards; seam load-bearing; puharich weight = documented attendance only |
+
+> Chosen for maximum overlap with corner 1: all 11 linked nodes (crowley, liber-al, besant, order-of-the-star, leadbeater, krishnamurti, bailey, lucis-trust, puharich, roddenberry, four-idiom-through-line) were already graded — no new carding. Reader-facing essay: `essays/the-four-idioms.md` (essay register). Book chapter `04-the-hinge-and-the-four-idioms` (sober register) remains a Phase-3 stub.
+
+### Next candidates (by corner-1 reuse; see analysis 2026-07-10)
+- the-trunk (02): 4 reuse, 1 new (permeation)
+- the-seed (03): 2 reuse, 1 new (aeon-of-the-child)
+- measuring-the-child (05): 2 reuse, 2 new (galton-francis, pearson-karl)
+
 ## Later phases
-- Phase 2: widen — remaining nodes, essay by essay.
 - Phase 3: the 13 book chapters (essayist + critic), each keystone-gated.
