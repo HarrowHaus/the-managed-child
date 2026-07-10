@@ -17,7 +17,7 @@ tags: []
 
 > **PRINCIPLE** · map node Conv · -
 
-WELD/HYPOTHESIS/FICTION-ALERT; the grading is the argument.
+Every claim on this site carries a plain certainty word — *documented · possible · apocryphal* — and that certainty is itself part of the argument.
 
 ## Documented core [WELD]
 _STUB — expand from the lineage map + primary sources. Every claim carries a grade; every source is named._

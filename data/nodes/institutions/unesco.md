@@ -36,7 +36,7 @@ As an institution UNESCO *enacts* the trunk (`rule-by-trained-elite`) and the ro
 
 ## Held-open / discard
 - **Distinguish the pamphlet from the Constitution.** Huxley's orientation document is his personal statement of philosophy, not binding member-state policy, and **the eugenic aim was never adopted.** Quoting it as ratified UN doctrine is the overclaim to avoid. Quoting it as *the founder's stated philosophy* is unassailable, and sufficient.
-- **The "political unification in some sort of world government will be required" line, attributed by the map to this pamphlet, could NOT be confirmed** and is **not** asserted here or in the essays. Graded **HYPOTHESIS** pending a reading of the text.
+- **The "political unification in some sort of world government will be required" line, attributed by the map to this pamphlet, could NOT be confirmed** and is **not** asserted here or in the essays. Held open pending a reading of the text.
 - **No claim is made that UNESCO pursued a eugenic program.** The documented fact is what its first Director-General wrote he wanted examined.
 
 ## Role in the thesis

@@ -38,7 +38,7 @@ The load-bearing sentence, **confirmed verbatim**: even though "any radical euge
 
 His eugenic commitment is long and documented: on the **British Eugenics Society's council from 1931**, Vice-President **1937–44**, and **President 1959–62**.
 
-**The mystical source, bounded.** Huxley took the concept of transhumanism substantially from **Pierre Teilhard de Chardin**, whose "noosphere" and "Omega Point" are explicitly mystical; Huxley wrote the admiring introduction to *The Phenomenon of Man* (introduction dated December 1958). This is a documented mysticism-into-managerial-program weld — **but it is Teilhard, not Crowley**, and it stands as *testimony* (a technocrat reaching for a religious frame), never as a cause of the child-institutions.
+**The mystical source, bounded.** Huxley took the concept of transhumanism substantially from **Pierre Teilhard de Chardin**, whose "noosphere" and "Omega Point" are explicitly mystical; Huxley wrote the admiring introduction to *The Phenomenon of Man* (introduction dated December 1958). This is a documented mysticism-into-managerial-program link — **but it is Teilhard, not Crowley**, and it stands as *testimony* (a technocrat reaching for a religious frame), never as a cause of the child-institutions.
 
 ## Edges
 `unesco` is founded and philosophically authored by him (worked-off). `wells-hg` is a dated co-authorship (worked-off). `rule-by-trained-elite` is same-field: he restated the doctrine in his own signed text.
@@ -46,7 +46,7 @@ His eugenic commitment is long and documented: on the **British Eugenics Society
 The kinship edges to `huxley-th` and `huxley-aldous` are demoted to **hypotheses**. Kinship is not influence. T. H. Huxley died when Julian was eight; the plausible worked-off tie is Julian's 1943 Romanes Lecture answering his grandfather's 1893 lecture, and that text has not been checked.
 
 ## Held-open / discard
-- **Two quotations the map carries could NOT be confirmed and are NOT used.** That man is "an unfinished and often botched product of evolutionary improvisation" who "not only must but can be improved" (attributed to *Essays of a Humanist*, 1964); and that "political unification in some sort of world government will be required" (attributed to the UNESCO pamphlet). Both are graded **HYPOTHESIS** pending a reading of the primary texts. Neither appears in the documented core, and both were **removed from the essay prose**.
+- **Two quotations the map carries could NOT be confirmed and are NOT used.** That man is "an unfinished and often botched product of evolutionary improvisation" who "not only must but can be improved" (attributed to *Essays of a Humanist*, 1964); and that "political unification in some sort of world government will be required" (attributed to the UNESCO pamphlet). Both are held open pending a reading of the primary texts. Neither appears in the documented core, and both were **removed from the essay prose**.
 - **The map's "President of the British Eugenics Society" is imprecise.** He presided **1959–62**; the longer involvement (council 1931, VP 1937–44) is the accurate frame. "Lifelong advocate" is defensible; "for years president" is not.
 - **Keep pamphlet and institution distinct.** The 1946 pamphlet is Huxley's personal orientation document, not ratified UN policy; the eugenic aim was never adopted. Overstating it as binding UN doctrine is the overclaim to avoid. Quoting the founder's own stated philosophy is sufficient and unassailable.
 

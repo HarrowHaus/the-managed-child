@@ -27,7 +27,7 @@ In 1916 Terman published the Stanford revision of the Binet–Simon scale, the d
 
 ## Edges
 - **influenced → `managed-child`** (same-field): the child becomes a tracked population.
-- **cited → `galton-francis`** (same-field, HYPOTHESIS): the Galtonian tradition is the obvious lineage, but a specific documented citation is not yet attached — held open.
+- **cited → `galton-francis`** (same-field): the Galtonian tradition is the obvious lineage, but no specific documented citation is attached — held open, not asserted as transmission.
 
 ## Held-open / discard
 The eugenics-society memberships are standard biographical record; flagged VERIFY until checked against a primary roll. The claim as carded — that Terman advocated tracking by test — rests on the 1916 text and survives regardless.

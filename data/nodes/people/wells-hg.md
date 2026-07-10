@@ -51,4 +51,4 @@ Across four decades Wells wrote the managerial future as explicit program. **A M
 - **[SCHEMA GAP surfaced]** The controlled edge vocabulary in `data/schema/node-schema.md` has no `co-authored` type. The Wells↔Julian Huxley collaboration is recorded as `influenced` + `worked-off` with the collaboration named in the `source` string. Consider adding `co-authored` to the vocabulary.
 
 ## Role in the thesis
-Wells is Thesis A in its purest technocratic form: the managerial idea stated openly, by a named man, in signed books — no cabal required. The Fabian schism is the honesty weld this node must carry: documented association is not documented agreement.
+Wells is Thesis A in its purest technocratic form: the managerial idea stated openly, by a named man, in signed books — no cabal required. The Fabian schism is the honesty pivot this node must carry: documented association is not documented agreement.

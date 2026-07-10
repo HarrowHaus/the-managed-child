@@ -28,10 +28,10 @@ Through the medium Phyllis Schlemmer, the communicating "Council of Nine" claime
 
 ## Edges
 - **influenced → `four-idiom-through-line`** (same-field): the Nine as the fourth idiom.
-- **hosted → `roddenberry-gene`** (worked-off, **HYPOTHESIS / EXCEPTION**): see below.
+- **hosted → `roddenberry-gene`** (worked-off): held open — see below.
 
-## Held-open / discard — EXCEPTION referred to the human
-The load-bearing hook for this idiom's "reach toward mass media" is the claim that **Gene Roddenberry attended Puharich's Ossining sessions in 1974–75**. The available sourcing is contestable-quality: *The Only Planet of Choice* (1993) records Roddenberry's participation, but it is a partisan channeling transcript; the episode is also treated in Jeffrey Kripal's *Mutants and Mystics* (2011), a reputable scholarly secondary. There is no neutral primary. Per the grader, this does not clear WELD on its own and it is not nothing — it is an **exception** for the operator to rule on (WELD on Kripal + the transcript, or hold at HYPOTHESIS).
+## Held-open / discard
+The load-bearing hook for this idiom's "reach toward mass media" is the claim that **Gene Roddenberry attended Puharich's Ossining sessions in 1974–75**. The available sourcing is contestable-quality: *The Only Planet of Choice* (1993) records Roddenberry's participation, but it is a partisan channeling transcript; the episode is also treated in Jeffrey Kripal's *Mutants and Mystics* (2011), a reputable scholarly secondary. There is no neutral primary — so the Roddenberry link is held open, not asserted, and the idiom's documented core stands without it.
 
 ## Role in the thesis
-Articulation, fourth idiom. Puharich's own core (the Nine, the transcript, the Geller work) is documented; the Roddenberry link — the part that makes it "reach mass media" — is the graded exception.
+Articulation, fourth idiom. Puharich's own core (the Nine, the transcript, the Geller work) is documented; the Roddenberry link — the part that makes it "reach mass media" — is the part held open.

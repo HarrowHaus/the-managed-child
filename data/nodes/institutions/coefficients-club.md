@@ -28,7 +28,7 @@ tags: [administrators, trunk, honesty-weld, denominator]
 
 > **WELD** · map node 0.2 · 1902-1909
 
-The strongest *documented social weld* on the Administrators rail — and the cleanest proof of the project's core discipline: **documented association is real, and it is not the same as documented agreement.**
+The strongest *documented social tie* on the Administrators rail — and the cleanest proof of the project's core discipline: **documented association is real, and it is not the same as documented agreement.**
 
 ## Documented core [WELD]
 In 1902 **Sidney and Beatrice Webb** founded the Coefficients, a monthly dining club whose name reflected the Edwardian cult of **efficiency**, intended as a forum where "British socialist reformers and imperialists" would meet. The membership seated the Fabian trunk (Webb), the technocrat branch (**H. G. Wells**, **Bertrand Russell**), and the imperial-federation network (**Alfred Milner**, **Richard Haldane**, **Sir Edward Grey**, **Leo Amery**, **Halford Mackinder**). The club dissolved in **1909**, pulled apart by the Tariff Reform quarrel.
@@ -43,7 +43,7 @@ Membership edges are `hosted` + worked-off: the club is the venue, the people ar
 ## Held-open / discard
 - **The memoir attributions are unverified.** The map sources membership and the resignation to Russell's *Autobiography* and Wells's *Experiment in Autobiography*. Neither text was checked. The facts are well attested in the secondary literature and are graded **SECONDARY** here; the phrases "capable of original thoughts on every subject" and "an especially active member" are the **secondary literature's characterization**, not confirmed as either man's own words. Do not set them in quotation marks as memoir quotations until verified.
 - **Beatrice Webb's eugenic remark** (that breeding "the right sort of man" was "the most important of all questions"), carried in the map, was **not verified** and is not used.
-- **DISCARD — the cabal gloss.** The Milner → Balfour-Declaration → Rothschild material that conspiracy sources cluster around this node is precisely the financier/bloodline register the hard sourcing rule forbids. The dining club and its documented membership are citable; the "Rothschild-trustee-of-a-secret-society" framing is not, and is discarded rather than softened.
+- **Discarded — the cabal gloss.** The Milner → Balfour-Declaration → Rothschild material that conspiracy sources cluster around this node is precisely the financier/bloodline register the hard sourcing rule forbids. The dining club and its documented membership are citable; the "Rothschild-trustee-of-a-secret-society" framing is not, and is discarded rather than softened.
 
 ## Role in the thesis
 This is the rail's **honesty pivot**, and the model for how the whole project reads its welds. Real association, never assumed conspiracy. If the guest list is cited, the resignation is owed in the same sentence — and the moment that debt goes unpaid, the work has stopped being history.
