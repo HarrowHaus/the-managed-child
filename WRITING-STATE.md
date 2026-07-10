@@ -68,10 +68,19 @@
 
 > Reader-facing essay: `essays/the-trunk.md` (essay register). Book chapter `02-the-trunk` (sober register) remains a Phase-3 stub. One new card (`permeation`); the other four nodes reused from corner 1.
 
-### Next candidates (by corner-1 reuse; see analysis 2026-07-10)
-- the-seed (03): 2 reuse, 1 new (aeon-of-the-child)
-- measuring-the-child (05): 2 reuse, 2 new (galton-francis, pearson-karl)
-- engineering-consent (07): 2 reuse, 2 new (lippmann-dewey-debate, dewey-john)
+### Corner 4 — articulation seed (closes the articulation rail)
+| entry | kind | status | notes |
+|---|---|---|---|
+| aeon-of-the-child | card | drafted (committed) | WELD; Liber AL Ch. III + I:49; three-aeon doctrine (Isis/Osiris/Horus) verified; no exception |
+| the-seed | essay | committed (gold live) | PASSed critic (round 1) + operator-approved 2026-07-10; Crowley held to testimony, not cause; seed of the confession, not the machinery |
+
+> Reader-facing essay: `essays/the-seed.md` (essay register). Book chapter `03-the-seed` (sober register) remains a Phase-3 stub. Articulation rail now complete: the-seed (Crowley/Aeon) + the-four-idioms (the whole through-line).
+
+### Priority (operator directive 2026-07-10): light the two rails the book most needs BEFORE any Phase-3 chapter
+Advance the cheapest-overlap corner toward these each session; stop at exceptions/keystones.
+- **enactment → measuring-the-child (05)**: 2 reuse (hall-g-stanley, terman-lewis), 2 new (galton-francis, pearson-karl)
+- **consent → engineering-consent (07)**: 2 reuse (lippmann-walter, bernays-edward), 2 new (lippmann-dewey-debate, dewey-john)
+- (other enactment/consent chapters — conditioning-the-child (06), the-denominator (08) — carry more new cards; sequence after the two above)
 
 ## Later phases
 - Phase 3: the 13 book chapters (essayist + critic), each keystone-gated.
