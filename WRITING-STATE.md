@@ -95,9 +95,26 @@ Advance the cheapest-overlap corner toward these each session; stop at exception
 
 > Both book-priority rails now have a gold anchor: enactment (measuring-the-child) + consent (engineering-consent).
 
-#### Enactment deepening (remaining, more new cards)
-- conditioning-the-child (06): 1 reuse (watson-john-b), 3 new (jwt, psychological-care, holt-l-emmett)
-- the-denominator (08): 2 reuse (managed-child, cubberley-ellwood), 3 new (mann-horace, gesell-arnold, spock-benjamin)
+#### Corner 7 — the Root essay ✅ DONE
+| entry | kind | status | notes |
+|---|---|---|---|
+| humanity-as-administrable-stock | essay | committed (gold live) | PASSed critic (round 1) + operator-approved 2026-07-10; pure reuse (the-root + rule-by-trained-elite), zero new cards; states the central discipline (impulse not cabal; forbidden causal move) |
+
+## Finish-line sequencing (operator directive 2026-07-10) — NOT pure cost order
+Do the enactment/lifespan corners next to light the last rail and build the card library; SAVE the method essays for last (strongest over a fully-graded graph). Cheapest-overlap within each group.
+
+### Group A — enactment / lifespan (do next)
+- **conditioning-the-child (06)**: 1 reuse (watson-john-b), 3 new (jwt, psychological-care, holt-l-emmett)
+- **the-denominator (08)**: 2 reuse (managed-child, cubberley-ellwood), 3 new (mann-horace, gesell-arnold, spock-benjamin)
+- **the-child-grown-up (12)**: 1 reuse (roddenberry-gene), 3 new (lifespan-continuum, campbell-joseph, vogler-christopher)
+- **nursery-to-toy-aisle (11)**: 1 reuse (watson-john-b), 1 new (fcc-1984) ← cheapest in group
+
+### Group B — method essays (SAVE for last, write over the fully-graded graph)
+- reverberation-not-conspiracy (09): 1 new (method-stance)
+- liberation-as-the-first-step (10): 2 new (double-parentage, krishnamurti-custody)
+- either-way (13): 2 new (grading-system, method-stance [shared w/09])
+
+> Finish line from here: 7 essays / ~13 distinct new cards. After Group A + B, all 13 chapter themes have a gold essay-about-the-work, every rail is gold, zero hollow hovers.
 
 ## Later phases
 - Phase 3: the 13 book chapters (essayist + critic), each keystone-gated.
