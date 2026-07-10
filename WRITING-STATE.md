@@ -13,7 +13,7 @@
 | entry | kind | status | notes |
 |---|---|---|---|
 | two-testimonies | essay | committed (gold live) | essays/two-testimonies.md is the gold |
-| the-administrators | essay | queued | elevate to gold via essayist+critic |
+| the-administrators | essay | committed (gold live) | PASSed critic 2026-07-10; operator-approved; two live quote-integrity fixes + one banned-word fix |
 
 ### Linked nodes for this corner (machine-drafted cards, exception-gated)
 | entry | kind | status |
