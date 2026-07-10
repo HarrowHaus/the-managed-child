@@ -86,9 +86,17 @@ Advance the cheapest-overlap corner toward these each session; stop at exception
 | pearson-karl | card | drafted (committed) | WELD; first Galton Professor of Eugenics (1906); no exception |
 | measuring-the-child | essay | committed (gold live) | PASSed critic (round 1) + operator-approved 2026-07-10; denominator concession early; eugenics = co-symptom; Galton→Terman held same-field |
 
-#### Still to light
-- **consent → engineering-consent (07)**: 2 reuse (lippmann-walter, bernays-edward), 2 new (lippmann-dewey-debate, dewey-john) ← NEXT
-- enactment deepening: conditioning-the-child (06): 1 reuse (watson-john-b), 3 new (jwt, psychological-care, holt-l-emmett)
+#### Corner 6 — consent (engineering consent) ✅ DONE
+| entry | kind | status | notes |
+|---|---|---|---|
+| dewey-john | card | drafted (committed) | WELD; The Public and Its Problems (1927), public "in eclipse"; no exception |
+| lippmann-dewey-debate | card | drafted (committed) | WELD; positions documented, adversarial "debate" corrected as later reframing; no exception |
+| engineering-consent | essay | committed (gold live) | PASSed critic (round 1) + operator-approved 2026-07-10; double discipline (no cabal needed; the "debate" is a retrospective invention) |
+
+> Both book-priority rails now have a gold anchor: enactment (measuring-the-child) + consent (engineering-consent).
+
+#### Enactment deepening (remaining, more new cards)
+- conditioning-the-child (06): 1 reuse (watson-john-b), 3 new (jwt, psychological-care, holt-l-emmett)
 - the-denominator (08): 2 reuse (managed-child, cubberley-ellwood), 3 new (mann-horace, gesell-arnold, spock-benjamin)
 
 ## Later phases
