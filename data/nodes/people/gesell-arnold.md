@@ -6,27 +6,25 @@ category: people
 dates: "1880-1961"
 grade: WELD
 map_node: "5.9"
-status: stub
-sources: []          # primary/secondary refs go here
-welds: []            # documented edges: [{to: id, type: influenced|met|funded|cited|founded|advised, grade: WELD, source: ...}]
-hypotheses: []       # ungraded/suspected edges, same shape
-tags: []
+status: drafted
+abstract: "Arnold Gesell (1880–1961), a psychologist and pediatrician at Yale who took his doctorate under G. Stanley Hall, produced the developmental 'norms' — the Gesell Developmental Schedules (from the 1920s) that charted the milestones of infancy and early childhood, on a maturational theory that development unfolds along a predetermined biological timetable. He gave the culture the idea of the 'normal' child, measurable month by month against a schedule."
+sources:
+  - "Arnold Gesell, the Gesell Developmental Schedules (from the 1920s) and works including Infancy and Human Growth (1928) and The First Five Years of Life (1940) — the normative developmental milestones — [PRIMARY]"
+welds:
+  - {to: hall-g-stanley, type: influenced, register: worked-off, grade: WELD, source: "Gesell took his doctorate under G. Stanley Hall at Clark; the child-study movement extended into standardized developmental norms"}
+  - {to: managed-child, type: influenced, register: same-field, grade: WELD, source: "the developmental norm made every child measurable against a schedule — the managed child charted"}
+tags: [rail-enactment, enactment, denominator]
 ---
 
 # Arnold Gesell
 
-> **WELD** · map node 5.9 · 1880-1961
+The norm. Gesell charted the "normal" child month by month and gave parents a schedule to measure theirs against.
 
-Developmental norms; studied under Hall; secular denominator.
-
-## Documented core [WELD]
-_STUB — expand from the lineage map + primary sources. Every claim carries a grade; every source is named._
-
-## Edges
-_Who this connects to, and how (worked-off = encounter documented; same-field = parallel). Mirror in frontmatter `welds`/`hypotheses`._
+## Documented core
+At his Yale clinic Gesell compiled the **Gesell Developmental Schedules**, standardized norms of motor, language, adaptive, and social development from infancy through about age six, built on a **maturational theory**: growth follows a predictable, largely genetic sequence that environment can pace but not reorder. The practical bequest is the milestone chart — the idea that a child can be held up against a normal timetable and found ahead of it or behind.
 
 ## Held-open / discard
-_HYPOTHESIS and FICTION-ALERT items; anything graded down and why._
+Later developmental science has qualified Gesell's norms as too rigid and too narrowly drawn from a particular population; that revision is noted. His documented contribution — the normative developmental schedule as a fixture of pediatric and parental culture — stands regardless.
 
 ## Role in the thesis
-_How this node serves the root / a register / the continuum. Symptom-not-cause where relevant._
+The denominator: the ordinary, scientific, humane researcher who turned "the normal child" into a measurable standard. A co-symptom of the root in the register of measurement, secular and mainstream, never a hidden cause.

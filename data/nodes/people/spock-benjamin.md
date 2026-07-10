@@ -6,27 +6,26 @@ category: people
 dates: "1903-1998"
 grade: WELD
 map_node: "5.9"
-status: stub
-sources: []          # primary/secondary refs go here
-welds: []            # documented edges: [{to: id, type: influenced|met|funded|cited|founded|advised, grade: WELD, source: ...}]
-hypotheses: []       # ungraded/suspected edges, same shape
-tags: []
+status: drafted
+abstract: "Benjamin Spock (1903–1998), pediatrician, wrote The Common Sense Book of Baby and Child Care (1946), which opens 'Trust yourself. You know more than you think you do.' It sold half a million copies in six months and roughly 50 million by his death — the twentieth-century United States' second best-selling book after the Bible. Spock softened the rigid Watson–Holt regime toward warmth and parental confidence, and is the proof that the base rate is mostly humane."
+sources:
+  - "Benjamin Spock, The Common Sense Book of Baby and Child Care (1946) — opening line 'Trust yourself. You know more than you think you do.' — [PRIMARY]"
+  - "Sales record: ~500,000 copies in the first six months, ~50 million by 1998; second best-selling US book of the century after the Bible — [SECONDARY]"
+welds:
+  - {to: managed-child, type: influenced, register: same-field, grade: WELD, source: "childrearing by mass-market expert manual at the scale of tens of millions of homes — the child managed by the book, even when the book counsels warmth"}
+  - {to: watson-john-b, type: influenced, register: same-field, grade: WELD, source: "the humane correction to behaviorist detachment — the same domain of expert childrearing advice, the opposite counsel"}
+tags: [rail-enactment, enactment, denominator]
 ---
 
 # Benjamin Spock
 
-> **WELD** · map node 5.9 · 1903-1998
+The gentle authority. Spock told a generation of parents to trust themselves — in a book that fifty million of them bought.
 
-Baby and Child Care (1946); psychoanalytic; the liberation strain in the mainstream.
-
-## Documented core [WELD]
-_STUB — expand from the lineage map + primary sources. Every claim carries a grade; every source is named._
-
-## Edges
-_Who this connects to, and how (worked-off = encounter documented; same-field = parallel). Mirror in frontmatter `welds`/`hypotheses`._
+## Documented core
+*The Common Sense Book of Baby and Child Care* (1946) opens, "Trust yourself. You know more than you think you do." It sold half a million copies in six months and about **50 million** by Spock's death in 1998, second in the American century only to the Bible. Against the scheduled detachment of Holt and Watson, Spock counselled affection, flexibility, and confidence in a parent's own instincts. He is the warm face of expert childrearing, and by far its most-read one.
 
 ## Held-open / discard
-_HYPOTHESIS and FICTION-ALERT items; anything graded down and why._
+Spock is not a cold or sinister figure — the reverse; the point is not that his advice harmed children. It is that childhood had become a thing decided, at the scale of fifty million homes, by a single national manual. That distinction — kindly counsel is still expert management at scale — is the whole discipline of the denominator, and it is drawn plainly, not blurred into an accusation.
 
 ## Role in the thesis
-_How this node serves the root / a register / the continuum. Symptom-not-cause where relevant._
+The denominator's keystone: the beloved, humane, secular authority whose fifty-million-copy manual is the clearest proof that the managed child is overwhelmingly mainstream and mostly well-meant — and that the strange material is a thin tributary above this broad river, never its engine.
