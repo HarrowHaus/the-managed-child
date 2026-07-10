@@ -46,4 +46,4 @@ Membership edges are `hosted` + worked-off: the club is the venue, the people ar
 - **Discarded — the cabal gloss.** The Milner → Balfour-Declaration → Rothschild material that conspiracy sources cluster around this node is precisely the financier/bloodline register the hard sourcing rule forbids. The dining club and its documented membership are citable; the "Rothschild-trustee-of-a-secret-society" framing is not, and is discarded rather than softened.
 
 ## Role in the thesis
-This is the rail's **honesty pivot**, and the model for how the whole project reads its welds. Real association, never assumed conspiracy. If the guest list is cited, the resignation is owed in the same sentence — and the moment that debt goes unpaid, the work has stopped being history.
+This is the rail's **honesty pivot**, and the model for how the whole project reads a documented connection. Real association, never assumed conspiracy. If the guest list is cited, the resignation is owed in the same sentence — and the moment that debt goes unpaid, the work has stopped being history.
