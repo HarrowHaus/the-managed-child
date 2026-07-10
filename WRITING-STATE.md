@@ -78,9 +78,18 @@
 
 ### Priority (operator directive 2026-07-10): light the two rails the book most needs BEFORE any Phase-3 chapter
 Advance the cheapest-overlap corner toward these each session; stop at exceptions/keystones.
-- **enactment → measuring-the-child (05)**: 2 reuse (hall-g-stanley, terman-lewis), 2 new (galton-francis, pearson-karl)
-- **consent → engineering-consent (07)**: 2 reuse (lippmann-walter, bernays-edward), 2 new (lippmann-dewey-debate, dewey-john)
-- (other enactment/consent chapters — conditioning-the-child (06), the-denominator (08) — carry more new cards; sequence after the two above)
+
+#### Corner 5 — enactment (measuring the child) ✅ DONE
+| entry | kind | status | notes |
+|---|---|---|---|
+| galton-francis | card | drafted (committed) | WELD; coined "eugenics" (Inquiries, 1883); no exception |
+| pearson-karl | card | drafted (committed) | WELD; first Galton Professor of Eugenics (1906); no exception |
+| measuring-the-child | essay | committed (gold live) | PASSed critic (round 1) + operator-approved 2026-07-10; denominator concession early; eugenics = co-symptom; Galton→Terman held same-field |
+
+#### Still to light
+- **consent → engineering-consent (07)**: 2 reuse (lippmann-walter, bernays-edward), 2 new (lippmann-dewey-debate, dewey-john) ← NEXT
+- enactment deepening: conditioning-the-child (06): 1 reuse (watson-john-b), 3 new (jwt, psychological-care, holt-l-emmett)
+- the-denominator (08): 2 reuse (managed-child, cubberley-ellwood), 3 new (mann-horace, gesell-arnold, spock-benjamin)
 
 ## Later phases
 - Phase 3: the 13 book chapters (essayist + critic), each keystone-gated.
