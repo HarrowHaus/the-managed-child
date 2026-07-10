@@ -58,12 +58,13 @@ Draft `book/chapters/01…13` in the **sober register** from the nodes each chap
 
 ---
 
-## PHASE 4 — The essays (Tier 2; parallel with 3)  *(depends on 1 for grounding)*
-Work the queue in the **inhabited voice**, each standing on the audited thesis.
-**Order:** finish `essays/in-progress/cars-the-engine-that-prays.md`; build front-matter for the complete `finding-nemo-dory` manuscript; then queue: `fantasia` → `inside-out` → `pokemon` → `harry-potter` → `nickelodeon`.
-**Per-essay procedure:** documented base → symbols run through the four-test filter (specific / deliberate / correct-to-sources / reads-one-way) → the read → mark where it stays HYPOTHESIS. Keep structure-as-craft (Vogler) distinct from esoteric-intent (Joint 5).
-**Per-essay DoD:** voice consistent and un-attributed; four-test filter applied to every symbol; "correct?" claims sourced to Manly P. Hall / primary esoterica; apparatus stripped; stands on `THESIS.md` without leaning on B as cause.
-**Unblocks:** audience; the site's leaf layer.
+## PHASE 4 — The essays (parallel with 3)  *(depends on 1 for grounding)*
+**Essays here = essays *about the work itself*** — the thesis, the lineage, the method — each **drawing on `data/nodes/**`** and linking every claim back to the reference node that grounds it (settled: `DECISIONS.md` S-12). Not media decodes.
+**Scope note:** the **"Ask About Illuminati" media decode series** (Nemo/Dory, Cars, Fantasia, Inside Out, Pokémon, Harry Potter, Nickelodeon) is **parked** in `essays/_parked-decodes/`, out of the active build, and **reintroduced later** — it is *not* this phase's work.
+**Order:** write the first essays-about-the-work off the locked keystone nodes (e.g. the root impulse, a rail, the four-idiom through-line, the grading method), each grounded in `data/nodes/**`.
+**Per-essay procedure:** documented base from the nodes → argument in the piece's register → every load-bearing claim links to its reference node → mark where a claim stays HYPOTHESIS. Keep structure-as-craft distinct from esoteric-intent (Joint 5).
+**Per-essay DoD:** subject is the work (not a film); every claim traceable to a graded node; stands on `THESIS.md` / `data/nodes/**` without leaning on B as cause.
+**Unblocks:** audience; the site's essay layer.
 
 ---
 

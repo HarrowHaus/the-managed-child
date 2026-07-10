@@ -54,4 +54,23 @@ const chapters = defineCollection({
   }),
 });
 
-export const collections = { nodes, chapters };
+// Essays = essays ABOUT THE WORK (thesis / lineage / method), not media decodes
+// (DECISIONS.md S-12). The "Ask About Illuminati" decode series is parked under
+// essays/_parked-decodes/ and is EXCLUDED here two ways: the leading `_` keeps it
+// out of Astro's content layer, and the negated glob makes the exclusion explicit
+// so nothing parked can ever render or be backlinked. README.md is not an essay.
+const essays = defineCollection({
+  loader: glob({
+    pattern: ['**/*.md', '!_parked-decodes/**', '!README.md'],
+    base: '../../essays',
+  }),
+  schema: z.object({
+    title: z.string(),
+    status: z.string().default('stub'),
+    scope: z.string().optional(),
+    stands_on: strList,
+    draws_on: strList,
+  }),
+});
+
+export const collections = { nodes, chapters, essays };

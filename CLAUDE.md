@@ -9,7 +9,7 @@ This repo is **The Managed Child** — a single, self-contained project:
 
 - the **graph** lives in `data/nodes/**` (Markdown+YAML nodes and their edges),
 - the **book** lives in `book/**`,
-- the **decode essays** live in `essays/**`,
+- the **essays about the work** (thesis, lineage, method — drawing on `data/nodes/**`) live in `essays/**`; the parked **"Ask About Illuminati" media decodes** (Nemo/Dory, Cars, …) sit in `essays/_parked-decodes/`, out of the active build, to be reintroduced later (see `DECISIONS.md`),
 - the **site** (the reading environment that renders all of the above) lives in `site/**`.
 
 **On-ramp:** start at [`HANDOFF.md`](HANDOFF.md). **The repo is the single source

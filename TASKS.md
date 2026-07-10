@@ -55,10 +55,12 @@
 - [ ] Ch 10 Liberation as the First Step  - [ ] Ch 11 Nursery to Toy Aisle  - [ ] Ch 12 The Child Grown Up
 - [ ] Ch 13 Either Way  - [ ] Front/back matter  - [ ] Editorial pass
 
-## PHASE 4 — The essays
-- [~] `cars-the-engine-that-prays` (in progress)
-- [ ] `finding-nemo-dory` front-matter package (half-title, title page, colophon, dedication, epigraphs, TOC)
-- [ ] `fantasia`  - [ ] `inside-out`  - [ ] `pokemon`  - [ ] `harry-potter`  - [ ] `nickelodeon`
+## PHASE 4 — The essays (about the work: thesis / lineage / method)
+*Essays here are **about the work itself**, drawing on `data/nodes/**` and linking each claim to its grounding node (DECISIONS.md S-12). The "Ask About Illuminati" media decodes are **parked** in `essays/_parked-decodes/` and reintroduced later — not this phase.*
+- [ ] Draft essay-about-the-work #1 off a locked keystone node (e.g. the root impulse) — every claim linked to its reference node
+- [ ] Draft essay-about-the-work #2 (e.g. a rail, the four-idiom through-line, or the grading method)
+- [ ] Wire the active `essays/` into the site build (essay routes + backlinks), excluding `_parked-decodes/`
+- [ ] (parked) Ask About Illuminati decodes — reintroduce later per DECISIONS.md S-12
 
 ## PHASE 5 — The site
 *Build authority: `site/PARITY-BUILD-SPEC.md` (milestones M0–M7). Design brief: `site/DESIGN.md`. Study set to review first: gwern.net, Public Domain Review, The Pudding, Molly White's Annotate, Stripe Press.*

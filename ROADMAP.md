@@ -5,7 +5,7 @@
 ---
 
 ## THE SHORT ANSWER
-What we have built is not an essay and not a book. It is a **knowledge graph**: nodes (figures, works, institutions), edges (welds and hypotheses, each graded), and a thesis the graph supports. That structure is *why* the question has more than one answer — a graph can be **read** as an argument (a book), **zoomed into** as decodes (essays), and **browsed** as a reference (a database/site). All three draw from the same spine. You don't have to choose one. You have to choose the **order**, and guard against the one real trap.
+What we have built is not an essay and not a book. It is a **knowledge graph**: nodes (figures, works, institutions), edges (welds and hypotheses, each graded), and a thesis the graph supports. That structure is *why* the question has more than one answer — a graph can be **read** as an argument (a book), **elaborated** as essays about the work (thesis/lineage/method), and **browsed** as a reference (a database/site). All three draw from the same spine. You don't have to choose one. You have to choose the **order**, and guard against the one real trap.
 
 ---
 
@@ -20,14 +20,16 @@ Every figure, work, institution, weld, and date as a **structured, cross-linked 
 ### Tier 1 — THE BOOK  *(the flagship — where the thesis is strongest)*
 The argument, told as **narrative intellectual history**: *The Managed Child.* A traversal of the graph with a thesis — the root, the trunk, the two registers, the lifespan continuum — written in prose, with the esoteric current as the uncanny parallel and the denominator concession made out loud.
 - **Why it's the flagship:** the audit made this the bulletproof product. It is the most defensible, most serious, most durable thing here — the one that survives a hostile reader because every load-bearing claim is welded and every boundary is honest.
-- **It is NOT the essay voice.** The book is the sober register; the decodes are the inhabited voice. Keep them distinct.
+- **Register.** The book is the sober register; the parked decodes are the inhabited voice. Essays about the work sit between — pick the register the piece calls for, but keep the book's sober voice distinct from the decode voice.
 
-### Tier 2 — THE ESSAY SERIES  *(the popular surface — the existing brand)*
-"Ask About Illuminati" — the synchromystic media decodes in the **inhabited voice** (Nemo/Dory done, Cars in progress, then Fantasia / Inside Out / Pokémon / Harry Potter / Nickelodeon). These are the leaves of the tree: each one a zoom-in on a single media property, standing on the audited thesis beneath it.
-- **What the audit changed:** the essays now stand on a *foundation*, not on vibes. When an essay claims a symbol, the four-test filter and the reference node behind it are already there. The decodes get to be playful *because* the scaffolding under them is rigorous.
+### Tier 2 — THE ESSAYS  *(about the work — thesis, lineage, method)*
+> **Re-scoped 2026-07-10 (DECISIONS.md S-12).** "Essays" now means essays **about the work itself** — the thesis, the lineage, the method — each drawing on `data/nodes/**` and linking every claim to the reference node that grounds it. The **"Ask About Illuminati" media decode series** below is **parked** in `essays/_parked-decodes/` (out of the active build) and **reintroduced later**; it is retained here as brand context, not as the current essay work.
+
+*(Parked — reintroduced later.)* "Ask About Illuminati" — the synchromystic media decodes in the **inhabited voice** (Nemo/Dory done, Cars in progress, then Fantasia / Inside Out / Pokémon / Harry Potter / Nickelodeon). Each a zoom-in on a single media property, standing on the audited thesis beneath it.
+- **What the audit changed:** the decodes stand on a *foundation*, not on vibes. When one claims a symbol, the four-test filter and the reference node behind it are already there — they get to be playful *because* the scaffolding under them is rigorous.
 
 ### Tier 3 — THE WEBSITE  *(the container — ties all three together)*
-The surface that hosts the reference (Tier 0) as a browsable graph, the book (Tier 1) as the spine, and the essays (Tier 2) as the leaves — **cross-linked.** An essay's every claim links back to the reference node that grounds it; the book's chapters link to both. The reader can move from a playful decode → to the thesis chapter → to the graded evidence node, and back.
+The surface that hosts the reference (Tier 0) as a browsable graph, the book (Tier 1) as the spine, and the essays (Tier 2) as the leaves — **cross-linked.** An essay's every claim links back to the reference node that grounds it; the book's chapters link to both. The reader can move from an essay → to the thesis chapter → to the graded evidence node, and back.
 - **This is the payoff of the graph structure:** the same Julian-Huxley-at-UNESCO node is a reference entry, a book beat, and an essay citation — authored once, surfaced three ways.
 
 ---
@@ -43,8 +45,8 @@ The surface that hosts the reference (Tier 0) as a browsable graph, the book (Ti
 ## RECOMMENDED SEQUENCE
 1. **Atomize the bank into the database (Tier 0) — the right next build.** Convert the three working files into linked, graded entries. This is your encyclopedic instinct, executed as *infrastructure*. It loses nothing and makes everything downstream faster. It is also the natural home for the "every detail" impulse — safely, because entries are graded, not sprawling.
 2. **Write the book (Tier 1) as the flagship** — traverse the graph with the thesis. This is where the strongest, most defensible work lives, and it's what the whole audit was quietly preparing.
-3. **Run the essay series (Tier 2) in parallel** — the brand keeps producing decodes, each now standing on the audited foundation. Essays can ship while the book is written; they feed interest back to it.
-4. **Stand up the website (Tier 3) last** — once there's a book spine and a few essays, the container that cross-links reference + argument + decode becomes worth building.
+3. **Write essays about the work (Tier 2) in parallel** — essays on the thesis/lineage/method, each grounded in `data/nodes/**` and linking claims to their nodes. They can ship while the book is written; they feed interest back to it. *(The media decodes are parked — DECISIONS.md S-12 — and reintroduced later.)*
+4. **Stand up the website (Tier 3) last** — once there's a book spine and a few essays, the container that cross-links reference + argument + essays becomes worth building.
 
 **One decision to make now, before any building:** *is the flagship the book or the site?* If the ambition is a durable intellectual work, the book leads and the site serves it. If the ambition is a living, growing public reference, the site (Tier 0 made public) leads and the book is extracted from it later. Both are legitimate; they imply different next moves. Everything else in the sequence is stable regardless of that choice.
 
