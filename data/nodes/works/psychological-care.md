@@ -6,27 +6,25 @@ category: works
 dates: "1928"
 grade: WELD
 map_node: "5.2"
-status: stub
-sources: []          # primary/secondary refs go here
-welds: []            # documented edges: [{to: id, type: influenced|met|funded|cited|founded|advised, grade: WELD, source: ...}]
-hypotheses: []       # ungraded/suspected edges, same shape
-tags: []
+status: drafted
+abstract: "Psychological Care of Infant and Child (1928) is John B. Watson's application of behaviorism to childrearing. Its program is engineered detachment, stated in the author's own words: 'not more babies but better brought up babies'; a child who 'has no great attachments to any place or person'; and the instruction to parents, 'Never hug and kiss them, never let them sit on your lap… Shake hands with them in the morning.' The detachment is named by its designer as the goal."
+sources:
+  - "John B. Watson, Psychological Care of Infant and Child (1928) — 'not more babies but better brought up babies'; a child with 'no great attachments to any place or person'; 'Never hug and kiss them, never let them sit on your lap. If you must, kiss them once on the forehead when they say good night. Shake hands with them in the morning' — [PRIMARY]"
+welds:
+  - {to: watson-john-b, type: cited, register: worked-off, grade: WELD, source: "Watson's own childrearing manual — the detachment program in his words"}
+  - {to: managed-child, type: influenced, register: same-field, grade: WELD, source: "the clearest statement of the child as something to be conditioned, by design"}
+tags: [rail-enactment, enactment]
 ---
 
 # Psychological Care of Infant and Child (Watson)
 
-> **WELD** · map node 5.2 · 1928
+The detachment program, in the designer's own words. Watson's 1928 manual applied behaviorism to the raising of children.
 
-"Not more babies but better brought up babies"; engineered detachment.
-
-## Documented core [WELD]
-_STUB — expand from the lineage map + primary sources. Every claim carries a grade; every source is named._
-
-## Edges
-_Who this connects to, and how (worked-off = encounter documented; same-field = parallel). Mirror in frontmatter `welds`/`hypotheses`._
+## Documented core
+The book instructs parents to treat children as small adults to be trained rather than loved: "Never hug and kiss them, never let them sit on your lap. If you must, kiss them once on the forehead when they say good night. Shake hands with them in the morning." Its stated aim is "not more babies but better brought up babies," and its ideal is a child who "has no great attachments to any place or person." Engineered detachment is named by its architect as the goal — the passages need no gloss.
 
 ## Held-open / discard
-_HYPOTHESIS and FICTION-ALERT items; anything graded down and why._
+The book's authority drew on Watson's fame as the behaviorist of the 1920 "Little Albert" conditioning study. That experiment's methodology, the extent of its results, its lasting effects, and the identity and fate of the infant are all **contested in the later literature and are not relied on here** — the documented program stands entirely on Watson's own published childrearing text, which is damning without any experiment behind it.
 
 ## Role in the thesis
-_How this node serves the root / a register / the continuum. Symptom-not-cause where relevant._
+Enactment, at its bluntest: the child stated outright as a thing to be conditioned toward independence-as-detachment, by a named authority, in a book that sold. Symptom of the root, primary-sourced, needing no esoteric input.

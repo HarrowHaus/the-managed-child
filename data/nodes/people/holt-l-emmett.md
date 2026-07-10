@@ -6,27 +6,24 @@ category: people
 dates: "1855-1924"
 grade: WELD
 map_node: "5.9"
-status: stub
-sources: []          # primary/secondary refs go here
-welds: []            # documented edges: [{to: id, type: influenced|met|funded|cited|founded|advised, grade: WELD, source: ...}]
-hypotheses: []       # ungraded/suspected edges, same shape
-tags: []
+status: drafted
+abstract: "L. Emmett Holt (1855–1924), a leading American pediatrician, wrote The Care and Feeding of Children (1894), a question-and-answer 'catechism' for mothers and nurses that ran to roughly 75 editions and made scheduled, hygienic, discipline-first infant care the norm. It is the secular precursor to the behaviorist childrearing program: the infant managed on a timetable, regularity valued over indulgence."
+sources:
+  - "L. Emmett Holt, The Care and Feeding of Children: A Catechism for the Use of Mothers and Children's Nurses (1894) — scheduled feeding, regularity, hygienic discipline; full text on Project Gutenberg — [PRIMARY]"
+welds:
+  - {to: managed-child, type: influenced, register: same-field, grade: WELD, source: "scheduled, disciplined, hygienic infant care is the managed child in the nursery, decades before behaviorism theorized it"}
+tags: [rail-enactment, enactment]
 ---
 
 # L. Emmett Holt
 
-> **WELD** · map node 5.9 · 1855-1924
+The scheduler. Holt made the managed infant a matter of expert routine before anyone called it conditioning.
 
-The Care and Feeding of Children (1894); scientific motherhood; influenced Watson.
-
-## Documented core [WELD]
-_STUB — expand from the lineage map + primary sources. Every claim carries a grade; every source is named._
-
-## Edges
-_Who this connects to, and how (worked-off = encounter documented; same-field = parallel). Mirror in frontmatter `welds`/`hypotheses`._
+## Documented core
+Holt's *The Care and Feeding of Children* (1894), written as a catechism of questions and answers for mothers and nurses, ran to some 75 editions and set the pattern for a generation: infant care by fixed schedule, hygiene, and regularity, guided by a physician's authority rather than family custom. The child is managed on a timetable — fed, slept, and handled by rule. It is the same disposition the behaviorists would later give a theory.
 
 ## Held-open / discard
-_HYPOTHESIS and FICTION-ALERT items; anything graded down and why._
+The stern anti-affection instruction popularly attached to Holt — that mothers should not kiss their babies — fits his hygienic regime and is widely repeated, but the exact wording is not quoted here without a check against the text. The documented core is the scheduling, discipline, and enormous reach of the manual, which stands on its own.
 
 ## Role in the thesis
-_How this node serves the root / a register / the continuum. Symptom-not-cause where relevant._
+Enactment, and part of the denominator: an ordinary, secular, well-meant medical authority who helped constitute the infant as an object of expert management. A co-symptom of the root in the nursery, never a hidden cause.
