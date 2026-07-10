@@ -66,7 +66,13 @@ const essays = defineCollection({
   }),
   schema: z.object({
     title: z.string(),
+    subtitle: z.string().optional(),
+    date: z.coerce.date().optional(),
     status: z.string().default('stub'),
+    rail: z.string().optional(),
+    // grounding nodes (the essay's "receipts") — linked, poppable, at the foot
+    grounding_nodes: strList,
+    // fields on the stub index / older essays
     scope: z.string().optional(),
     stands_on: strList,
     draws_on: strList,

@@ -1,0 +1,48 @@
+---
+import { getCollection, render } from 'astro:content';
+import GwernShell from '../../layouts/GwernShell.astro';
+import { standingFromGrade } from '../../lib/certainty';
+
+// One page per essay ABOUT THE WORK. The stub index and anything under
+// _parked-decodes are excluded (the latter by the collection glob). Essays are
+// the inhabited voice with the apparatus stripped (CONVENTIONS §8): the page
+// shows clean prose; its grounding nodes are linked (poppable) at the foot as
+// the "receipts one hover away," never as visible grades.
+export async function getStaticPaths() {
+  const essays = (await getCollection('essays')).filter((e) => e.id !== 'index');
+  const nodes = await getCollection('nodes', (n) => !standingFromGrade(n.data.grade).discarded);
+  const byId = new Map(nodes.map((n) => [n.data.id, n.data.title]));
+  return essays.map((essay) => ({ params: { slug: essay.id }, props: { essay, byId } }));
+}
+
+const { essay, byId } = Astro.props;
+const d = essay.data;
+const { Content } = await render(essay);
+const dateStr = d.date
+  ? d.date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' })
+  : null;
+---
+<GwernShell title={d.title}>
+  <div slot="metadata" class="page-metadata-fields">
+    {d.subtitle && <span class="page-description-inline"><em>{d.subtitle}</em></span>}
+    <span class="page-type">essay</span>
+    {dateStr && <span class="page-date-range">{dateStr}</span>}
+  </div>
+
+  <Content />
+
+  {d.grounding_nodes.length > 0 && (
+    <section class="essay-grounding">
+      <p><strong>Grounded in.</strong> The reference nodes this essay stands on — hover to read each.</p>
+      <ul>
+        {d.grounding_nodes.map((id) => (
+          byId.has(id) ? (
+            <li><a class="link-annotated" href={`/nodes/${id}`}>{byId.get(id)}</a></li>
+          ) : (
+            <li>{id}</li>
+          )
+        ))}
+      </ul>
+    </section>
+  )}
+</GwernShell>

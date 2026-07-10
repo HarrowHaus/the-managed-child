@@ -3,6 +3,7 @@ import { defineConfig } from 'astro/config';
 import remarkStripScaffolding from './src/lib/remark-strip-scaffolding.mjs';
 import remarkAutolinkNodes from './src/lib/remark-autolink-nodes.mjs';
 import rehypeSourceFootnotes from './src/lib/rehype-source-footnotes.mjs';
+import rehypeEssayNodeLinks from './src/lib/rehype-essay-node-links.mjs';
 
 // The Managed Child — reading environment on a fork of Gwern's frontend.
 // build.format 'directory' keeps URLs extensionless and dot-free (e.g.
@@ -17,6 +18,6 @@ export default defineConfig({
     smartypants: true,
     gfm: true,
     remarkPlugins: [remarkStripScaffolding, remarkAutolinkNodes],
-    rehypePlugins: [rehypeSourceFootnotes],
+    rehypePlugins: [rehypeSourceFootnotes, rehypeEssayNodeLinks],
   },
 });
