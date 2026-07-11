@@ -48,7 +48,7 @@ for (const list of byCat.values()) list.sort((a, b) => a.data.title.localeCompar
         <h2 id={cat}>{titleCase(cat)}</h2>
         <ul>
           {list.map((n) => (
-            <li><a class="link-page" href={`/nodes/${n.data.id}`}>{n.data.title}</a></li>
+            <li><a class="link-page" href={`/nodes/${n.data.id}/`}>{n.data.title}</a></li>
           ))}
         </ul>
       </>

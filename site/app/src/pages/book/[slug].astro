@@ -34,7 +34,7 @@ const { Content } = await render(chapter);
           <div class="node-embed">
             {/* Inline transclusion: the forked transclude.js fetches /nodes/<id>
                 and embeds its #markdownBody here on load. */}
-            <a class="include include-strict" href={`/nodes/${id}`}>{byId.get(id)}</a>
+            <a class="include include-strict" href={`/nodes/${id}/`}>{byId.get(id)}</a>
           </div>
         ) : (
           <p>{id}</p>

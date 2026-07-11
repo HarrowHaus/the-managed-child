@@ -1,8 +1,9 @@
 // Rewrite essay links that point at node SOURCE paths
 // (e.g. `../data/nodes/concepts/the-root.md`) to the site's node ROUTES
-// (`/nodes/the-root`), and mark them `link-annotated` so they pop the concise
-// annotation card — the "receipts one hover away" the voice wall allows
-// (CONVENTIONS §8): the prose reads clean, the grounding node is one hover away.
+// (`/nodes/the-root/`), and mark them `link-page` so they pop the whole node as a
+// local-page transclusion (CLAUDE.md rule d) — the "receipts one hover away" the
+// voice wall allows (CONVENTIONS §8), via Content.contentTypes.localPage rather
+// than the fragile %2F annotation fetch. Trailing slash avoids a 308 on the fetch.
 //
 // Runs as a rehype pass (hast). Only rewrites links whose target node actually
 // exists (via the node index); anything else is left untouched.
@@ -16,9 +17,9 @@ export default function rehypeEssayNodeLinks() {
     if (node.type === 'element' && node.tagName === 'a' && node.properties?.href) {
       const m = String(node.properties.href).match(NODE_PATH);
       if (m && index.has(m[1])) {
-        node.properties.href = `/nodes/${m[1]}${m[2] ?? ''}`;
+        node.properties.href = `/nodes/${m[1]}/${m[2] ?? ''}`;
         const cls = node.properties.className ?? [];
-        node.properties.className = Array.isArray(cls) ? [...cls, 'link-annotated'] : [cls, 'link-annotated'];
+        node.properties.className = Array.isArray(cls) ? [...cls, 'link-page'] : [cls, 'link-page'];
       }
     }
     node.children?.forEach(visit);

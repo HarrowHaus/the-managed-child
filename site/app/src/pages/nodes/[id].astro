@@ -44,7 +44,7 @@ const resolve = (id: string) => byId.get(id)?.data;
           return (
             <li>
               {target ? (
-                <a href={`/nodes/${e.to}`} class="link-annotated">{target.title}</a>
+                <a href={`/nodes/${e.to}/`} class="link-page">{target.title}</a>
               ) : (
                 <span>{e.to}</span>
               )}

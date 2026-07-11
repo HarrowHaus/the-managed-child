@@ -37,7 +37,7 @@ const dateStr = d.date
       <ul>
         {d.grounding_nodes.map((id) => (
           byId.has(id) ? (
-            <li><a class="link-annotated" href={`/nodes/${id}`}>{byId.get(id)}</a></li>
+            <li><a class="link-page" href={`/nodes/${id}/`}>{byId.get(id)}</a></li>
           ) : (
             <li>{id}</li>
           )

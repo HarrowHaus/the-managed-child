@@ -1,9 +1,11 @@
 // Auto-linkify explicit node-id references in prose (spec §IV.2 step 7). Node
 // bodies cite other nodes as backtick code (`managed-child`). Convert any inline
 // code whose value is a known node id into a real inter-node link. These get
-// clean, dot-free hrefs (/nodes/<id>), so Gwern's frontend auto-pops them as
-// transclusions — no class needed. Gated to exact id matches only (no fuzzy
-// matching), so it cannot create false links.
+// clean, dot-free, trailing-slash hrefs (/nodes/<id>/) and the `link-page` class,
+// so Gwern's frontend pops them as WHOLE-PAGE transclusions (CLAUDE.md rule d) —
+// via Content.contentTypes.localPage, not the fragile %2F annotation fetch. The
+// trailing slash matches the directory-format route and avoids a 308 redirect on
+// the transclusion fetch. Gated to exact id matches only, so no false links.
 import { nodeIndex } from './node-index.mjs';
 
 export default function remarkAutolinkNodes() {
@@ -16,11 +18,10 @@ export default function remarkAutolinkNodes() {
           const id = child.value.trim();
           return {
             type: 'link',
-            url: `/nodes/${id}`,
+            url: `/nodes/${id}/`,
             title: null,
-            // link-annotated → pops the concise annotation snippet
-            // (/metadata/annotation/…) rather than transcluding the whole page.
-            data: { hProperties: { className: ['link-annotated'] } },
+            // link-page → whole-page local transclusion (rule d), stacks recursively.
+            data: { hProperties: { className: ['link-page'] } },
             children: [{ type: 'text', value: index.get(id).title }],
           };
         }
