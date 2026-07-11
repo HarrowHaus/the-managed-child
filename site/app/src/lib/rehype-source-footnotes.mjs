@@ -8,8 +8,15 @@
 // and source-less nodes are untouched.
 
 function stripSourceTag(s) {
-  // Drop a trailing quality tag "… — [PRIMARY]" — that is internal apparatus.
-  return s.replace(/\s*—\s*\[[^\]]+\]\s*$/, '').trim();
+  // Drop the internal source-quality apparatus so it never reaches the reader:
+  //   1. a trailing bracket tag of any kind ("… — [SECONDARY: note]")
+  //   2. a workflow tag anywhere ("… — [PRIMARY] (text confirmed …)"), which the
+  //      trailing rule misses when a parenthetical note follows it.
+  return s
+    .replace(/\s*—\s*\[[^\]]+\]\s*$/, '')
+    .replace(/\s*—?\s*\[(?:PRIMARY|SECONDARY|VERIFY)\b[^\]]*\]/gi, ' ')
+    .replace(/\s{2,}/g, ' ')
+    .trim();
 }
 
 export default function rehypeSourceFootnotes() {

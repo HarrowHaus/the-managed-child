@@ -30,7 +30,7 @@ In 1916 Terman published the Stanford revision of the Binet–Simon scale, the d
 - **cited → `galton-francis`** (same-field): the Galtonian tradition is the obvious lineage, but no specific documented citation is attached — held open, not asserted as transmission.
 
 ## Held-open / discard
-The eugenics-society memberships are standard biographical record; flagged VERIFY until checked against a primary roll. The claim as carded — that Terman advocated tracking by test — rests on the 1916 text and survives regardless.
+The eugenics-society memberships are standard biographical record; left unverified until checked against a primary roll. The claim as carded — that Terman advocated tracking by test — rests on the 1916 text and survives regardless.
 
 ## Role in the thesis
 Thesis A. Eugenics here is a **co-symptom of the root** — the same rank-and-administer impulse, in the theater of measurement — never a hidden cause, and never routed to any ethnic or bloodline collective.

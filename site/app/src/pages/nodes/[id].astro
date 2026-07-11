@@ -38,33 +38,16 @@ export async function getStaticPaths() {
   const essays = (await getCollection('essays')).filter((e) => e.id !== 'index');
   const byId = new Map(nodes.map((n) => [n.data.id, n]));
 
-  // targetId → { fromEssays: [...], fromNodes: [...] }
+  // "Referenced by" is REVERSE CITATIONS ONLY — entries that cite this node,
+  // shown with their citing context. That is the reading: each essay that links
+  // here, with the sentence it links from. Node→node out-edges are NOT included;
+  // the graph relationships already live, canonically, in this node's own "Edges"
+  // list, and repeating them here would render the same edge set twice.
   const back = new Map();
   const bucket = (id) => {
-    if (!back.has(id)) back.set(id, { fromEssays: [], fromNodes: [] });
+    if (!back.has(id)) back.set(id, { fromEssays: [] });
     return back.get(id);
   };
-
-  // Graph backlinks: invert every out-edge (welds + hypotheses). One entry per
-  // (source → target); the edge's type/register/source is the citing context.
-  // We render `type`, `register`, `source` — never the internal `grade`.
-  for (const n of nodes) {
-    if (n.data.backlink === false) continue; // aggregator opts out as a source
-    const seen = new Set();
-    for (const e of [...n.data.welds, ...n.data.hypotheses]) {
-      if (!byId.has(e.to) || e.to === n.data.id || seen.has(e.to)) continue;
-      seen.add(e.to);
-      // Only the relationship (type · register) is rendered — matching the
-      // forward "Edges" section. The edge `source` is an internal authoring
-      // note and never reaches reader-facing HTML.
-      bucket(e.to).fromNodes.push({
-        id: n.data.id,
-        title: n.data.title,
-        rel: e.type.replace(/-/g, ' '),
-        register: e.register ?? null,
-      });
-    }
-  }
 
   // Reading backlinks: inline prose links first (they carry a citing sentence),
   // then any grounding_nodes not already caught inline (linked without a quote).
@@ -90,15 +73,14 @@ export async function getStaticPaths() {
     }
   }
 
-  // Stable order: reading in canonical sequence, graph alphabetical.
+  // Stable order: the reading in its canonical sequence.
   for (const b of back.values()) {
     b.fromEssays.sort((x, y) => essayRank(x.slug) - essayRank(y.slug));
-    b.fromNodes.sort((x, y) => x.title.localeCompare(y.title));
   }
 
   return nodes.map((node) => ({
     params: { id: node.data.id },
-    props: { node, byId, backlinks: back.get(node.data.id) ?? { fromEssays: [], fromNodes: [] } },
+    props: { node, byId, backlinks: back.get(node.data.id) ?? { fromEssays: [] } },
   }));
 }
 
@@ -107,8 +89,7 @@ const d = node.data;
 const { Content } = await render(node);
 const edges = [...d.welds, ...d.hypotheses];
 const resolve = (id: string) => byId.get(id)?.data;
-const showReferencedBy =
-  d.backlink !== false && (backlinks.fromEssays.length > 0 || backlinks.fromNodes.length > 0);
+const showReferencedBy = d.backlink !== false && backlinks.fromEssays.length > 0;
 ---
 <GwernShell title={d.title}>
   <MetadataLine
@@ -116,7 +97,6 @@ const showReferencedBy =
     grade={d.grade}
     tags={d.tags}
     dates={d.dates}
-    status={d.status}
     category={d.category}
   />
 
@@ -150,29 +130,15 @@ const showReferencedBy =
 
   {showReferencedBy && (
     <section class="referenced-by aux-links-append">
-      <p><strong>Referenced by.</strong> Where this entry is cited — hover any to read it in place.</p>
-
-      {backlinks.fromEssays.length > 0 && (
-        <ul class="ref-reading">
-          {backlinks.fromEssays.map((e) => (
-            <li>
-              <a class="link-page" href={`/essays/${e.slug}`}>{e.title}</a>
-              {e.sentence && <span class="ref-context"> — “{e.sentence}”</span>}
-            </li>
-          ))}
-        </ul>
-      )}
-
-      {backlinks.fromNodes.length > 0 && (
-        <ul class="ref-graph">
-          {backlinks.fromNodes.map((n) => (
-            <li>
-              <a class="link-page" href={`/nodes/${n.id}/`}>{n.title}</a>
-              <span class="ref-context"> — {n.rel}{n.register ? ` · ${n.register}` : ''}</span>
-            </li>
-          ))}
-        </ul>
-      )}
+      <p><strong>Referenced by.</strong> Where this entry is cited in the reading — hover any to read it in place.</p>
+      <ul class="ref-reading">
+        {backlinks.fromEssays.map((e) => (
+          <li>
+            <a class="link-page" href={`/essays/${e.slug}`}>{e.title}</a>
+            {e.sentence && <span class="ref-context"> — “{e.sentence}”</span>}
+          </li>
+        ))}
+      </ul>
     </section>
   )}
 </GwernShell>

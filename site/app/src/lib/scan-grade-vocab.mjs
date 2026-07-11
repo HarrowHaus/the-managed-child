@@ -41,6 +41,9 @@ const ALLOW = [
   { page: '/nodes/crowley-aleister/', token: 'welded', context: 'welded inside one document', reason: 'English verb "to weld" (join); not grade jargon' },
   { page: '/nodes/four-idiom-through-line/', token: 'welded', context: 'are welded inside the same 1904 document', reason: 'English verb "to weld" (join); not grade jargon' },
   { page: '/metadata/annotation/%2Fnodes%2Fcrowley-aleister.html', token: 'welds', context: 'welds the elect to the many', reason: 'English verb "to weld" (join); not grade jargon' },
+  // Ordinary-English uses of a status word — not the internal drafting status.
+  { page: '/essays/the-four-idioms/', token: 'locked', context: 'locked door', reason: 'ordinary English "a locked door"; not the drafting status' },
+  { page: '/nodes/unesco/', token: 'drafted', context: 'drafted by', reason: 'ordinary English — the UNESCO Preamble "drafted by Archibald MacLeish"' },
 ];
 
 // ── token patterns ───────────────────────────────────────────────────────────
@@ -48,6 +51,14 @@ const ALLOW = [
 const LABELS = /\b(?:WELD|HYPOTHESIS|FICTION-ALERT|DISCARD|FRAME|PRINCIPLE)\b/g;
 // "weld" jargon in lowercase prose form (case-sensitive; all-caps WELD is a LABEL).
 const WELD_JARGON = /\bweld(?:s|ed|ing)?\b/g;
+// Softer workflow apparatus: source-quality tags used as tokens. Matched ONLY in
+// ALL-CAPS form, so ordinary lowercase "primary source"/"secondary" pass; only the
+// internal tag ("[PRIMARY]", "Graded SECONDARY", "VERIFY flag") is a leak.
+const WORKFLOW = /\b(?:PRIMARY|SECONDARY|VERIFY)\b/g;
+// Internal drafting status. These are ordinary English words, so matched broadly
+// and cleared by ALLOW where the use is genuine prose (a "locked door", a preamble
+// "drafted by" someone). The status field itself never renders (MetadataLine).
+const STATUS = /\b(?:stub|drafted|locked)\b/gi;
 
 /** Strip scripts/styles/comments/tags → the text a reader actually sees. */
 function visibleText(html) {
@@ -77,7 +88,7 @@ function contextAround(text, index, len) {
 }
 
 function scanText(text, pagePath, findings) {
-  for (const re of [LABELS, WELD_JARGON]) {
+  for (const re of [LABELS, WELD_JARGON, WORKFLOW, STATUS]) {
     re.lastIndex = 0;
     let m;
     while ((m = re.exec(text)) !== null) {
@@ -115,11 +126,13 @@ export async function scanGradeVocab(distDir) {
 /** Format findings into a human-readable, actionable error block. */
 export function formatFindings(findings) {
   const lines = [
-    `Grade vocabulary leaked into ${findings.length} place(s) of rendered visible text.`,
+    `Internal vocabulary leaked into ${findings.length} place(s) of rendered visible text.`,
     `The reader must never see WELD/HYPOTHESIS/FICTION-ALERT/DISCARD/FRAME/PRINCIPLE`,
-    `(or lowercase "weld") — CLAUDE.md rule (b). Rewrite the source prose to the`,
-    `plain-word claim-limit ("held open", "not asserted", "documented"), or, if`,
-    `genuinely legitimate, add a narrow entry to ALLOW in src/lib/scan-grade-vocab.mjs.`,
+    `(or lowercase "weld"), the internal drafting status (stub/drafted/locked), or the`,
+    `source-quality tags PRIMARY/SECONDARY/VERIFY — CLAUDE.md rule (b). Rewrite the`,
+    `source prose to plain English ("rests on secondary sources", "unverified",`,
+    `"documented"), or, if genuinely legitimate, add a narrow entry to ALLOW in`,
+    `src/lib/scan-grade-vocab.mjs.`,
     '',
   ];
   for (const f of findings) {

@@ -25,7 +25,7 @@ The finder. Leadbeater, a leading Theosophist, identified the boy Krishnamurti i
 At Adyar in 1909 Leadbeater singled out the adolescent Krishnamurti as the likely vehicle for the coming World Teacher — the identification that produced the Order of the Star in the East and the whole World-Teacher episode.
 
 ## Held-open / discard
-Leadbeater's conduct was the subject of documented scandal inside the Theosophical Society (1906 impropriety allegations). Per the hard sourcing rule, this is included as **record** — a co-symptom, never softened and never used to route the thesis through a coded collective. The date/specifics carry a VERIFY flag pending a primary check.
+Leadbeater's conduct was the subject of documented scandal inside the Theosophical Society (1906 impropriety allegations). Per the hard sourcing rule, this is included as **record** — a co-symptom, never softened and never used to route the thesis through a coded collective. The date and specifics are unverified here, pending a primary check.
 
 ## Role in the thesis
 Articulation, not cause. Leadbeater's role is to establish the World-Teacher idiom as an operational institution — testimony to the impulse, held apart from the sociology.

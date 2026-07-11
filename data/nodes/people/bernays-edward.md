@@ -39,7 +39,7 @@ He demonstrated it. Hired by the American Tobacco Company, he staged roughly ten
 The `lippmann-walter` relation is demoted to a **hypothesis** on direction. *Public Opinion* (1922) precedes *Crystallizing* (1923), and the phrase "the manufacture of consent" is **Lippmann's coinage, not Bernays's**. An earlier revision of this node carried an `influenced` out-edge from Bernays to Lippmann, which reverses the chronology. The two texts are adjacent members of one persuasion canon; whether Bernays worked off Lippmann is unestablished.
 
 ## Held-open / discard
-- **"Torches of Freedom" rests on secondary sources here.** The campaign is thoroughly documented in the scholarship but was not verified against Bernays's own account (*Biography of an Idea*) in this pass. Graded **SECONDARY**, not primary.
+- **"Torches of Freedom" rests on secondary sources here.** The campaign is thoroughly documented in the scholarship but was not verified against Bernays's own account (*Biography of an Idea*) in this pass. It rests on secondary sources here, not a confirmed primary.
 - **No occult tie is claimed or needed.** Bernays is pure Thesis A. Nothing in this node is graded down for esoteric content because none is asserted.
 - **The "invisible government" phrase is Bernays's own, and is not a metaphor for a cabal.** It describes a hireable trade operating in daylight. Any reading that converts it into evidence of a secret directing body inverts the node's meaning and is discarded.
 
