@@ -6,27 +6,23 @@ category: concepts
 dates: "-"
 grade: PRINCIPLE
 map_node: "Conv"
-status: stub
-sources: []          # primary/secondary refs go here
-welds: []            # documented edges: [{to: id, type: influenced|met|funded|cited|founded|advised, grade: WELD, source: ...}]
-hypotheses: []       # ungraded/suspected edges, same shape
-tags: []
+status: drafted
+abstract: "The grading system is the site's discipline of visible validity: every claim carries a plain certainty word — documented, possible, or apocryphal — so a reader can see at a glance how far the evidence for it reaches. The certainty is not a label on the argument; it is part of the argument, because a claim shown at its true strength cannot be quietly inflated into a stronger one."
+sources: []
+welds: []
+hypotheses: []
+tags: [convention, method, honesty]
 ---
 
 # The Grading System
 
-> **PRINCIPLE** · map node Conv · -
+Honesty made checkable. Every claim on the site wears its certainty in a plain word, so the reader can audit the argument as they read it.
 
-Every claim on this site carries a plain certainty word — *documented · possible · apocryphal* — and that certainty is itself part of the argument.
+## The convention
+Three words do the work. **Documented** marks a claim that rests on a primary source named on the page. **Possible** marks one that is plausible and sourced but not settled — held open rather than asserted. **Apocryphal** marks a claim that is repeated in the literature but could not be confirmed, and so is reported, not relied on. The word is derived at build time from the project's own sourcing checks and shown beside the claim; the reader never has to take the argument's strength on trust, because the strength is on the page.
 
-## Documented core [WELD]
-_STUB — expand from the lineage map + primary sources. Every claim carries a grade; every source is named._
-
-## Edges
-_Who this connects to, and how (worked-off = encounter documented; same-field = parallel). Mirror in frontmatter `welds`/`hypotheses`._
-
-## Held-open / discard
-_HYPOTHESIS and FICTION-ALERT items; anything graded down and why._
+## Why it is load-bearing
+A study that files its weak claims and its strong ones under the same confident tone can smuggle the weak past the reader on the momentum of the strong. Marking each claim at its real weight makes that impossible from the inside: an over-reach shows up as a word that does not match its evidence. The grading is therefore not decoration on the argument but a working part of it — the argument carries its own audit.
 
 ## Role in the thesis
-_How this node serves the root / a register / the continuum. Symptom-not-cause where relevant._
+The convention that lets the whole hold together honestly: the reader can check any claim against its own mark, and the project can be caught by its own standard wherever it fails to meet it.
