@@ -3,20 +3,112 @@ import { getCollection, render } from 'astro:content';
 import GwernShell from '../../layouts/GwernShell.astro';
 import MetadataLine from '../../components/MetadataLine.astro';
 import { standingFromGrade } from '../../lib/certainty';
+import { essayRank } from '../../lib/essay-order';
 
 // One page per node, keyed by frontmatter `id` (the edge-target key, and the
 // clean dot-free URL that lets Gwern's frontend auto-pop inter-node links).
+//
+// "Referenced by" (this file's addition) is the reverse of the reading's
+// "Grounded in": a build-time backlink index over the EXISTING link/edge data —
+// every reading entry and every node that points here, shown with its citing
+// context and left poppable (Gwern-style reverse transclusion). No new data is
+// authored; it is inverted from essay bodies + node `welds`/`hypotheses`.
+// Aggregator/index nodes opt out with frontmatter `backlink: false`.
 export async function getStaticPaths() {
+  const stripMd = (s) =>
+    s
+      .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
+      .replace(/`([^`]+)`/g, '$1')
+      .replace(/\*\*([^*]+)\*\*/g, '$1')
+      .replace(/(?<!\w)[*_]([^*_]+)[*_]/g, '$1')
+      .replace(/\s+/g, ' ')
+      .trim();
+  // The sentence in `body` that contains [start,end); markdown stripped to plain text.
+  const sentenceAround = (body, start, end) => {
+    const pre = body.slice(0, start);
+    const bounds = [...pre.matchAll(/(?:[.!?]["'”’)]?\s+)|\n\n/g)];
+    const a = bounds.length ? bounds[bounds.length - 1].index + bounds[bounds.length - 1][0].length : 0;
+    const post = body.slice(end);
+    const m = post.match(/(?:[.!?]["'”’)]?(?:\s|$))|\n\n/);
+    const b = m ? end + m.index + 1 : body.length;
+    return stripMd(body.slice(a, b));
+  };
+
   const nodes = await getCollection('nodes', (n) => !standingFromGrade(n.data.grade).discarded);
+  const essays = (await getCollection('essays')).filter((e) => e.id !== 'index');
   const byId = new Map(nodes.map((n) => [n.data.id, n]));
-  return nodes.map((node) => ({ params: { id: node.data.id }, props: { node, byId } }));
+
+  // targetId → { fromEssays: [...], fromNodes: [...] }
+  const back = new Map();
+  const bucket = (id) => {
+    if (!back.has(id)) back.set(id, { fromEssays: [], fromNodes: [] });
+    return back.get(id);
+  };
+
+  // Graph backlinks: invert every out-edge (welds + hypotheses). One entry per
+  // (source → target); the edge's type/register/source is the citing context.
+  // We render `type`, `register`, `source` — never the internal `grade`.
+  for (const n of nodes) {
+    if (n.data.backlink === false) continue; // aggregator opts out as a source
+    const seen = new Set();
+    for (const e of [...n.data.welds, ...n.data.hypotheses]) {
+      if (!byId.has(e.to) || e.to === n.data.id || seen.has(e.to)) continue;
+      seen.add(e.to);
+      // Only the relationship (type · register) is rendered — matching the
+      // forward "Edges" section. The edge `source` is an internal authoring
+      // note and never reaches reader-facing HTML.
+      bucket(e.to).fromNodes.push({
+        id: n.data.id,
+        title: n.data.title,
+        rel: e.type.replace(/-/g, ' '),
+        register: e.register ?? null,
+      });
+    }
+  }
+
+  // Reading backlinks: inline prose links first (they carry a citing sentence),
+  // then any grounding_nodes not already caught inline (linked without a quote).
+  const linkRe = /\[([^\]]+)\]\((?:\.\.\/)*data\/nodes\/[^/]+\/([a-z0-9-]+)\.md\)/g;
+  for (const es of essays) {
+    const body = es.body ?? '';
+    const seen = new Set();
+    let m;
+    while ((m = linkRe.exec(body)) !== null) {
+      const target = m[2];
+      if (!byId.has(target) || seen.has(target)) continue;
+      seen.add(target);
+      bucket(target).fromEssays.push({
+        slug: es.id,
+        title: es.data.title,
+        sentence: sentenceAround(body, m.index, m.index + m[0].length),
+      });
+    }
+    for (const gid of es.data.grounding_nodes) {
+      if (!byId.has(gid) || seen.has(gid)) continue;
+      seen.add(gid);
+      bucket(gid).fromEssays.push({ slug: es.id, title: es.data.title, sentence: null });
+    }
+  }
+
+  // Stable order: reading in canonical sequence, graph alphabetical.
+  for (const b of back.values()) {
+    b.fromEssays.sort((x, y) => essayRank(x.slug) - essayRank(y.slug));
+    b.fromNodes.sort((x, y) => x.title.localeCompare(y.title));
+  }
+
+  return nodes.map((node) => ({
+    params: { id: node.data.id },
+    props: { node, byId, backlinks: back.get(node.data.id) ?? { fromEssays: [], fromNodes: [] } },
+  }));
 }
 
-const { node, byId } = Astro.props;
+const { node, byId, backlinks } = Astro.props;
 const d = node.data;
 const { Content } = await render(node);
 const edges = [...d.welds, ...d.hypotheses];
 const resolve = (id: string) => byId.get(id)?.data;
+const showReferencedBy =
+  d.backlink !== false && (backlinks.fromEssays.length > 0 || backlinks.fromNodes.length > 0);
 ---
 <GwernShell title={d.title}>
   <MetadataLine
@@ -55,4 +147,38 @@ const resolve = (id: string) => byId.get(id)?.data;
       </ul>
     </div>
   )}
+
+  {showReferencedBy && (
+    <section class="referenced-by aux-links-append">
+      <p><strong>Referenced by.</strong> Where this entry is cited — hover any to read it in place.</p>
+
+      {backlinks.fromEssays.length > 0 && (
+        <ul class="ref-reading">
+          {backlinks.fromEssays.map((e) => (
+            <li>
+              <a class="link-page" href={`/essays/${e.slug}`}>{e.title}</a>
+              {e.sentence && <span class="ref-context"> — “{e.sentence}”</span>}
+            </li>
+          ))}
+        </ul>
+      )}
+
+      {backlinks.fromNodes.length > 0 && (
+        <ul class="ref-graph">
+          {backlinks.fromNodes.map((n) => (
+            <li>
+              <a class="link-page" href={`/nodes/${n.id}/`}>{n.title}</a>
+              <span class="ref-context"> — {n.rel}{n.register ? ` · ${n.register}` : ''}</span>
+            </li>
+          ))}
+        </ul>
+      )}
+    </section>
+  )}
 </GwernShell>
+
+<style>
+  .referenced-by { margin-top: 2.5em; }
+  .referenced-by .ref-reading { margin-bottom: 0.8em; }
+  .ref-context { opacity: 0.72; }
+</style>

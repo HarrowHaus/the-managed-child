@@ -22,22 +22,20 @@ const { essay, byId, essayTitles } = Astro.props;
 const d = essay.data;
 const { Content } = await render(essay);
 const { prev, next } = essayNeighbors(essay.id);
-const dateStr = d.date
-  ? d.date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' })
-  : null;
+// Long Content, not a blog: the publication date stays in frontmatter for
+// internal ordering but never renders (operator directive). No genre tag either
+// — a reading entry is titled by its own title.
 ---
 <GwernShell title={d.title}>
   <div slot="metadata" class="page-metadata-fields">
     {d.subtitle && <span class="page-description-inline"><em>{d.subtitle}</em></span>}
-    <span class="page-type">essay</span>
-    {dateStr && <span class="page-date-range">{dateStr}</span>}
   </div>
 
   <Content />
 
   {d.grounding_nodes.length > 0 && (
     <section class="essay-grounding">
-      <p><strong>Grounded in.</strong> The reference nodes this essay stands on — hover to read each.</p>
+      <p><strong>Grounded in.</strong> The reference nodes underneath — hover to read each.</p>
       <ul>
         {d.grounding_nodes.map((id) => (
           byId.has(id) ? (

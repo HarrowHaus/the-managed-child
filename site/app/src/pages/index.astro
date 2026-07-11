@@ -17,9 +17,9 @@ const essays = (await getCollection('essays'))
 
   {essays.length > 0 && (
     <>
-      <h2 id="essays">Essays</h2>
-      <p>Read in order, the essays form one continuous argument. Start with
-      <em> Two Testimonies</em> and read straight down, or step in anywhere.</p>
+      <h2 id="the-reading">The Reading</h2>
+      <p>Read in order, these form one continuous argument. Start with
+      <em>Two Testimonies</em> and read straight down, or step in anywhere.</p>
       <ol class="essay-sequence">
         {essays.map((e) => (
           <li>
