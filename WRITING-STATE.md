@@ -112,9 +112,9 @@ Do the enactment/lifespan corners next to light the last rail and build the card
 ### Group B — method essays (judged by method-critic, not the standard critic)
 - ✅ **reverberation-not-conspiracy (09)** — DONE: method-stance carded (PRINCIPLE); essay gold + operator-approved 2026-07-10. Enacts the discipline silently — thesis stated nowhere (title retitled "A Great Deal of Reading"; slug unchanged); every connection carries its transmission status. Passed all four method-critic gates.
 - ✅ **liberation-as-the-first-step (10)** — DONE: krishnamurti-custody (WELD) + double-parentage (FRAME) carded; essay gold + operator-approved 2026-07-10. Enacts silently; Besant's guardianship worked-off, Plato/Watson/Bernays same-field parallels, Nisbet attributed as "a reading rather than a proof." Retitled "The Door Someone Else Walks Through"; slug unchanged. Passed all four method-critic gates.
-- **either-way (13)** ← LAST: 1 new (grading-system; method-stance already carded). The Coda — the final corner of the whole site.
+- ✅ **either-way (13)** — DONE: grading-system carded (PRINCIPLE); essay gold + operator-approved 2026-07-11. The Coda — gathers the four rails (enactment, consent, administrators, articulation), names the one impulse (humanity as administrable stock), lands the directed-or-reverberating verdict (the archive is identical either way), closes on the limit-of-claim as a fact about the record. Passed all four method-critic gates; enacts the discipline silently. **Group B complete.**
 
-> Finish line from here: 7 essays / ~13 distinct new cards. After Group A + B, all 13 chapter themes have a gold essay-about-the-work, every rail is gold, zero hollow hovers.
+> **FINISH LINE MET (2026-07-11).** All 13 chapter themes now have a gold essay-about-the-work. Every rail is gold (articulation, administrators, enactment, consent, method). Zero hollow hovers. Group A (enactment/lifespan) + Group B (method essays) both complete.
 
 ## Later phases
 - Phase 3: the 13 book chapters (essayist + critic), each keystone-gated.

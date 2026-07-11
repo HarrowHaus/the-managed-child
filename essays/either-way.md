@@ -2,7 +2,7 @@
 title: "Either Way"
 subtitle: "A ranking test, a feeding schedule, a steered public, a patient tradition, and a received book — and the one question the record raises and cannot answer"
 date: 2026-07-11
-status: drafted
+status: approved
 rail: mechanism
 grounding_nodes:
   - grading-system
