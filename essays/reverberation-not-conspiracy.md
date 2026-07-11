@@ -1,8 +1,8 @@
 ---
-title: "Reverberation, Not Conspiracy"
+title: "A Great Deal of Reading"
 subtitle: "A book read alone in an office, a lecture heard at nineteen, one figure four strangers reach for without meeting, and the single dinner club that broke up over its own diners"
 date: 2026-07-10
-status: drafted
+status: approved
 rail: mechanism
 grounding_nodes:
   - method-stance
@@ -16,7 +16,7 @@ grounding_nodes:
   - coefficients-club
 ---
 
-# Reverberation, Not Conspiracy
+# A Great Deal of Reading
 
 Christopher Vogler never met Joseph Campbell. He read him.
 

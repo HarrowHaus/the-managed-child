@@ -109,10 +109,10 @@ Do the enactment/lifespan corners next to light the last rail and build the card
 - ✅ **the-denominator (08)** — DONE: mann-horace + gesell-arnold + spock-benjamin carded (WELD); essay gold + operator-approved 2026-07-10. Base rate carries the essay's full weight; esoteric held to a thin tributary; the "denominator error" named.
 - ✅ **the-child-grown-up (12)** — DONE: lifespan-continuum + campbell-joseph + vogler-christopher carded; essay gold + operator-approved 2026-07-10. Monomyth held contested; Vogler's industrial adoption the load; no roddenberry upgrade. **Group A complete.**
 
-### Group B — method essays (SAVE for last, write over the fully-graded graph)
-- reverberation-not-conspiracy (09): 1 new (method-stance)
-- liberation-as-the-first-step (10): 2 new (double-parentage, krishnamurti-custody)
-- either-way (13): 2 new (grading-system, method-stance [shared w/09])
+### Group B — method essays (judged by method-critic, not the standard critic)
+- ✅ **reverberation-not-conspiracy (09)** — DONE: method-stance carded (PRINCIPLE); essay gold + operator-approved 2026-07-10. Enacts the discipline silently — thesis stated nowhere (title retitled "A Great Deal of Reading"; slug unchanged); every connection carries its transmission status. Passed all four method-critic gates.
+- **liberation-as-the-first-step (10)**: 2 new (double-parentage, krishnamurti-custody) ← NEXT
+- **either-way (13)**: 2 new (grading-system [exists as stub], method-stance [done, shared w/09])
 
 > Finish line from here: 7 essays / ~13 distinct new cards. After Group A + B, all 13 chapter themes have a gold essay-about-the-work, every rail is gold, zero hollow hovers.
 
