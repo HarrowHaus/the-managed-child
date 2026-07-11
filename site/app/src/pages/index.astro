@@ -1,7 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import GwernShell from '../layouts/GwernShell.astro';
-import { standingFromGrade, titleCase } from '../lib/certainty';
+import { standingFromGrade } from '../lib/certainty';
 import { essayRank } from '../lib/essay-order';
 
 const nodes = await getCollection('nodes', (n) => !standingFromGrade(n.data.grade).discarded);
@@ -9,11 +9,6 @@ const nodes = await getCollection('nodes', (n) => !standingFromGrade(n.data.grad
 const essays = (await getCollection('essays'))
   .filter((e) => e.id !== 'index')
   .sort((a, b) => essayRank(a.id) - essayRank(b.id));
-const ORDER = ['concepts', 'people', 'works', 'institutions', 'events'] as const;
-const byCat = new Map<string, typeof nodes>();
-for (const c of ORDER) byCat.set(c, []);
-for (const n of nodes) byCat.get(n.data.category)?.push(n);
-for (const list of byCat.values()) list.sort((a, b) => a.data.title.localeCompare(b.data.title));
 ---
 <GwernShell title="The Managed Child">
   <p>A reference that shows its work. Every entry links to the entries it leans
@@ -36,18 +31,9 @@ for (const list of byCat.values()) list.sort((a, b) => a.data.title.localeCompar
     </>
   )}
 
-  {ORDER.map((cat) => {
-    const list = byCat.get(cat) ?? [];
-    if (list.length === 0) return null;
-    return (
-      <>
-        <h2 id={cat}>{titleCase(cat)}</h2>
-        <ul>
-          {list.map((n) => (
-            <li><a class="link-page" href={`/nodes/${n.data.id}/`}>{n.data.title}</a></li>
-          ))}
-        </ul>
-      </>
-    );
-  })}
+  <h2 id="index">Reference</h2>
+  <p><a class="link-page" href="/entries">Index — all entries</a>. Every figure,
+  work, institution, and idea in the graph ({nodes.length}), grouped by its role
+  in the argument. Or use search (top of any page) and hover any link to preview
+  what it leans on.</p>
 </GwernShell>

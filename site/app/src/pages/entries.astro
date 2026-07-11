@@ -1,0 +1,204 @@
+---
+import { getCollection } from 'astro:content';
+import GwernShell from '../layouts/GwernShell.astro';
+import { standingFromGrade } from '../lib/certainty';
+
+// THE INDEX — the browsable fallback to search + popups. Every published node
+// appears exactly once, grouped by its ROLE IN THE THESIS (not by type), in
+// argument order. Each entry: title (link) — one-line gloss — plain certainty
+// word derived from grade exactly as the node pages do. Monochrome, no badges
+// (CLAUDE.md rule b/c). The index's job is completeness: nothing hidden.
+
+// Rails in argument order. `ids` is the authoritative, hand-audited assignment:
+// a node used across rails is filed under its PRIMARY rail. The build asserts
+// (below) that these lists together cover every published node exactly once, so
+// the index can never silently drift out of sync with the graph.
+const RAILS = [
+  {
+    key: 'root',
+    label: 'Root',
+    blurb: 'The impulse beneath everything: humanity as administrable stock, to be graded and guided toward a planned end by a fit elect.',
+    ids: ['the-root'],
+  },
+  {
+    key: 'trunk',
+    label: 'Trunk',
+    blurb: 'The political tradition that carries the impulse — rule by a trained few, advanced by patience and permeation rather than command.',
+    ids: [
+      'rule-by-trained-elite', 'fabian-society', 'fabian-essays', 'permeation',
+      'webb-sidney', 'webb-beatrice', 'coefficients-club', 'coefficients-1902',
+      'shaw-george-bernard',
+    ],
+  },
+  {
+    key: 'articulation',
+    label: 'The Four Idioms',
+    blurb: 'The esoteric register in which the same claim about the child is confessed rather than enacted — the four idioms and the figures, works, and orders that carry them.',
+    ids: [
+      'four-idiom-through-line', 'aeon-of-the-child', 'crowley-aleister',
+      'liber-al-vel-legis', 'on-education-of-children', 'moonchild',
+      'babalon-working', 'parsons-jack', 'jpl', 'hubbard-lron', 'besant-annie',
+      'leadbeater-cw', 'krishnamurti-jiddu', 'krishnamurti-custody',
+      'order-of-the-star', 'theosophical-society', 'steiner-rudolf',
+      'ojai-convergence', 'bailey-alice', 'lucis-trust',
+      'externalisation-hierarchy', 'puharich-andrija', 'roddenberry-gene',
+      'lab-nine', 'only-planet-of-choice', 'jung-cg', 'hall-manly-p', 'spr',
+      'wheatley-dennis', 'fleming-ian', 'huxley-aldous',
+    ],
+  },
+  {
+    key: 'administrators',
+    label: 'The Administrators',
+    blurb: 'The twentieth-century technocrats and institutions who managed the many in the open.',
+    ids: [
+      'wells-hg', 'huxley-julian', 'huxley-th', 'unesco',
+      'unesco-purpose-philosophy', 'russell-bertrand', 'burnham-james',
+      'quigley-carroll',
+    ],
+  },
+  {
+    key: 'enactment',
+    label: 'Enactment',
+    blurb: 'The professions that actually measured, scheduled, ranked, and conditioned the child.',
+    ids: [
+      'managed-child', 'mann-horace', 'cubberley-ellwood', 'hall-g-stanley',
+      'galton-francis', 'pearson-karl', 'terman-lewis', 'gesell-arnold',
+      'spock-benjamin', 'watson-john-b', 'holt-l-emmett', 'psychological-care',
+      'brave-new-world',
+    ],
+  },
+  {
+    key: 'consent',
+    label: 'Consent',
+    blurb: "The engineering of a public's agreement — the theorists, the practitioner, and the dissent.",
+    ids: [
+      'lippmann-walter', 'bernays-edward', 'dewey-john', 'lippmann-dewey-debate',
+      'public-opinion', 'jwt', 'fcc-1984',
+    ],
+  },
+  {
+    key: 'lifespan',
+    label: 'Lifespan',
+    blurb: 'The pattern followed past childhood — the monomyth and its industrial adoption across a life.',
+    ids: [
+      'lifespan-continuum', 'campbell-joseph', 'hero-thousand-faces',
+      'eliade-mircea', 'vogler-christopher',
+    ],
+  },
+  {
+    key: 'method',
+    label: 'Method',
+    blurb: 'The rules the study holds itself to: how a connection is read, and how certainty is marked.',
+    ids: ['method-stance', 'grading-system', 'hard-sourcing-rule', 'double-parentage'],
+  },
+] as const;
+
+const nodes = await getCollection('nodes', (n) => !standingFromGrade(n.data.grade).discarded);
+const byId = new Map(nodes.map((n) => [n.data.id, n]));
+
+// ---- Completeness guard: every published node in exactly one rail. ----
+const assigned = RAILS.flatMap((r) => r.ids);
+const assignedSet = new Set(assigned);
+const dupes = assigned.filter((id, i) => assigned.indexOf(id) !== i);
+const unknown = assigned.filter((id) => !byId.has(id));
+const missing = nodes.map((n) => n.data.id).filter((id) => !assignedSet.has(id));
+if (dupes.length || unknown.length || missing.length) {
+  throw new Error(
+    `[entries index] rail assignment is not a partition of published nodes:\n` +
+    (missing.length ? `  MISSING (unassigned): ${missing.join(', ')}\n` : '') +
+    (dupes.length ? `  DUPLICATED: ${[...new Set(dupes)].join(', ')}\n` : '') +
+    (unknown.length ? `  UNKNOWN id (typo / discarded): ${unknown.join(', ')}\n` : '')
+  );
+}
+
+// One-line gloss: the authored abstract's first sentence, or — for stubs with no
+// abstract — the first body paragraph (same source the popup annotation uses).
+function firstParagraph(body: string): string {
+  for (const raw of body.split('\n')) {
+    const s = raw.trim();
+    if (!s || s.startsWith('#') || s.startsWith('>')) continue;
+    return s;
+  }
+  return '';
+}
+function firstSentence(s: string): string {
+  const m = s.match(/^.*?[a-z0-9”"’)\]]\.(?=\s|$)/);
+  return m ? m[0] : s;
+}
+function stripMarkdown(s: string): string {
+  return s
+    .replace(/`([^`]+)`/g, '$1')          // `code`
+    .replace(/\*\*([^*]+)\*\*/g, '$1')    // **bold**
+    .replace(/(?<!\w)[*_]([^*_]+)[*_]/g, '$1') // *italic* / _italic_
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')   // [text](url)
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+function gloss(node: (typeof nodes)[number]): string {
+  const src = node.data.abstract?.trim() || firstParagraph(node.body ?? '');
+  return firstSentence(stripMarkdown(src));
+}
+
+// Standing word rendered exactly as the node pages derive it: a certainty word
+// for claims, or the structural label (framework / principle) for lenses/rules.
+const STRUCTURAL_DEF = {
+  framework: 'Framework: an interpretive lens for reading the documented cases — never itself cited as evidence.',
+  principle: 'Principle: a convention the study holds itself to, not a claim about the world.',
+} as const;
+function standingWord(grade: string) {
+  const s = standingFromGrade(grade);
+  if (s.certainty) return { word: s.certainty, def: s.def };
+  if (s.structural) return { word: s.structural, def: STRUCTURAL_DEF[s.structural] };
+  return { word: null, def: null };
+}
+
+const stripArticle = (t: string) => t.replace(/^(the|a|an)\s+/i, '');
+const sortRail = (ids: readonly string[]) =>
+  [...ids]
+    .map((id) => byId.get(id)!)
+    .sort((a, b) => stripArticle(a.data.title).localeCompare(stripArticle(b.data.title)));
+---
+<GwernShell title="Index" bodyClass="index-page">
+  <div slot="metadata" class="page-metadata-fields">
+    <span class="page-type">index</span>
+    <span class="page-status">{nodes.length} entries</span>
+  </div>
+
+  <p>Every entry in the graph, grouped by its role in the argument rather than by
+  type, in the order the thesis builds. Search and link-previews are the primary
+  way through; this is the browsable map. Standing is marked in plain language —
+  <em>documented</em>, <em>possible</em>, <em>apocryphal</em> — hover any mark for
+  its meaning.</p>
+
+  {RAILS.map((r) => (
+    <section class="index-rail">
+      <h2 id={r.key}>{r.label} <span class="index-rail-count">({r.ids.length})</span></h2>
+      <p class="index-rail-blurb">{r.blurb}</p>
+      <ul class="index-entries">
+        {sortRail(r.ids).map((n) => {
+          const st = standingWord(n.data.grade);
+          return (
+            <li>
+              <a class="link-page" href={`/nodes/${n.data.id}/`}>{n.data.title}</a>
+              <span class="index-gloss"> — {gloss(n)}</span>
+              {st.word && (
+                <span class="index-standing" title={st.def ?? ''}> <em>{st.word}</em></span>
+              )}
+            </li>
+          );
+        })}
+      </ul>
+    </section>
+  ))}
+</GwernShell>
+
+<style>
+  .index-rail { margin-top: 2.5em; }
+  .index-rail-blurb { margin: 0.2em 0 0.9em; font-style: italic; opacity: 0.8; }
+  .index-rail-count { font-weight: normal; opacity: 0.55; font-size: 0.8em; }
+  .index-entries { list-style: none; padding-left: 0; }
+  .index-entries li { margin: 0.28em 0; line-height: 1.4; }
+  .index-gloss { opacity: 0.82; }
+  .index-standing em { font-style: italic; opacity: 0.62; white-space: nowrap; }
+  .index-standing::before { content: ""; }
+</style>
