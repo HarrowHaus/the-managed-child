@@ -2,12 +2,13 @@
 import { getCollection } from 'astro:content';
 import GwernShell from '../layouts/GwernShell.astro';
 import { standingFromGrade, titleCase } from '../lib/certainty';
+import { essayRank } from '../lib/essay-order';
 
 const nodes = await getCollection('nodes', (n) => !standingFromGrade(n.data.grade).discarded);
-const chapters = (await getCollection('chapters')).sort((a, b) => a.data.chapter - b.data.chapter);
+// Essays run in the canonical reading order (the guided thesis sequence), not by date.
 const essays = (await getCollection('essays'))
   .filter((e) => e.id !== 'index')
-  .sort((a, b) => (b.data.date?.getTime() ?? 0) - (a.data.date?.getTime() ?? 0));
+  .sort((a, b) => essayRank(a.id) - essayRank(b.id));
 const ORDER = ['concepts', 'people', 'works', 'institutions', 'events'] as const;
 const byCat = new Map<string, typeof nodes>();
 for (const c of ORDER) byCat.set(c, []);
@@ -22,23 +23,18 @@ for (const list of byCat.values()) list.sort((a, b) => a.data.title.localeCompar
   {essays.length > 0 && (
     <>
       <h2 id="essays">Essays</h2>
-      <ul>
+      <p>Read in order, the essays form one continuous argument. Start with
+      <em> Two Testimonies</em> and read straight down, or step in anywhere.</p>
+      <ol class="essay-sequence">
         {essays.map((e) => (
           <li>
             <a class="link-page" href={`/essays/${e.id}`}>{e.data.title}</a>
             {e.data.subtitle && <span> — <em>{e.data.subtitle}</em></span>}
           </li>
         ))}
-      </ul>
+      </ol>
     </>
   )}
-
-  <h2 id="the-book">The Book</h2>
-  <ul>
-    {chapters.map((c) => (
-      <li><a class="link-page" href={`/book/${c.id}`}>{c.data.chapter}. {c.data.title}</a></li>
-    ))}
-  </ul>
 
   {ORDER.map((cat) => {
     const list = byCat.get(cat) ?? [];

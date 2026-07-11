@@ -2,6 +2,7 @@
 import { getCollection, render } from 'astro:content';
 import GwernShell from '../../layouts/GwernShell.astro';
 import { standingFromGrade } from '../../lib/certainty';
+import { essayNeighbors } from '../../lib/essay-order';
 
 // One page per essay ABOUT THE WORK. The stub index and anything under
 // _parked-decodes are excluded (the latter by the collection glob). Essays are
@@ -12,12 +13,15 @@ export async function getStaticPaths() {
   const essays = (await getCollection('essays')).filter((e) => e.id !== 'index');
   const nodes = await getCollection('nodes', (n) => !standingFromGrade(n.data.grade).discarded);
   const byId = new Map(nodes.map((n) => [n.data.id, n.data.title]));
-  return essays.map((essay) => ({ params: { slug: essay.id }, props: { essay, byId } }));
+  // id → display title, so prev/next links can name the neighbouring essay.
+  const essayTitles = new Map(essays.map((e) => [e.id, e.data.title as string]));
+  return essays.map((essay) => ({ params: { slug: essay.id }, props: { essay, byId, essayTitles } }));
 }
 
-const { essay, byId } = Astro.props;
+const { essay, byId, essayTitles } = Astro.props;
 const d = essay.data;
 const { Content } = await render(essay);
+const { prev, next } = essayNeighbors(essay.id);
 const dateStr = d.date
   ? d.date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' })
   : null;
@@ -45,4 +49,38 @@ const dateStr = d.date
       </ul>
     </section>
   )}
+
+  {(prev || next) && (
+    <nav class="essay-nav" aria-label="Reading order">
+      <span class="essay-nav-prev">
+        {prev && (
+          <a class="link-page" href={`/essays/${prev}`} rel="prev">
+            ← <span class="essay-nav-label">{essayTitles.get(prev)}</span>
+          </a>
+        )}
+      </span>
+      <span class="essay-nav-next">
+        {next && (
+          <a class="link-page" href={`/essays/${next}`} rel="next">
+            <span class="essay-nav-label">{essayTitles.get(next)}</span> →
+          </a>
+        )}
+      </span>
+    </nav>
+  )}
 </GwernShell>
+
+<style>
+  .essay-nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5em;
+    margin-top: 3em;
+    padding-top: 1em;
+    border-top: 1px solid var(--GW-body-text-color, currentColor);
+    border-image: linear-gradient(to right, transparent, currentColor 20%, currentColor 80%, transparent) 1;
+    font-variant: small-caps;
+  }
+  .essay-nav-next { margin-left: auto; text-align: right; }
+  .essay-nav-label { font-variant: normal; }
+</style>
