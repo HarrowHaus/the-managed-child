@@ -1,8 +1,8 @@
 ---
-title: "Liberation as the First Step"
+title: "The Door Someone Else Walks Through"
 subtitle: "A father's lawsuit in Madras, a city that raises its children in common, a manual that rations a mother's affection, and a slogan that sold cigarettes as freedom"
 date: 2026-07-10
-status: drafted
+status: approved
 rail: mechanism
 grounding_nodes:
   - krishnamurti-custody
@@ -15,7 +15,7 @@ grounding_nodes:
   - bernays-edward
 ---
 
-# Liberation as the First Step
+# The Door Someone Else Walks Through
 
 In 1912 a father went to court in Madras to get his sons back.
 

@@ -111,8 +111,8 @@ Do the enactment/lifespan corners next to light the last rail and build the card
 
 ### Group B — method essays (judged by method-critic, not the standard critic)
 - ✅ **reverberation-not-conspiracy (09)** — DONE: method-stance carded (PRINCIPLE); essay gold + operator-approved 2026-07-10. Enacts the discipline silently — thesis stated nowhere (title retitled "A Great Deal of Reading"; slug unchanged); every connection carries its transmission status. Passed all four method-critic gates.
-- **liberation-as-the-first-step (10)**: 2 new (double-parentage, krishnamurti-custody) ← NEXT
-- **either-way (13)**: 2 new (grading-system [exists as stub], method-stance [done, shared w/09])
+- ✅ **liberation-as-the-first-step (10)** — DONE: krishnamurti-custody (WELD) + double-parentage (FRAME) carded; essay gold + operator-approved 2026-07-10. Enacts silently; Besant's guardianship worked-off, Plato/Watson/Bernays same-field parallels, Nisbet attributed as "a reading rather than a proof." Retitled "The Door Someone Else Walks Through"; slug unchanged. Passed all four method-critic gates.
+- **either-way (13)** ← LAST: 1 new (grading-system; method-stance already carded). The Coda — the final corner of the whole site.
 
 > Finish line from here: 7 essays / ~13 distinct new cards. After Group A + B, all 13 chapter themes have a gold essay-about-the-work, every rail is gold, zero hollow hovers.
 
