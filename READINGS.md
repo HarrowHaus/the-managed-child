@@ -19,6 +19,11 @@
 *The elect-guiding-evolution claim in its most cosmic idiom, carried by one institution — the Theosophical Society — that fractured three ways in fifty years, and touched the machinery of childhood once, cleanly, through Montessori at Adyar.*
 1. the-nucleus-that-split
 
+## Reading V — The State Laboratory
+*The documented reverberation from the state's mind-control research into the mass counterculture — a paid subject on a government ward, the parties he ran, the band that scored them, the chemist who supplied and bankrolled them — with the single directed design that would make it a plot kept exactly where the evidence stops.*
+1. the-seed-and-the-flood
+*(extends as §B/§J deepens — the West/Haight hinge, the contested Menlo hop, and the counterculture's private economy each reach entry-density)*
+
 ## The Method *(serves every reading)*
 - a-great-deal-of-reading (reverberation-not-conspiracy)
 
@@ -26,7 +31,5 @@
 - either-way
 
 ## Planned readings (register on essay-density; provisional per AUTOPILOT branching law)
-- The State Laboratory (§B/§J: MKUltra → psychedelic dispersal) — head essay `the-seed-and-the-flood` SHIPPED via two-key gate; reading PROVISIONAL, homepage override window OPEN (one full phase per C-2 step 4). The essay ships now individually (its own page + grounding nodes); on window close it promotes to a live Reading V.
-  - 1. the-seed-and-the-flood
 - The Manufactured Faiths (§E) — harvest-gated
 - The Ranked Race (§G, branches off enactment per R-Q1) — harvest-gated
