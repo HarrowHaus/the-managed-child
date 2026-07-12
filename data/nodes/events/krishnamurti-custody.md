@@ -12,7 +12,7 @@ sources:
   - "Besant v. Narayaniah, Privy Council, 25 May 1914 — the custody judgment (reversed the Madras order on jurisdiction: the minors, sent to be educated in England, were held not ordinarily resident in Chingleput) — [PRIMARY: law report]"
   - "Mary Lutyens, Krishnamurti: The Years of Awakening (1975) — the guardianship and the suit — [SECONDARY]"
 welds:
-  - {to: krishnamurti-jiddu, type: mentored, register: worked-off, grade: WELD, source: "the case decided who held charge of Krishnamurti's upbringing — the movement or his father"}
+  - {to: krishnamurti-jiddu, type: groomed, register: worked-off, grade: WELD, source: "the case decided who held charge of Krishnamurti's upbringing — the movement or his father"}
   - {to: besant-annie, type: broke-from, register: worked-off, grade: WELD, source: "Besant, as legal guardian and defendant, retained the boys after the father's suit"}
   - {to: double-parentage, type: influenced, register: same-field, grade: WELD, source: "the pattern made literal — the biological father against the institutional guardian, adjudicated in court"}
 tags: [rail-articulation, mechanism, lifespan]

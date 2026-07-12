@@ -36,7 +36,7 @@ In 1902 **Sidney and Beatrice Webb** founded the Coefficients, a monthly dining 
 **The honesty pivot.** In **1903 Bertrand Russell resigned** after Grey publicly espoused the Entente policy, which Russell believed would lead to war. Wells stayed on to argue against the imperialist majority. The same roster that proves the *contact* proves the members disagreed, split, and shared no single program. Cite the table and the resignation in one breath.
 
 ## Edges
-Membership edges are `hosted` + worked-off: the club is the venue, the people are the attendees. `rule-by-trained-elite` is same-field — the club is an instance of the doctrine socially expressed, not a body that transmitted it.
+Membership edges are `member-of` + worked-off: the named people were members of the club. `rule-by-trained-elite` is same-field — the club is an instance of the doctrine socially expressed, not a body that transmitted it.
 
 **Two out-edges were reversed in an earlier revision and are corrected.** `{to: webb-sidney, type: founded}` asserted that the club founded Webb; the Webbs founded the club. Founding edges belong on the Webb nodes. Likewise the club did not *influence* the Fabian Society; that edge is dropped rather than inverted.
 

@@ -8,8 +8,8 @@ import { glob } from 'astro/loaders';
 // Closed edge vocabulary — EDGE-VOCABULARY.md (authoritative; the edge-lint
 // integration enforces the same list and the moat at build time).
 const edgeType = z.enum([
-  'read', 'met', 'influenced', 'mentored', 'advised', 'funded', 'founded',
-  'member-of', 'broke-from', 'restates', 'precedes', 'no-relay',
+  'read', 'authored', 'met', 'influenced', 'mentored', 'groomed', 'advised',
+  'funded', 'founded', 'member-of', 'broke-from', 'restates', 'precedes', 'no-relay',
 ]);
 const transmission = z.enum(['worked-off', 'same-field', 'none']);
 const edge = z.object({

@@ -3,9 +3,11 @@
 
 ## Edge TYPE — closed list (an edge's `type` must be one of these; nothing else compiles)
 - `read` — A demonstrably read B's work (documented).
+- `authored` — A wrote / received work B (documented). Also stored inverse on the work node (rendered "X — authored" = authored by X); the concept-in-a-work / attestation case shares this type for want of a narrower one.
 - `met` — A and B were in the same room / corresponded (documented).
 - `influenced` — A worked off B's published idea (documented absorption + extension).
 - `mentored` / `advised` — formal teaching/advising relation.
+- `groomed` — a documented predatory / grooming relation: A raised or directed B toward a role for A's ends. Kept as itself and NEVER softened to `mentored` (per the Hard Sourcing Rule — the material is not laundered by neutral vocabulary).
 - `funded` / `founded` / `member-of` — institutional relations.
 - `broke-from` — A split from B or B's body (a schism — carries the antagonism).
 - `restates` — A states the same idea in a different idiom, no contact claimed.
