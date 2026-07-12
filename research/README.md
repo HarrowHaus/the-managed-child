@@ -20,9 +20,14 @@ and never from memory.
 ## Contents
 - `crowley-rail-RULINGS.md` — parent rulings for the Crowley-in-America rail.
 - `crowley-rail-RULINGS-ADDENDUM.md` — corrections; **wins on conflict** with the parent.
-- `research-index.md` — the earlier Crowley-in-America **spine harvest** (Anchors 1–6:
-  Crowley → Agape → Parsons → JPL/Aerojet → Hubbard → Babalon → Anger) and the wider
-  graph's primary index.
+- `crowley-in-america-rail-harvest.md` — the **Crowley-in-America spine harvest**
+  (Anchors 0–9: Crowley → Agape → Parsons → JPL/Aerojet → Hubbard → Babalon →
+  Anger → Process → Manson layer → Dana → Hall lattice). The source base for the
+  Parsons/JPL/Hubbard/Babalon/Anger/Process nodes referenced at the edges of the
+  MKUltra build. Note: the MKUltra/West thread appears here only as Dana's
+  *attributed* claim (Anchor 8b), not as documented primaries — those must come
+  from the MKUltra harvest below.
+- `research-index.md` — the wider graph's primary index and campaign log.
 - `future-threads.md`, `verification-queue.md`, `discard-pile.md` — the expansion
   frontier, the primary-lock queue, and the named-exclusions pile.
 
