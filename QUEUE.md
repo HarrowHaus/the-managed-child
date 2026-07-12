@@ -32,4 +32,4 @@ Harvester first wherever research/ lacks the rail's primaries; then researcher �
 REVERBERATE loop: adjacency → build → cluster at essay-density (≥5 full nodes + spine) → plan entry (spine memo logged) → essayist → method-critic → operator-agent (two-key) → ship. Maintainer every 5 commits. Deploy every 25 commits.
 
 ## Resume pointer
-`PHASE: C · SHIPPED 'the-distinction' (Reading III #2, two-key PASS). NEXT: State Laboratory (§B/§J: MKUltra → psychedelic dispersal) — harvester-first (research/ lacks §J); build nodes → candidate reading → head essay two-key. THEN: §G eugenics theater (off enactment).`
+`PHASE: C · State Laboratory §J nodes BUILT + candidate reading proposed (provisional). NEXT: write the State Laboratory head essay (firewall-structured: 'unwitting midwife' vs 'engineered it'; Kesey/Menlo hop stated contested) via two-key gate. THEN: §G eugenics theater (off enactment).`
