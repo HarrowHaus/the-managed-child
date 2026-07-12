@@ -39,6 +39,10 @@ const nodes = defineCollection({
     hypotheses: edgeList,
     tags: strList,
     backlink: z.boolean().optional(),
+    // INCUBATE: a node held deliberately because it belongs to a planned but
+    // unwritten rail (e.g. Crowley-in-America). Incubating ≠ orphaned — the
+    // maintainer scan lists these separately and never flags them for retirement.
+    incubating: z.boolean().optional(),
   }),
 });
 

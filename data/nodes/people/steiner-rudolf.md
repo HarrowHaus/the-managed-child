@@ -7,6 +7,7 @@ dates: "1861-1925"
 grade: WELD
 map_node: "1.5"
 status: stub
+incubating: true
 sources: []          # primary/secondary refs go here
 welds: []            # documented edges: [{to: id, type: influenced|met|funded|cited|founded|advised, grade: WELD, source: ...}]
 hypotheses: []       # ungraded/suspected edges, same shape

@@ -21,13 +21,13 @@
 - [x] ~~`groomed → mentored` softening~~ — `groomed` added to EDGE-VOCABULARY; the three custody/World-Teacher edges (`krishnamurti-custody`, `besant-annie`, `leadbeater-cw` → `krishnamurti-jiddu`) restored to `groomed`, never softened.
 - [x] ~~authorship edges forced to `restates`~~ — `authored` added; `crowley→liber-al`, `psychological-care→watson`, `unesco-purpose-philosophy→huxley-julian`, `aeon-of-the-child→liber-al` remapped to `authored`.
 
-## 4. Cross-entry tensions (surface only) — **1**
-- [ ] **Round Table Foundation location — likely two sites, not a conflict.** `four-idiom-through-line` says Puharich "ran the Round Table Foundation in **Maine**" *and* that the Roddenberry sessions were at "Puharich's **Ossining, New York** estate in 1974–75"; `puharich-andrija` and `lab-nine` place the sessions at **Ossining, NY** and the earlier foundation at **Glen Cove**. Reading: the *Round Table Foundation* (Maine, ~1948) and the *1974–75 sessions* (Ossining, NY) are different times and places — not a contradiction. The genuine open sub-question, already flagged in `four-idiom-through-line` §Held-open, is **Glen Cove vs Camden, Maine** for the foundation, "held open, not asserted." Human ruling: confirm the two-site reading and pick Glen Cove or Camden?
+## 4. Cross-entry tensions (surface only) — **0 open** (1 resolved as two-site)
+- [x] ~~Round Table Foundation "Maine" vs "Ossining"~~ — **RULED: two sites, not a conflict.** The *Round Table Foundation* (Maine, ~1948) and the *1974–75 Ossining, NY* sessions are different times and places; `four-idiom-through-line` already presents both. The **Glen Cove vs Camden, Maine** sub-question is left **HELD OPEN** exactly as `four-idiom-through-line` §Held-open states it ("held open, not asserted") — the honest state is unresolved, and no certainty is manufactured to close it.
 
-## 5. Orphan nodes (zero backlinks) — **20, retirement AWAITING YOUR CONFIRM**
-Per the ruling: retire from the build (files kept in repo) unless a concept a reading should reference — then link instead. **Proposed split:**
-- **RETIRE (20)** — esoteric/periphery + superseded stubs, none referenced by any reading: `babalon-working`, `moonchild`, `ojai-convergence`, `parsons-jack`, `jpl`, `hubbard-lron`, `hall-manly-p`, `spr`, `steiner-rudolf`, `jung-cg`, `fleming-ian`, `wheatley-dennis`, `eliade-mircea`, `externalisation-hierarchy`, `on-education-of-children`, `coefficients-1902`, `fabian-essays`, `brave-new-world`, `quigley-carroll`, `hard-sourcing-rule`.
-- **LINK instead (0)** — the only concept-node judgment call is **`hard-sourcing-rule`** (a method `PRINCIPLE`). Recommendation: **retire** — the reading enacts the hard-sourcing discipline silently and must not name the internal rule (the silent-discipline gate). If you would rather surface it, it could be linked from *the-denominator* (which openly discusses the "denominator error" / symptom-not-cause). Your call.
+## 5. Orphan nodes — **0 orphans · 20 INCUBATING** (RULED: retire none)
+No node was retired. The 20 formerly-flagged nodes are marked `incubating: true` — held deliberately because they belong to a **planned but unwritten rail**, not dead scaffolding. Future scans list them here and never flag them for retirement.
+- **Incubating — Crowley-in-America rail (a missing RAIL, to be written):** `parsons-jack`, `jpl`, `babalon-working`, `hubbard-lron`, `moonchild`, `hall-manly-p`, and the related esoterica `ojai-convergence`, `on-education-of-children`, `wheatley-dennis`, `fleming-ian`, `steiner-rudolf`, `jung-cg`, `eliade-mircea`, `spr`, `externalisation-hierarchy`.
+- **Incubating — other held nodes:** `coefficients-1902`, `fabian-essays`, `brave-new-world`, `quigley-carroll` (trunk/administrators supporting material); `hard-sourcing-rule` (method `PRINCIPLE`, held as internal doctrine).
 
 ## 6. Standing drift — **0 open** (softened this pass; edges left `possible`)
 - [x] ~~Coefficients membership~~ — softened in *the-trunk, reverberation, two-testimonies* ("on the members' own later record"). Edges left `possible`.
@@ -36,4 +36,4 @@ Per the ruling: retire from the build (files kept in repo) unless a concept a re
 ## 7. Vocabulary leaks (missed by mechanical guards) — **0**
 - [x] ~~Node bodies naming retired edge-type words~~ — `coefficients-club` and `puharich-andrija` fixed; `besant-annie` prose ("groomed") now matches its edge.
 
-**Counts:** missing 27 · thin 7 (+5 primary-gap) · contradictions 0 · tensions 1 · orphans 20 (retirement pending confirm) · drift 0 · leaks 0
+**Counts:** missing 27 · thin 7 (+5 primary-gap) · contradictions 0 · tensions 0 · orphans 0 (20 incubating) · drift 0 · leaks 0
