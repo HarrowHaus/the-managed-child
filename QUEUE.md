@@ -32,4 +32,4 @@ Harvester first wherever research/ lacks the rail's primaries; then researcher �
 REVERBERATE loop: adjacency → build → cluster at essay-density (≥5 full nodes + spine) → plan entry (spine memo logged) → essayist → method-critic → operator-agent (two-key) → ship. Maintainer every 5 commits. Deploy every 25 commits.
 
 ## Resume pointer
-`PHASE: C · Reading IV 'The Recurring Doctrine' LIVE (4 readings). Smoothing §I HARVEST IN FLIGHT (→ research/smoothing-si-harvest.md). NEXT: build §I nodes (church-committee, operation-northwoods, cointelpro, gulf-of-tonkin) from the harvest → rule R-Q2 (is smoothing the spine?) → 2nd Reading-III entry (two-key). THEN: State Laboratory (§B/§J harvest).`
+`PHASE: C · Smoothing §I nodes BUILT (church-committee, operation-northwoods, cointelpro, gulf-of-tonkin); R-Q2 settled (no single spine; Smoothing = Reading III, a door). NEXT: write Reading III's 2nd entry (the §I essay: Northwoods/Church/COINTELPRO/Tonkin through Olmsted) via two-key gate. THEN: State Laboratory (§B/§J harvest).`
