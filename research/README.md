@@ -27,6 +27,13 @@ and never from memory.
   MKUltra build. Note: the MKUltra/West thread appears here only as Dana's
   *attributed* claim (Anchor 8b), not as documented primaries — those must come
   from the MKUltra harvest below.
+- `mkultra-west-june2026-harvest.md` — the **MKUltra / Louis Jolyon West / June-2026
+  hearing / smoothing** harvest: documented West↔MKUltra connections (Subproject 43,
+  the Gottlieb "blueprint" correspondence, Ruby, Shaver, the Haight lab), O'Neill's
+  self-disclaimed West→Manson conjecture (disclaimer verbatim), the verified June 30
+  2026 congressional hearing (oversight.house.gov), the smoothing catalogue (both
+  directions), Cameron/Subproject 68, the Dana/Rotting-Jewels extensions (Trudeau in;
+  Vatican/Owens/RFK searched-none-found), and the Olmsted spine.
 - `research-index.md` — the wider graph's primary index and campaign log.
 - `future-threads.md`, `verification-queue.md`, `discard-pile.md` — the expansion
   frontier, the primary-lock queue, and the named-exclusions pile.
