@@ -12,8 +12,8 @@
 
 ## Reading III — The Smoothing
 *The tidying reflex: files burned, testimony sanitized, retractions entered under law — and what the over-cleaning of a rough record makes people believe.*
-1. the-clean-version
-*(extends with the §I harvest: Church Committee, Northwoods, COINTELPRO)*
+1. the-clean-version · 2. the-distinction
+*(extends further as the §I catalogue and the State Laboratory rail deepen)*
 
 ## Reading IV — The Recurring Doctrine
 *The elect-guiding-evolution claim in its most cosmic idiom, carried by one institution — the Theosophical Society — that fractured three ways in fifty years, and touched the machinery of childhood once, cleanly, through Montessori at Adyar.*

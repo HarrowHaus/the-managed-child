@@ -2,7 +2,7 @@
 title: "The Distinction"
 subtitle: "A plan that was signed and refused, a signal that was skewed but not proven a lie, an investigation that indicted the state and cleared it in the same report, a program that ran for fifteen years — and the missing half each one is made to carry"
 date: 2026-07-12
-status: drafted
+status: approved
 rail: smoothing
 grounding_nodes:
   - operation-northwoods
@@ -27,4 +27,4 @@ And where Northwoods is the plan that stayed a plan, [COINTELPRO](../data/nodes/
 
 The fourth of these lines — between a record destroyed and a thing that never existed — is the one this reading has already followed [in another entry](/essays/the-clean-version): the 152 files burned on a director's order in 1973, and the ease with which ash is read as the proof of what it hid or the proof that nothing was there. It needs no second telling. It is the same move, worked in paper.
 
-The historian [Kathryn Olmsted](../data/nodes/concepts/real-enemies.md) put the reason plainly. Secrecy is the accelerant: the government's own history of "lies, secrecy, and state-endorsed conspiracy theories," she writes, "gives fuel to all the others," so that the antigovernment theorist who "gets the details wrong — and they often do — gets the basic issue right." In every case here the documented thing is real: the memo was signed, the signal was skewed, the plots were found, the program ran. What was sealed, and what the theory rushes to supply, is the same second half in each — the refusal, the failure, the correction, the ash. The record keeps the first half. The second is the one that both the burning and the theory need it not to have.
+The historian [Kathryn Olmsted](../data/nodes/concepts/real-enemies.md) put the reason plainly. Secrecy is the accelerant: the government's own history of "lies, secrecy, and state-endorsed conspiracy theories," she writes, "gives fuel to all the others," so that, as she puts it, "if antigovernment conspiracy theorists get the details wrong—and they often do—they get the basic issue right." In every case here the documented thing is real: the memo was signed, the signal was skewed, the plots were found, the program ran. What was sealed, and what the theory rushes to supply, is the same second half in each — the refusal, the failure, the correction, the ash. The record keeps the first half. The second is the one that both the burning and the theory need it not to have.
