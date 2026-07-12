@@ -17,7 +17,7 @@ Exit: lint + guards green, zero reader-facing "documented" without a primary.
 
 ## NEXT — Phase B (DEPTH), rail by rail, densest-first
 Harvester first wherever research/ lacks the rail's primaries; then researcher → grader → carder.
-1. [x] Crowley crown + ring built (crown: parsons/hubbard/babalon/jpl; +moonchild, anger-kenneth, cameron-marjorie → all WELD). RAIL NOW AT ESSAY-DENSITY (spine memo logged). REMAINING within rail: Agapé Lodge/OTO, Scientology, Malina/von Kármán/Aerojet — then write the Crowley-in-America reading-entry (Phase C, two-key gate).
+1. [x] CROWLEY-IN-AMERICA RAIL COMPLETE: 13 WELD nodes (crown + ring + agape-lodge + scientology) + reading-entry 'the-links-hold' SHIPPED via two-key gate (placed after the-four-idioms). Optional later top-ups: Malina/von Kármán/Aerojet, Marjorie-Cameron film nodes, the Process-Church node (shared with smoothing rail).
 2. Theosophy hub (theosophical-society + Blavatsky/Olcott/Montessori) — harvest
 3. Smoothing §I (Church Committee → Northwoods → COINTELPRO → Gulf of Tonkin) — harvest; then rule R-Q2
 4. Four-idiom component deepening (Crowley/Besant/Bailey/Puharich)
@@ -31,4 +31,4 @@ Harvester first wherever research/ lacks the rail's primaries; then researcher �
 REVERBERATE loop: adjacency → build → cluster at essay-density (≥5 full nodes + spine) → plan entry (spine memo logged) → essayist → method-critic → operator-agent (two-key) → ship. Maintainer every 5 commits. Deploy every 25 commits.
 
 ## Resume pointer
-`PHASE: B · ITEM: Crowley rail at essay-density (7 new WELD nodes). Next: build Agapé Lodge/OTO + Scientology (harvest Anchors 1,4,7), then WRITE the Crowley-in-America reading-entry (two-key gate); then theosophy hub.`
+`PHASE: B · ITEM: Crowley-in-America rail COMPLETE (13 nodes + shipped entry). NEXT: rail #2 — Theosophy hub (theosophical-society + Blavatsky/Olcott/Montessori) — NEEDS a harvest first (research/ lacks it); run the harvest, then build.`

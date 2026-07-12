@@ -11,6 +11,7 @@ export const ESSAY_ORDER = [
   'the-trunk',                       // administrators
   'the-seed',                        // articulation seed
   'the-four-idioms',                 // the hinge and the four idioms
+  'the-links-hold',                  // articulation — the Crowley-in-America documented depth-descent
   'measuring-the-child',             // enactment — measuring
   'conditioning-the-child',          // enactment — conditioning
   'engineering-consent',             // consent
