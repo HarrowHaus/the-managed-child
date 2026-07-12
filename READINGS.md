@@ -15,6 +15,10 @@
 1. the-clean-version
 *(extends with the §I harvest: Church Committee, Northwoods, COINTELPRO)*
 
+## Reading IV — The Recurring Doctrine
+*The elect-guiding-evolution claim in its most cosmic idiom, carried by one institution — the Theosophical Society — that fractured three ways in fifty years, and touched the machinery of childhood once, cleanly, through Montessori at Adyar.*
+1. the-nucleus-that-split
+
 ## The Method *(serves every reading)*
 - a-great-deal-of-reading (reverberation-not-conspiracy)
 
@@ -22,7 +26,6 @@
 - either-way
 
 ## Planned readings (register on essay-density; provisional per AUTOPILOT branching law)
-- **The Recurring Doctrine** (theosophy hub: the elect-guiding-evolution claim in its most cosmic idiom, carried by one institution that fractured three ways in fifty years) — **candidate, PROVISIONAL**; head essay `the-nucleus-that-split` two-key-PASSED and SHIPPED (reachable via its grounding nodes). Homepage reading-registration holds one full phase per AUTOPILOT C-2 (operator override window), then renders if unopposed. Sibling to Reading II, not inside it.
 - The State Laboratory (§B/§J: MKUltra → psychedelic dispersal) — nodes partially built
 - The Manufactured Faiths (§E) — harvest-gated
 - The Ranked Race (§G, branches off enactment per R-Q1) — harvest-gated
