@@ -22,6 +22,7 @@
 - either-way
 
 ## Planned readings (register on essay-density; provisional per AUTOPILOT branching law)
+- **The Recurring Doctrine** (theosophy hub: the elect-guiding-evolution claim in its most cosmic idiom, carried by one institution that fractured three ways in fifty years) — **candidate, PROVISIONAL**; head essay `the-nucleus-that-split` two-key-PASSED and SHIPPED (reachable via its grounding nodes). Homepage reading-registration holds one full phase per AUTOPILOT C-2 (operator override window), then renders if unopposed. Sibling to Reading II, not inside it.
 - The State Laboratory (§B/§J: MKUltra → psychedelic dispersal) — nodes partially built
 - The Manufactured Faiths (§E) — harvest-gated
 - The Ranked Race (§G, branches off enactment per R-Q1) — harvest-gated
