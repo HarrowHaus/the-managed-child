@@ -21,3 +21,17 @@ Nothing waits. Override is by edit, not by audience.
 
 ## Safety invariants (cannot be overridden by any agent)
 The evidence gate (no documented without an attached primary) · connection ≠ intent · contradictions kept open · silent discipline in reader-facing prose · internal tokens never render · the two-key rule on keystones · every provisional ruling logged before acted on.
+
+---
+# BRANCHING (Phase C) — appended from AUTOPILOT-ADDENDUM-BRANCHING.md
+
+## C-2: Cluster detection & reading registration (the branching law)
+Every 10 Phase-C commits, run a CLUSTER PASS over the whole edge graph:
+1. Detect communities: sets of ≥5 full nodes with dense intra-edges and a documented spine that do not yet belong to a registered reading. Report node-overlap (hub nodes serving multiple readings are EXPECTED — overlap is evidence of reverberation, log it, never "fix" it).
+2. For each detected cluster: propose it in OPERATOR-LOG.md as a candidate READING (name, one-line argument, essay plan), class `provisional`.
+3. Build toward it: harvest gaps → build nodes → when essay-density holds, WRITE the head essay (essayist → method-critic → operator two-key).
+4. REGISTER the reading in READINGS.md (provisional) and add it to the homepage render. A NEW reading's registration sits one full phase in the log (the operator override window) before it is announced as a reading on the homepage — its essays may ship individually in the meantime under Reference/The Reading.
+5. Each registered reading then grows like Reading I did: essay by essay at cluster density, in sequence order.
+
+## C-3: The overlap ledger
+Maintain research/OVERLAP.md: for every node serving ≥2 readings, the node, its readings, and the edge that carries it across. This is the zoom-out made measurable — the document that shows Crowley (or any hub) as the maximum-degree node with receipts. Refresh on every cluster pass.

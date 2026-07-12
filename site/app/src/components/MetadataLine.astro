@@ -39,9 +39,9 @@ const parts = [
     <>
       {parts.length > 0 && <span class="meta-sep"> · </span>}
       {standing.certainty ? (
-        <em class="certainty-word" tabindex="0" title={standing.def!}>{standing.certainty}</em>
+        <em class="certainty-word" data-standing={standing.certainty} tabindex="0" title={standing.def!}>{standing.certainty}</em>
       ) : (
-        <em class="certainty-word">{standing.structural}</em>
+        <em class="certainty-word" data-standing={standing.structural}>{standing.structural}</em>
       )}
     </>
   )}

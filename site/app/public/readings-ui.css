@@ -1,0 +1,65 @@
+/* readings-ui.css — the reading-lens controls + lens states.
+   Monochrome + a single indigo ink-accent (CLAUDE.md rule c: no gold, no grade
+   colour-palette; the indigo underline is an accent, not a grade colour). All
+   states are opt-in; nothing here changes the default render.
+   Lives at public/ root (not public/static, which sync-vendor wipes each build). */
+
+:root { --tmc-indigo: #4b47c4; }
+@media (prefers-color-scheme: dark) { :root { --tmc-indigo: #9a97ee; } }
+:root[data-theme="dark"] { --tmc-indigo: #9a97ee; }
+:root[data-theme="light"] { --tmc-indigo: #4b47c4; }
+
+/* --- The controls panel --- */
+.reading-lens { font-size: 0.82rem; font-variant: small-caps; }
+.reading-lens-floating {
+  position: fixed; right: 1rem; bottom: 1rem; z-index: 40;
+  background: var(--GW-body-background-color, Canvas);
+  border: 1px solid color-mix(in srgb, currentColor 30%, transparent);
+  border-radius: 4px; padding: 0.25rem 0.4rem;
+  box-shadow: 0 1px 6px color-mix(in srgb, currentColor 18%, transparent);
+}
+.reading-lens-inline { display: block; margin-top: 0.4rem; }
+.rl-toggle {
+  background: none; border: none; cursor: pointer; padding: 0.15rem 0.3rem;
+  color: inherit; font: inherit; opacity: 0.8;
+}
+.rl-toggle:hover, .rl-toggle:focus-visible { opacity: 1; color: var(--tmc-indigo); }
+.rl-body { margin-top: 0.35rem; display: grid; gap: 0.3rem; }
+.rl-row { display: flex; justify-content: space-between; gap: 0.6rem; align-items: baseline; }
+.rl-row > span { opacity: 0.7; }
+.rl-row select {
+  font: inherit; font-variant: small-caps; color: inherit;
+  background: transparent; border: 1px solid color-mix(in srgb, currentColor 30%, transparent);
+  border-radius: 3px; padding: 0.05rem 0.2rem;
+}
+
+/* --- Control 2 · Standing lens --- */
+/* MARK: quiet indigo underline on every certainty word, incl. inside pop-frames. */
+html.lens-mark [data-standing] {
+  text-decoration: underline;
+  text-decoration-color: var(--tmc-indigo);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+/* DOCUMENTED-ONLY: dim everything whose standing is below documented (never hide). */
+html.lens-doc-only [data-standing]:not([data-standing="documented"]) { opacity: 0.4; }
+html.lens-doc-only .index-entries li:has([data-standing]:not([data-standing="documented"])) { opacity: 0.5; }
+.lens-notice {
+  position: fixed; left: 1rem; bottom: 1rem; z-index: 41;
+  font-size: 0.8rem; font-variant: small-caps;
+  background: var(--GW-body-background-color, Canvas);
+  border: 1px solid var(--tmc-indigo); border-radius: 4px;
+  padding: 0.25rem 0.5rem;
+}
+.lens-notice .lens-off {
+  background: none; border: none; cursor: pointer; color: var(--tmc-indigo);
+  font: inherit; font-variant: small-caps; text-decoration: underline; padding: 0 0 0 0.2rem;
+}
+
+/* --- Control 3 · Depth (best-effort collapse of a transcluded body to its lead) --- */
+html.depth-abstract .popframe-body .markdownBody > *:not(:first-of-type):not(#page-metadata):not(.page-metadata-fields) {
+  display: none;
+}
+
+/* Active reading highlight on the homepage (a quiet indigo marker). */
+section.reading.reading-active > .reading-title { color: var(--tmc-indigo); }

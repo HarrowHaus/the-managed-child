@@ -25,10 +25,11 @@ Harvester first wherever research/ lacks the rail's primaries; then researcher �
 6. Deception sub-rail (Maxwell Knight hinge)
 7. Enactment/Consent/Lifespan adjacency builds (Thorndike, Skinner, Le Bon, Wallas, Creel, Jung, Lucas, Eranos)
 8. Music §C / Psychedelic-Dispersal §J / Religion §E / Film §D / Art-World §K — each harvest-gated
+- [x] INTAKE 5: multi-reading architecture installed (READINGS.md, branching law appended to AUTOPILOT.md, homepage rebuilt as The Reverberation, reading-lens UI, OVERLAP.md). 
 - [ ] Phase B boundary: build green → deploy → phase report
 
 ## THEN — Phase C (REVERBERATION), uncapped
 REVERBERATE loop: adjacency → build → cluster at essay-density (≥5 full nodes + spine) → plan entry (spine memo logged) → essayist → method-critic → operator-agent (two-key) → ship. Maintainer every 5 commits. Deploy every 25 commits.
 
 ## Resume pointer
-`PHASE: B · Theosophy hub COMPLETE (7 nodes). NEXT: INTAKE 5 (multi-reading architecture) if zip provided; else rail #3 smoothing §I harvest, or write the theosophy reading-entry (Phase C, two-key).`
+`PHASE: B/C · INTAKE 5 DONE (readings architecture live). NEXT (branching law): (1) theosophy-hub reading-entry — nodes ready, two-key; (2) Smoothing §I harvest → 2nd Reading-III entry; (3) State Laboratory head essay (§B/§J, harvest-gated).`

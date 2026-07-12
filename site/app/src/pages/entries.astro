@@ -199,7 +199,7 @@ const sortRail = (ids: readonly string[]) =>
               <a class="link-page" href={`/nodes/${n.data.id}/`}>{n.data.title}</a>
               <span class="index-gloss"> — {gloss(n)}</span>
               {st.word && (
-                <span class="index-standing" title={st.def ?? ''}> <em>{st.word}</em></span>
+                <span class="index-standing" title={st.def ?? ''}> <em data-standing={st.word}>{st.word}</em></span>
               )}
             </li>
           );

@@ -23,13 +23,17 @@ interface Props {
   bodyClass?: string;
 }
 const { title, bodyClass = '' } = Astro.props;
+// Site title (HOMEPAGE-COPY.md; operator-confirm). Internal routes / classes /
+// the pages.dev subdomain stay unchanged. Avoid doubling on the home masthead.
+const SITE = 'The Reverberation';
+const fullTitle = title === SITE ? SITE : `${title} · ${SITE}`;
 ---
 <!doctype html>
 <html lang="en-us">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{title} · The Managed Child</title>
+  <title>{fullTitle}</title>
   <meta name="color-scheme" content="light dark" />
 
   {/* Metas the forked content-extractor requires when a page is transcluded/
@@ -49,6 +53,11 @@ const { title, bodyClass = '' } = Astro.props;
 
   {/* The main stylesheet (inlined-asset-links.html loads this + script.js). */}
   <link rel="stylesheet" href="/static/css/style.css" />
+
+  {/* The reading-lens controls (Reading · Standing · Depth): monochrome + indigo,
+      progressive enhancement, degrade to nothing without JS. See site/UI-SPEC.md.
+      Served from public/ root (public/static is wiped by sync-vendor each build). */}
+  <link rel="stylesheet" href="/readings-ui.css" />
 </head>
 
 <body class={`the-managed-child ${bodyClass}`.trim()}>
@@ -80,5 +89,9 @@ const { title, bodyClass = '' } = Astro.props;
 
   <!-- Main runtime bundle (rewrite, extracts, transclude, sidenotes, …), deferred. -->
   <script is:inline src="/static/js/script.js" defer></script>
+
+  <!-- Reading-lens module (Reading selector · Standing lens · Depth). Vanilla JS,
+       reads /readings.json, all progressive enhancement (UI-SPEC.md). -->
+  <script is:inline src="/readings-ui.js" defer></script>
 </body>
 </html>

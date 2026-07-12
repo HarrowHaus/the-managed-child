@@ -1,43 +1,52 @@
-// The canonical reading order for the essays — the guided thesis sequence.
-// Two Testimonies is the front door (overview); then the spine runs in chapter
-// order, with The Administrators seated as the master essay at the head of the
-// trunk/administrators cluster. Both the homepage list and the per-essay
-// prev/next navigation read from this single source so the site reads as one
-// continuous guided sequence.
-export const ESSAY_ORDER = [
-  'two-testimonies',                 // front door — overview
-  'humanity-as-administrable-stock', // the root
-  'the-administrators',              // master essay, head of the administrators cluster
-  'the-trunk',                       // administrators
-  'the-seed',                        // articulation seed
-  'the-four-idioms',                 // the hinge and the four idioms
-  'the-links-hold',                  // articulation — the Crowley-in-America documented depth-descent
-  'measuring-the-child',             // enactment — measuring
-  'conditioning-the-child',          // enactment — conditioning
-  'engineering-consent',             // consent
-  'the-clean-version',               // smoothing — head of the smoothing rail (covert state enactment + its over-tidying)
-  'the-denominator',                 // the base rate / honesty
-  'reverberation-not-conspiracy',    // method
-  'liberation-as-the-first-step',    // method
-  'from-the-nursery-to-the-toy-aisle', // enactment — the marketplace
-  'the-child-grown-up',              // lifespan
-  'either-way',                      // the Coda
-] as const;
+// Reading-aware essay ordering. The single source of truth is READINGS.md,
+// parsed at build into readings.json. An essay's DEFAULT prev/next follows its
+// PRIMARY reading (the first reading, in order, that contains it); the reading-
+// lens UI re-threads prev/next client-side to whichever reading the reader picks.
+// The Method and the Coda are cross-cutting (served by / closing every reading)
+// and carry no fixed default neighbours.
+import readingsData from '../data/readings.json';
 
-// Rank map for sorting; unknown ids sort to the end (stable, alphabetical).
-const RANK = new Map(ESSAY_ORDER.map((id, i) => [id, i]));
+export interface Reading {
+  num: string;
+  order: number;
+  slug: string;
+  title: string;
+  argument: string;
+  essays: string[];
+}
+export const READINGS: Reading[] = readingsData.readings as Reading[];
+export const METHOD_ESSAYS: string[] = readingsData.method as string[];
+export const CODA_ESSAYS: string[] = readingsData.coda as string[];
 
-export function essayRank(id: string): number {
-  return RANK.has(id) ? (RANK.get(id) as number) : Number.MAX_SAFE_INTEGER;
+const primaryReadingOf = new Map<string, Reading>();
+for (const r of [...READINGS].sort((a, b) => a.order - b.order)) {
+  for (const id of r.essays) if (!primaryReadingOf.has(id)) primaryReadingOf.set(id, r);
 }
 
-// Given the current essay id, return the previous/next ids in reading order
-// (null at the ends).
+export function primaryReadingSlug(id: string): string | null {
+  if (primaryReadingOf.has(id)) return primaryReadingOf.get(id)!.slug;
+  if (METHOD_ESSAYS.includes(id)) return 'method';
+  if (CODA_ESSAYS.includes(id)) return 'coda';
+  return null;
+}
+
+// Default neighbours = position within the essay's PRIMARY reading.
 export function essayNeighbors(id: string): { prev: string | null; next: string | null } {
-  const i = ESSAY_ORDER.indexOf(id as (typeof ESSAY_ORDER)[number]);
-  if (i === -1) return { prev: null, next: null };
+  const r = primaryReadingOf.get(id);
+  if (!r) return { prev: null, next: null };
+  const i = r.essays.indexOf(id);
   return {
-    prev: i > 0 ? ESSAY_ORDER[i - 1] : null,
-    next: i < ESSAY_ORDER.length - 1 ? ESSAY_ORDER[i + 1] : null,
+    prev: i > 0 ? r.essays[i - 1] : null,
+    next: i < r.essays.length - 1 ? r.essays[i + 1] : null,
   };
+}
+
+// Backwards-compatible rank (concatenated reading order, then method, then coda);
+// unknown ids sort to the end.
+const RANK = new Map<string, number>();
+let k = 0;
+for (const r of READINGS) for (const id of r.essays) if (!RANK.has(id)) RANK.set(id, k++);
+for (const id of [...METHOD_ESSAYS, ...CODA_ESSAYS]) if (!RANK.has(id)) RANK.set(id, k++);
+export function essayRank(id: string): number {
+  return RANK.has(id) ? (RANK.get(id) as number) : Number.MAX_SAFE_INTEGER;
 }

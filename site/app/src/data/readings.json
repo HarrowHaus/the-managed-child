@@ -1,0 +1,52 @@
+{
+  "readings": [
+    {
+      "num": "I",
+      "order": 1,
+      "slug": "reading-i",
+      "title": "The Managed Child",
+      "argument": "The founding territory: how the twentieth century turned childhood into something measured, conditioned, and administered — built almost entirely by the ordinary secular mainstream.",
+      "essays": [
+        "two-testimonies",
+        "humanity-as-administrable-stock",
+        "the-administrators",
+        "the-trunk",
+        "measuring-the-child",
+        "conditioning-the-child",
+        "engineering-consent",
+        "the-denominator",
+        "liberation-as-the-first-step",
+        "from-the-nursery-to-the-toy-aisle",
+        "the-child-grown-up"
+      ]
+    },
+    {
+      "num": "II",
+      "order": 2,
+      "slug": "reading-ii",
+      "title": "The Aeon Current",
+      "argument": "Crowley outward: one received book, four idioms of an initiated elect, and the documented chain of hands it passed through in America — rocketry, a new religion, film, and the record of what was claimed about all of it.",
+      "essays": [
+        "the-seed",
+        "the-four-idioms",
+        "the-links-hold"
+      ]
+    },
+    {
+      "num": "III",
+      "order": 3,
+      "slug": "reading-iii",
+      "title": "The Smoothing",
+      "argument": "The tidying reflex: files burned, testimony sanitized, retractions entered under law — and what the over-cleaning of a rough record makes people believe.",
+      "essays": [
+        "the-clean-version"
+      ]
+    }
+  ],
+  "method": [
+    "reverberation-not-conspiracy"
+  ],
+  "coda": [
+    "either-way"
+  ]
+}

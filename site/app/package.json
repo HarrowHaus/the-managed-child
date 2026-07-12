@@ -7,7 +7,8 @@
   "scripts": {
     "sync-vendor": "node scripts/sync-vendor.mjs",
     "gen-annotations": "node scripts/gen-annotations.mjs",
-    "prebuild-assets": "npm run sync-vendor && npm run gen-annotations",
+    "gen-readings": "node scripts/gen-readings.mjs",
+    "prebuild-assets": "npm run sync-vendor && npm run gen-annotations && npm run gen-readings",
     "dev": "npm run prebuild-assets && astro dev",
     "build": "npm run prebuild-assets && astro build",
     "preview": "astro preview",

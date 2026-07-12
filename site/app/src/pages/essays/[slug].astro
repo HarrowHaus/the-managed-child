@@ -48,24 +48,31 @@ const { prev, next } = essayNeighbors(essay.id);
     </section>
   )}
 
-  {(prev || next) && (
-    <nav class="essay-nav" aria-label="Reading order">
-      <span class="essay-nav-prev">
-        {prev && (
-          <a class="link-page" href={`/essays/${prev}`} rel="prev">
-            ← <span class="essay-nav-label">{essayTitles.get(prev)}</span>
-          </a>
-        )}
-      </span>
-      <span class="essay-nav-next">
-        {next && (
-          <a class="link-page" href={`/essays/${next}`} rel="next">
-            <span class="essay-nav-label">{essayTitles.get(next)}</span> →
-          </a>
-        )}
-      </span>
-    </nav>
-  )}
+  {/* Default prev/next follows this essay's PRIMARY reading; the reading-lens
+      module re-threads it client-side to the selected reading. Rendered always
+      (with the essay id) so JS can populate it even where the default is empty;
+      hidden by CSS when it has no links and no reading is active. */}
+  <nav
+    class={`essay-nav${!prev && !next ? ' essay-nav-empty' : ''}`}
+    aria-label="Reading order"
+    data-essay-id={essay.id}
+  >
+    <span class="essay-nav-prev">
+      {prev && (
+        <a class="link-page" href={`/essays/${prev}`} rel="prev">
+          ← <span class="essay-nav-label">{essayTitles.get(prev)}</span>
+        </a>
+      )}
+    </span>
+    <span class="essay-nav-position" hidden></span>
+    <span class="essay-nav-next">
+      {next && (
+        <a class="link-page" href={`/essays/${next}`} rel="next">
+          <span class="essay-nav-label">{essayTitles.get(next)}</span> →
+        </a>
+      )}
+    </span>
+  </nav>
 </GwernShell>
 
 <style>
@@ -81,4 +88,6 @@ const { prev, next } = essayNeighbors(essay.id);
   }
   .essay-nav-next { margin-left: auto; text-align: right; }
   .essay-nav-label { font-variant: normal; }
+  .essay-nav-empty { display: none; }
+  .essay-nav-position { opacity: 0.6; font-size: 0.85em; align-self: center; }
 </style>

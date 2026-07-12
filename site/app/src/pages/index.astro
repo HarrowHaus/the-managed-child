@@ -2,38 +2,96 @@
 import { getCollection } from 'astro:content';
 import GwernShell from '../layouts/GwernShell.astro';
 import { standingFromGrade } from '../lib/certainty';
-import { essayRank } from '../lib/essay-order';
+import { READINGS, METHOD_ESSAYS, CODA_ESSAYS } from '../lib/essay-order';
 
+// The front door. One graph, several readings (READINGS.md → readings.json).
+// Subject-first copy (HOMEPAGE-COPY.md): the masthead names the recurrence, and
+// each reading is a door onto the same node graph. The managed child is Reading I
+// — first and most complete, no longer the container. No dates, no genre tags,
+// no method-narration; all copy passes the grade-vocab guard.
 const nodes = await getCollection('nodes', (n) => !standingFromGrade(n.data.grade).discarded);
-// Essays run in the canonical reading order (the guided thesis sequence), not by date.
-const essays = (await getCollection('essays'))
-  .filter((e) => e.id !== 'index')
-  .sort((a, b) => essayRank(a.id) - essayRank(b.id));
+const essays = (await getCollection('essays')).filter((e) => e.id !== 'index');
+const byId = new Map(essays.map((e) => [e.id, e.data]));
+const titleOf = (id: string) => byId.get(id)?.title ?? id;
+const dekOf = (id: string) => byId.get(id)?.subtitle ?? '';
 ---
-<GwernShell title="The Managed Child">
-  <p>A reference that shows its work. Every entry links to the entries it leans
-  on — hover any link to preview it, or read straight through. Standing is marked
-  in plain language: <em>documented</em>, <em>possible</em>, <em>apocryphal</em>.</p>
+<GwernShell title="The Reverberation">
+  <p class="home-dek">One old conviction — that people are raw material to be graded
+  and steered by those fit to do it — keeps surfacing across the record: in the
+  nursery and the schoolroom, the ad agency and the temple, the laboratory and the
+  recording studio. This is a reference to where it surfaced, who carried it, and
+  what is actually documented at every link. Read any reading straight through, or
+  follow any name into the graph.</p>
 
-  {essays.length > 0 && (
-    <>
-      <h2 id="the-reading">The Reading</h2>
-      <p>Read in order, these form one continuous argument. Start with
-      <em>Two Testimonies</em> and read straight down, or step in anywhere.</p>
-      <ol class="essay-sequence">
-        {essays.map((e) => (
+  <p class="home-mechanics">Hover any link to preview what it leans on. Standing is
+  marked in plain words: <em>documented</em>, <em>possible</em>, <em>apocryphal</em>.</p>
+
+  <div id="continue-reading" class="continue-reading" hidden></div>
+
+  <h2 id="the-readings">The Readings</h2>
+  <p class="readings-intro"><em>Each reading is one continuous argument. Start
+  anywhere; every door opens onto the same graph.</em></p>
+
+  {READINGS.map((r) => (
+    <section class="reading" id={r.slug} data-reading={r.slug}>
+      <h3 class="reading-title">Reading {r.num} — {r.title}</h3>
+      <p class="reading-argument"><em>{r.argument}</em></p>
+      <ol class="reading-essays">
+        {r.essays.map((id) => (
           <li>
-            <a class="link-page" href={`/essays/${e.id}`}>{e.data.title}</a>
-            {e.data.subtitle && <span> — <em>{e.data.subtitle}</em></span>}
+            <a class="link-page" href={`/essays/${id}`}>{titleOf(id)}</a>
+            {dekOf(id) && <span class="essay-dek"> — <em>{dekOf(id)}</em></span>}
           </li>
         ))}
       </ol>
-    </>
+    </section>
+  ))}
+
+  {METHOD_ESSAYS.length > 0 && (
+    <section class="reading reading-aux" data-reading="method">
+      <h3 class="reading-title">The Method <span class="reading-serves">· serves every reading</span></h3>
+      <ul class="reading-essays">
+        {METHOD_ESSAYS.map((id) => (
+          <li>
+            <a class="link-page" href={`/essays/${id}`}>{titleOf(id)}</a>
+            {dekOf(id) && <span class="essay-dek"> — <em>{dekOf(id)}</em></span>}
+          </li>
+        ))}
+      </ul>
+    </section>
   )}
 
-  <h2 id="index">Reference</h2>
+  {CODA_ESSAYS.length > 0 && (
+    <section class="reading reading-aux" data-reading="coda">
+      <h3 class="reading-title">The Coda <span class="reading-serves">· closes every reading</span></h3>
+      <ul class="reading-essays">
+        {CODA_ESSAYS.map((id) => (
+          <li>
+            <a class="link-page" href={`/essays/${id}`}>{titleOf(id)}</a>
+            {dekOf(id) && <span class="essay-dek"> — <em>{dekOf(id)}</em></span>}
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  <h2 id="reference">Reference</h2>
   <p><a class="link-page" href="/entries">Index — all entries</a>. Every figure,
   work, institution, and idea in the graph ({nodes.length}), grouped by its role
   in the argument. Or use search (top of any page) and hover any link to preview
   what it leans on.</p>
 </GwernShell>
+
+<style>
+  .home-dek { font-size: 1.05em; line-height: 1.55; }
+  .home-mechanics { opacity: 0.75; font-size: 0.92em; }
+  .continue-reading { margin: 0.6em 0 0; font-variant: small-caps; }
+  .reading { margin-top: 2em; }
+  .reading-argument, .readings-intro { margin: 0.2em 0 0.7em; opacity: 0.85; }
+  .reading-title { margin-bottom: 0.1em; }
+  .reading-serves { font-weight: normal; opacity: 0.55; font-size: 0.8em; font-variant: small-caps; }
+  .reading-essays { line-height: 1.5; }
+  .reading-essays li { margin: 0.25em 0; }
+  .essay-dek { opacity: 0.82; }
+  .reading-aux .reading-essays { list-style: none; padding-left: 0; }
+</style>
