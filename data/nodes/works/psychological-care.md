@@ -11,7 +11,7 @@ abstract: "Psychological Care of Infant and Child (1928) is John B. Watson's app
 sources:
   - "John B. Watson, Psychological Care of Infant and Child (1928) — 'not more babies but better brought up babies'; a child with 'no great attachments to any place or person'; 'Never hug and kiss them, never let them sit on your lap. If you must, kiss them once on the forehead when they say good night. Shake hands with them in the morning' — [PRIMARY]"
 welds:
-  - {to: watson-john-b, type: cited, register: worked-off, grade: WELD, source: "Watson's own childrearing manual — the detachment program in his words"}
+  - {to: watson-john-b, type: restates, register: worked-off, grade: WELD, source: "Watson's own childrearing manual — the detachment program in his words"}
   - {to: managed-child, type: influenced, register: same-field, grade: WELD, source: "the clearest statement of the child as something to be conditioned, by design"}
 tags: [rail-enactment, enactment]
 ---

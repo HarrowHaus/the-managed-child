@@ -12,7 +12,7 @@ sources:
   - "Krishnamurti's dissolution speech, Ommen, 3 August 1929 — 'Truth is a pathless land' — [PRIMARY]"
   - "Mary Lutyens, Krishnamurti: The Years of Awakening (1975) — the 1909 identification and the Order years — [SECONDARY]"
 welds:
-  - {to: order-of-the-star, type: schismed-from, register: worked-off, grade: WELD, source: "Krishnamurti, its Head, dissolved the Order of the Star in the East on 3 August 1929 at Ommen"}
+  - {to: order-of-the-star, type: broke-from, register: worked-off, grade: WELD, source: "Krishnamurti, its Head, dissolved the Order of the Star in the East on 3 August 1929 at Ommen"}
 hypotheses: []
 tags: [rail-articulation, articulation]
 ---

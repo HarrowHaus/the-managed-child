@@ -11,8 +11,8 @@ abstract: "J. Walter Thompson is one of the oldest and largest modern advertisin
 sources:
   - "J. Walter Thompson agency history; John B. Watson's employment there from 1920, rising to vice-president, applying behaviorist method to advertising — [SECONDARY: standard biographical/business record]"
 welds:
-  - {to: watson-john-b, type: hosted, register: worked-off, grade: WELD, source: "employed Watson from 1920; he became a vice-president and applied behaviorism to advertising"}
-  - {to: bernays-edward, type: influenced, register: same-field, grade: WELD, source: "the professionalization of persuasion — psychology turned into a sales method — in the same decade as Bernays"}
+  - {to: watson-john-b, type: member-of, register: worked-off, grade: HYPOTHESIS, source: "employed Watson from 1920; he became a vice-president and applied behaviorism to advertising"}
+  - {to: bernays-edward, type: influenced, register: same-field, grade: HYPOTHESIS, source: "the professionalization of persuasion — psychology turned into a sales method — in the same decade as Bernays"}
 tags: [rail-consent, rail-enactment, consent]
 ---
 

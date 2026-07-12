@@ -15,11 +15,11 @@ sources:
   - "Bertrand Russell, The Autobiography of Bertrand Russell (1967) — [VERIFY: cited in the map for membership and the resignation; not checked against the text]"
   - "H.G. Wells, Experiment in Autobiography (1934) — [VERIFY: cited in the map for the 'especially active member' characterization; not checked against the text]"
 welds:
-  - {to: webb-sidney, type: hosted, register: worked-off, grade: WELD, source: "co-founder with Beatrice Webb, 1902"}
-  - {to: webb-beatrice, type: hosted, register: worked-off, grade: WELD, source: "co-founder with Sidney Webb, 1902"}
-  - {to: wells-hg, type: hosted, register: worked-off, grade: WELD, source: "recruited as capable of original thoughts on every subject; an active member"}
-  - {to: russell-bertrand, type: hosted, register: worked-off, grade: WELD, source: "member; resigned 1903 over Grey's Entente policy"}
-  - {to: rule-by-trained-elite, type: influenced, register: same-field, grade: WELD, source: "a table of people who each held an elite conception of governance — the trunk, socially documented"}
+  - {to: webb-sidney, type: member-of, register: worked-off, grade: HYPOTHESIS, source: "co-founder with Beatrice Webb, 1902"}
+  - {to: webb-beatrice, type: member-of, register: worked-off, grade: HYPOTHESIS, source: "co-founder with Sidney Webb, 1902"}
+  - {to: wells-hg, type: member-of, register: worked-off, grade: HYPOTHESIS, source: "recruited as capable of original thoughts on every subject; an active member"}
+  - {to: russell-bertrand, type: member-of, register: worked-off, grade: HYPOTHESIS, source: "member; resigned 1903 over Grey's Entente policy"}
+  - {to: rule-by-trained-elite, type: influenced, register: same-field, grade: HYPOTHESIS, source: "a table of people who each held an elite conception of governance — the trunk, socially documented"}
 hypotheses: []
 tags: [administrators, trunk, honesty-weld, denominator]
 ---

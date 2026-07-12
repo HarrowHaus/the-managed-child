@@ -12,7 +12,7 @@ sources:
   - "Aleister Crowley, Liber AL vel Legis (1904) — Ch. III, the Crowned and Conquering Child; I:49, 'Ra-Hoor-Khuit hath taken his seat in the East at the Equinox of the Gods' — [PRIMARY] (text confirmed against Wikisource / Hermetic Library)"
   - "Crowley's doctrine of the three aeons (Isis / Osiris / Horus), with the Aeon of Horus beginning 1904 — [SECONDARY: standard Thelemic scholarship]"
 welds:
-  - {to: liber-al-vel-legis, type: cited, register: worked-off, grade: WELD, source: "the Aeon of the Crowned and Conquering Child is proclaimed in the received text (Ch. III; I:49)"}
+  - {to: liber-al-vel-legis, type: restates, register: worked-off, grade: WELD, source: "the Aeon of the Crowned and Conquering Child is proclaimed in the received text (Ch. III; I:49)"}
   - {to: the-root, type: influenced, register: same-field, grade: WELD, source: "a sovereign child set over a ruling few is the root — administration of the many by an elect — in archetypal form"}
   - {to: four-idiom-through-line, type: influenced, register: same-field, grade: WELD, source: "the Aeon is the first of the four idioms — the esoteric articulation of a child-age governed by a secret few"}
 tags: [rail-articulation, articulation, seed]

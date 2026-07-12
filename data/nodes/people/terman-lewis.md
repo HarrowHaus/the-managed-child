@@ -14,7 +14,7 @@ sources:
 welds:
   - {to: managed-child, type: influenced, register: same-field, grade: WELD, source: "the Stanford–Binet (1916) turns the child into a tracked, sorted population — the measurement move of the enactment rail"}
 hypotheses:
-  - {to: galton-francis, type: cited, register: same-field, grade: HYPOTHESIS, source: "Terman worked squarely in the Galtonian hereditarian-eugenic tradition; a documented direct citation has not been attached here — held as parallel, not asserted as transmission"}
+  - {to: galton-francis, type: restates, register: same-field, grade: HYPOTHESIS, source: "Terman worked squarely in the Galtonian hereditarian-eugenic tradition; a documented direct citation has not been attached here — held as parallel, not asserted as transmission"}
 tags: [rail-enactment, enactment]
 ---
 

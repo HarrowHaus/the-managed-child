@@ -5,12 +5,13 @@ import { glob } from 'astro/loaders';
 // book/chapters/** in place (two levels up), so authored Markdown+YAML stays the
 // single source of truth — no file is copied or edited.
 
+// Closed edge vocabulary — EDGE-VOCABULARY.md (authoritative; the edge-lint
+// integration enforces the same list and the moat at build time).
 const edgeType = z.enum([
-  'influenced', 'met', 'corresponded', 'cited', 'funded', 'mentored',
-  'advised', 'founded', 'member-of', 'channeled', 'adapted', 'groomed',
-  'schismed-from', 'co-founded', 'hosted',
+  'read', 'met', 'influenced', 'mentored', 'advised', 'funded', 'founded',
+  'member-of', 'broke-from', 'restates', 'precedes', 'no-relay',
 ]);
-const transmission = z.enum(['worked-off', 'same-field']);
+const transmission = z.enum(['worked-off', 'same-field', 'none']);
 const edge = z.object({
   to: z.string(),
   type: edgeType,

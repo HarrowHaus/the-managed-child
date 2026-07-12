@@ -14,7 +14,7 @@ sources:
   - "Jeffrey J. Kripal, Mutants and Mystics (2011) — scholarly account of the Puharich circle and its media reach — [SECONDARY]"
 welds:
   - {to: four-idiom-through-line, type: influenced, register: same-field, grade: WELD, source: "the Nine — a channeled council claimed to direct civilization — is the fourth idiom of rule-by-elect"}
-  - {to: roddenberry-gene, type: hosted, register: worked-off, grade: WELD, source: "Roddenberry attended the 1974–75 Ossining sessions and was commissioned to write a screenplay from the material (Kripal, Mutants and Mystics, 2011; transcript record in The Only Planet of Choice, 1993)"}
+  - {to: roddenberry-gene, type: met, register: worked-off, grade: WELD, source: "Roddenberry attended the 1974–75 Ossining sessions and was commissioned to write a screenplay from the material (Kripal, Mutants and Mystics, 2011; transcript record in The Only Planet of Choice, 1993)"}
 hypotheses: []
 tags: [rail-articulation, articulation]
 ---

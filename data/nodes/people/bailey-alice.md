@@ -13,7 +13,7 @@ sources:
   - "Incorporation of the Bailey organization (Lucifer Publishing Company, 1922; later Lucis Trust) and the Arcane School (1923) — [SECONDARY: Lucis Trust's own institutional history]"
 welds:
   - {to: lucis-trust, type: founded, register: worked-off, grade: WELD, source: "Alice and Foster Bailey founded the organization incorporated in 1922 and the Arcane School in 1923"}
-  - {to: theosophical-society, type: schismed-from, register: worked-off, grade: WELD, source: "Bailey broke from the Theosophy that Besant led — a schism, not a succession"}
+  - {to: theosophical-society, type: broke-from, register: worked-off, grade: WELD, source: "Bailey broke from the Theosophy that Besant led — a schism, not a succession"}
   - {to: four-idiom-through-line, type: influenced, register: same-field, grade: WELD, source: "the Hierarchy is the third idiom — rule-by-initiated-elect toward a planned unity"}
 hypotheses: []
 tags: [rail-articulation, articulation]

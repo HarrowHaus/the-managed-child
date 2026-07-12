@@ -11,7 +11,7 @@ abstract: "Lucis Trust is the institutional vehicle of Alice Bailey's teaching, 
 sources:
   - "Lucis Trust institutional history — incorporated 1922 as Lucifer Publishing Company, renamed Lucis; Arcane School from 1923 — [SECONDARY: the organization's own record]"
 welds:
-  - {to: four-idiom-through-line, type: influenced, register: same-field, grade: WELD, source: "the standing institution of the Hierarchy idiom — publishing and training for rule-by-initiated-elect"}
+  - {to: four-idiom-through-line, type: influenced, register: same-field, grade: HYPOTHESIS, source: "the standing institution of the Hierarchy idiom — publishing and training for rule-by-initiated-elect"}
 hypotheses: []
 tags: [rail-articulation, articulation]
 ---

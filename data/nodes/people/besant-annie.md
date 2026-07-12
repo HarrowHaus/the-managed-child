@@ -15,7 +15,7 @@ welds:
   - {to: fabian-society, type: member-of, register: worked-off, grade: WELD, source: "Besant was a Fabian and a contributor to Fabian Essays (1889) — the trunk's operating method, encountered directly"}
   - {to: order-of-the-star, type: founded, register: worked-off, grade: WELD, source: "Besant founded the Order of the Star in the East, April 1911, to prepare for the World Teacher"}
   - {to: theosophical-society, type: member-of, register: worked-off, grade: WELD, source: "President of the Theosophical Society, 1907–1933"}
-  - {to: krishnamurti-jiddu, type: groomed, register: worked-off, grade: WELD, source: "Besant, as Protector, installed Krishnamurti as Head of the Order and directed his upbringing toward the World-Teacher role"}
+  - {to: krishnamurti-jiddu, type: mentored, register: worked-off, grade: WELD, source: "Besant, as Protector, installed Krishnamurti as Head of the Order and directed his upbringing toward the World-Teacher role"}
 hypotheses: []
 tags: [rail-articulation, articulation, trunk]
 ---

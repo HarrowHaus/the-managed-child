@@ -25,7 +25,7 @@ welds:
   - {to: huxley-julian, type: influenced, register: same-field, grade: WELD, source: "'evolutionary humanism' is rule-by-the-fit restated in a UN founding document (UNESCO: Its Purpose and Its Philosophy, 1946)"}
   - {to: bernays-edward, type: influenced, register: same-field, grade: WELD, source: "the 'invisible government' of an 'intelligent minority' is the doctrine in the mass-democratic age (Propaganda, 1928)"}
 hypotheses:
-  - {to: burnham-james, type: cited, register: worked-off, grade: HYPOTHESIS, source: "the map names Burnham's The Machiavellians (1943) as the bridge carrying Machiavelli into the managerial-elite thesis; the claim is plausible but the text has not been checked here — do not assert until read"}
+  - {to: burnham-james, type: restates, register: worked-off, grade: HYPOTHESIS, source: "the map names Burnham's The Machiavellians (1943) as the bridge carrying Machiavelli into the managerial-elite thesis; the claim is plausible but the text has not been checked here — do not assert until read"}
 tags: [trunk, spine, enactment, denominator]
 ---
 

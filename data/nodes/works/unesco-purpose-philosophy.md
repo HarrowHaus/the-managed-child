@@ -11,7 +11,7 @@ abstract: "UNESCO: Its Purpose and Its Philosophy (1946) is the founding orienta
 sources:
   - "Julian Huxley, UNESCO: Its Purpose and Its Philosophy (UNESCO / Preparatory Commission, 1946) — the pamphlet itself; full text at unesdoc.unesco.org (pf0000068197) and the Internet Archive — [PRIMARY]"
 welds:
-  - {to: huxley-julian, type: cited, register: worked-off, grade: WELD, source: "written by Huxley as UNESCO's first Director-General; his stated orientation for the agency"}
+  - {to: huxley-julian, type: restates, register: worked-off, grade: WELD, source: "written by Huxley as UNESCO's first Director-General; his stated orientation for the agency"}
   - {to: unesco, type: influenced, register: worked-off, grade: WELD, source: "the founding orientation document of the institution it names"}
   - {to: rule-by-trained-elite, type: influenced, register: same-field, grade: WELD, source: "'evolutionary humanism' is rule-by-the-fit restated in a UN founding document"}
 tags: [rail-administrators, administrators]
