@@ -15,6 +15,7 @@ sources:
 welds:
   - {to: parsons-jack, type: met, register: worked-off, grade: WELD, source: "Hubbard moved into the Parsonage in Aug. 1945, formed Allied Enterprises with Parsons, and served as scribe for the 1946 Babalon Working"}
   - {to: crowley-aleister, type: read, register: worked-off, grade: WELD, source: "on the 1952 PDC tape Hubbard names Crowley 'my very good friend' and recommends his Master Therion; he demonstrably knew Crowley's work, though the two never met in person"}
+  - {to: scientology, type: founded, register: worked-off, grade: WELD, source: "published Dianetics (1950) and incorporated the Church of Scientology (1953) after the Parsonage years"}
 hypotheses:
   - {to: crowley-aleister, type: influenced, register: worked-off, grade: HYPOTHESIS, source: "that Scientology's core derives from Crowley's magick is Jon Atack's argument; Hugh Urban ceilings it at 'one element in the bricolage' and J. Gordon Melton rejects it as core — an attributed, contested derivation, not a documented one"}
 tags: [rail-articulation, articulation, crowley-in-america]
