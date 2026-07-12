@@ -26,6 +26,7 @@
 - either-way
 
 ## Planned readings (register on essay-density; provisional per AUTOPILOT branching law)
-- The State Laboratory (§B/§J: MKUltra → psychedelic dispersal) — nodes partially built
+- The State Laboratory (§B/§J: MKUltra → psychedelic dispersal) — head essay `the-seed-and-the-flood` SHIPPED via two-key gate; reading PROVISIONAL, homepage override window OPEN (one full phase per C-2 step 4). The essay ships now individually (its own page + grounding nodes); on window close it promotes to a live Reading V.
+  - 1. the-seed-and-the-flood
 - The Manufactured Faiths (§E) — harvest-gated
 - The Ranked Race (§G, branches off enactment per R-Q1) — harvest-gated
