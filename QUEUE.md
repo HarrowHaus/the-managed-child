@@ -18,7 +18,7 @@ Exit: lint + guards green, zero reader-facing "documented" without a primary.
 ## NEXT — Phase B (DEPTH), rail by rail, densest-first
 Harvester first wherever research/ lacks the rail's primaries; then researcher → grader → carder.
 1. [x] CROWLEY-IN-AMERICA RAIL COMPLETE: 13 WELD nodes (crown + ring + agape-lodge + scientology) + reading-entry 'the-links-hold' SHIPPED via two-key gate (placed after the-four-idioms). Optional later top-ups: Malina/von Kármán/Aerojet, Marjorie-Cameron film nodes, the Process-Church node (shared with smoothing rail).
-2. [~] Theosophy hub STARTED: harvest run (research/theosophy-hub-harvest.md); built theosophical-society (hub, WELD), blavatsky-helena, montessori-maria (education bridge). REMAINING: olcott-henry-steel, judge-william-quan, adyar, restore spr (Hodgson primary now in harvest), build steiner-rudolf; then wire schisms (steiner/bailey/judge broke-from→theosophical-society).
+2. [x] THEOSOPHY HUB COMPLETE: theosophical-society, blavatsky-helena, montessori-maria, olcott-henry-steel, judge-william-quan, spr (restored), steiner-rudolf (HYPOTHESIS pending primary). Schisms wired (judge/bailey WELD; steiner possible). Rail at essay-density → reading-entry queued (Phase C). Optional top-ups: adyar node; steiner-primary to upgrade the schism edge.
 3. Smoothing §I (Church Committee → Northwoods → COINTELPRO → Gulf of Tonkin) — harvest; then rule R-Q2
 4. Four-idiom component deepening (Crowley/Besant/Bailey/Puharich)
 5. §G eugenics theater (Goddard/Yerkes/Davenport/British Eugenics Society/HBF) — off enactment (R-Q1)
@@ -31,4 +31,4 @@ Harvester first wherever research/ lacks the rail's primaries; then researcher �
 REVERBERATE loop: adjacency → build → cluster at essay-density (≥5 full nodes + spine) → plan entry (spine memo logged) → essayist → method-critic → operator-agent (two-key) → ship. Maintainer every 5 commits. Deploy every 25 commits.
 
 ## Resume pointer
-`PHASE: B · ITEM: Theosophy hub STARTED (hub + Blavatsky + Montessori built from harvest). NEXT: build olcott, judge, adyar, spr-restore, steiner; wire the three schisms broke-from→theosophical-society.`
+`PHASE: B · Theosophy hub COMPLETE (7 nodes). NEXT: INTAKE 5 (multi-reading architecture) if zip provided; else rail #3 smoothing §I harvest, or write the theosophy reading-entry (Phase C, two-key).`
