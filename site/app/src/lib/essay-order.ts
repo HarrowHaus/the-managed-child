@@ -14,6 +14,7 @@ export const ESSAY_ORDER = [
   'measuring-the-child',             // enactment — measuring
   'conditioning-the-child',          // enactment — conditioning
   'engineering-consent',             // consent
+  'the-clean-version',               // smoothing — head of the smoothing rail (covert state enactment + its over-tidying)
   'the-denominator',                 // the base rate / honesty
   'reverberation-not-conspiracy',    // method
   'liberation-as-the-first-step',    // method
