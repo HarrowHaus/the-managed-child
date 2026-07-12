@@ -72,3 +72,6 @@ Content is produced by a governed pipeline, not ad-hoc. Read `VOICE.md` (the enf
 **Edges** obey the closed vocabulary in `EDGE-VOCABULARY.md`; the build lints them.
 **The maintainer** (`agents/maintainer.md`) SURFACES corpus problems into `gaps.md` and NEVER reconciles them; contradictions are ruled on by a human, and the honest resolution is often to keep the tension and mark the seam. Anything the maintainer proposes to write goes through grader → critic.
 **The evidence gate is the moat.** No `documented` standing — on a node or an edge — without an attached confirming primary. This is the one thing the Karpathy/newsroom patterns lack and the thing this project cannot.
+
+## Full-autonomy law
+The standing command `autopilot` runs AUTOPILOT.md's phases to completion. agents/operator.md rules everything that formerly stopped for a human, against RULINGS.md + MASTER-PLAN Part I, logging every ruling to OPERATOR-LOG.md (provisional where novel). Nothing waits for chat. Safety invariants in AUTOPILOT.md are unoverridable. Boot order unchanged; QUEUE.md resumes any session mid-phase.

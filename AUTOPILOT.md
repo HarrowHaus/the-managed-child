@@ -1,0 +1,23 @@
+# AUTOPILOT.md — full-autonomy operation (chat optional, never required)
+*The standing command `autopilot` runs the phases below to completion, sessions resuming mid-stride from QUEUE.md. No step stops to wait for a human. Anything requiring judgment is ruled by agents/operator.md against the written laws, logged to OPERATOR-LOG.md, and marked provisional where novel. The human reads the log at leisure and overrides by editing; the machine keeps moving.*
+
+## Phase A — HYGIENE (clean substrate before depth)
+All EXPANSION-PLAN H1–H10 + Tier 0: attach in-corpus primaries; demote every unsourced WELD to HYPOTHESIS (R-Q3); fix tokens, seams, event-edges, collisions; merge per R-Q5; reconcile schema + add co-authored (R-Q4); wire the smoothing cluster (H8); the influenced/same-field reclass (H3) is ruled per-node by the operator-agent, logged. Exit: lint + guards green, zero reader-facing "documented" without a primary.
+
+## Phase B — DEPTH (every stub and thin node to full documented depth)
+Rail by rail, densest-first (Crowley crown → theosophy hub → smoothing §I → the rest): harvester first wherever research/ lacks the rail's primaries (in-session web research, FOIA/court/leak sweep per Part VII), then every node through researcher → grader → carder. Full depth = the Part-IV standard: documented core carried by primaries, edges split connection/intent, contradictions open, adjacencies surfaced. Depth from evidence, never padding. Exit: zero stubs; every node full or deliberately incubating.
+
+## Phase C — REVERBERATION (standing growth)
+The REVERBERATE loop, uncapped: adjacency discovery appends → new nodes build → when a cluster reaches essay-density (≥5 full nodes + a documented spine), the loop PLANS the reading-entry (spine memo logged), then WRITES it: essayist → method-critic (hostile gate) → operator-agent (two-key). Passing essays ship. Maintainer every 5 commits; gaps feed the queue. Exit: none — this is the site growing itself.
+
+## Deploys
+At phase boundaries and every 25 commits within Phase C (Wrangler direct upload). Deterministic gates also run in CI on push.
+
+## The human's surface (all optional)
+- OPERATOR-LOG.md — every judgment call, with reasoning, flagged `settled` (covered by law) or `provisional` (novel; override invited).
+- QUEUE.md — reorder/aim at will; the loop obeys on next pick.
+- RULINGS.md — edit a law and every future ruling follows it.
+Nothing waits. Override is by edit, not by audience.
+
+## Safety invariants (cannot be overridden by any agent)
+The evidence gate (no documented without an attached primary) · connection ≠ intent · contradictions kept open · silent discipline in reader-facing prose · internal tokens never render · the two-key rule on keystones · every provisional ruling logged before acted on.

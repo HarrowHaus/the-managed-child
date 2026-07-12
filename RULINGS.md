@@ -1,0 +1,24 @@
+# RULINGS.md — the standing law the operator-agent rules against
+*Consolidated from the rulings this project has already made (research/crowley-rail-RULINGS.md + its ADDENDUM, the gaps rulings, the smoothing build, and the EXPANSION-PLAN open questions the operator settled by encoding them in AUTOPILOT.md). Precedent binds: the operator-agent rules the way these rule. Edit a line and every future ruling follows it (override-by-edit). Where the ADDENDUM and the parent conflict, the ADDENDUM wins.*
+
+## Core laws (settled)
+- **R-1 — Search before grading.** No standing is assigned from memory or safe-source priors. Exhaustive tool-based research precedes every grade. A claim is never "apocryphal" for pattern-matching to conspiracy; it is graded only after its documented substrate has been searched for and found or genuinely not found.
+- **R-2 — The evidence gate (the moat).** No reader-facing *documented* standing — on a node or an edge — without an attached confirming **primary**. Uncertainty resolves DOWN. Better to under-claim than over-claim.
+- **R-3 — Connection ≠ intent.** Every charged tie splits into two graded edges: the **connection** (documented, flat) and the **intent/causation** (graded separately, usually possible/apocryphal, always attributed to a named claimant). Killing the connection to avoid the intent is as much a failure as asserting the intent.
+- **R-4 — Three-layer method.** Documented connection (flat) · asserted intent (attributed to its claimant, graded as an assertion) · the smoothing (documented damage-control). The prose NEVER says "false"; it lays out the layers and lets the reader discern.
+- **R-5 — Report claim-makers at strength, never laundered, never buried.** Terry, Sanders, Dana, O'Neill, McGowan and the like are reported as *claims that exist*, attributed and graded by the grammar ("argued/alleged" vs "happened") — never endorsed, never dismissed by prior.
+- **R-6 — The discipline is structural, never stated.** No "this is not a conspiracy," no method-narration in reader-facing prose. The honesty shows in the claims declined and the clean assignment of transmission status, never in commentary.
+- **R-7 — Contradictions kept open.** The honest resolution is often to keep the tension and mark the seam. Never resolve by picking. The maintainer surfaces; a human (or the operator-agent, logged) rules; the seam may stay.
+- **R-8 — The firewall behind a named claimant.** An intent-claim reaches the graph only quarantined behind the person who makes it and their own stated basis. **The West→Manson intent is O'Neill's self-disclaimed conjecture; quote his disclaimer; never state or imply West programmed Manson.** The same firewall governs every intent-claim.
+- **R-9 — INCUBATE, don't bin.** Seeming-irrelevance is a *not-yet*, never a drop. A node with no visible thread is held (`incubating: true`) until the reverberation loops back or its documented neighborhood is genuinely exhausted. The bin is for the discarded/apocryphal-sourced only.
+- **R-10 — Closed edge vocabulary.** Every edge's `type` and `register` come from EDGE-VOCABULARY.md; the build lints them. `authored` and `groomed` are in-vocabulary (added by ruling); `groomed` is never softened to `mentored`.
+
+## Rulings on the EXPANSION-PLAN open questions (settled by AUTOPILOT.md)
+- **R-Q1 — Eugenics (§G): a cluster branching off enactment, not a standalone rail.** The measurement spine (Galton→Pearson→Terman) is already threaded to the-root; only the institutional theater's nodes are missing.
+- **R-Q2 — The smoothing as site spine: deferred.** Rule only after Phase-A wiring (H8) and the §I harvest, when the rail can be seen as a graph.
+- **R-Q3 — WELD-stub evidence-gate breach: attach-where-in-corpus, else demote.** Attach a confirming primary that already exists verbatim elsewhere in the corpus and retain WELD (propagation fix); otherwise demote the unsourced WELD to HYPOTHESIS. Phase A may clean or lower standing, never manufacture it.
+- **R-Q4 — Reconcile node-schema.md to EDGE-VOCABULARY.md, and add a `co-authored` type** for documented collaborations (e.g. Wells↔Julian Huxley).
+- **R-Q5 — Merge `coefficients-1902` into `coefficients-club`** (the founding event is already the club node's opening).
+
+## Ruling procedure (from agents/operator.md)
+Always a fresh instance (writer ≠ critic ≠ operator). Load the law; rule by precedent; uncertainty down; contradictions open; keystones need two keys (operator verdict AND method-critic); classify settled/provisional; **log before effect**. Safety invariants (AUTOPILOT.md) cannot be weakened by any agent.
