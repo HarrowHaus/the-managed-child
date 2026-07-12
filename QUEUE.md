@@ -31,4 +31,4 @@ Harvester first wherever research/ lacks the rail's primaries; then researcher �
 REVERBERATE loop: adjacency → build → cluster at essay-density (≥5 full nodes + spine) → plan entry (spine memo logged) → essayist → method-critic → operator-agent (two-key) → ship. Maintainer every 5 commits. Deploy every 25 commits.
 
 ## Resume pointer
-`PHASE: B · ITEM: Crowley crown (audit crowley-in-america spine harvest first) · not yet started`
+`PHASE: B · ITEM: Crowley crown — harvest AUDITED & build-ready (research/crowley-in-america-rail-harvest.md). Next: build parsons-jack (pipeline; primaries from harvest; restore WELD) → babalon-working → hubbard-lron (connection/derivation split, Urban/Atack/Melton held open) → jpl.`
