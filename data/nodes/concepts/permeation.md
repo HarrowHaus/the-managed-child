@@ -13,8 +13,8 @@ sources:
   - "Margaret Cole, The Story of Fabian Socialism (1961) — the Society's own historian; permeation as 'primarily honeycombing,' converting key persons who need not be Fabian members — [SECONDARY]"
   - "Fabian Essays in Socialism (1889, ed. G. B. Shaw) — the programmatic statement of the gradualist method — [PRIMARY]"
 welds:
-  - {to: rule-by-trained-elite, type: influenced, register: same-field, grade: WELD, source: "permeation is the trunk doctrine's operating method — steer from inside existing institutions, no visible cadre"}
-  - {to: fabian-society, type: influenced, register: same-field, grade: WELD, source: "the Society's own named method; Margaret Cole (its historian) calls it 'honeycombing'"}
+  - {to: rule-by-trained-elite, type: restates, register: same-field, grade: WELD, source: "permeation is the trunk doctrine's operating method — steer from inside existing institutions, no visible cadre"}
+  - {to: fabian-society, type: restates, register: same-field, grade: WELD, source: "the Society's own named method; Margaret Cole (its historian) calls it 'honeycombing'"}
 tags: [rail-administrators, administrators, trunk]
 ---
 

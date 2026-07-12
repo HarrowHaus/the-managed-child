@@ -4,7 +4,7 @@ title: "Bertrand Russell"
 type: person
 category: people
 dates: "1872-1970"
-grade: WELD-verified
+grade: WELD
 map_node: "3.4"
 status: drafted
 abstract: "Bertrand Russell (1872–1970), philosopher and mathematician, was a member of the Webbs' Coefficients dining club and resigned in 1903 over Sir Edward Grey's alliance policy, which he was convinced would lead to war. He is the lineage's corrective case: passages from The Impact of Science on Society (1952) are quoted verbatim by conspiracy sources as advocacy of scientific manipulation, but Russell was describing a dystopia to warn against it, not proposing one."

@@ -4,7 +4,7 @@ title: "The Hero with a Thousand Faces"
 type: work
 category: works
 dates: "1949"
-grade: WELD
+grade: HYPOTHESIS
 map_node: "DP.1"
 status: stub
 sources: []          # primary/secondary refs go here

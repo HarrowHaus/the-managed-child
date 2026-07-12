@@ -11,7 +11,7 @@ abstract: "Horace Mann (1796–1859), 'father of the American common school,' wa
 sources:
   - "Horace Mann, Annual Reports to the Massachusetts Board of Education (1837–1848) — esp. the Seventh Report (1843, on the Prussian schools) and the Twelfth Report (1848) — [PRIMARY]"
 welds:
-  - {to: managed-child, type: influenced, register: same-field, grade: WELD, source: "universal common schooling constituted the child as a ward of a public institution — the managed child at civic scale"}
+  - {to: managed-child, type: restates, register: same-field, grade: WELD, source: "universal common schooling constituted the child as a ward of a public institution — the managed child at civic scale"}
 tags: [rail-enactment, enactment, denominator]
 ---
 

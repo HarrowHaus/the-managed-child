@@ -4,6 +4,7 @@
 ## Edge TYPE — closed list (an edge's `type` must be one of these; nothing else compiles)
 - `read` — A demonstrably read B's work (documented).
 - `authored` — A wrote / received work B (documented). Also stored inverse on the work node (rendered "X — authored" = authored by X); the concept-in-a-work / attestation case shares this type for want of a narrower one.
+- `co-authored` — A and B jointly produced a work (documented collaboration; e.g. Wells & Julian Huxley, *The Science of Life*). Symmetric; carries `worked-off` (the collaboration is the contact).
 - `met` — A and B were in the same room / corresponded (documented).
 - `influenced` — A worked off B's published idea (documented absorption + extension).
 - `mentored` / `advised` — formal teaching/advising relation.

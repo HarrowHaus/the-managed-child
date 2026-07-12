@@ -4,7 +4,7 @@ title: "J. Walter Thompson"
 type: institution
 category: institutions
 dates: "1864-"
-grade: WELD
+grade: HYPOTHESIS
 map_node: "5.2"
 status: drafted
 abstract: "J. Walter Thompson is one of the oldest and largest modern advertising agencies. In 1920, forced out of academia by scandal, John B. Watson joined it, rose to vice-president, and spent the rest of his career applying behaviorist psychology to selling. The agency is where the science of conditioning the infant and the science of conditioning the consumer met in one employee."
@@ -12,7 +12,7 @@ sources:
   - "J. Walter Thompson agency history; John B. Watson's employment there from 1920, rising to vice-president, applying behaviorist method to advertising — [SECONDARY: standard biographical/business record]"
 welds:
   - {to: watson-john-b, type: member-of, register: worked-off, grade: HYPOTHESIS, source: "employed Watson from 1920; he became a vice-president and applied behaviorism to advertising"}
-  - {to: bernays-edward, type: influenced, register: same-field, grade: HYPOTHESIS, source: "the professionalization of persuasion — psychology turned into a sales method — in the same decade as Bernays"}
+  - {to: bernays-edward, type: restates, register: same-field, grade: HYPOTHESIS, source: "the professionalization of persuasion — psychology turned into a sales method — in the same decade as Bernays"}
 tags: [rail-consent, rail-enactment, consent]
 ---
 

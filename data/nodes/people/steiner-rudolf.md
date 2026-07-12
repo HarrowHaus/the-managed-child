@@ -4,7 +4,7 @@ title: "Rudolf Steiner"
 type: person
 category: people
 dates: "1861-1925"
-grade: WELD
+grade: HYPOTHESIS
 map_node: "1.5"
 status: stub
 incubating: true

@@ -4,7 +4,7 @@ title: "Lab Nine / Round Table Foundation"
 type: institution
 category: institutions
 dates: "1948-"
-grade: WELD
+grade: HYPOTHESIS
 map_node: "4.3"
 status: stub
 sources: []          # primary/secondary refs go here

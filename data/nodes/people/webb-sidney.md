@@ -14,7 +14,7 @@ sources:
   - "Co-founding of the London School of Economics (1895) and the Coefficients dining club (1902) — [SECONDARY: standard biographical record]"
 welds:
   - {to: fabian-society, type: member-of, register: worked-off, grade: WELD, source: "founding-era Fabian; contributor to Fabian Essays (1889); author of the 1923 'inevitability of gradualness' address"}
-  - {to: rule-by-trained-elite, type: influenced, register: same-field, grade: WELD, source: "gradualist permeation is the trunk doctrine's modern administrative form, stated in Webb's own address"}
+  - {to: rule-by-trained-elite, type: restates, register: same-field, grade: WELD, source: "gradualist permeation is the trunk doctrine's modern administrative form, stated in Webb's own address"}
   - {to: coefficients-club, type: founded, register: worked-off, grade: WELD, source: "Sidney and Beatrice Webb founded the Coefficients dining club in 1902"}
 tags: [rail-administrators, administrators, trunk]
 ---

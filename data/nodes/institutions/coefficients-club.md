@@ -4,7 +4,7 @@ title: "The Coefficients Dining Club"
 type: institution
 category: institutions
 dates: "1902-1909"
-grade: WELD
+grade: HYPOTHESIS
 map_node: "0.2"
 status: locked
 abstract: "A monthly dining club founded 1902 by Sidney and Beatrice Webb, its name reflecting the era's cult of 'efficiency', seating British socialist reformers and imperialists at one table. Russell's 1903 resignation makes it the project's cleanest proof that contact is not coordination."
@@ -15,11 +15,7 @@ sources:
   - "Bertrand Russell, The Autobiography of Bertrand Russell (1967) — [VERIFY: cited in the map for membership and the resignation; not checked against the text]"
   - "H.G. Wells, Experiment in Autobiography (1934) — [VERIFY: cited in the map for the 'especially active member' characterization; not checked against the text]"
 welds:
-  - {to: webb-sidney, type: member-of, register: worked-off, grade: HYPOTHESIS, source: "co-founder with Beatrice Webb, 1902"}
-  - {to: webb-beatrice, type: member-of, register: worked-off, grade: HYPOTHESIS, source: "co-founder with Sidney Webb, 1902"}
-  - {to: wells-hg, type: member-of, register: worked-off, grade: HYPOTHESIS, source: "recruited as capable of original thoughts on every subject; an active member"}
-  - {to: russell-bertrand, type: member-of, register: worked-off, grade: HYPOTHESIS, source: "member; resigned 1903 over Grey's Entente policy"}
-  - {to: rule-by-trained-elite, type: influenced, register: same-field, grade: HYPOTHESIS, source: "a table of people who each held an elite conception of governance — the trunk, socially documented"}
+  - {to: rule-by-trained-elite, type: restates, register: same-field, grade: HYPOTHESIS, source: "a table of people who each held an elite conception of governance — the trunk, socially documented"}
 hypotheses: []
 tags: [administrators, trunk, honesty-weld, denominator]
 ---

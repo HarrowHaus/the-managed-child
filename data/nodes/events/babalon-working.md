@@ -4,7 +4,7 @@ title: "The Babalon Working"
 type: event
 category: events
 dates: "1946"
-grade: WELD
+grade: HYPOTHESIS
 map_node: "4.1"
 status: stub
 incubating: true

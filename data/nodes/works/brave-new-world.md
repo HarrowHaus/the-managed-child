@@ -4,7 +4,7 @@ title: "Brave New World"
 type: work
 category: works
 dates: "1932"
-grade: WELD
+grade: HYPOTHESIS
 map_node: "3.3"
 status: stub
 incubating: true

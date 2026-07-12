@@ -4,7 +4,7 @@ title: "Public Opinion (Lippmann)"
 type: work
 category: works
 dates: "1922"
-grade: WELD
+grade: HYPOTHESIS
 map_node: "5.3"
 status: stub
 sources: []          # primary/secondary refs go here

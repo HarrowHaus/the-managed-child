@@ -18,11 +18,11 @@ sources:
   - "Jeffrey J. Kripal, Mutants and Mystics (2011) — scholarly anchor for the Roddenberry encounter and the commissioned screenplay — [SECONDARY]"
   - "David Alexander, Star Trek Creator (1994) — authorized Roddenberry biography — [VERIFY: not checked in this pass]"
 welds:
-  - {to: the-root, type: influenced, register: same-field, grade: WELD, source: "the four idioms are the root's esoteric self-articulation — mirrors the-root's own edge to this node"}
-  - {to: crowley-aleister, type: influenced, register: same-field, grade: WELD, source: "the Aeon idiom: Liber AL I:10 pairs the sovereign child with a few who rule the many, in the founding text itself (1904)"}
-  - {to: besant-annie, type: influenced, register: same-field, grade: WELD, source: "the World-Teacher idiom: the Order of the Star in the East (1911), an institution built to produce a groomed vehicle for a coming teacher"}
-  - {to: bailey-alice, type: influenced, register: same-field, grade: WELD, source: "the Hierarchy idiom: Lucis Trust (1922) and the Arcane School (1923); an initiated Hierarchy guiding humanity toward a planned unity"}
-  - {to: puharich-andrija, type: influenced, register: same-field, grade: WELD, source: "the Nine idiom: a channeled council claiming to direct human evolution; transcript record in The Only Planet of Choice"}
+  - {to: the-root, type: restates, register: same-field, grade: WELD, source: "the four idioms are the root's esoteric self-articulation — mirrors the-root's own edge to this node"}
+  - {to: crowley-aleister, type: restates, register: same-field, grade: WELD, source: "the Aeon idiom: Liber AL I:10 pairs the sovereign child with a few who rule the many, in the founding text itself (1904)"}
+  - {to: besant-annie, type: restates, register: same-field, grade: WELD, source: "the World-Teacher idiom: the Order of the Star in the East (1911), an institution built to produce a groomed vehicle for a coming teacher"}
+  - {to: bailey-alice, type: restates, register: same-field, grade: WELD, source: "the Hierarchy idiom: Lucis Trust (1922) and the Arcane School (1923); an initiated Hierarchy guiding humanity toward a planned unity"}
+  - {to: puharich-andrija, type: restates, register: same-field, grade: WELD, source: "the Nine idiom: a channeled council claiming to direct human evolution; transcript record in The Only Planet of Choice"}
   - {to: roddenberry-gene, type: influenced, register: worked-off, grade: WELD, source: "Roddenberry attended the Ossining sessions (1974–75, Schlemmer as medium) and was commissioned to write a screenplay from the material (Kripal 2011; transcript in The Only Planet of Choice); the further claim that the sessions shaped Star Trek's cosmology is discarded"}
 hypotheses: []
 tags: [rail-one, articulation, spine, root]

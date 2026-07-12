@@ -4,7 +4,7 @@ title: "The Externalisation of the Hierarchy (Bailey)"
 type: work
 category: works
 dates: "1957"
-grade: WELD
+grade: HYPOTHESIS
 map_node: "1.6"
 status: stub
 incubating: true

@@ -14,7 +14,7 @@ sources:
 welds:
   - {to: lippmann-walter, type: influenced, register: worked-off, grade: WELD, source: "Lippmann's Public Opinion (1922) and The Phantom Public (1925) state the expert-management position"}
   - {to: dewey-john, type: influenced, register: worked-off, grade: WELD, source: "Dewey's reviews and The Public and Its Problems (1927) answer the prescription"}
-  - {to: rule-by-trained-elite, type: influenced, register: same-field, grade: WELD, source: "the question at stake — should an expert class manage the public — is the trunk doctrine in the age of mass media"}
+  - {to: rule-by-trained-elite, type: restates, register: same-field, grade: WELD, source: "the question at stake — should an expert class manage the public — is the trunk doctrine in the age of mass media"}
 tags: [rail-consent, consent]
 ---
 

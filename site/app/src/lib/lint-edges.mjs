@@ -18,7 +18,7 @@ const NODES_DIR = resolve(dirname(fileURLToPath(import.meta.url)), '../../../../
 
 // Closed vocabulary (EDGE-VOCABULARY.md). Authoritative.
 export const EDGE_TYPES = new Set([
-  'read', 'authored', 'met', 'influenced', 'mentored', 'groomed', 'advised',
+  'read', 'authored', 'co-authored', 'met', 'influenced', 'mentored', 'groomed', 'advised',
   'funded', 'founded', 'member-of', 'broke-from', 'restates', 'precedes', 'no-relay',
 ]);
 export const EDGE_REGISTERS = new Set(['worked-off', 'same-field', 'none']);

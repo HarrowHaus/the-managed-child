@@ -4,14 +4,14 @@ title: "Order of the Star in the East"
 type: institution
 category: institutions
 dates: "1911-1929"
-grade: WELD
+grade: HYPOTHESIS
 map_node: "4.2b"
 status: drafted
 abstract: "The Order of the Star in the East, founded by Annie Besant in April 1911, was built to prepare the world for the coming World Teacher, with the adolescent Krishnamurti as its Head and Besant and Leadbeater as Protectors. It is the second idiom of the four-idiom through-line made operational: an actual institution for producing an administered divine-child. Krishnamurti dissolved it on 3 August 1929."
 sources:
   - "Order of the Star in the East, founded April 1911 by Annie Besant; dissolved by Krishnamurti at Ommen, 3 August 1929 — [SECONDARY: Theosophical Society records; Lutyens (1975)]"
 welds:
-  - {to: four-idiom-through-line, type: influenced, register: same-field, grade: HYPOTHESIS, source: "the World-Teacher idiom — an administered divine-child for a coming age — made into an institution"}
+  - {to: four-idiom-through-line, type: restates, register: same-field, grade: HYPOTHESIS, source: "the World-Teacher idiom — an administered divine-child for a coming age — made into an institution"}
 hypotheses: []
 tags: [rail-articulation, articulation]
 ---

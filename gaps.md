@@ -37,3 +37,6 @@ No node was retired. The 20 formerly-flagged nodes are marked `incubating: true`
 - [x] ~~Node bodies naming retired edge-type words~~ — `coefficients-club` and `puharich-andrija` fixed; `besant-annie` prose ("groomed") now matches its edge.
 
 **Counts:** missing 27 · thin 7 (+5 primary-gap) · contradictions 0 · tensions 0 · orphans 0 (20 incubating) · drift 0 · leaks 0
+
+## [autopilot Phase A] surfaced — edge-vocabulary gap: "documents / concerns"
+The smoothing event nodes (helms-file-destruction-1973, sanitized-1977-testimony, altered-west-document, mkultra-hearing-2026) stand in a "documents / concerns / re-enters-into-record" relation to `mkultra`, and in a "read-through-this-frame" relation to the FRAME `real-enemies`. The closed EDGE-VOCABULARY has no type for either (member-of is wrong; precedes/authored cover only the chronological chain + West's authorship, now wired). Per the edge-discipline invariant these were NOT force-typed. RULING NEEDED (human): extend the vocabulary with a `documents`/`concerns` type (and possibly an `instance-of` for frame→case), or leave these relations carried by prose + essay-backlinks + the /entries rail. Reader-facing connection already exists via *The Clean Version*'s inline links.

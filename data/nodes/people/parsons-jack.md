@@ -4,7 +4,7 @@ title: "Jack Parsons"
 type: person
 category: people
 dates: "1914-1952"
-grade: WELD
+grade: HYPOTHESIS
 map_node: "4.1"
 status: stub
 incubating: true

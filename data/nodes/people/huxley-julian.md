@@ -18,10 +18,10 @@ sources:
 welds:
   - {to: unesco, type: founded, register: worked-off, grade: WELD, source: "first Director-General, 1946–48; authored the founding orientation pamphlet (1946)"}
   - {to: wells-hg, type: influenced, register: worked-off, grade: WELD, source: "co-authored The Science of Life (1929–30) with H.G. Wells and G.P. Wells"}
-  - {to: rule-by-trained-elite, type: influenced, register: same-field, grade: WELD, source: "'evolutionary humanism' is rule-by-the-fit stated in a UN founding document"}
+  - {to: rule-by-trained-elite, type: restates, register: same-field, grade: WELD, source: "'evolutionary humanism' is rule-by-the-fit stated in a UN founding document"}
 hypotheses:
-  - {to: huxley-th, type: influenced, register: same-field, grade: HYPOTHESIS, source: "kinship is documented (grandson); T. H. Huxley died in 1895 when Julian was eight, so no personal transmission. Julian's 1943 Romanes Lecture responds to T. H.'s 1893 'Evolution and Ethics' — CHECK that text before promoting to a worked-off weld"}
-  - {to: huxley-aldous, type: influenced, register: same-field, grade: HYPOTHESIS, source: "brothers; kinship documented, but intellectual influence in either direction is not established here"}
+  - {to: huxley-th, type: restates, register: same-field, grade: HYPOTHESIS, source: "kinship is documented (grandson); T. H. Huxley died in 1895 when Julian was eight, so no personal transmission. Julian's 1943 Romanes Lecture responds to T. H.'s 1893 'Evolution and Ethics' — CHECK that text before promoting to a worked-off weld"}
+  - {to: huxley-aldous, type: restates, register: same-field, grade: HYPOTHESIS, source: "brothers; kinship documented, but intellectual influence in either direction is not established here"}
 tags: [administrators, technocrat, eugenics, articulation, enactment]
 ---
 

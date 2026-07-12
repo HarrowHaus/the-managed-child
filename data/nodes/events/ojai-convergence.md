@@ -4,7 +4,7 @@ title: "The Ojai Convergence"
 type: event
 category: events
 dates: "1938-1946"
-grade: WELD
+grade: HYPOTHESIS
 map_node: "3.3"
 status: stub
 incubating: true

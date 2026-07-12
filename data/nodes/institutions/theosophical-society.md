@@ -4,7 +4,7 @@ title: "Theosophical Society"
 type: institution
 category: institutions
 dates: "1875-"
-grade: WELD
+grade: HYPOTHESIS
 map_node: "1.4"
 status: stub
 sources: []          # primary/secondary refs go here

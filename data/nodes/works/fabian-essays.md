@@ -4,7 +4,7 @@ title: "Fabian Essays in Socialism"
 type: work
 category: works
 dates: "1889"
-grade: WELD
+grade: HYPOTHESIS
 map_node: "0.2"
 status: stub
 incubating: true

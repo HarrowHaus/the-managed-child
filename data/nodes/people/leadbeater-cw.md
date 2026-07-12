@@ -4,7 +4,7 @@ title: "C. W. Leadbeater"
 type: person
 category: people
 dates: "1854-1934"
-grade: WELD
+grade: HYPOTHESIS
 map_node: "4.3"
 status: drafted
 abstract: "C. W. Leadbeater (1854–1934), a leading Theosophist, identified the adolescent Jiddu Krishnamurti at Adyar in 1909 as the likely vehicle for the coming World Teacher — the act that launched the Order of the Star in the East. His earlier conduct drew documented scandal within the Society (allegations of impropriety, 1906), recorded here as part of the record, never softened."

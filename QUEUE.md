@@ -3,17 +3,17 @@
 
 ## NOW — Phase A (HYGIENE)
 Exit: lint + guards green, zero reader-facing "documented" without a primary.
-- [ ] H1 — evidence gate: attach in-corpus primaries (propagation fixes); demote every other unsourced WELD → HYPOTHESIS (R-Q3)
-- [ ] H2 — canonicalize grade tokens (jung-cg, russell-bertrand, quigley-carroll)
-- [ ] H8 — wire the smoothing cluster edges + latey→crowley stitch (zero research)
-- [ ] H5 — fix event-edge misuse (krishnamurti-custody; coefficients-club inverted member-of)
-- [ ] H4 — even the reciprocal seams (jwt↔watson; lippmann↔bernays)
-- [ ] H9 — merge coefficients-1902 into coefficients-club (R-Q5)
-- [ ] H7 — de-collide map_node values (1.4 ×2; 4.3 ×3)
-- [ ] H6 — reconcile node-schema.md → EDGE-VOCABULARY.md; add co-authored type (R-Q4)
-- [ ] H3 — influenced/same-field reclass, per-node, operator-agent ruled + logged
-- [ ] H10 — huxley-aldous incubating flag
-- [ ] Phase A boundary: build green → deploy → phase report to OPERATOR-LOG.md
+- [x] H1 — evidence gate: attach in-corpus primaries (propagation fixes); demote every other unsourced WELD → HYPOTHESIS (R-Q3)
+- [x] H2 — canonicalize grade tokens (jung-cg, russell-bertrand, quigley-carroll)
+- [x] H8 (partial; gap surfaced) — wire the smoothing cluster edges + latey→crowley stitch (zero research)
+- [x] H5 — fix event-edge misuse (krishnamurti-custody; coefficients-club inverted member-of)
+- [~] H4 (jwt↔watson deferred to B) — even the reciprocal seams (jwt↔watson; lippmann↔bernays)
+- [x] H9 — merge coefficients-1902 into coefficients-club (R-Q5)
+- [~] H7 (deferred, cosmetic) — de-collide map_node values (1.4 ×2; 4.3 ×3)
+- [x] H6 — reconcile node-schema.md → EDGE-VOCABULARY.md; add co-authored type (R-Q4)
+- [x] H3 — influenced/same-field reclass, per-node, operator-agent ruled + logged
+- [x] H10 — huxley-aldous incubating flag
+- [x] Phase A boundary: build green → deploy → phase report to OPERATOR-LOG.md
 
 ## NEXT — Phase B (DEPTH), rail by rail, densest-first
 Harvester first wherever research/ lacks the rail's primaries; then researcher → grader → carder.
@@ -31,4 +31,4 @@ Harvester first wherever research/ lacks the rail's primaries; then researcher �
 REVERBERATE loop: adjacency → build → cluster at essay-density (≥5 full nodes + spine) → plan entry (spine memo logged) → essayist → method-critic → operator-agent (two-key) → ship. Maintainer every 5 commits. Deploy every 25 commits.
 
 ## Resume pointer
-`PHASE: A · ITEM: H1 · not yet started`
+`PHASE: B · ITEM: Crowley crown (audit crowley-in-america spine harvest first) · not yet started`

@@ -11,7 +11,8 @@ abstract: "The core smoothing artifact: West's 1956 MKUltra report stated it was
 sources:
   - "Tom O'Neill, written testimony, House Oversight hearing on MKULTRA, 30 June 2026 — the 1956 West report's false-memory finding, the four-page summary substituted for it, and the facsimile located at the National Security Archive — https://oversight.house.gov/wp-content/uploads/2026/06/ONeill-Written-Testimony.pdf — [PRIMARY]"
   - "National Security Archive (George Washington University) — the facsimile of the substituted MKUltra document O'Neill located — [PRIMARY]"
-welds: []
+welds:
+  - {to: west-louis-jolyon, type: authored, register: worked-off, grade: WELD, source: "the 1956 report is West's own; its documented finding was replaced by another hand before reaching the 1977 committee (O'Neill testimony; NSA facsimile)"}
 hypotheses: []
 tags: [rail-smoothing, smoothing]
 ---

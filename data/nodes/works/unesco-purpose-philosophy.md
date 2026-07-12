@@ -13,7 +13,7 @@ sources:
 welds:
   - {to: huxley-julian, type: authored, register: worked-off, grade: WELD, source: "written by Huxley as UNESCO's first Director-General; his stated orientation for the agency"}
   - {to: unesco, type: influenced, register: worked-off, grade: WELD, source: "the founding orientation document of the institution it names"}
-  - {to: rule-by-trained-elite, type: influenced, register: same-field, grade: WELD, source: "'evolutionary humanism' is rule-by-the-fit restated in a UN founding document"}
+  - {to: rule-by-trained-elite, type: restates, register: same-field, grade: WELD, source: "'evolutionary humanism' is rule-by-the-fit restated in a UN founding document"}
 tags: [rail-administrators, administrators]
 ---
 

@@ -4,7 +4,7 @@ title: "The Only Planet of Choice"
 type: work
 category: works
 dates: "1993"
-grade: WELD
+grade: HYPOTHESIS
 map_node: "4.3"
 status: stub
 sources: []          # primary/secondary refs go here

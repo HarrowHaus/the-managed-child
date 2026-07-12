@@ -4,7 +4,7 @@ title: "Jet Propulsion Laboratory"
 type: institution
 category: institutions
 dates: "1936-"
-grade: WELD
+grade: HYPOTHESIS
 map_node: "4.1"
 status: stub
 incubating: true

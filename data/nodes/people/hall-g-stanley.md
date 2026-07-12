@@ -12,7 +12,7 @@ sources:
   - "G. Stanley Hall, Adolescence: Its Psychology and Its Relations to Physiology, Anthropology, Sociology, Sex, Crime, Religion and Education (1904), 2 vols — coins the modern category; 'storm and stress' — [PRIMARY]"
   - "First president, American Psychological Association (1892); PhD Harvard 1878 under William James; president of Clark University — [SECONDARY: standard biographical record]"
 welds:
-  - {to: managed-child, type: influenced, register: same-field, grade: WELD, source: "Adolescence (1904) constitutes the child/adolescent as a supervised developmental object — the stage the managed child is built on"}
+  - {to: managed-child, type: restates, register: same-field, grade: WELD, source: "Adolescence (1904) constitutes the child/adolescent as a supervised developmental object — the stage the managed child is built on"}
   - {to: terman-lewis, type: mentored, register: worked-off, grade: WELD, source: "Terman wrote his dissertation under Hall at Clark University, 1905 — advisor and student on the record"}
 hypotheses: []
 tags: [rail-enactment, enactment, denominator]

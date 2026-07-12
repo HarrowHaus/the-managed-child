@@ -4,7 +4,7 @@ title: "Mircea Eliade"
 type: person
 category: people
 dates: "1907-1986"
-grade: WELD
+grade: HYPOTHESIS
 map_node: "DP.2"
 status: stub
 incubating: true

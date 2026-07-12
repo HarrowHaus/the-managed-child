@@ -4,7 +4,7 @@ title: "James Burnham"
 type: person
 category: people
 dates: "1905-1987"
-grade: WELD
+grade: HYPOTHESIS
 map_node: "3.5"
 status: stub
 sources: []          # primary/secondary refs go here

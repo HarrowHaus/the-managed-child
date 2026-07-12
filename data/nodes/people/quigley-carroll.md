@@ -4,7 +4,7 @@ title: "Carroll Quigley"
 type: person
 category: people
 dates: "1910-1977"
-grade: HYPOTHESIS-fenced
+grade: HYPOTHESIS
 map_node: "6.2"
 status: stub
 incubating: true

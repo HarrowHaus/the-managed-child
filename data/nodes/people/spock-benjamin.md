@@ -12,8 +12,8 @@ sources:
   - "Benjamin Spock, The Common Sense Book of Baby and Child Care (1946) — opening line 'Trust yourself. You know more than you think you do.' — [PRIMARY]"
   - "Sales record: ~500,000 copies in the first six months, ~50 million by 1998; second best-selling US book of the century after the Bible — [SECONDARY]"
 welds:
-  - {to: managed-child, type: influenced, register: same-field, grade: WELD, source: "childrearing by mass-market expert manual at the scale of tens of millions of homes — the child managed by the book, even when the book counsels warmth"}
-  - {to: watson-john-b, type: influenced, register: same-field, grade: WELD, source: "the humane correction to behaviorist detachment — the same domain of expert childrearing advice, the opposite counsel"}
+  - {to: managed-child, type: restates, register: same-field, grade: WELD, source: "childrearing by mass-market expert manual at the scale of tens of millions of homes — the child managed by the book, even when the book counsels warmth"}
+  - {to: watson-john-b, type: restates, register: same-field, grade: WELD, source: "the humane correction to behaviorist detachment — the same domain of expert childrearing advice, the opposite counsel"}
 tags: [rail-enactment, enactment, denominator]
 ---
 

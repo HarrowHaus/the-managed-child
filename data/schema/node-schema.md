@@ -17,8 +17,8 @@ sources:                               # named refs only; aggregators flagged
   - "Author, Title (year), p. — [PRIMARY|SECONDARY|VERIFY]"
 welds:                                 # documented edges out of this node
   - to: node-id
-    type: influenced | met | corresponded | cited | funded | mentored | founded | advised | member-of | channeled | adapted
-    register: worked-off | same-field  # per CONVENTIONS §2
+    type: read | authored | co-authored | met | influenced | mentored | groomed | advised | funded | founded | member-of | broke-from | restates | precedes | no-relay
+    register: worked-off | same-field | none  # per CONVENTIONS §2
     grade: WELD
     source: "…"
 hypotheses:                            # suspected/ungraded edges, same shape, grade: HYPOTHESIS
@@ -26,7 +26,8 @@ tags: [trunk, root, rail-one, articulation, enactment, denominator, ...]
 ```
 
 ## Edge types (controlled vocabulary)
-`influenced, met, corresponded, cited, funded, mentored, advised, founded, member-of, channeled, adapted, groomed, schismed-from, co-founded, hosted`
+The authoritative closed list lives in [`EDGE-VOCABULARY.md`](../../EDGE-VOCABULARY.md) and is what the build lints; this list mirrors it:
+`read, authored, co-authored, met, influenced, mentored, groomed, advised, funded, founded, member-of, broke-from, restates, precedes, no-relay`
 
 ## The `register` field is load-bearing
 Every edge is either **worked-off** (encounter documented → transmission) or **same-field** (parallel emergence → reverberation). This single field is what lets the graph be queried for "true transmission lines" vs. "resonances" — and what stops reverberation from being mis-read as a chain of command.

@@ -13,9 +13,9 @@ sources:
   - "Webb, 'The Historic Basis of Socialism' (1889) — [PRIMARY]"
   - "Julian Huxley, UNESCO: Its Purpose and Its Philosophy (1946) — [PRIMARY]"
 welds:
-  - {to: rule-by-trained-elite, type: influenced, register: same-field, grade: WELD, source: "the trunk is the root's political form"}
-  - {to: managed-child, type: influenced, register: same-field, grade: WELD, source: "the child is the root applied to the young"}
-  - {to: four-idiom-through-line, type: influenced, register: same-field, grade: WELD, source: "the four idioms are the root's esoteric self-articulation"}
+  - {to: rule-by-trained-elite, type: restates, register: same-field, grade: WELD, source: "the trunk is the root's political form"}
+  - {to: managed-child, type: restates, register: same-field, grade: WELD, source: "the child is the root applied to the young"}
+  - {to: four-idiom-through-line, type: restates, register: same-field, grade: WELD, source: "the four idioms are the root's esoteric self-articulation"}
 hypotheses: []
 tags: [root, spine, articulation, enactment]
 ---

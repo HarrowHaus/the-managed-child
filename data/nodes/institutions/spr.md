@@ -4,7 +4,7 @@ title: "Society for Psychical Research"
 type: institution
 category: institutions
 dates: "1882-"
-grade: WELD
+grade: HYPOTHESIS
 map_node: "2.1"
 status: stub
 incubating: true

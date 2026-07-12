@@ -17,13 +17,13 @@ sources:
   - "Margaret Cole, The Story of Fabian Socialism (1961) — 'What Fabian permeation meant was primarily honeycombing… key persons, or groups of persons, who were in a position either to take action themselves or to influence others' — [SECONDARY]"
   - "Sidney Webb, 'The Historic Basis of Socialism', in Fabian Essays (1889) — the 'unconscious socialism' passage — [VERIFY: not yet checked against the text]"
 welds:
-  - {to: the-root, type: influenced, register: same-field, grade: WELD, source: "the trunk is the root's political form — administration of the stock by an elect"}
-  - {to: fabian-society, type: influenced, register: same-field, grade: WELD, source: "permeation and 'the inevitability of gradualness' are the doctrine's modern operating method, stated in the Fabians' own texts (Fabian Essays 1889; Fabian Tract 207, 1923)"}
+  - {to: the-root, type: restates, register: same-field, grade: WELD, source: "the trunk is the root's political form — administration of the stock by an elect"}
+  - {to: fabian-society, type: restates, register: same-field, grade: WELD, source: "permeation and 'the inevitability of gradualness' are the doctrine's modern operating method, stated in the Fabians' own texts (Fabian Essays 1889; Fabian Tract 207, 1923)"}
   - {to: besant-annie, type: influenced, register: worked-off, grade: WELD, source: "Besant encountered the doctrine as a member: joined the Fabian Society 1885 (fewer than 40 members); one of the seven contributors to Fabian Essays (1889); President of the Theosophical Society 1907–1933"}
-  - {to: wells-hg, type: influenced, register: same-field, grade: WELD, source: "Wells was a Fabian who restated permeation as an openly declared managerial world order (The Open Conspiracy, 1928)"}
-  - {to: coefficients-club, type: influenced, register: same-field, grade: WELD, source: "the Webb-founded dining club (1902) seats the doctrine's holders at one table — trunk and technocrat branch"}
-  - {to: huxley-julian, type: influenced, register: same-field, grade: WELD, source: "'evolutionary humanism' is rule-by-the-fit restated in a UN founding document (UNESCO: Its Purpose and Its Philosophy, 1946)"}
-  - {to: bernays-edward, type: influenced, register: same-field, grade: WELD, source: "the 'invisible government' of an 'intelligent minority' is the doctrine in the mass-democratic age (Propaganda, 1928)"}
+  - {to: wells-hg, type: restates, register: same-field, grade: WELD, source: "Wells was a Fabian who restated permeation as an openly declared managerial world order (The Open Conspiracy, 1928)"}
+  - {to: coefficients-club, type: restates, register: same-field, grade: WELD, source: "the Webb-founded dining club (1902) seats the doctrine's holders at one table — trunk and technocrat branch"}
+  - {to: huxley-julian, type: restates, register: same-field, grade: WELD, source: "'evolutionary humanism' is rule-by-the-fit restated in a UN founding document (UNESCO: Its Purpose and Its Philosophy, 1946)"}
+  - {to: bernays-edward, type: restates, register: same-field, grade: WELD, source: "the 'invisible government' of an 'intelligent minority' is the doctrine in the mass-democratic age (Propaganda, 1928)"}
 hypotheses:
   - {to: burnham-james, type: restates, register: worked-off, grade: HYPOTHESIS, source: "the map names Burnham's The Machiavellians (1943) as the bridge carrying Machiavelli into the managerial-elite thesis; the claim is plausible but the text has not been checked here — do not assert until read"}
 tags: [trunk, spine, enactment, denominator]

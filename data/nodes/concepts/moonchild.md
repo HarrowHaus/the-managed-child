@@ -4,7 +4,7 @@ title: "The Moonchild / managed divine-child"
 type: concept
 category: concepts
 dates: "1917"
-grade: WELD
+grade: HYPOTHESIS
 map_node: "4.1/1.4"
 status: stub
 incubating: true

@@ -4,7 +4,7 @@ title: "Manly P. Hall"
 type: person
 category: people
 dates: "1901-1990"
-grade: WELD
+grade: HYPOTHESIS
 map_node: "4.2"
 status: stub
 incubating: true

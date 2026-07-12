@@ -4,7 +4,7 @@ title: "Beatrice Webb"
 type: person
 category: people
 dates: "1858-1943"
-grade: WELD
+grade: HYPOTHESIS
 map_node: "0.2"
 status: stub
 sources: []          # primary/secondary refs go here

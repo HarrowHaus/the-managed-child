@@ -4,7 +4,7 @@ title: "L. Ron Hubbard"
 type: person
 category: people
 dates: "1911-1986"
-grade: WELD
+grade: HYPOTHESIS
 map_node: "4.1"
 status: stub
 incubating: true

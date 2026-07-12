@@ -4,7 +4,7 @@ title: "C. G. Jung"
 type: person
 category: people
 dates: "1875-1961"
-grade: WELD-parallel
+grade: HYPOTHESIS
 map_node: "1.2"
 status: stub
 incubating: true

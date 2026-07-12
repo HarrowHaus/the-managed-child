@@ -4,7 +4,7 @@ title: "On the Education of Children (Crowley)"
 type: work
 category: works
 dates: "1910s"
-grade: WELD
+grade: HYPOTHESIS
 map_node: "Seed"
 status: stub
 incubating: true

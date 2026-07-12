@@ -4,7 +4,7 @@ title: "George Bernard Shaw"
 type: person
 category: people
 dates: "1856-1950"
-grade: WELD
+grade: HYPOTHESIS
 map_node: "0.2"
 status: stub
 sources: []          # primary/secondary refs go here

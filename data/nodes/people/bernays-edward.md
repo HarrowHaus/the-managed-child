@@ -15,8 +15,8 @@ sources:
   - "Walter Lippmann, Public Opinion (1922) — coins 'the manufacture of consent' — [PRIMARY]"
   - "The 'Torches of Freedom' campaign: Easter Parade, Fifth Avenue, New York, 31 March 1929, for the American Tobacco Company (Lucky Strike) — [SECONDARY]"
 welds:
-  - {to: rule-by-trained-elite, type: influenced, register: same-field, grade: WELD, source: "the 'invisible government' of an 'intelligent minority' is the trunk's doctrine in the mass-democratic age"}
-  - {to: the-root, type: influenced, register: same-field, grade: WELD, source: "engineering the stock's consent — the root in the 'engineered public' theater"}
+  - {to: rule-by-trained-elite, type: restates, register: same-field, grade: WELD, source: "the 'invisible government' of an 'intelligent minority' is the trunk's doctrine in the mass-democratic age"}
+  - {to: the-root, type: restates, register: same-field, grade: WELD, source: "engineering the stock's consent — the root in the 'engineered public' theater"}
 hypotheses:
   - {to: lippmann-walter, type: restates, register: same-field, grade: HYPOTHESIS, source: "DIRECTION UNRESOLVED. Public Opinion (1922) precedes Crystallizing (1923), and Lippmann — not Bernays — coined 'the manufacture of consent'. Whether Bernays worked off Lippmann is not established. Recorded as same-field adjacency in one persuasion canon, not as influence out of this node"}
 tags: [administrators, engineered-public, enactment]
