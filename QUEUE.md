@@ -17,7 +17,7 @@ Exit: lint + guards green, zero reader-facing "documented" without a primary.
 
 ## NEXT — Phase B (DEPTH), rail by rail, densest-first
 Harvester first wherever research/ lacks the rail's primaries; then researcher → grader → carder.
-1. Crowley crown (parsons-jack, babalon-working, hubbard-lron, jpl, +Malina/von Kármán/Aerojet/GALCIT) — audit crowley-in-america spine harvest; top up per-figure (Pendle; Parsons FBI file; Babalon correspondence; Urban/Atack/Melton)
+1. [x] Crowley crown built (parsons-jack, babalon-working, hubbard-lron, jpl → WELD, primaries attached, split edges). NEXT within rail: build moonchild (WELD-edge target), then Agapé Lodge/OTO, Marjorie Cameron, Kenneth Anger, Scientology (adjacencies in gaps.md)
 2. Theosophy hub (theosophical-society + Blavatsky/Olcott/Montessori) — harvest
 3. Smoothing §I (Church Committee → Northwoods → COINTELPRO → Gulf of Tonkin) — harvest; then rule R-Q2
 4. Four-idiom component deepening (Crowley/Besant/Bailey/Puharich)
@@ -31,4 +31,4 @@ Harvester first wherever research/ lacks the rail's primaries; then researcher �
 REVERBERATE loop: adjacency → build → cluster at essay-density (≥5 full nodes + spine) → plan entry (spine memo logged) → essayist → method-critic → operator-agent (two-key) → ship. Maintainer every 5 commits. Deploy every 25 commits.
 
 ## Resume pointer
-`PHASE: B · ITEM: Crowley crown — harvest AUDITED & build-ready (research/crowley-in-america-rail-harvest.md). Next: build parsons-jack (pipeline; primaries from harvest; restore WELD) → babalon-working → hubbard-lron (connection/derivation split, Urban/Atack/Melton held open) → jpl.`
+`PHASE: B · ITEM: Crowley crown DONE (4 nodes WELD). Next: moonchild build → Agapé Lodge/OTO → Marjorie Cameron → Kenneth Anger → Scientology (all in crowley-in-america harvest); then theosophy hub.`

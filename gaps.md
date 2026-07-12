@@ -40,3 +40,13 @@ No node was retired. The 20 formerly-flagged nodes are marked `incubating: true`
 
 ## [autopilot Phase A] surfaced — edge-vocabulary gap: "documents / concerns"
 The smoothing event nodes (helms-file-destruction-1973, sanitized-1977-testimony, altered-west-document, mkultra-hearing-2026) stand in a "documents / concerns / re-enters-into-record" relation to `mkultra`, and in a "read-through-this-frame" relation to the FRAME `real-enemies`. The closed EDGE-VOCABULARY has no type for either (member-of is wrong; precedes/authored cover only the chronological chain + West's authorship, now wired). Per the edge-discipline invariant these were NOT force-typed. RULING NEEDED (human): extend the vocabulary with a `documents`/`concerns` type (and possibly an `instance-of` for frame→case), or leave these relations carried by prose + essay-backlinks + the /entries rail. Reader-facing connection already exists via *The Clean Version*'s inline links.
+
+## [autopilot Phase B] Crowley-crown adjacencies surfaced (documented neighbors, not yet nodes)
+From the crown build (parsons/hubbard/babalon/jpl), documented neighbors to queue — build/incubate/hold with lead source:
+- Agapé Lodge No. 2 / OTO (institution) — OTO US Grand Lodge history — build
+- Marjorie Cameron — Spencer Kansa, Wormwood Star; Anger's & Harrington's films — build (bridges to §D film)
+- Kenneth Anger — his own AnOther/Ebert/S8 interviews (harvest Anchor 6) — build (§D)
+- Frank Malina · Theodore von Kármán · Edward Forman · Aerojet — Pendle, Strange Angel; Britannica — build/incubate
+- Scientology (institution) — Urban (Princeton); Miller, Bare-Faced Messiah — build (Hubbard's founded→ target)
+- Karl Germer · Wilfred Talbot Smith · Sara Northrup — OTO archives / Bare-Faced Messiah — incubate
+- moonchild (concept, currently HYPOTHESIS stub) — Crowley's 1917 novel Moonchild — build (now a WELD-edge target from babalon-working; restore to close the asymmetry)
