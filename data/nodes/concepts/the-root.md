@@ -29,11 +29,15 @@ The true object of the thesis is neither occultism nor any cabal. It is an **imp
 ## Documented core [WELD]
 The impulse is stated by its holders across the record: Plato's guardians governing via a founding myth taught to the young; Crowley's `liber-al-vel-legis` I:10 — "Let my servants be few & secret: they shall rule the many & the known"; Webb's permeation, change enacted "almost without being aware of it"; Julian Huxley making eugenics "thinkable" at the founding of a UN body. Four idioms, one claim: the many are to be administered by the few.
 
-## The four theaters (one impulse)
+## The five theaters (one impulse)
 - **managed child** — raise the stock correctly (`managed-child`)
 - **ranked race** — breed and sort the stock (`terman-lewis`, `galton-francis`)
 - **sorted soul** — grade the stock spiritually (`four-idiom-through-line`)
 - **engineered public** — condition the stock's consent (`lippmann-walter`, `bernays-edward`)
+- **captured mind** — seize and remake the individual mind directly, under classification, on the unwitting (`mkultra`, `west-louis-jolyon`)
+
+## Falsifiers (the impulse must be able to be wrong)
+The root is a claim about the world, so it declares what would refute it. An instance is **excluded** from the impulse where any of these hold: expert involvement that **increases** a family's autonomy without creating a new dependency on surveillance; measurement that is **purely diagnostic**, untied to ranking, tracking, or control; advice that is **optional and plural**, competing rather than monopolistic; a devotional or mythic child-motif with **no administrative implication**; or an actor who **rejects administration** and builds a durably decentralizing structure. `spock-benjamin` is designated the first live test of these conditions, and its result — whichever way it cuts — will be published as method.
 
 ## Role in the thesis
-This is why the ugly material belongs *inside* the thesis as **co-symptom** — the same sorting impulse in another theater — never as a hidden cause (see `hard-sourcing-rule`). It also resolves Audit Joint 2: the occult and the sociological are two **registers of one root** (articulation and enactment), not cause and effect.
+This is why the ugly material belongs *inside* the thesis as **co-symptom** — the same sorting impulse in another theater — never as a hidden cause. It also answers Audit Joint 2: the daylight machinery, the covert state, and the esoteric current are three **registers of one root** — enacted in the open, enacted in the dark, and articulated aloud — not cause and effect.
