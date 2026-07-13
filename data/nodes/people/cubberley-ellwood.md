@@ -11,7 +11,7 @@ abstract: "Ellwood Cubberley (1868–1941), dean of education at Stanford, wrote
 sources:
   - "Ellwood P. Cubberley, Public School Administration (Boston: Houghton Mifflin, 1916) — 'our schools are, in a sense, factories in which the raw products (children) are to be shaped and fashioned'; 'elimination of waste'; 'continuous measurement of production' — [PRIMARY]"
 welds:
-  - {to: managed-child, type: restates, register: same-field, grade: WELD, source: "Cubberley supplies the factory metaphor for schooling in his own administrative textbook (1916)"}
+  - {to: managed-child, type: restates, register: analogy, grade: WELD, source: "Cubberley supplies the factory metaphor for schooling in his own administrative textbook (1916)"}
 hypotheses: []
 tags: [rail-enactment, enactment, denominator]
 ---

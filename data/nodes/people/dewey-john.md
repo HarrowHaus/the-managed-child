@@ -12,8 +12,8 @@ sources:
   - "John Dewey, The Public and Its Problems (1927) — the public 'in eclipse,' the case against expert management — [PRIMARY]"
   - "John Dewey, reviews of Lippmann's Public Opinion (1922) and The Phantom Public (1925), The New Republic — [PRIMARY]"
 welds:
-  - {to: lippmann-walter, type: read, register: worked-off, grade: WELD, source: "reviewed Public Opinion (1922) and The Phantom Public (1925); answered their prescription in The Public and Its Problems (1927)"}
-  - {to: lippmann-dewey-debate, type: influenced, register: worked-off, grade: WELD, source: "one of the two figures of the exchange"}
+  - {to: lippmann-walter, type: read, register: direct-transmission, grade: WELD, source: "reviewed Public Opinion (1922) and The Phantom Public (1925); answered their prescription in The Public and Its Problems (1927)"}
+  - {to: lippmann-dewey-debate, type: influenced, register: direct-transmission, grade: WELD, source: "one of the two figures of the exchange"}
 tags: [rail-consent, consent, dissent]
 ---
 

@@ -12,7 +12,7 @@ sources:
   - "Iron Maiden, 'Moonchild' (Seventh Son of a Seventh Son, 1988) and 'Revelations' (Piece of Mind, 1983) — Crowley-derived titles and imagery — [PRIMARY]"
   - "Bruce Dickinson (1984): 'we've referred to things like the tarot and ideas of people like Aleister Crowley'; his disclaimer of Satanism — [SECONDARY]"
 welds:
-  - {to: crowley-aleister, type: read, register: worked-off, grade: WELD, source: "drew on Crowley's works — 'Moonchild' takes its title from his novel; Dickinson referenced Crowley's writings — while disclaiming devotion"}
+  - {to: crowley-aleister, type: read, register: direct-transmission, grade: WELD, source: "drew on Crowley's works — 'Moonchild' takes its title from his novel; Dickinson referenced Crowley's writings — while disclaiming devotion"}
 hypotheses: []
 tags: [rail-articulation, articulation, music]
 ---

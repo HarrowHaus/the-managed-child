@@ -12,7 +12,7 @@ sources:
   - "Project MKULTRA, joint hearing, U.S. Senate Select Committee on Intelligence & Subcommittee on Health and Scientific Research, 95th Cong., 3 Aug. 1977 — surfaced by a 1977 FOIA request finding ~20,000 pages of misfiled financial records; DCI Stansfield Turner's testimony — [PRIMARY]"
   - "National Security Archive, 'Top Secret Testimony: The CIA's MKULTRA Chief, 50 Years Later', 30 Oct. 2025 — Gottlieb's Church Committee testimony (Oct. 1975), under a grant of immunity, calling the program 'probably not a high pay-off program' — https://nsarchive.gwu.edu/briefing-book/dnsa-intelligence/2025-10-30/top-secret-testimony-cias-mkultra-chief-50-years-later — [PRIMARY]"
 welds:
-  - {to: the-smoothing, type: restates, register: same-field, grade: WELD, source: "testimony sanitized before the committee — the over-tidying pattern in the register of the witness stand"}
+  - {to: the-smoothing, type: restates, register: common-inheritance, grade: WELD, source: "testimony sanitized before the committee — the over-tidying pattern in the register of the witness stand"}
 hypotheses: []
 tags: [rail-smoothing, smoothing]
 ---

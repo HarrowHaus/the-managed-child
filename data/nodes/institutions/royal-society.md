@@ -12,7 +12,7 @@ sources:
   - "The Royal Charter of the Royal Society (1662) — incorporation of 'The Royal Society of London for Improving Natural Knowledge' — [PRIMARY]"
   - "Thomas Sprat, The History of the Royal-Society of London (1667) — the near-contemporary apologia framing the Society on Bacon's model — [PRIMARY]"
 welds:
-  - {to: new-atlantis, type: influenced, register: worked-off, grade: WELD, source: "the Society took Bacon's Salomon's House as a working ideal (Sprat, 1667)"}
+  - {to: new-atlantis, type: influenced, register: direct-transmission, grade: WELD, source: "the Society took Bacon's Salomon's House as a working ideal (Sprat, 1667)"}
 tags: [trunk]
 ---
 

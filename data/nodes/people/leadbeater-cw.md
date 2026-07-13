@@ -11,8 +11,8 @@ abstract: "C. W. Leadbeater (1854–1934), a leading Theosophist, identified the
 sources:
   - "Leadbeater's 1909 identification of Krishnamurti as vehicle for the World Teacher; the 1906 impropriety allegations within the Theosophical Society — [SECONDARY: Theosophical Society records; Lutyens, Krishnamurti: The Years of Awakening (1975); VERIFY specifics against primary correspondence]"
 welds:
-  - {to: krishnamurti-jiddu, type: groomed, register: worked-off, grade: HYPOTHESIS, source: "Leadbeater identified and began directing Krishnamurti as the World-Teacher vehicle, 1909, Adyar"}
-  - {to: order-of-the-star, type: founded, register: worked-off, grade: HYPOTHESIS, source: "Leadbeater, as Protector alongside Besant, was central to the Order founded to proclaim Krishnamurti"}
+  - {to: krishnamurti-jiddu, type: groomed, register: direct-transmission, grade: HYPOTHESIS, source: "Leadbeater identified and began directing Krishnamurti as the World-Teacher vehicle, 1909, Adyar"}
+  - {to: order-of-the-star, type: founded, register: direct-transmission, grade: HYPOTHESIS, source: "Leadbeater, as Protector alongside Besant, was central to the Order founded to proclaim Krishnamurti"}
 hypotheses: []
 tags: [rail-articulation, articulation]
 ---

@@ -17,13 +17,13 @@ sources:
   - "Margaret Cole, The Story of Fabian Socialism (1961) — 'What Fabian permeation meant was primarily honeycombing… key persons, or groups of persons, who were in a position either to take action themselves or to influence others' — [SECONDARY]"
   - "Sidney Webb, 'The Historic Basis of Socialism', in Fabian Essays (1889) — the 'unconscious socialism' passage: collectivism already advanced through municipal public control, 'our irresistible glide into collectivist Socialism' (verified against the text; see fabian-essays) — [PRIMARY]"
 welds:
-  - {to: the-root, type: restates, register: same-field, grade: WELD, source: "the trunk is the root's political form — administration of the stock by an elect"}
-  - {to: fabian-society, type: restates, register: same-field, grade: WELD, source: "permeation and 'the inevitability of gradualness' are the doctrine's modern operating method, stated in the Fabians' own texts (Fabian Essays 1889; Fabian Tract 207, 1923)"}
-  - {to: besant-annie, type: influenced, register: worked-off, grade: WELD, source: "Besant encountered the doctrine as a member: joined the Fabian Society 1885 (fewer than 40 members); one of the seven contributors to Fabian Essays (1889); President of the Theosophical Society 1907–1933"}
-  - {to: wells-hg, type: restates, register: same-field, grade: WELD, source: "Wells was a Fabian who restated permeation as an openly declared managerial world order (The Open Conspiracy, 1928)"}
-  - {to: coefficients-club, type: restates, register: same-field, grade: WELD, source: "the Webb-founded dining club (1902) seats the doctrine's holders at one table — trunk and technocrat branch"}
-  - {to: huxley-julian, type: restates, register: same-field, grade: WELD, source: "'evolutionary humanism' is rule-by-the-fit restated in a UN founding document (UNESCO: Its Purpose and Its Philosophy, 1946)"}
-  - {to: bernays-edward, type: restates, register: same-field, grade: WELD, source: "the 'invisible government' of an 'intelligent minority' is the doctrine in the mass-democratic age (Propaganda, 1928)"}
+  - {to: the-root, type: restates, register: common-inheritance, grade: WELD, source: "the trunk is the root's political form — administration of the stock by an elect"}
+  - {to: fabian-society, type: restates, register: common-inheritance, grade: WELD, source: "permeation and 'the inevitability of gradualness' are the doctrine's modern operating method, stated in the Fabians' own texts (Fabian Essays 1889; Fabian Tract 207, 1923)"}
+  - {to: besant-annie, type: influenced, register: institutional-relay, grade: WELD, source: "Besant encountered the doctrine as a member: joined the Fabian Society 1885 (fewer than 40 members); one of the seven contributors to Fabian Essays (1889); President of the Theosophical Society 1907–1933"}
+  - {to: wells-hg, type: restates, register: convergent-selection, grade: WELD, source: "Wells was a Fabian who restated permeation as an openly declared managerial world order (The Open Conspiracy, 1928)"}
+  - {to: coefficients-club, type: restates, register: convergent-selection, grade: WELD, source: "the Webb-founded dining club (1902) seats the doctrine's holders at one table — trunk and technocrat branch"}
+  - {to: huxley-julian, type: restates, register: convergent-selection, grade: WELD, source: "'evolutionary humanism' is rule-by-the-fit restated in a UN founding document (UNESCO: Its Purpose and Its Philosophy, 1946)"}
+  - {to: bernays-edward, type: restates, register: convergent-selection, grade: WELD, source: "the 'invisible government' of an 'intelligent minority' is the doctrine in the mass-democratic age (Propaganda, 1928)"}
   - {to: burnham-james, type: restates, register: common-inheritance, grade: WELD, source: "The Machiavellians (John Day, 1943) is Burnham's popularization of Machiavelli/Mosca/Pareto/Michels/Sorel — 'all societies are ruled by a minority' — the explicit bridge carrying the classical elite-theory into his managerial-elite thesis (The Managerial Revolution, 1941); confirmed against the text (see burnham-james)"}
 tags: [trunk, spine, enactment, denominator]
 ---

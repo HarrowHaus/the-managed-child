@@ -12,8 +12,8 @@ sources:
   - "Tom O'Neill, written testimony, House Oversight hearing on MKULTRA, 30 June 2026 — the 1956 West report's false-memory finding, the four-page summary substituted for it, and the facsimile located at the National Security Archive — https://oversight.house.gov/wp-content/uploads/2026/06/ONeill-Written-Testimony.pdf — [PRIMARY]"
   - "National Security Archive (George Washington University) — the facsimile of the substituted MKUltra document O'Neill located — [PRIMARY]"
 welds:
-  - {to: west-louis-jolyon, type: authored, register: worked-off, grade: WELD, source: "the 1956 report is West's own; its documented finding was replaced by another hand before reaching the 1977 committee (O'Neill testimony; NSA facsimile)"}
-  - {to: the-smoothing, type: restates, register: same-field, grade: WELD, source: "the finding rewritten in another hand — the over-tidying pattern in the register of the document"}
+  - {to: west-louis-jolyon, type: authored, register: direct-transmission, grade: WELD, source: "the 1956 report is West's own; its documented finding was replaced by another hand before reaching the 1977 committee (O'Neill testimony; NSA facsimile)"}
+  - {to: the-smoothing, type: restates, register: analogy, grade: WELD, source: "the finding rewritten in another hand — the over-tidying pattern in the register of the document"}
 hypotheses: []
 tags: [rail-smoothing, smoothing]
 ---

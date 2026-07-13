@@ -11,7 +11,7 @@ sources:
   - "Owsley Stanley's own first-person account, in his interviews (relayed in Rolling Stone, 'Owsley Stanley: The King of LSD') — his LSD production, his supply to the Acid Tests, and his financing and sound-engineering of the early Grateful Dead — https://www.rollingstone.com/feature/owsley-stanley-the-king-of-lsd-82181/ — [PRIMARY]"
   - "Biography (Wikipedia, 'Owsley Stanley') — the estimated ~5 million doses (1965–67), the supply to Kesey and the Pranksters, the Wall of Sound, the skull-and-lightning logo — https://en.wikipedia.org/wiki/Owsley_Stanley — [SECONDARY]"
 welds:
-  - {to: grateful-dead, type: funded, register: worked-off, grade: WELD, source: "financed the early Grateful Dead and served as their first sound engineer, later lead-designing the Wall of Sound"}
+  - {to: grateful-dead, type: funded, register: direct-transmission, grade: WELD, source: "financed the early Grateful Dead and served as their first sound engineer, later lead-designing the Wall of Sound"}
 hypotheses: []
 tags: [rail-state-laboratory, state-laboratory]
 ---

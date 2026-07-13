@@ -12,8 +12,8 @@ sources:
   - "Spencer Kansa, Wormwood Star: The Magickal Life of Marjorie Cameron (2011) — biography; her role in the 1946 Babalon Working and her film work with Anger and Curtis Harrington — [SECONDARY]"
   - "Filmography of record — Anger's Inauguration of the Pleasure Dome (1954); Curtis Harrington's Wormwood Star (1956) and Night Tide (1961) — [SECONDARY]"
 welds:
-  - {to: parsons-jack, type: met, register: worked-off, grade: WELD, source: "married to Jack Parsons; her 1946 arrival at the Parsonage was read by Parsons as the elemental his Babalon Working had called"}
-  - {to: anger-kenneth, type: met, register: worked-off, grade: WELD, source: "introduced Anger to Crowley's works; lived with him after Parsons's death; appeared in his and Harrington's films"}
+  - {to: parsons-jack, type: met, register: direct-transmission, grade: WELD, source: "married to Jack Parsons; her 1946 arrival at the Parsonage was read by Parsons as the elemental his Babalon Working had called"}
+  - {to: anger-kenneth, type: met, register: direct-transmission, grade: WELD, source: "introduced Anger to Crowley's works; lived with him after Parsons's death; appeared in his and Harrington's films"}
 hypotheses: []
 tags: [rail-articulation, articulation, crowley-in-america]
 ---

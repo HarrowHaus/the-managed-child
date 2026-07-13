@@ -12,8 +12,8 @@ sources:
   - "Constitution of UNESCO, adopted London, 16 November 1945; Preamble: 'Since wars begin in the minds of men, it is in the minds of men that the defences of peace must be constructed' (drafted by Archibald MacLeish) — [PRIMARY]"
   - "Julian Huxley, UNESCO: Its Purpose and Its Philosophy (1946) — the founding orientation pamphlet; the eugenic passage confirmed verbatim — [PRIMARY]"
 welds:
-  - {to: rule-by-trained-elite, type: restates, register: same-field, grade: WELD, source: "institutionalizes rule-by-the-fit as a global educational-cultural program"}
-  - {to: the-root, type: restates, register: same-field, grade: WELD, source: "the managed-future program stated at the founding of a UN body — the root, enacted at scale"}
+  - {to: rule-by-trained-elite, type: restates, register: analogy, grade: WELD, source: "institutionalizes rule-by-the-fit as a global educational-cultural program"}
+  - {to: the-root, type: restates, register: analogy, grade: WELD, source: "the managed-future program stated at the founding of a UN body — the root, enacted at scale"}
 hypotheses: []
 tags: [administrators, technocrat, enactment, institution]
 ---

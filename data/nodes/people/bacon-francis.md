@@ -11,8 +11,8 @@ abstract: "Philosopher of the scientific method and author of New Atlantis (1627
 sources:
   - "Francis Bacon, New Atlantis (1627) — Salomon's House and its oath of secrecy 'for the concealing of those which we think fit to keep secret' — [PRIMARY]"
 welds:
-  - {to: new-atlantis, type: authored, register: worked-off, grade: WELD, source: "Bacon wrote New Atlantis (published posthumously, 1627), describing Salomon's House"}
-  - {to: rule-by-trained-elite, type: restates, register: same-field, grade: WELD, source: "New Atlantis is the trunk's scientific remake — a competent elect deciding what the public may know"}
+  - {to: new-atlantis, type: authored, register: direct-transmission, grade: WELD, source: "Bacon wrote New Atlantis (published posthumously, 1627), describing Salomon's House"}
+  - {to: rule-by-trained-elite, type: restates, register: analogy, grade: WELD, source: "New Atlantis is the trunk's scientific remake — a competent elect deciding what the public may know"}
 tags: [trunk]
 ---
 

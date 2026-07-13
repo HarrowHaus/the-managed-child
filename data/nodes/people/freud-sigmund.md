@@ -12,7 +12,7 @@ sources:
   - "Sigmund Freud, Group Psychology and the Analysis of the Ego (1921) — the crowd and the unconscious ties that bind it — [PRIMARY]"
   - "Edward Bernays, Propaganda (1928) — Bernays names his uncle Freud and the manipulable unconscious as the basis of his method — [PRIMARY]"
 welds:
-  - {to: bernays-edward, type: influenced, register: worked-off, grade: WELD, source: "Bernays, Freud's double nephew, carried the manipulable unconscious out of the clinic into public relations, and said so in print"}
+  - {to: bernays-edward, type: influenced, register: direct-transmission, grade: WELD, source: "Bernays, Freud's double nephew, carried the manipulable unconscious out of the clinic into public relations, and said so in print"}
 tags: [consent, engineered-public]
 ---
 

@@ -12,7 +12,7 @@ sources:
   - "The music video for 'Run This Town' (Jay-Z ft. Rihanna & Kanye West, 2009) — Jay-Z wearing the Rocawear 'Do What Thou Wilt' hooded sweatshirt — [PRIMARY]"
   - "NPR (2009), treating the slogan as aesthetic/occult reference and downplaying secret-society readings — [SECONDARY]"
 welds:
-  - {to: liber-al-vel-legis, type: restates, register: same-field, grade: WELD, source: "wore Crowley's maxim 'Do what thou wilt' (from Liber AL) as apparel in the 2009 'Run This Town' video — the slogan reused as signifier, no reading or contact claimed"}
+  - {to: liber-al-vel-legis, type: restates, register: analogy, grade: WELD, source: "wore Crowley's maxim 'Do what thou wilt' (from Liber AL) as apparel in the 2009 'Run This Town' video — the slogan reused as signifier, no reading or contact claimed"}
 hypotheses: []
 tags: [rail-articulation, articulation, music]
 ---

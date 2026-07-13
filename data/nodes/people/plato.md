@@ -12,8 +12,8 @@ sources:
   - "Plato, Republic, Bk III, 414b–415c — the noble lie (γενναῖον ψεῦδος) / myth of the metals, taught from childhood — [PRIMARY]"
   - "Plato, Republic, Bk V, 457c–466d — the guardians' children raised in common, the private family dissolved by design — [PRIMARY]"
 welds:
-  - {to: the-republic, type: authored, register: worked-off, grade: WELD, source: "Plato wrote the Republic; the guardian doctrine and the noble lie are stated in Bks III and V"}
-  - {to: rule-by-trained-elite, type: restates, register: same-field, grade: WELD, source: "the Republic's guardian class, held in place by a founding myth aimed at the young, is the trunk's earliest statement"}
+  - {to: the-republic, type: authored, register: direct-transmission, grade: WELD, source: "Plato wrote the Republic; the guardian doctrine and the noble lie are stated in Bks III and V"}
+  - {to: rule-by-trained-elite, type: restates, register: common-inheritance, grade: WELD, source: "the Republic's guardian class, held in place by a founding myth aimed at the young, is the trunk's earliest statement"}
 tags: [trunk, spine]
 ---
 

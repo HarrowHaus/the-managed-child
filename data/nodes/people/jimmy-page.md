@@ -13,8 +13,8 @@ sources:
   - "Boleskine House record — Page's purchase of Crowley's former estate c. 1970 — [SECONDARY: widely reported; primary deed to verify]"
   - "The Equinox Booksellers and Publishers, 4 Holland Street, Kensington (1974–79); its facsimile of Crowley's 1904 The Goetia — [SECONDARY]"
 welds:
-  - {to: crowley-aleister, type: read, register: worked-off, grade: WELD, source: "read widely in Crowley, collected his manuscripts and robes, bought his former home Boleskine, and ran the Equinox occult bookshop"}
-  - {to: anger-kenneth, type: met, register: worked-off, grade: WELD, source: "met Anger as fellow Crowley collectors at a Sotheby's auction; scored part of Anger's Lucifer Rising and housed him at Boleskine"}
+  - {to: crowley-aleister, type: read, register: direct-transmission, grade: WELD, source: "read widely in Crowley, collected his manuscripts and robes, bought his former home Boleskine, and ran the Equinox occult bookshop"}
+  - {to: anger-kenneth, type: met, register: direct-transmission, grade: WELD, source: "met Anger as fellow Crowley collectors at a Sotheby's auction; scored part of Anger's Lucifer Rising and housed him at Boleskine"}
 hypotheses: []
 tags: [rail-articulation, articulation, music]
 ---

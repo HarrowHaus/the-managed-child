@@ -13,8 +13,8 @@ sources:
   - "House Oversight, 'Luna Opens Hearing on MKULTRA Project Transparency' — the surviving seven boxes; 149 subprojects, 80+ institutions, 185 researchers; the 152 files destroyed in 1973 — https://oversight.house.gov/release/luna-opens-hearing-on-mkultra-project-transparency/ — [PRIMARY]"
   - "Project MKULTRA, joint hearing, U.S. Senate Select Committee on Intelligence & Subcommittee on Health and Scientific Research, 95th Cong., 3 Aug. 1977 — the ~20,000 pages of misfiled financial records surfaced by a 1977 FOIA request — [PRIMARY]"
 welds:
-  - {to: watson-john-b, type: restates, register: same-field, grade: WELD, source: "MKUltra is the covert-state theater of behavioral conditioning — the same impulse to engineer behaviour, turned to interrogation and control; no documented transmission from Watson, an independent recurrence"}
-  - {to: bernays-edward, type: restates, register: same-field, grade: WELD, source: "the state weaponization of consent-engineering — a program to 'alter the ideas and attitudes of formerly loyal individuals'; same impulse, covert register, no documented contact"}
+  - {to: watson-john-b, type: restates, register: convergent-selection, grade: WELD, source: "MKUltra is the covert-state theater of behavioral conditioning — the same impulse to engineer behaviour, turned to interrogation and control; no documented transmission from Watson, an independent recurrence"}
+  - {to: bernays-edward, type: restates, register: convergent-selection, grade: WELD, source: "the state weaponization of consent-engineering — a program to 'alter the ideas and attitudes of formerly loyal individuals'; same impulse, covert register, no documented contact"}
 hypotheses: []
 tags: [rail-enactment, enactment, consent, smoothing]
 ---

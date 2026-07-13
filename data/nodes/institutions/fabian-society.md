@@ -13,7 +13,7 @@ sources:
   - "Sidney Webb, presidential address to the Labour Party, 26 June 1923 — 'the inevitability of gradualness' — [PRIMARY]"
   - "Margaret Cole, The Story of Fabian Socialism (1961) — the Society's own historian; the 'honeycombing' characterization of permeation — [SECONDARY]"
 welds:
-  - {to: rule-by-trained-elite, type: restates, register: same-field, grade: WELD, source: "permeation is the doctrine's modern operating method, stated in the Fabians' own texts (Fabian Essays 1889; Fabian Tract 207, 1923)"}
+  - {to: rule-by-trained-elite, type: restates, register: common-inheritance, grade: WELD, source: "permeation is the doctrine's modern operating method, stated in the Fabians' own texts (Fabian Essays 1889; Fabian Tract 207, 1923)"}
 tags: [rail-administrators, administrators, trunk]
 ---
 

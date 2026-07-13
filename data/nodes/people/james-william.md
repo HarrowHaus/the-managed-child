@@ -12,7 +12,7 @@ sources:
   - "William James, The Principles of Psychology (1890), 2 vols. — the founding text of American psychology — [PRIMARY]"
   - "G. Stanley Hall's doctorate under James at Harvard, 1878 (the first American PhD in psychology) — [SECONDARY: standard disciplinary history]"
 welds:
-  - {to: hall-g-stanley, type: mentored, register: worked-off, grade: WELD, source: "James supervised Hall's 1878 Harvard doctorate — the first American PhD in psychology; the head of the child-study bloodline"}
+  - {to: hall-g-stanley, type: mentored, register: direct-transmission, grade: WELD, source: "James supervised Hall's 1878 Harvard doctorate — the first American PhD in psychology; the head of the child-study bloodline"}
 tags: [rail-enactment, enactment]
 ---
 

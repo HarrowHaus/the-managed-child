@@ -11,7 +11,7 @@ sources:
   - "Andrija Puharich, The Sacred Mushroom (1959) and Uri (1974) — his own account of the Round Table Foundation of Electrobiology (founded 1948, Glen Cove, Maine) and the séances where 'the Nine' were first channelled via Dr. D. G. Vinod (Dec 1952); the later Lab Nine at Ossining, NY (1972–78) and the Uri Geller investigations — [PRIMARY]"
   - "Participant and biographical accounts of the Round Table Foundation / Lab Nine — the network around the Nine sessions (Phyllis Schlemmer, Sir John Whitmore, Gene Roddenberry, the 'Space Kids') — [SECONDARY]"
 welds:
-  - {to: four-idiom-through-line, type: restates, register: same-field, grade: WELD, source: "the enacting body of the channeled 'Nine' idiom — a documented operation (Round Table Foundation, 1948; the 1952 Vinod séance; Lab Nine 1972–78) around the belief in a hidden council guiding humanity"}
+  - {to: four-idiom-through-line, type: restates, register: common-inheritance, grade: WELD, source: "the enacting body of the channeled 'Nine' idiom — a documented operation (Round Table Foundation, 1948; the 1952 Vinod séance; Lab Nine 1972–78) around the belief in a hidden council guiding humanity"}
 hypotheses:
   - {to: the-root, type: restates, register: analogy, grade: HYPOTHESIS, source: "the institution where the guided-by-a-hidden-council belief was practised; symptom/articulation in the esoteric register, not a cause (S-5)"}
   - {to: roddenberry-gene, type: met, register: network-exposure, grade: HYPOTHESIS, source: "Roddenberry attended Lab Nine sessions (early 1970s) and drafted an unproduced screenplay from the material — documented attendance and genre-influence, NOT the Nine directing Star Trek (S-5)"}

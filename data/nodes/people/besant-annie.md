@@ -12,10 +12,10 @@ sources:
   - "Fabian Essays in Socialism (1889), ed. G. B. Shaw — Besant one of seven contributors — [PRIMARY]"
   - "President of the Theosophical Society, 1907–1933; founder of the Order of the Star in the East, April 1911 — [SECONDARY: Theosophical Society records / standard biographical record]"
 welds:
-  - {to: fabian-society, type: member-of, register: worked-off, grade: WELD, source: "Besant was a Fabian and a contributor to Fabian Essays (1889) — the trunk's operating method, encountered directly"}
-  - {to: order-of-the-star, type: founded, register: worked-off, grade: WELD, source: "Besant founded the Order of the Star in the East, April 1911, to prepare for the World Teacher"}
-  - {to: theosophical-society, type: member-of, register: worked-off, grade: WELD, source: "President of the Theosophical Society, 1907–1933"}
-  - {to: krishnamurti-jiddu, type: groomed, register: worked-off, grade: WELD, source: "Besant, as Protector, installed Krishnamurti as Head of the Order and directed his upbringing toward the World-Teacher role"}
+  - {to: fabian-society, type: member-of, register: institutional-relay, grade: WELD, source: "Besant was a Fabian and a contributor to Fabian Essays (1889) — the trunk's operating method, encountered directly"}
+  - {to: order-of-the-star, type: founded, register: direct-transmission, grade: WELD, source: "Besant founded the Order of the Star in the East, April 1911, to prepare for the World Teacher"}
+  - {to: theosophical-society, type: member-of, register: institutional-relay, grade: WELD, source: "President of the Theosophical Society, 1907–1933"}
+  - {to: krishnamurti-jiddu, type: groomed, register: direct-transmission, grade: WELD, source: "Besant, as Protector, installed Krishnamurti as Head of the Order and directed his upbringing toward the World-Teacher role"}
 hypotheses: []
 tags: [rail-articulation, articulation, trunk]
 ---

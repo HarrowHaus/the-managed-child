@@ -12,7 +12,7 @@ sources:
   - "The Theosophical Society in America, Quest, 'Montessori and the Theosophical Society' — the invitation, the Adyar residence and internment, and the doctrinal affinity ('the evolution and the oneness of life') — https://www.theosophical.org/publications/quest-magazine/montessori-and-the-theosophical-society — [PRIMARY]"
   - "Association Montessori Internationale (AMI) Archives — Montessori's 1939 arrival at Adyar — https://archives.montessori-ami.org — [PRIMARY]"
 welds:
-  - {to: theosophical-society, type: met, register: worked-off, grade: WELD, source: "invited by the TS president to Adyar (1939), house-arrested on the Adyar estate during WWII, and ran teacher-training courses under Society sponsorship — a documented host relationship"}
+  - {to: theosophical-society, type: met, register: institutional-relay, grade: WELD, source: "invited by the TS president to Adyar (1939), house-arrested on the Adyar estate during WWII, and ran teacher-training courses under Society sponsorship — a documented host relationship"}
 hypotheses: []
 tags: [rail-enactment, enactment, theosophy-bridge]
 ---

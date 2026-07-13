@@ -13,7 +13,7 @@ sources:
   - "Stanford Magazine, 'What a Trip' — dates Kesey's enrolment to 1961 and calls the study 'Army-sponsored', with no mention of the CIA or MKUltra — https://stanfordmag.org/contents/what-a-trip — [SECONDARY]"
 welds: []
 hypotheses:
-  - {to: mkultra, type: member-of, register: worked-off, grade: HYPOTHESIS, source: "widely asserted that Kesey's Menlo Park VA study was a numbered MKUltra subproject (via Gottlieb's documented bogus-foundation conduits) — but no located subproject number ties to it; Stanford's own magazine calls it 'Army-sponsored'; the attribution is contested, not primary-nailed"}
+  - {to: mkultra, type: member-of, register: institutional-relay, grade: HYPOTHESIS, source: "widely asserted that Kesey's Menlo Park VA study was a numbered MKUltra subproject (via Gottlieb's documented bogus-foundation conduits) — but no located subproject number ties to it; Stanford's own magazine calls it 'Army-sponsored'; the attribution is contested, not primary-nailed"}
 tags: [rail-state-laboratory, state-laboratory]
 ---
 

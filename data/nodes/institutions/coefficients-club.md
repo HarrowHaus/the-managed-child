@@ -15,7 +15,7 @@ sources:
   - "Bertrand Russell, The Autobiography of Bertrand Russell (1967) — [VERIFY: cited in the map for membership and the resignation; not checked against the text]"
   - "H.G. Wells, Experiment in Autobiography (1934) — [VERIFY: cited in the map for the 'especially active member' characterization; not checked against the text]"
 welds:
-  - {to: rule-by-trained-elite, type: restates, register: same-field, grade: HYPOTHESIS, source: "a table of people who each held an elite conception of governance — the trunk, socially documented"}
+  - {to: rule-by-trained-elite, type: restates, register: common-inheritance, grade: HYPOTHESIS, source: "a table of people who each held an elite conception of governance — the trunk, socially documented"}
 hypotheses: []
 tags: [administrators, trunk, honesty-weld, denominator]
 ---

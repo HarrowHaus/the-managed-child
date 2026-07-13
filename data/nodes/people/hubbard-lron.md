@@ -13,11 +13,11 @@ sources:
   - "Hugh B. Urban, 'The Occult Roots of Scientology? L. Ron Hubbard, Aleister Crowley, and the Origins of a Controversial New Religion,' Nova Religio 15:3 (2012), 91–116 (UC Press): Crowley's ideas are 'one—but only one—element in the rich, eclectic bricolage that became the early Church of Scientology' — [SECONDARY]"
   - "Jon Atack, A Piece of Blue Sky (1990) — argues Crowley's magick 'is at the core of Scientology'; J. Gordon Melton rejects the connection as core — [SECONDARY]"
 welds:
-  - {to: parsons-jack, type: met, register: worked-off, grade: WELD, source: "Hubbard moved into the Parsonage in Aug. 1945, formed Allied Enterprises with Parsons, and served as scribe for the 1946 Babalon Working"}
-  - {to: crowley-aleister, type: read, register: worked-off, grade: WELD, source: "on the 1952 PDC tape Hubbard names Crowley 'my very good friend' and recommends his Master Therion; he demonstrably knew Crowley's work, though the two never met in person"}
-  - {to: scientology, type: founded, register: worked-off, grade: WELD, source: "published Dianetics (1950) and incorporated the Church of Scientology (1953) after the Parsonage years"}
+  - {to: parsons-jack, type: met, register: direct-transmission, grade: WELD, source: "Hubbard moved into the Parsonage in Aug. 1945, formed Allied Enterprises with Parsons, and served as scribe for the 1946 Babalon Working"}
+  - {to: crowley-aleister, type: read, register: direct-transmission, grade: WELD, source: "on the 1952 PDC tape Hubbard names Crowley 'my very good friend' and recommends his Master Therion; he demonstrably knew Crowley's work, though the two never met in person"}
+  - {to: scientology, type: founded, register: direct-transmission, grade: WELD, source: "published Dianetics (1950) and incorporated the Church of Scientology (1953) after the Parsonage years"}
 hypotheses:
-  - {to: crowley-aleister, type: influenced, register: worked-off, grade: HYPOTHESIS, source: "that Scientology's core derives from Crowley's magick is Jon Atack's argument; Hugh Urban ceilings it at 'one element in the bricolage' and J. Gordon Melton rejects it as core — an attributed, contested derivation, not a documented one"}
+  - {to: crowley-aleister, type: influenced, register: direct-transmission, grade: HYPOTHESIS, source: "that Scientology's core derives from Crowley's magick is Jon Atack's argument; Hugh Urban ceilings it at 'one element in the bricolage' and J. Gordon Melton rejects it as core — an attributed, contested derivation, not a documented one"}
 tags: [rail-articulation, articulation, crowley-in-america]
 ---
 

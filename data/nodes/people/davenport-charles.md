@@ -12,8 +12,8 @@ sources:
   - "Charles B. Davenport, Heredity in Relation to Eugenics (1911) — the movement's standard American text — [PRIMARY]"
   - "Cold Spring Harbor Laboratory Archives — Davenport papers, the founding of the ERO (1910) — [SECONDARY]"
 welds:
-  - {to: eugenics-record-office, type: founded, register: worked-off, grade: WELD, source: "founded the ERO in 1910 and appointed Laughlin superintendent"}
-  - {to: the-root, type: restates, register: same-field, grade: WELD, source: "Mendelian heredity applied to rank the human stock — the root in the register of biology"}
+  - {to: eugenics-record-office, type: founded, register: direct-transmission, grade: WELD, source: "founded the ERO in 1910 and appointed Laughlin superintendent"}
+  - {to: the-root, type: restates, register: analogy, grade: WELD, source: "Mendelian heredity applied to rank the human stock — the root in the register of biology"}
 tags: [rail-enactment, enactment, eugenics]
 ---
 

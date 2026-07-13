@@ -11,7 +11,7 @@ abstract: "French psychologist who, with Théodore Simon, built the first practi
 sources:
   - "Alfred Binet & Théodore Simon, 'Méthodes nouvelles pour le diagnostic du niveau intellectuel des anormaux', L'Année Psychologique 11 (1905) — the Binet–Simon scale, built to identify children needing help — [PRIMARY]"
 welds:
-  - {to: terman-lewis, type: influenced, register: worked-off, grade: WELD, source: "Terman built the Stanford revision (Stanford–Binet, 1916) directly on Binet's scale, then inverted its purpose from aid to sorting"}
+  - {to: terman-lewis, type: influenced, register: direct-transmission, grade: WELD, source: "Terman built the Stanford revision (Stanford–Binet, 1916) directly on Binet's scale, then inverted its purpose from aid to sorting"}
 tags: [rail-enactment, enactment]
 ---
 

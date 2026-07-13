@@ -12,7 +12,7 @@ sources:
   - "Ozzy Osbourne, 'Mr. Crowley,' Blizzard of Ozz (September 1980) — the recorded song — [PRIMARY]"
   - "Bob Daisley (co-writer/lyricist): 'I wanted to look at the darkness and question Aleister Crowley' — [SECONDARY]"
 welds:
-  - {to: crowley-aleister, type: read, register: worked-off, grade: WELD, source: "co-wrote and recorded 'Mr. Crowley' (1980), drawing on Crowley's Diary of a Drug Fiend — a homage that questions rather than venerates"}
+  - {to: crowley-aleister, type: read, register: direct-transmission, grade: WELD, source: "co-wrote and recorded 'Mr. Crowley' (1980), drawing on Crowley's Diary of a Drug Fiend — a homage that questions rather than venerates"}
 hypotheses: []
 tags: [rail-articulation, articulation, music]
 ---

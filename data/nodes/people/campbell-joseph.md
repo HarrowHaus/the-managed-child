@@ -12,9 +12,9 @@ sources:
   - "Joseph Campbell, The Hero with a Thousand Faces (1949) — the monomyth / hero's journey — [PRIMARY]"
   - "Scholarly criticism of the monomyth's universality: Alan Dundes and Robert Segal (source-selection bias, non-scholarly method); feminist critique of its androcentric bias — [SECONDARY]"
 welds:
-  - {to: vogler-christopher, type: influenced, register: worked-off, grade: WELD, source: "The Hero with a Thousand Faces (1949) is the direct source of Vogler's 1985 Disney memo and The Writer's Journey"}
+  - {to: vogler-christopher, type: influenced, register: direct-transmission, grade: WELD, source: "The Hero with a Thousand Faces (1949) is the direct source of Vogler's 1985 Disney memo and The Writer's Journey"}
 hypotheses:
-  - {to: lifespan-continuum, type: restates, register: same-field, grade: HYPOTHESIS, source: "the claim that a single 'monomyth' is the universal deep structure of story is a contested academic thesis (Dundes; Segal — source-selection bias), not established fact; held as a widely-used template, not a proven pattern"}
+  - {to: lifespan-continuum, type: restates, register: analogy, grade: HYPOTHESIS, source: "the claim that a single 'monomyth' is the universal deep structure of story is a contested academic thesis (Dundes; Segal — source-selection bias), not established fact; held as a widely-used template, not a proven pattern"}
 tags: [rail-lifespan, lifespan]
 ---
 

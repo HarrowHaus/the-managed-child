@@ -12,7 +12,7 @@ sources:
   - "T. H. Huxley, 'Evolution and Ethics' (Romanes Lecture, 1893) — [PRIMARY]"
   - "Wells's study under Huxley at the Normal School of Science, 1884 (H. G. Wells, Experiment in Autobiography, 1934) — [PRIMARY]"
 welds:
-  - {to: wells-hg, type: mentored, register: worked-off, grade: WELD, source: "taught the nineteen-year-old Wells biology at the Normal School of Science, South Kensington, 1884 — a documented line of contact, name to name"}
+  - {to: wells-hg, type: mentored, register: direct-transmission, grade: WELD, source: "taught the nineteen-year-old Wells biology at the Normal School of Science, South Kensington, 1884 — a documented line of contact, name to name"}
 tags: [rail-administrators, administrators, lineage]
 ---
 

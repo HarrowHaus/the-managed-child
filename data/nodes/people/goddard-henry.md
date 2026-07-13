@@ -13,8 +13,8 @@ sources:
   - "Goddard, 'Feeblemindedness: A Question of Definition' (Journal of Psycho-Asthenics, 1928) — the recantation — [PRIMARY]"
   - "Goddard's 1912 Binet–Simon testing of immigrants at Ellis Island — [SECONDARY]"
 welds:
-  - {to: binet-alfred, type: influenced, register: worked-off, grade: WELD, source: "translated and imported the Binet–Simon scale, then turned an aid instrument to immigrant sorting at Ellis Island"}
-  - {to: the-root, type: restates, register: same-field, grade: WELD, source: "the test read as a verdict on the heredity of worth — the root in the register of the clinic"}
+  - {to: binet-alfred, type: influenced, register: direct-transmission, grade: WELD, source: "translated and imported the Binet–Simon scale, then turned an aid instrument to immigrant sorting at Ellis Island"}
+  - {to: the-root, type: restates, register: analogy, grade: WELD, source: "the test read as a verdict on the heredity of worth — the root in the register of the clinic"}
 tags: [rail-enactment, enactment, eugenics]
 ---
 

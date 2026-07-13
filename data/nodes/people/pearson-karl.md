@@ -12,8 +12,8 @@ sources:
   - "Karl Pearson, The Grammar of Science (1892) — his philosophy of measurement — [PRIMARY]"
   - "Pearson as first Galton Professor of Eugenics, UCL; took charge of the Eugenics Record Office (1906), renamed it the Galton Laboratory for National Eugenics; founder of the correlation coefficient and the journal Biometrika — [SECONDARY: standard biographical record]"
 welds:
-  - {to: galton-francis, type: influenced, register: worked-off, grade: WELD, source: "Galton's protégé and successor; took over the Eugenics Record Office in 1906 as the first Galton Professor of Eugenics"}
-  - {to: the-root, type: restates, register: same-field, grade: WELD, source: "statistics built to measure and sort the human stock — the root in the register of measurement"}
+  - {to: galton-francis, type: influenced, register: direct-transmission, grade: WELD, source: "Galton's protégé and successor; took over the Eugenics Record Office in 1906 as the first Galton Professor of Eugenics"}
+  - {to: the-root, type: restates, register: convergent-selection, grade: WELD, source: "statistics built to measure and sort the human stock — the root in the register of measurement"}
 tags: [rail-enactment, enactment, eugenics]
 ---
 

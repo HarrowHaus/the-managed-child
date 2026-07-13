@@ -13,7 +13,7 @@ sources:
   - "Nate Hendley, 'When a Toronto church grant caused all hell to break loose in 1972', TVO Today, 7 Oct. 2021 (drawing on the Globe and Mail, Toronto Star, Ottawa Citizen, and Hansard) — the $25,900 Local Initiatives Program grant to the Process's Toronto chapter; PM Pierre Trudeau's Commons defence; Wyllie's admission of 'carefully bending the facts' — https://amp.tvo.org/article/when-a-toronto-church-grant-caused-all-hell-to-break-loose-in-1972 — [SECONDARY]"
 welds: []
 hypotheses:
-  - {to: west-louis-jolyon, type: restates, register: same-field, grade: HYPOTHESIS, source: "Dana asserts the Process as an MK-ULTRA / Jolly West mind-control front (Ep. #29); an attributed claim with no documented substrate — reported as hers, never adopted"}
+  - {to: west-louis-jolyon, type: restates, register: analogy, grade: HYPOTHESIS, source: "Dana asserts the Process as an MK-ULTRA / Jolly West mind-control front (Ep. #29); an attributed claim with no documented substrate — reported as hers, never adopted"}
 tags: [rail-smoothing, smoothing]
 ---
 

@@ -12,7 +12,7 @@ sources:
   - "Henry Steel Olcott, The Buddhist Catechism (1881) — his exposition for the Ceylon Buddhist revival, still in use — [PRIMARY]"
   - "Wikipedia, 'Henry Steel Olcott' — American officer, lawyer and journalist; formal conversion to Buddhism in Ceylon; the Buddhist schools (Ananda College 1886, etc.) — https://en.wikipedia.org/wiki/Henry_Steel_Olcott — [SECONDARY]"
 welds:
-  - {to: theosophical-society, type: founded, register: worked-off, grade: WELD, source: "co-founded the Theosophical Society (1875) and served as its first President; established the International Headquarters and Library at Adyar"}
+  - {to: theosophical-society, type: founded, register: direct-transmission, grade: WELD, source: "co-founded the Theosophical Society (1875) and served as its first President; established the International Headquarters and Library at Adyar"}
 hypotheses: []
 tags: [rail-articulation, articulation, theosophy]
 ---

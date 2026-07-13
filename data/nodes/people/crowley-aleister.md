@@ -11,9 +11,9 @@ abstract: "Aleister Crowley (1875–1947) received Liber AL vel Legis (The Book 
 sources:
   - "Aleister Crowley, Liber AL vel Legis (The Book of the Law), received Cairo, April 1904 — I:10, 'Let my servants be few & secret: they shall rule the many & the known'; Ch. III, the Crowned and Conquering Child — [PRIMARY] (text confirmed against Wikisource / Hermetic Library)"
 welds:
-  - {to: liber-al-vel-legis, type: authored, register: worked-off, grade: WELD, source: "Crowley received/authored the text in Cairo, 1904 — the seed document"}
-  - {to: aeon-of-the-child, type: restates, register: same-field, grade: WELD, source: "the Aeon of the Crowned and Conquering Child is Crowley's proclamation in Liber AL"}
-  - {to: four-idiom-through-line, type: restates, register: same-field, grade: WELD, source: "the Aeon is the first of the four idioms — the esoteric articulation of rule-by-elect over a child-aeon"}
+  - {to: liber-al-vel-legis, type: authored, register: direct-transmission, grade: WELD, source: "Crowley received/authored the text in Cairo, 1904 — the seed document"}
+  - {to: aeon-of-the-child, type: restates, register: analogy, grade: WELD, source: "the Aeon of the Crowned and Conquering Child is Crowley's proclamation in Liber AL"}
+  - {to: four-idiom-through-line, type: restates, register: analogy, grade: WELD, source: "the Aeon is the first of the four idioms — the esoteric articulation of rule-by-elect over a child-aeon"}
 hypotheses: []
 tags: [rail-articulation, articulation, seed]
 ---

@@ -12,7 +12,7 @@ sources:
   - "Richard Hodgson, report for the Society for Psychical Research, Proceedings (Dec. 1885) — the committee's verdict that Blavatsky was 'one of the most accomplished, ingenious, and interesting impostors in history' — https://psi-encyclopedia.spr.ac.uk/articles/hodgson-report-theosophy — [PRIMARY]"
   - "Vernon Harrison, 'J'Accuse: An Examination of the Hodgson Report of 1885,' Journal of the SPR (1986) — finds the Hodgson report 'riddled with slanted statements, conjectures advanced as fact… and downright falsity'; SPR press release, 8 May 1986: Blavatsky 'was unjustly condemned' — https://www.theosophical.org/publications/quest-magazine/h-p-blavatsky-and-the-spr-an-examination-of-the-hodgson-report-of-1885 — [SECONDARY]"
 welds:
-  - {to: theosophical-society, type: founded, register: worked-off, grade: WELD, source: "co-founded the Theosophical Society (New York, 1875) and served as Corresponding Secretary; authored its founding doctrinal texts"}
+  - {to: theosophical-society, type: founded, register: direct-transmission, grade: WELD, source: "co-founded the Theosophical Society (New York, 1875) and served as Corresponding Secretary; authored its founding doctrinal texts"}
 hypotheses: []
 tags: [rail-articulation, articulation, theosophy]
 ---

@@ -13,8 +13,8 @@ sources:
   - "Lawrence Wright, 'Sympathy for the Devil,' Rolling Stone (5 September 1991) — the exposé finding no records for LaVey's circus, police-photographer, and Marilyn Monroe claims — [SECONDARY: exposé of record]"
   - "Blanche Barton, The Secret Life of a Satanist (1990) — the authorized biography (the founder-side account) — [SECONDARY]"
 welds:
-  - {to: church-of-satan, type: founded, register: worked-off, grade: WELD, source: "founded the Church of Satan in San Francisco on Walpurgisnacht 1966"}
-  - {to: satanic-bible, type: authored, register: worked-off, grade: WELD, source: "compiled and published The Satanic Bible (1969)"}
+  - {to: church-of-satan, type: founded, register: direct-transmission, grade: WELD, source: "founded the Church of Satan in San Francisco on Walpurgisnacht 1966"}
+  - {to: satanic-bible, type: authored, register: direct-transmission, grade: WELD, source: "compiled and published The Satanic Bible (1969)"}
 hypotheses: []
 tags: [rail-articulation, articulation, manufactured-faiths]
 ---

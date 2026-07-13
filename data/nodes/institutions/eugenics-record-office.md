@@ -12,8 +12,8 @@ sources:
   - "Cold Spring Harbor Laboratory Library & Archives, Eugenics Record Office records (1910–1939) — the office's own pedigree files and correspondence — [PRIMARY]"
   - "Institutional history: Harriman founding grant (1910), Carnegie Institution takeover (1917), Rockefeller contributions, 1939 closure — [SECONDARY]"
 welds:
-  - {to: galton-francis, type: restates, register: same-field, grade: WELD, source: "the ERO's name and mission descend from Galton's 1904 Eugenics Record Office at UCL — the American institutional form of his programme"}
-  - {to: the-root, type: restates, register: same-field, grade: WELD, source: "an office built to record and rank the heredity of the stock — the root as a filing system"}
+  - {to: galton-francis, type: restates, register: common-inheritance, grade: WELD, source: "the ERO's name and mission descend from Galton's 1904 Eugenics Record Office at UCL — the American institutional form of his programme"}
+  - {to: the-root, type: restates, register: common-inheritance, grade: WELD, source: "an office built to record and rank the heredity of the stock — the root as a filing system"}
 tags: [rail-enactment, enactment, eugenics]
 ---
 

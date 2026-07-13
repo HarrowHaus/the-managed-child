@@ -11,8 +11,8 @@ sources:
   - "Aleister Crowley, Moonchild (written 1917, published 1929) — the novel in which an occult operation attempts to incarnate an elevated soul in a deliberately conceived child; the primary source of the concept — [PRIMARY]"
   - "Jack Parsons, 'The Book of Babalon' (Liber 49) — the 1946 working that took the moonchild/homunculus aim from Crowley's novel into ritual practice — https://hermetic.com/parsons/the-book-of-babalon — [PRIMARY]"
 welds:
-  - {to: crowley-aleister, type: restates, register: worked-off, grade: WELD, source: "the moonchild concept is Crowley's own, set out in his 1917 novel — the same author's later development of his divine-child theme"}
-  - {to: aeon-of-the-child, type: restates, register: same-field, grade: WELD, source: "the magically-produced divine child restates, in the ritual-magick idiom, the enthroned-child claim of the Aeon of the Child"}
+  - {to: crowley-aleister, type: restates, register: direct-transmission, grade: WELD, source: "the moonchild concept is Crowley's own, set out in his 1917 novel — the same author's later development of his divine-child theme"}
+  - {to: aeon-of-the-child, type: restates, register: common-inheritance, grade: WELD, source: "the magically-produced divine child restates, in the ritual-magick idiom, the enthroned-child claim of the Aeon of the Child"}
 hypotheses: []
 tags: [rail-articulation, articulation, crowley-in-america]
 ---

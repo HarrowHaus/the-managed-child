@@ -13,7 +13,7 @@ sources:
   - "E. S. Gosney & Paul Popenoe, Sterilization for Human Betterment (1929) — the foundation's summary of 6,000+ California cases — [PRIMARY]"
   - "Caltech Archives, Human Betterment Foundation Records; founding 1928, Gosney & Popenoe — [SECONDARY]"
 welds:
-  - {to: the-root, type: restates, register: same-field, grade: WELD, source: "an organization built to promote culling the stock by surgery — the root in the register of the sterilization ward"}
+  - {to: the-root, type: restates, register: common-inheritance, grade: WELD, source: "an organization built to promote culling the stock by surgery — the root in the register of the sterilization ward"}
 tags: [rail-enactment, enactment, eugenics]
 ---
 

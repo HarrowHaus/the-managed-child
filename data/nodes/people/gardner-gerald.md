@@ -13,8 +13,8 @@ sources:
   - "Ronald Hutton, The Triumph of the Moon (Oxford, 1999) — the scholarly history tracing Wicca to identifiable modern sources (Crowley, Freemasonry, Leland, the Crotona Fellowship), not a surviving ancient cult — [SECONDARY: scholarly ceiling]"
   - "Aidan Kelly, Crafting the Art of Magic (1991) — the textual case that Crowley material sits in the early Book of Shadows, later removed by Doreen Valiente — [SECONDARY]"
 welds:
-  - {to: crowley-aleister, type: read, register: worked-off, grade: WELD, source: "met Crowley (1 May 1947), took an OTO charter and 4th degree, and carried identifiable Crowley material into the early Book of Shadows (per Hutton and Kelly)"}
-  - {to: gardnerian-wicca, type: founded, register: worked-off, grade: WELD, source: "founded Gardnerian Wicca via High Magic's Aid (1949) and Witchcraft Today (1954); worked the rituals at the Bricket Wood coven"}
+  - {to: crowley-aleister, type: read, register: direct-transmission, grade: WELD, source: "met Crowley (1 May 1947), took an OTO charter and 4th degree, and carried identifiable Crowley material into the early Book of Shadows (per Hutton and Kelly)"}
+  - {to: gardnerian-wicca, type: founded, register: direct-transmission, grade: WELD, source: "founded Gardnerian Wicca via High Magic's Aid (1949) and Witchcraft Today (1954); worked the rituals at the Bricket Wood coven"}
 tags: [rail-articulation, articulation, manufactured-faiths]
 ---
 

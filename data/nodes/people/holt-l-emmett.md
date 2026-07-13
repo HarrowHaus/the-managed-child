@@ -11,7 +11,7 @@ abstract: "L. Emmett Holt (1855–1924), a leading American pediatrician, wrote 
 sources:
   - "L. Emmett Holt, The Care and Feeding of Children: A Catechism for the Use of Mothers and Children's Nurses (1894) — scheduled feeding, regularity, hygienic discipline; full text on Project Gutenberg — [PRIMARY]"
 welds:
-  - {to: managed-child, type: restates, register: same-field, grade: WELD, source: "scheduled, disciplined, hygienic infant care is the managed child in the nursery, decades before behaviorism theorized it"}
+  - {to: managed-child, type: restates, register: analogy, grade: WELD, source: "scheduled, disciplined, hygienic infant care is the managed child in the nursery, decades before behaviorism theorized it"}
 tags: [rail-enactment, enactment]
 ---
 

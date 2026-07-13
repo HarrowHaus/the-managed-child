@@ -11,8 +11,8 @@ abstract: "Walter Lippmann (1889–1974), journalist and political commentator, 
 sources:
   - "Walter Lippmann, Public Opinion (1922) — the 'pseudo-environment' and 'the manufacture of consent' — [PRIMARY]"
 welds:
-  - {to: bernays-edward, type: restates, register: same-field, grade: WELD, source: "Public Opinion (1922) named 'the manufacture of consent' a year before Crystallizing Public Opinion (1923); two adjacent texts of one persuasion canon"}
-  - {to: rule-by-trained-elite, type: restates, register: same-field, grade: WELD, source: "Lippmann argued that a competent class must manage the public's picture of the world — rule-by-the-fit in the mass-media age"}
+  - {to: bernays-edward, type: restates, register: convergent-selection, grade: WELD, source: "Public Opinion (1922) named 'the manufacture of consent' a year before Crystallizing Public Opinion (1923); two adjacent texts of one persuasion canon"}
+  - {to: rule-by-trained-elite, type: restates, register: common-inheritance, grade: WELD, source: "Lippmann argued that a competent class must manage the public's picture of the world — rule-by-the-fit in the mass-media age"}
 tags: [rail-administrators, administrators]
 ---
 

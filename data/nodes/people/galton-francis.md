@@ -12,8 +12,8 @@ sources:
   - "Francis Galton, Inquiries into Human Faculty and Its Development (1883) — coins 'eugenics,' 'the science of improving stock' — [PRIMARY]"
   - "Francis Galton, Hereditary Genius (1869) — the hereditarian argument — [PRIMARY]"
 welds:
-  - {to: pearson-karl, type: mentored, register: worked-off, grade: WELD, source: "Galton's protégé and successor; Galton set up the Eugenics Record Office (1904) and put Pearson in charge (1906)"}
-  - {to: the-root, type: restates, register: same-field, grade: WELD, source: "eugenics — grade and improve the stock — is the root in the theater of breeding and measurement"}
+  - {to: pearson-karl, type: mentored, register: direct-transmission, grade: WELD, source: "Galton's protégé and successor; Galton set up the Eugenics Record Office (1904) and put Pearson in charge (1906)"}
+  - {to: the-root, type: restates, register: analogy, grade: WELD, source: "eugenics — grade and improve the stock — is the root in the theater of breeding and measurement"}
 tags: [rail-enactment, enactment, eugenics]
 ---
 

@@ -12,8 +12,8 @@ sources:
   - "Kenneth Anger, (S8) interview: 'I'm a member of the OTO — Ordo Templi Orientis — an occult order founded by British genius Aleister Crowley… Lucifer Rising was about Egyptian gods summoning the angel Lucifer — in order to usher in a new occult age, in accordance with the principles of OTO.' — https://s8cinema.com/en/2024/05/31/kenneth-anger-how-i-made-lucifer-rising/ — [PRIMARY]"
   - "Kenneth Anger, interview with Roger Ebert: on Bobby Beausoleil — 'One of the actors in my original version was Bobby Beausoleil, who got involved with the Manson family. I fired him from the film because he was dishonest… Two years later, he met Manson.' — https://www.rogerebert.com/interviews/interview-with-kenneth-anger — [PRIMARY]"
 welds:
-  - {to: crowley-aleister, type: read, register: worked-off, grade: WELD, source: "self-identified OTO member and Crowley devotee who studied 'the Crowleyian teachings'; Lucifer Rising made 'in accordance with the principles of OTO'"}
-  - {to: cameron-marjorie, type: met, register: worked-off, grade: WELD, source: "Cameron introduced Anger to Crowley's works and lived with him after Parsons's death in 1952; she appeared in his films"}
+  - {to: crowley-aleister, type: read, register: direct-transmission, grade: WELD, source: "self-identified OTO member and Crowley devotee who studied 'the Crowleyian teachings'; Lucifer Rising made 'in accordance with the principles of OTO'"}
+  - {to: cameron-marjorie, type: met, register: direct-transmission, grade: WELD, source: "Cameron introduced Anger to Crowley's works and lived with him after Parsons's death in 1952; she appeared in his films"}
 hypotheses: []
 tags: [rail-articulation, articulation, crowley-in-america]
 ---

@@ -11,7 +11,7 @@ abstract: "Genesis P-Orridge, co-founder of Throbbing Gristle and Psychic TV, fo
 sources:
   - "Thee Temple ov Psychick Youth (TOPY, founded 1981) and Thee Psychick Bible — P-Orridge's self-described ceremonial and sex-magick practice drawing on Crowley, Spare, and Burroughs/Gysin — [PRIMARY: P-Orridge's own first-person interviews and the order's own corpus]"
 welds:
-  - {to: crowley-aleister, type: influenced, register: worked-off, grade: WELD, source: "introduced to Crowley's writings as a teenager and built a self-described magical practice (TOPY) drawing on Crowley among others — genuine influence, not lineage"}
+  - {to: crowley-aleister, type: influenced, register: direct-transmission, grade: WELD, source: "introduced to Crowley's writings as a teenager and built a self-described magical practice (TOPY) drawing on Crowley among others — genuine influence, not lineage"}
 hypotheses: []
 tags: [rail-articulation, articulation, music]
 ---

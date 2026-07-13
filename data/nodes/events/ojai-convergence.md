@@ -12,7 +12,7 @@ sources:
   - "Mary Lutyens, Krishnamurti: The Years of Awakening (1975) — Krishnamurti resident at Arya Vihara, Ojai, from 1922; the 'process'; the Ojai milieu — [SECONDARY]"
   - "The Happy Valley School (now Besant Hill School of Happy Valley), Ojai — founded 1946 by Aldous Huxley, J. Krishnamurti, Rosalind Rajagopal, and Guido Ferrando, on land from Annie Besant's 1927 Theosophical (Happy Valley Foundation) purchase — [SECONDARY]"
 welds:
-  - {to: double-parentage, type: restates, register: same-field, grade: WELD, source: "Ojai holds the whole arc in one valley — the institutional child-messiah project (Krishnamurti raised as the Theosophists' World Teacher) and its repudiation, then the liberation-education experiment (Happy Valley) — the administer-and-free double-parentage made a locale"}
+  - {to: double-parentage, type: restates, register: analogy, grade: WELD, source: "Ojai holds the whole arc in one valley — the institutional child-messiah project (Krishnamurti raised as the Theosophists' World Teacher) and its repudiation, then the liberation-education experiment (Happy Valley) — the administer-and-free double-parentage made a locale"}
 hypotheses:
   - {to: the-root, type: restates, register: analogy, grade: HYPOTHESIS, source: "the child raised to a planned end (the World Teacher) and then the child freed to its own will (Happy Valley) — the root's two faces enacted in one town; a place where the pattern is legible, not a coordinated design (S-5)"}
 tags: [rail-lifespan, lifespan, dispersal]

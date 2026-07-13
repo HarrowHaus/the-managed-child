@@ -11,8 +11,8 @@ abstract: "Arnold Gesell (1880–1961), a psychologist and pediatrician at Yale 
 sources:
   - "Arnold Gesell, the Gesell Developmental Schedules (from the 1920s) and works including Infancy and Human Growth (1928) and The First Five Years of Life (1940) — the normative developmental milestones — [PRIMARY]"
 welds:
-  - {to: hall-g-stanley, type: influenced, register: worked-off, grade: WELD, source: "Gesell took his doctorate under G. Stanley Hall at Clark; the child-study movement extended into standardized developmental norms"}
-  - {to: managed-child, type: restates, register: same-field, grade: WELD, source: "the developmental norm made every child measurable against a schedule — the managed child charted"}
+  - {to: hall-g-stanley, type: influenced, register: direct-transmission, grade: WELD, source: "Gesell took his doctorate under G. Stanley Hall at Clark; the child-study movement extended into standardized developmental norms"}
+  - {to: managed-child, type: restates, register: analogy, grade: WELD, source: "the developmental norm made every child measurable against a schedule — the managed child charted"}
 tags: [rail-enactment, enactment, denominator]
 ---
 

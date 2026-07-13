@@ -13,7 +13,7 @@ sources:
   - "Operation Northwoods — Joint Chiefs of Staff memorandum, 13 March 1962 (National Security Archive facsimile) — the documented real conspiracy Olmsted's frame rests an instance on — [PRIMARY]"
   - "Christopher R. Leslie, 'How To Hide A Price-Fixing Conspiracy: Denial, Deception, and Destruction of Evidence', University of Illinois Law Review (2021) — a non-political analogue: destroyed records + reflexive denial are a recognized concealment signature — [SECONDARY]"
 welds:
-  - {to: the-smoothing, type: authored, register: worked-off, grade: WELD, source: "Olmsted's Real Enemies is the account that names the over-tidying pattern and states its consequence"}
+  - {to: the-smoothing, type: authored, register: direct-transmission, grade: WELD, source: "Olmsted's Real Enemies is the account that names the over-tidying pattern and states its consequence"}
 hypotheses: []
 tags: [audit, smoothing, frame]
 ---

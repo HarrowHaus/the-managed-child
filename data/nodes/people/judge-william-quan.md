@@ -11,7 +11,7 @@ sources:
   - "Theosophical Society (Adyar), official biography of W. Q. Judge (1851–1896) — co-founder; head of the American Section; the 1894–95 dispute and the Boston convention — https://www.ts-adyar.org/w-q-judge-1851-1896 — [PRIMARY]"
   - "Wikipedia, 'William Quan Judge' — the Ninth Annual Convention of the American Section (Boston, 28–29 April 1895), the 191–10 vote for autonomy, Judge elected President for life; Katherine Tingley's succession (→ Point Loma) — https://en.wikipedia.org/wiki/William_Quan_Judge — [SECONDARY]"
 welds:
-  - {to: theosophical-society, type: broke-from, register: worked-off, grade: WELD, source: "the American Section under Judge voted 191–10 (Boston, 1895) to declare autonomy from Adyar and reorganize as an independent Theosophical Society in America — a schism"}
+  - {to: theosophical-society, type: broke-from, register: direct-transmission, grade: WELD, source: "the American Section under Judge voted 191–10 (Boston, 1895) to declare autonomy from Adyar and reorganize as an independent Theosophical Society in America — a schism"}
 hypotheses: []
 tags: [rail-articulation, articulation, theosophy]
 ---

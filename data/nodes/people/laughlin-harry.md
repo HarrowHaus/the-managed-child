@@ -13,9 +13,9 @@ sources:
   - "Laughlin's 28 May 1936 letter to Dean Carl Schneider accepting the University of Heidelberg honorary M.D. (DNA Learning Center / USHMM) — [PRIMARY]"
   - "Laughlin's 1920–1924 testimony to the House Committee on Immigration and Naturalization as 'Expert Eugenics Agent'; the Immigration Act of 1924 — [SECONDARY]"
 welds:
-  - {to: eugenics-record-office, type: member-of, register: worked-off, grade: WELD, source: "superintendent of the ERO from its 1910 founding under Davenport"}
-  - {to: buck-v-bell, type: influenced, register: worked-off, grade: WELD, source: "the Virginia statute upheld was modeled on Laughlin's 1922 Model Eugenical Sterilization Law; he supplied an expert deposition"}
-  - {to: the-root, type: restates, register: same-field, grade: WELD, source: "the model sterilization law is the root written into a statute — cull the stock by legislation"}
+  - {to: eugenics-record-office, type: member-of, register: direct-transmission, grade: WELD, source: "superintendent of the ERO from its 1910 founding under Davenport"}
+  - {to: buck-v-bell, type: influenced, register: direct-transmission, grade: WELD, source: "the Virginia statute upheld was modeled on Laughlin's 1922 Model Eugenical Sterilization Law; he supplied an expert deposition"}
+  - {to: the-root, type: restates, register: analogy, grade: WELD, source: "the model sterilization law is the root written into a statute — cull the stock by legislation"}
 tags: [rail-enactment, enactment, eugenics]
 ---
 

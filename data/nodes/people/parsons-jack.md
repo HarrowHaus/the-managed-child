@@ -14,10 +14,10 @@ sources:
   - "Wikipedia, 'Jack Parsons' and 'Parsons (crater)' — the 1944 forced removal from Aerojet/JPL over occult disrepute; the 1972 IAU far-side lunar crater named for 'the rocket engineer and occultist Jack Parsons' — [SECONDARY]"
   - "George Pendle, Strange Angel: The Otherworldly Life of Rocket Scientist John Whiteside Parsons (2005) — [SECONDARY]"
 welds:
-  - {to: crowley-aleister, type: funded, register: worked-off, grade: WELD, source: "Parsons gave almost all of his salary to the O.T.O. and financially supported Crowley in London through Karl Germer; addressed Crowley as 'Most Beloved Father', signed 'Thy son, John'"}
-  - {to: jpl, type: founded, register: worked-off, grade: WELD, source: "with Edward Forman and Frank Malina under Theodore von Kármán, formed the Caltech GALCIT Rocket Research Group (1934) that became the Jet Propulsion Laboratory (1943)"}
-  - {to: hubbard-lron, type: met, register: worked-off, grade: WELD, source: "Hubbard moved into the Parsonage in Aug. 1945; they formed Allied Enterprises; Hubbard and Sara Northrup then left with Parsons's money and boats"}
-  - {to: agape-lodge, type: member-of, register: worked-off, grade: WELD, source: "made head of Agapé Lodge No. 2 in 1942 at Crowley's instruction, replacing Wilfred Talbot Smith"}
+  - {to: crowley-aleister, type: funded, register: direct-transmission, grade: WELD, source: "Parsons gave almost all of his salary to the O.T.O. and financially supported Crowley in London through Karl Germer; addressed Crowley as 'Most Beloved Father', signed 'Thy son, John'"}
+  - {to: jpl, type: founded, register: direct-transmission, grade: WELD, source: "with Edward Forman and Frank Malina under Theodore von Kármán, formed the Caltech GALCIT Rocket Research Group (1934) that became the Jet Propulsion Laboratory (1943)"}
+  - {to: hubbard-lron, type: met, register: direct-transmission, grade: WELD, source: "Hubbard moved into the Parsonage in Aug. 1945; they formed Allied Enterprises; Hubbard and Sara Northrup then left with Parsons's money and boats"}
+  - {to: agape-lodge, type: member-of, register: institutional-relay, grade: WELD, source: "made head of Agapé Lodge No. 2 in 1942 at Crowley's instruction, replacing Wilfred Talbot Smith"}
 hypotheses: []
 tags: [rail-articulation, articulation, crowley-in-america]
 ---

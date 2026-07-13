@@ -12,7 +12,7 @@ sources:
   - "David Bowie, 'Quicksand,' Hunky Dory (17 December 1971) — the recorded lyric name-checking Crowley and the Golden Dawn — [PRIMARY]"
   - "Bowie's own account of the song as 'narrative and surrealism' influenced by 'Buddhism, occultism, and Nietzsche' — [SECONDARY]"
 welds:
-  - {to: crowley-aleister, type: read, register: worked-off, grade: WELD, source: "name-checked Crowley and the Golden Dawn in his own lyric 'Quicksand' (1971), engaging Crowley's legend in his early-1970s occult-imagery period"}
+  - {to: crowley-aleister, type: read, register: direct-transmission, grade: WELD, source: "name-checked Crowley and the Golden Dawn in his own lyric 'Quicksand' (1971), engaging Crowley's legend in his early-1970s occult-imagery period"}
 hypotheses: []
 tags: [rail-articulation, articulation, music]
 ---
