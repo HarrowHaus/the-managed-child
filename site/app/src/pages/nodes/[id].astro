@@ -113,6 +113,11 @@ const showReferencedBy = d.backlink !== false && backlinks.fromEssays.length > 0
           const target = resolve(e.to);
           const rel = e.type.replace(/-/g, ' ');
           const trans = e.register ? ` · ${e.register}` : '';
+          // Per-edge standing (MASTER-SPEC 0.2): each connection carries its own
+          // certainty word, not one page-level verdict. Monochrome, hoverable —
+          // the approved plain-words signal (CLAUDE.md rule b), derived from the
+          // edge's grade exactly as the page's own word is.
+          const est = e.grade ? standingFromGrade(e.grade) : null;
           return (
             <li>
               {target ? (
@@ -121,6 +126,9 @@ const showReferencedBy = d.backlink !== false && backlinks.fromEssays.length > 0
                 <span>{e.to}</span>
               )}
               <span class="edge-rel"> — {rel}{trans}</span>
+              {est?.certainty && (
+                <span class="edge-standing"> · <em class="certainty-word" data-standing={est.certainty} tabindex="0" title={est.def ?? ''}>{est.certainty}</em></span>
+              )}
             </li>
           );
         })}
