@@ -1,5 +1,5 @@
 # NODE INDEX (generated)
-*Machine-generated from data/nodes/** on every build — do not hand-edit. 114 nodes.*
+*Machine-generated from data/nodes/** on every build — do not hand-edit. 115 nodes.*
 
 ## people
 - `anger-kenneth` — Kenneth Anger *(WELD)*
@@ -105,6 +105,7 @@
 - `beatles-sgt-pepper` — Crowley on the Sgt. Pepper Cover *(WELD)*
 - `liber-al-vel-legis` — Liber AL vel Legis (The Book of the Law) *(WELD)*
 - `new-atlantis` — New Atlantis *(WELD)*
+- `on-education-of-children` — On the Education of Children (Crowley) *(WELD)*
 - `psychological-care` — Psychological Care of Infant and Child (Watson) *(WELD)*
 - `satanic-bible` — The Satanic Bible *(WELD)*
 - `the-republic` — The Republic *(WELD)*

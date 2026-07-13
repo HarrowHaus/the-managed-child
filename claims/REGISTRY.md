@@ -68,3 +68,52 @@ confirmed/strongly-supported → **WELD** (documented) · unresolved/weakened �
 - **search universe:** the Atack/Urban/Melton trio (built into the node).
 - **standing:** the *reading* (Hubbard read Crowley) confirmed; the *derivation* weakened/attributed — never welded (R-8).
 - **reopen:** a primary showing Crowleyan ritual as Scientology's operative core.
+
+---
+
+## on-education-of-children (Phase 4.2 resurrection — first absorbed node)
+*Peer-sweep filed: 3 independent verbatim transcriptions (tarrdaniel.com Thelemagick Library; I.A.O.131 mirror; ARARITA-OTO exegesis) + 4 biographers (Booth 2000, Sutin 2000, Kaczynski 2010, Churton 2011). Harvest: research/on-education-of-children-harvest.md.*
+
+### CLM-oec-1
+- **proposition:** Crowley wrote a real, discrete pedagogy essay titled *On the Education of Children*.
+- **mechanism:** direct-transmission (`authored`).
+- **evidence for:** the essay, byline "The Master Therion," 1921 Cefalù; *The Revival of Magick and Other Essays* (Oriflamme 2), New Falcon 1998, ISBN 1-56184-133-1; verbatim across three transcriptions.
+- **alternatives:** later editorial fabrication (defeated — scholarly OTO edition, cross-checked); a passage in *The Law is for All* (defeated — stand-alone essay).
+- **search universe:** Oriflamme 2 / New Falcon edition; the online Thelemic libraries; Crowley bibliographies; the biographers.
+- **standing:** confirmed → WELD.
+- **reopen:** a bibliographer showing the New Falcon text is not from a Crowley MS.
+
+### CLM-oec-2
+- **proposition:** the essay states a liberationist pedagogy (free the child's own Will; teach only how to think for oneself).
+- **mechanism:** direct-transmission (content of the text).
+- **evidence for:** verbatim — "Each child must develop its own Individuality, and Will, disregarding alien Ideals"; "Nothing is taught except How to think for oneself"; "Education is assisting a soul to express itself"; *Magick Without Tears* "leading out."
+- **alternatives:** the doctrine is control-oriented (defeated by the anti-standardization polemic).
+- **search universe:** the essay; *Magick Without Tears*; the ARARITA exegesis.
+- **standing:** confirmed → WELD.
+- **reopen:** a fuller MS reading showing a coercive counter-doctrine.
+
+### CLM-oec-3
+- **proposition:** the Abbey of Thelema was a documented child-rearing practice (children resident; a regime; a child died there, Oct 1920).
+- **mechanism:** institutional-relay (the Abbey as the enacting body).
+- **evidence for:** Booth 2000, Sutin 2000, Kaczynski 2010, Churton 2011 — Hansi/Howard Shumway; Poupée (d. Oct 1920); Astarte; the robe-and-Ra regime; libertine "education"; unsanitary conditions.
+- **alternatives:** the child-rearing is legend not record (defeated — four biographers concur).
+- **search universe:** the standard biographies; Crowley's Cefalù diaries via Symonds/Sutin.
+- **standing:** confirmed (regime, deaths) → WELD; the *cause* of Poupée's death held light (biographer summary, no located certificate).
+- **reopen:** primary diary access revising the household record.
+
+### CLM-oec-4
+- **proposition:** Crowley's pedagogy is one of the two parents (the liberation strain) of the institutional managed child.
+- **mechanism:** analogy (interpretive).
+- **evidence for:** THESIS THE SEED (project reading); the Montessori *educere* resemblance; the justification-vs-technique frame.
+- **alternatives:** it is simply liberationist and NOT a parent of administration (the falsifier reading) — held open, reconciled only via Nisbet sequencing.
+- **search universe:** the essay; Montessori corpus; Nisbet *Quest for Community*; Watson corpus.
+- **standing:** unresolved / interpretive — never `documented` as lineage.
+- **reopen:** a documented Crowley→child-institution line (upgrade); a clean falsifier case (downgrade).
+
+### CLM-oec-5
+- **proposition:** a documented transmission ran from Crowley/this essay into Montessori, Watson, or the child-institutions.
+- **mechanism:** direct-transmission (tested, not found).
+- **evidence for:** none located.
+- **search universe:** published texts; correspondence/marginalia; the Theosophical/Adyar record (where Montessori sat, Crowley an antagonist); progressive-education and behaviorism histories; Montessori & Watson biographies.
+- **standing:** **not established in the sources checked** (bounded negative, L3).
+- **reopen:** any citation, letter, or borrowing linking them.

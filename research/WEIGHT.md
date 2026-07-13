@@ -6,9 +6,9 @@
 
 | node | grade | weight | in-documented | readings | essays | body | sources |
 |---|---|---|---|---|---|---|---|
-| `crowley-aleister` | WELD | 40 | 13 | 3 | 6 | 1059 | 1 |
-| `liber-al-vel-legis` | WELD | 17 | 3 | 4 | 3 | 662 | 1 |
-| `aeon-of-the-child` | WELD | 15 | 3 | 4 | 1 | 1275 | 1 |
+| `crowley-aleister` | WELD | 42 | 14 | 3 | 6 | 1059 | 1 |
+| `liber-al-vel-legis` | WELD | 19 | 4 | 4 | 3 | 662 | 1 |
+| `aeon-of-the-child` | WELD | 17 | 4 | 4 | 1 | 1275 | 1 |
 | `besant-annie` | WELD | 13 | 2 | 3 | 3 | 1058 | 1 |
 | `order-of-the-star` | HYPOTHESIS | 12 | 2 | 3 | 1 | 703 | 0 |
 | `krishnamurti-jiddu` | WELD | 12 | 1 | 3 | 3 | 691 | 2 |
