@@ -29,7 +29,7 @@ In *Inquiries into Human Faculty and Its Development* (1883) Galton coined **"eu
 - **influenced → `the-root`** (same-field): grade and improve the stock — the root in the register of breeding.
 
 ## Held-open / discard
-Galton is a co-symptom of the root, in the theater of measurement — never its hidden engine, and never routed to any ethnic or bloodline collective. The connection to later American testers (Terman) is the Galtonian *tradition*, a shared field, not a documented line of direct citation; it is held there and not inflated into a chain.
+Galton is a co-symptom of the root, in the theater of measurement — never its hidden engine, and never routed to any ethnic or bloodline collective. The connection to later American testing runs by a documented, open genealogy: his postdoctoral student James McKeen Cattell coined "mental test" (1890) and carried the measurement to America; Cattell's doctoral student Edward Thorndike built the Columbia school of educational measurement; and Lewis Terman, though trained under G. Stanley Hall, cited Galton directly, building his *Genetic Studies of Genius* out of Galton's *Hereditary Genius*. It is a branched disciplinary descent — transmission by training and citation, carried in the open — not a hidden chain and not a cabal.
 
 ## Role in the thesis
 Enactment. Galton is where the impulse to rank the human stock acquires a name and a method, decades before the school and the testing bureau apply it to the child. Symptom of the root, not its cause.

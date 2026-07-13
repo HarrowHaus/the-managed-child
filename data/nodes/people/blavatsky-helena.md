@@ -21,7 +21,7 @@ tags: [rail-articulation, articulation, theosophy]
 
 > **WELD** · map node 1.5 · 1831-1891
 
-The founder and doctrinal author of theosophy — and a node where a documented fraud finding and its documented reversal must both be kept on the record.
+The founder and doctrinal author of theosophy — and a node where a documented fraud finding and its later documented critic must both be kept on the record, without inventing a corporate reversal that never happened.
 
 ## Documented connection
 Blavatsky co-founded the **Theosophical Society** in 1875 and wrote its two founding books, ***Isis Unveiled*** (1877) and ***The Secret Doctrine*** (1888), which she called "the synthesis of science, religion and philosophy." She attributed the doctrine not to herself but to a hidden brotherhood of adepts — the "**Masters**" or **Mahatmas**, residing chiefly in Tibet — who, she said, guided humanity's spiritual evolution.
@@ -29,8 +29,8 @@ Blavatsky co-founded the **Theosophical Society** in 1875 and wrote its two foun
 ## Asserted intent — firewalled
 The Masters, and their steering of human development, are **Blavatsky's own attributed claim**, not documented fact. This is theosophy's version of the root impulse — an initiated elect administering the species — and it is held here as her testimony, never as a mechanism of the world.
 
-## Held-open — the fraud finding and its reversal, both on the record
-In **December 1885** the Society for Psychical Research published **Richard Hodgson**'s report, which — corroborating the housekeeper Emma Coulomb — concluded that Blavatsky had written the "Mahatma Letters" herself and named her "one of the most accomplished, ingenious, and interesting impostors in history." That finding is itself contested: in **1986** the SPR's own *Journal* published **Vernon Harrison**'s analysis calling the Hodgson report "riddled with slanted statements, conjectures advanced as fact… and downright falsity," and the SPR released a statement that Blavatsky "was unjustly condemned." Coulomb accused; Hodgson and the SPR found fraud in 1885; Harrison and the SPR found that finding unsound in 1986. Both stand; neither is picked.
+## Held-open — the fraud finding and its later critic, both on the record
+In **December 1885** the Society for Psychical Research published **Richard Hodgson**'s report, which — corroborating the housekeeper Emma Coulomb — concluded that Blavatsky had written the "Mahatma Letters" herself and named her "one of the most accomplished, ingenious, and interesting impostors in history." That finding was later sharply criticized: in April **1986** the SPR's *Journal* published **Vernon Harrison**'s "J'Accuse," calling the Hodgson report "riddled with slanted statements, conjectures advanced as fact… and downright falsity." But the record must be stated precisely: the **SPR holds no corporate opinions**, and it issued no institutional reversal. Harrison's own verdict was the Scots **"not proven,"** not innocence; and the much-quoted line that Blavatsky "was unjustly condemned" was the headline of a 1986 SPR **press release** announcing Harrison's study, not a Society finding. Coulomb accused; Hodgson found fraud in 1885; Harrison found that finding unsound in 1986 — two members' works published under SPR auspices, a century apart. Both stand; neither is a corporate verdict, and neither is picked.
 
 ## Role in the thesis
 The origin of the esoteric idiom, carried with its own strongest counter-evidence attached. The doctrine of an elect guiding evolution is documented as a *claim she made*; whether the claim was honest is a question the record leaves genuinely open, and the node keeps it open rather than resolving it in either direction.

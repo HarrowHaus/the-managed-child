@@ -30,4 +30,4 @@
 | `hard-sourcing-rule` | PRINCIPLE | 6 | 1 | 2 | 0 | 2842 | 0 |
 | `lifespan-continuum` | FRAME | 6 | 1 | 1 | 1 | 1068 | 0 |
 | `only-planet-of-choice` | WELD | 6 | 0 | 3 | 0 | 2312 | 1 |
-| `fcc-1984` | WELD | 5 | 0 | 2 | 1 | 1597 | 1 |
+| `fcc-1984` | WELD | 5 | 0 | 2 | 1 | 2083 | 1 |
