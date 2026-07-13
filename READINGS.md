@@ -3,7 +3,7 @@
 
 ## Reading I — The Managed Child
 *The founding territory: how the twentieth century turned childhood into something measured, conditioned, and administered — built almost entirely by the ordinary secular mainstream.*
-1. two-testimonies · 2. humanity-as-administrable-stock · 3. the-administrators · 4. the-trunk · 5. measuring-the-child · 6. conditioning-the-child · 7. engineering-consent · 8. the-denominator · 9. liberation-as-the-first-step · 10. from-the-nursery-to-the-toy-aisle · 11. the-child-grown-up
+1. two-testimonies · 2. humanity-as-administrable-stock · 3. the-administrators · 4. the-trunk · 5. measuring-the-child · 6. improving-the-stock · 7. conditioning-the-child · 8. engineering-consent · 9. the-denominator · 10. liberation-as-the-first-step · 11. from-the-nursery-to-the-toy-aisle · 12. the-child-grown-up
 
 ## Reading II — The Aeon Current
 *Crowley outward: one received book, four idioms of an initiated elect, and the documented chain of hands it passed through in America — rocketry, a new religion, film, and the record of what was claimed about all of it.*
