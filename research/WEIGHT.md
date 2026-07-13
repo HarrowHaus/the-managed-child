@@ -20,6 +20,7 @@
 | `lucis-trust` | HYPOTHESIS | 9 | 1 | 3 | 1 | 814 | 0 |
 | `hall-g-stanley` | WELD | 9 | 3 | 1 | 1 | 1338 | 1 |
 | `vogler-christopher` | WELD | 8 | 2 | 1 | 2 | 1410 | 0 |
+| `double-parentage` | FRAME | 7 | 2 | 1 | 1 | 1311 | 0 |
 | `jwt` | HYPOTHESIS | 7 | 1 | 2 | 1 | 1166 | 0 |
 | `leadbeater-cw` | HYPOTHESIS | 7 | 0 | 3 | 1 | 916 | 0 |
 | `pearson-karl` | WELD | 7 | 1 | 2 | 1 | 1452 | 1 |
@@ -27,7 +28,6 @@
 | `hard-sourcing-rule` | PRINCIPLE | 6 | 1 | 2 | 0 | 2842 | 0 |
 | `lifespan-continuum` | FRAME | 6 | 1 | 1 | 1 | 1068 | 0 |
 | `new-atlantis` | WELD | 6 | 2 | 1 | 0 | 715 | 1 |
-| `double-parentage` | FRAME | 5 | 1 | 1 | 1 | 1311 | 0 |
 | `fcc-1984` | WELD | 5 | 0 | 2 | 1 | 1597 | 1 |
 | `eugenics-society-uk` | WELD | 5 | 0 | 2 | 1 | 1820 | 1 |
 | `gardnerian-wicca` | WELD | 5 | 1 | 1 | 1 | 1341 | 1 |

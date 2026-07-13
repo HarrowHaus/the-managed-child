@@ -1,5 +1,5 @@
 # NODE INDEX (generated)
-*Machine-generated from data/nodes/** on every build — do not hand-edit. 127 nodes.*
+*Machine-generated from data/nodes/** on every build — do not hand-edit. 128 nodes.*
 
 ## people
 - `anger-kenneth` — Kenneth Anger *(WELD)*
@@ -104,6 +104,7 @@
 - `latey-judgment` — The Latey Judgment *(WELD)*
 - `lippmann-dewey-debate` — The Lippmann-Dewey Debate *(WELD)*
 - `mkultra-hearing-2026` — The June 2026 MKUltra Hearing *(WELD)*
+- `ojai-convergence` — The Ojai Convergence *(WELD)*
 - `operation-northwoods` — Operation Northwoods *(WELD)*
 - `process-v-sanders` — Process Church v. Sanders (the retraction) *(WELD)*
 - `sanitized-1977-testimony` — The Sanitized 1977 Testimony *(WELD)*
