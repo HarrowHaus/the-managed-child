@@ -20,7 +20,7 @@ welds:
   - {to: wells-hg, type: influenced, register: direct-transmission, grade: WELD, source: "co-authored The Science of Life (1929–30) with H.G. Wells and G.P. Wells"}
   - {to: rule-by-trained-elite, type: restates, register: analogy, grade: WELD, source: "'evolutionary humanism' is rule-by-the-fit stated in a UN founding document"}
 hypotheses:
-  - {to: huxley-th, type: restates, register: analogy, grade: HYPOTHESIS, source: "kinship is documented (grandson); T. H. Huxley died in 1895 when Julian was eight, so no personal transmission. Julian's 1943 Romanes Lecture responds to T. H.'s 1893 'Evolution and Ethics' — CHECK that text before promoting to a worked-off weld"}
+  - {to: huxley-th, type: restates, register: analogy, grade: HYPOTHESIS, source: "kinship is documented (grandson); T. H. Huxley died in 1895 when Julian was eight, so no personal transmission. Julian's 1943 Romanes Lecture responds to T. H.'s 1893 'Evolution and Ethics' — CHECK that text before promoting to a direct-transmission weld"}
   - {to: huxley-aldous, type: restates, register: analogy, grade: HYPOTHESIS, source: "brothers; kinship documented, but intellectual influence in either direction is not established here"}
 tags: [administrators, technocrat, eugenics, articulation, enactment]
 ---
@@ -41,9 +41,9 @@ His eugenic commitment is long and documented: on the **British Eugenics Society
 **The mystical source, bounded.** Huxley took the concept of transhumanism substantially from **Pierre Teilhard de Chardin**, whose "noosphere" and "Omega Point" are explicitly mystical; Huxley wrote the admiring introduction to *The Phenomenon of Man* (introduction dated December 1958). This is a documented mysticism-into-managerial-program link — **but it is Teilhard, not Crowley**, and it stands as *testimony* (a technocrat reaching for a religious frame), never as a cause of the child-institutions.
 
 ## Edges
-`unesco` is founded and philosophically authored by him (worked-off). `wells-hg` is a dated co-authorship (worked-off). `rule-by-trained-elite` is same-field: he restated the doctrine in his own signed text.
+`unesco` is founded and philosophically authored by him. `wells-hg` is a dated co-authorship. `rule-by-trained-elite` is **convergent-selection**: he restated the doctrine in his own signed text.
 
-The kinship edges to `huxley-th` and `huxley-aldous` are demoted to **hypotheses**. Kinship is not influence. T. H. Huxley died when Julian was eight; the plausible worked-off tie is Julian's 1943 Romanes Lecture answering his grandfather's 1893 lecture, and that text has not been checked.
+The kinship edges to `huxley-th` and `huxley-aldous` are demoted to **hypotheses**. Kinship is not influence. T. H. Huxley died when Julian was eight; the plausible direct-transmission tie is Julian's 1943 Romanes Lecture answering his grandfather's 1893 lecture, and that text has not been checked.
 
 ## Held-open / discard
 - **Two quotations the map carries could NOT be confirmed and are NOT used.** That man is "an unfinished and often botched product of evolutionary improvisation" who "not only must but can be improved" (attributed to *Essays of a Humanist*, 1964); and that "political unification in some sort of world government will be required" (attributed to the UNESCO pamphlet). Both are held open pending a reading of the primary texts. Neither appears in the documented core, and both were **removed from the essay prose**.

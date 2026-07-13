@@ -24,7 +24,7 @@ The quote that is real and the framing that is false. Russell sat at the Coeffic
 Russell was a member of the Coefficients, the Webbs' 1902 dining club, and **resigned in 1903** after Sir Edward Grey publicly espoused the alliance policy Russell believed would bring war. In *The Impact of Science on Society* (1952) he set out, in chilling detail, how a scientific dictatorship might manufacture belief through education, diet, and injection. The passages are quoted accurately by those who cite them; what is falsified is the frame.
 
 ## Edges
-- **member-of → `coefficients-club`** (worked-off): a member who resigned in 1903, in documented disagreement.
+- **member-of → `coefficients-club`**: a member who resigned in 1903, in documented disagreement.
 
 ## Held-open / discard
 The recurring claim that Russell **advocated** mass psychological manipulation is false: in *The Impact of Science on Society* he is describing a dystopia in order to warn against it, and the surrounding text makes the condemnation explicit. The quotations are verbatim; the "advocate" reading is the framing this project discards. Cite the passage and the warning together, or not at all.

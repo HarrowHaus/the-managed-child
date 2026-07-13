@@ -13,7 +13,7 @@ sources:
   - "Crowley's doctrine of the three aeons (Isis / Osiris / Horus), with the Aeon of Horus beginning 1904 — [SECONDARY: standard Thelemic scholarship]"
 welds:
   - {to: liber-al-vel-legis, type: authored, register: direct-transmission, grade: WELD, source: "the Aeon of the Crowned and Conquering Child is proclaimed in the received text (Ch. III; I:49)"}
-  - {to: the-root, type: restates, register: common-inheritance, grade: WELD, source: "a sovereign child set over a ruling few is the root — administration of the many by an elect — in archetypal form"}
+  - {to: the-root, type: restates, register: analogy, grade: WELD, source: "a sovereign child set over a ruling few is the root — administration of the many by an elect — in archetypal form"}
   - {to: four-idiom-through-line, type: restates, register: common-inheritance, grade: WELD, source: "the Aeon is the first of the four idioms — the esoteric articulation of a child-age governed by a secret few"}
 tags: [rail-articulation, articulation, seed]
 ---

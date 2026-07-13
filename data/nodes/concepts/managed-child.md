@@ -16,7 +16,7 @@ sources:
   - "Ellwood P. Cubberley, Public School Administration (1916) — 'our schools are, in a sense, factories in which the raw products (children) are to be shaped and fashioned into products to meet the various demands of life' — [PRIMARY]"
   - "Thomas Fallace & Victoria Fantozzi, 'Was There Really a Social Efficiency Doctrine?', Educational Researcher (2013) — the corrective on the factory-model narrative — [SECONDARY]"
 welds:
-  - {to: the-root, type: restates, register: common-inheritance, grade: WELD, source: "the managed child is the root applied to the young — raise the stock correctly"}
+  - {to: the-root, type: restates, register: analogy, grade: WELD, source: "the managed child is the root applied to the young — raise the stock correctly"}
   - {to: hall-g-stanley, type: restates, register: convergent-selection, grade: WELD, source: "Adolescence (1904) constitutes childhood and adolescence as a managed developmental stage; Hall founded the child-study movement and was first president of the APA"}
   - {to: watson-john-b, type: restates, register: convergent-selection, grade: WELD, source: "Psychological Care of Infant and Child (1928) states the program: 'not more babies but better brought up babies'; engineered detachment as a design goal"}
   - {to: terman-lewis, type: restates, register: convergent-selection, grade: WELD, source: "the Stanford–Binet (1916) and Terman's proposal to classify children onto job-tracks — the child as measured, ranked, administratively sorted population"}
@@ -45,7 +45,7 @@ Across the twentieth century childhood was remade from *innocence to be protecte
 
 ## Edges
 
-Every edge out of this node is **same-field**: the managed child is not a doctrine that Hall, Watson, Terman, and Cubberley received from a common source and executed. It is the shape their independent programs converge on. `the-root` stands to it as impulse to theater. `hall-g-stanley` constitutes the developmental stage; `watson-john-b` supplies the conditioning technique; `terman-lewis` supplies the measurement and the sort; `cubberley-ellwood` supplies the processing institution. The one genuinely **worked-off** transmission in this material — Hall supervising Terman's dissertation at Clark in 1905 — is an encounter between two people and is carried on their own nodes, not asserted here as a property of the concept.
+Every edge out of this node is **convergent-selection**: the managed child is not a doctrine that Hall, Watson, Terman, and Cubberley received from a common source and executed. It is the shape their independent programs converge on. `the-root` stands to it as impulse to theater. `hall-g-stanley` constitutes the developmental stage; `watson-john-b` supplies the conditioning technique; `terman-lewis` supplies the measurement and the sort; `cubberley-ellwood` supplies the processing institution. The one genuinely **direct-transmission** link in this material — Hall supervising Terman's dissertation at Clark in 1905 — is an encounter between two people and is carried on their own nodes, not asserted here as a property of the concept.
 
 ## Held-open / discard
 

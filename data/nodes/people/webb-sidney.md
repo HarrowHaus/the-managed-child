@@ -28,9 +28,9 @@ The trunk's administrator. Webb turned a conviction — that the capable should 
 Webb was a founding Fabian and one of the contributors to *Fabian Essays in Socialism* (1889); with Beatrice Webb he co-founded the **London School of Economics** in 1895. In his **26 June 1923** presidential address to the Labour Party he coined the doctrine's watchword — **"the inevitability of gradualness"** — the belief that a socialized economy would arrive by stages rather than revolution. In 1902 the Webbs founded the Coefficients dining club, seating the managerial left and the imperial right at one table.
 
 ## Edges
-- **member-of → `fabian-society`** (worked-off): founding-era Fabian and author of the gradualness address.
-- **influenced → `rule-by-trained-elite`** (same-field): permeation as the trunk doctrine's administrative form.
-- **founded → `coefficients-club`** (worked-off): the 1902 dining club, founded with Beatrice Webb.
+- **member-of → `fabian-society`**: founding-era Fabian and author of the gradualness address.
+- **influenced → `rule-by-trained-elite`**: permeation as the trunk doctrine's administrative form.
+- **founded → `coefficients-club`**: the 1902 dining club, founded with Beatrice Webb.
 
 ## Held-open / discard
 The longer clause the lineage map attaches to the 1923 address — that the country would become a socialized economy "painlessly and almost without being aware of it" — could not be confirmed word-for-word against the tract and is **not** used as a quotation here; only "the inevitability of gradualness" is carried as Webb's documented wording. The extended Webb-as-schemer glosses in the map (the Fabians as "an intellectual advisory group," etc.) were not verified and are held open.

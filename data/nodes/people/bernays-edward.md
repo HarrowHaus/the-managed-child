@@ -18,7 +18,7 @@ welds:
   - {to: rule-by-trained-elite, type: restates, register: analogy, grade: WELD, source: "the 'invisible government' of an 'intelligent minority' is the trunk's doctrine in the mass-democratic age"}
   - {to: the-root, type: restates, register: analogy, grade: WELD, source: "engineering the stock's consent — the root in the 'engineered public' theater"}
 hypotheses:
-  - {to: lippmann-walter, type: restates, register: analogy, grade: HYPOTHESIS, source: "DIRECTION UNRESOLVED. Public Opinion (1922) precedes Crystallizing (1923), and Lippmann — not Bernays — coined 'the manufacture of consent'. Whether Bernays worked off Lippmann is not established. Recorded as same-field adjacency in one persuasion canon, not as influence out of this node"}
+  - {to: lippmann-walter, type: restates, register: analogy, grade: HYPOTHESIS, source: "DIRECTION UNRESOLVED. Public Opinion (1922) precedes Crystallizing (1923), and Lippmann — not Bernays — coined 'the manufacture of consent'. Whether Bernays worked off Lippmann is not established. Recorded as an interpretive adjacency in one persuasion canon (analogy), not as influence out of this node"}
 tags: [administrators, engineered-public, enactment]
 ---
 
@@ -34,7 +34,7 @@ Bernays was **Sigmund Freud's double nephew**: his mother was Freud's sister, an
 He demonstrated it. Hired by the American Tobacco Company, he staged roughly ten debutantes and models lighting Lucky Strikes during the **Easter Parade on Fifth Avenue, 31 March 1929** — recruited through his secretary, Bertha Hunt, posing as a women's-rights advocate — and supplied the press with the phrase **"Torches of Freedom."** No coverage mentioned Bernays, the company, or the brand. He engineered a desire and presented it as liberation.
 
 ## Edges
-`rule-by-trained-elite` and `the-root` are same-field: Bernays restates the doctrine in the mass-democratic idiom and operates its "engineered public" theater.
+`rule-by-trained-elite` and `the-root` are interpretive restatements: Bernays restates the doctrine in the mass-democratic idiom and operates its "engineered public" theater.
 
 The `lippmann-walter` relation is demoted to a **hypothesis** on direction. *Public Opinion* (1922) precedes *Crystallizing* (1923), and the phrase "the manufacture of consent" is **Lippmann's coinage, not Bernays's**. An earlier revision of this node carried an `influenced` out-edge from Bernays to Lippmann, which reverses the chronology. The two texts are adjacent members of one persuasion canon; whether Bernays worked off Lippmann is unestablished.
 

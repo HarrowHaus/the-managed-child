@@ -25,9 +25,9 @@ The doctrine on a UN letterhead. In 1946 Julian Huxley, UNESCO's first Director-
 Over his own agency's imprint, Huxley fixes UNESCO's philosophy as a "scientific" and "evolutionary humanism" — evolution as the frame of the whole educational and cultural program. The load-bearing sentence, verbatim: that although a radical eugenic policy would be "for many years politically and psychologically impossible," it would be important for UNESCO "to see that the eugenic problem is examined with the greatest care, and that the public mind is informed of the issues at stake so that much that now is unthinkable may at least become thinkable." It is the founder's stated philosophy, published under his own name.
 
 ## Edges
-- **cited → `huxley-julian`** (worked-off): written by Huxley as first Director-General.
-- **influenced → `unesco`** (worked-off): the institution's founding orientation document.
-- **influenced → `rule-by-trained-elite`** (same-field): rule-by-the-fit stated in a UN founding text.
+- **cited → `huxley-julian`**: written by Huxley as first Director-General.
+- **influenced → `unesco`**: the institution's founding orientation document.
+- **influenced → `rule-by-trained-elite`**: rule-by-the-fit stated in a UN founding text.
 
 ## Held-open / discard
 Two constraints keep the reading exact. The pamphlet is Huxley's **personal orientation document, not ratified UN policy** — the eugenic aim was never adopted, and quoting it as binding member-state doctrine would overclaim. And the line the lineage map attributes to this pamphlet — that "political unification in some sort of world government will be required" — could **not** be confirmed against the text and is **not** asserted here.

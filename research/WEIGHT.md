@@ -6,28 +6,28 @@
 
 | node | grade | weight | in-documented | readings | essays | body | sources |
 |---|---|---|---|---|---|---|---|
-| `crowley-aleister` | WELD | 45 | 15 | 3 | 6 | 1059 | 1 |
+| `crowley-aleister` | WELD | 45 | 15 | 3 | 6 | 1093 | 1 |
 | `aeon-of-the-child` | WELD | 19 | 4 | 4 | 1 | 1275 | 1 |
 | `liber-al-vel-legis` | WELD | 19 | 4 | 4 | 3 | 662 | 1 |
-| `besant-annie` | WELD | 15 | 3 | 3 | 3 | 1058 | 1 |
+| `besant-annie` | WELD | 15 | 3 | 3 | 3 | 1019 | 1 |
 | `bailey-alice` | WELD | 13 | 2 | 3 | 3 | 1024 | 1 |
-| `lippmann-walter` | WELD | 13 | 3 | 2 | 2 | 1449 | 1 |
+| `lippmann-walter` | WELD | 13 | 3 | 2 | 2 | 1423 | 1 |
 | `order-of-the-star` | HYPOTHESIS | 12 | 2 | 3 | 1 | 703 | 0 |
 | `krishnamurti-jiddu` | WELD | 12 | 1 | 3 | 3 | 691 | 2 |
-| `roddenberry-gene` | WELD | 11 | 2 | 2 | 2 | 1723 | 1 |
-| `puharich-andrija` | WELD | 10 | 2 | 2 | 2 | 1676 | 1 |
-| `terman-lewis` | WELD | 10 | 3 | 1 | 2 | 1341 | 1 |
+| `roddenberry-gene` | WELD | 11 | 2 | 2 | 2 | 1697 | 1 |
+| `puharich-andrija` | WELD | 10 | 2 | 2 | 2 | 1650 | 1 |
+| `terman-lewis` | WELD | 10 | 3 | 1 | 2 | 1315 | 1 |
 | `lucis-trust` | HYPOTHESIS | 9 | 1 | 3 | 1 | 1511 | 0 |
-| `hall-g-stanley` | WELD | 9 | 3 | 1 | 1 | 1338 | 1 |
+| `hall-g-stanley` | WELD | 9 | 3 | 1 | 1 | 1312 | 1 |
 | `vogler-christopher` | WELD | 8 | 2 | 1 | 2 | 1410 | 0 |
 | `externalisation-hierarchy` | WELD | 8 | 1 | 3 | 0 | 3445 | 1 |
 | `new-atlantis` | WELD | 8 | 3 | 1 | 0 | 715 | 1 |
 | `double-parentage` | FRAME | 7 | 2 | 1 | 1 | 1311 | 0 |
 | `jwt` | HYPOTHESIS | 7 | 1 | 2 | 1 | 1166 | 0 |
 | `leadbeater-cw` | HYPOTHESIS | 7 | 0 | 3 | 1 | 916 | 0 |
-| `pearson-karl` | WELD | 7 | 1 | 2 | 1 | 1452 | 1 |
+| `pearson-karl` | WELD | 7 | 1 | 2 | 1 | 1426 | 1 |
 | `psychological-care` | WELD | 7 | 0 | 2 | 2 | 1401 | 1 |
 | `hard-sourcing-rule` | PRINCIPLE | 6 | 1 | 2 | 0 | 2842 | 0 |
 | `lifespan-continuum` | FRAME | 6 | 1 | 1 | 1 | 1068 | 0 |
 | `only-planet-of-choice` | WELD | 6 | 0 | 3 | 0 | 2312 | 1 |
-| `fcc-1984` | WELD | 5 | 0 | 2 | 1 | 2083 | 1 |
+| `fcc-1984` | WELD | 5 | 0 | 2 | 1 | 2057 | 1 |

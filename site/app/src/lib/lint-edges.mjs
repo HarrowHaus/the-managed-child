@@ -21,11 +21,10 @@ export const EDGE_TYPES = new Set([
   'read', 'authored', 'co-authored', 'met', 'influenced', 'mentored', 'groomed', 'advised',
   'funded', 'founded', 'member-of', 'broke-from', 'restates', 'precedes', 'no-relay',
 ]);
-// v1 legacy registers + v2 mechanism classes (MASTER-SPEC 2.1). Both are valid
-// during the Phase-4 per-edge migration; `no-relay`/`none` is retired per L3 but
-// still lints while legacy edges carry it, pending migration to a bounded negative.
+// v2 mechanism classes only (MASTER-SPEC 2.1). The Phase-4 per-edge migration is
+// COMPLETE: the legacy registers (`worked-off`, `same-field`, `none`/`no-relay`)
+// have been retired from the accepted set so no new edge can regress to them.
 export const EDGE_REGISTERS = new Set([
-  'worked-off', 'same-field', 'none',
   'direct-transmission', 'institutional-relay', 'network-exposure',
   'common-inheritance', 'convergent-selection', 'analogy',
 ]);

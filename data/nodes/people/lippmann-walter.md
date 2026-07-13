@@ -24,8 +24,8 @@ Consent as something manufactured. Lippmann, a journalist, gave the persuasion d
 *Public Opinion* (1922) argues that citizens cannot know the world directly but act on a "pseudo-environment" of mental pictures, and that a competent class must manage that picture — the process Lippmann called "the manufacture of consent." The book precedes Bernays's *Crystallizing Public Opinion* (1923) by a year; the two are adjacent texts of a single canon assembled in half a decade.
 
 ## Edges
-- **influenced → `bernays-edward`** (same-field): adjacent texts of one persuasion doctrine.
-- **influenced → `rule-by-trained-elite`** (same-field): expert management of the public mind.
+- **influenced → `bernays-edward`**: adjacent texts of one persuasion doctrine.
+- **influenced → `rule-by-trained-elite`**: expert management of the public mind.
 
 ## Held-open / discard
 "The manufacture of consent" is Lippmann's own phrase, used in analysis; his later argument (in *The Phantom Public*, 1925) that governance belongs to a specialized class is documented advocacy, not a hostile paraphrase. The Lippmann–Dewey "debate," often dramatized as a clean opposition, is a later scholarly framing and is not asserted here as the two men staged it.

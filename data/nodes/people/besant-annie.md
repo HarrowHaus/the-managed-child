@@ -28,9 +28,9 @@ The hinge between the two registers. Besant was a Fabian essayist and, from 1907
 In April 1911 Besant founded the Order of the Star in the East to prepare the world for the coming World Teacher, installing the adolescent Krishnamurti as its Head with herself and Leadbeater as Protectors. The World-Teacher idiom is distinguished by being *operational*: an actual institution, built to produce an administered divine-child for a coming age.
 
 ## Edges
-- **member-of → `fabian-society`** (worked-off): the trunk's method, encountered directly (Fabian Essays, 1889).
-- **founded → `order-of-the-star`** (worked-off): the institution of the second idiom.
-- **groomed → `krishnamurti-jiddu`** (worked-off): the administered divine-child, directed toward a role he later refused.
+- **member-of → `fabian-society`**: the trunk's method, encountered directly (Fabian Essays, 1889).
+- **founded → `order-of-the-star`**: the institution of the second idiom.
+- **groomed → `krishnamurti-jiddu`**: the administered divine-child, directed toward a role he later refused.
 
 ## Role in the thesis
 Besant shows the trunk and the articulation in one person — Fabian permeation and an engineered World Teacher — without any claim that one caused the other. Two testimonies, held apart.

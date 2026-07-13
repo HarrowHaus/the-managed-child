@@ -30,9 +30,9 @@ UNESCO's Constitution was adopted in London on **16 November 1945**. Its Preambl
 Its first Director-General was **Julian Huxley (1946–48)**, who wrote its orientation pamphlet, *UNESCO: Its Purpose and Its Philosophy* (1946). That document frames the organization's philosophy as "scientific humanism" — specifically an **"evolutionary humanism"** — and states, in Huxley's own words, that UNESCO should see "that the eugenic problem is examined with the greatest care, and that the public mind is informed of the issues at stake so that much that now is unthinkable may at least become thinkable." The pamphlet is on the public record.
 
 ## Edges
-As an institution UNESCO *enacts* the trunk (`rule-by-trained-elite`) and the root (`the-root`) at global scale — both same-field: the doctrine institutionalized, not a person taking orders.
+As an institution UNESCO *enacts* the trunk (`rule-by-trained-elite`) and the root (`the-root`) at global scale — both interpretive restatements, not transmissions: the doctrine institutionalized, not a person taking orders.
 
-**The founding edge is not an out-edge here.** UNESCO did not found Julian Huxley. An earlier revision carried `{to: huxley-julian, type: founded}`, which reverses the relation. The founding/authorship edge lives on `huxley-julian` as `{to: unesco, type: founded, register: worked-off}`; the build produces the backlink by inversion.
+**The founding edge is not an out-edge here.** UNESCO did not found Julian Huxley. An earlier revision carried `{to: huxley-julian, type: founded}`, which reverses the relation. The founding/authorship edge lives on `huxley-julian` as `{to: unesco, type: founded, register: direct-transmission}`; the build produces the backlink by inversion.
 
 ## Held-open / discard
 - **Distinguish the pamphlet from the Constitution.** Huxley's orientation document is his personal statement of philosophy, not binding member-state policy, and **the eugenic aim was never adopted.** Quoting it as ratified UN doctrine is the overclaim to avoid. Quoting it as *the founder's stated philosophy* is unassailable, and sufficient.

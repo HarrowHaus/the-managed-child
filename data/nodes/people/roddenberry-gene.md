@@ -26,8 +26,8 @@ The idiom reaches television. Roddenberry, creator of *Star Trek*, sat at the Ni
 Roddenberry created *Star Trek* (debuted 1966). In 1974–75 he attended the channeling sessions run through Andrija Puharich's circle at Ossining, New York — Phyllis Schlemmer as the medium — in which the communicating "Council of Nine" claimed to direct human civilization. He was commissioned to write a screenplay drawn from the session material; the script was never produced. The attendance and the commission are recorded in Jeffrey Kripal's *Mutants and Mystics* (2011) and in the published transcript volume *The Only Planet of Choice* (1993).
 
 ## Edges
-- **attended → `puharich-andrija`** (worked-off): a documented encounter with the Nine material at Ossining.
-- **influenced → `four-idiom-through-line`** (same-field): the channeled-council idiom brought to the edge of mass entertainment.
+- **attended → `puharich-andrija`**: a documented encounter with the Nine material at Ossining.
+- **influenced → `four-idiom-through-line`**: the channeled-council idiom brought to the edge of mass entertainment.
 
 ## Held-open / discard
 The attendance and the commissioned screenplay are documented. The further claims are not, and are discarded rather than softened: that the Nine *shaped* *Star Trek*'s cosmology; that *Deep Space Nine* is named or coded from the Council of Nine (the series was created after Roddenberry's death in 1991, by Rick Berman and Michael Piller); and that the sessions were a media operation. The documented fact is that a television creator sat at the table — no more, and it is enough.

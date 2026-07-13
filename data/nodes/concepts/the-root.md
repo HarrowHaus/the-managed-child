@@ -14,7 +14,7 @@ sources:
   - "Julian Huxley, UNESCO: Its Purpose and Its Philosophy (1946) — [PRIMARY]"
 welds:
   - {to: rule-by-trained-elite, type: restates, register: common-inheritance, grade: WELD, source: "the trunk is the root's political form"}
-  - {to: managed-child, type: restates, register: common-inheritance, grade: WELD, source: "the child is the root applied to the young"}
+  - {to: managed-child, type: restates, register: analogy, grade: WELD, source: "the child is the root applied to the young"}
   - {to: four-idiom-through-line, type: restates, register: common-inheritance, grade: WELD, source: "the four idioms are the root's esoteric self-articulation"}
 hypotheses: []
 tags: [root, spine, articulation, enactment]

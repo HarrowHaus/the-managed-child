@@ -26,8 +26,8 @@ The stage is constituted. Hall took the first American doctorate in psychology (
 Hall's two-volume *Adolescence* (1904) coins the modern category and fixes it as a developmental period of "storm and stress" — a passage of life that is, by its nature, to be supervised. With it, childhood becomes an object of systematic data collection. Hall held no esoteric views; the enactment rail's first move — make the child a measurable object — is simply his.
 
 ## Edges
-- **mentored → `terman-lewis`** (worked-off): Terman took his PhD under Hall at Clark, 1905. The founder of child study and the founder of eugenic child-tracking are advisor and student, on the record.
-- **influenced → `managed-child`** (same-field): *Adolescence* constitutes the supervised developmental object the managed child is built on.
+- **mentored → `terman-lewis`**: Terman took his PhD under Hall at Clark, 1905. The founder of child study and the founder of eugenic child-tracking are advisor and student, on the record.
+- **influenced → `managed-child`**: *Adolescence* constitutes the supervised developmental object the managed child is built on.
 
 ## Held-open / discard
 Gesell also trained at Clark in this period; that edge is left ungraded until a primary is attached — not asserted.

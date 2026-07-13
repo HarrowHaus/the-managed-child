@@ -13,7 +13,7 @@ sources:
   - "Wellcome Collection, Eugenics Society archive (membership and council rolls) — [PRIMARY, to verify named memberships against]"
 welds:
   - {to: galton-francis, type: restates, register: common-inheritance, grade: WELD, source: "Galton was its first honorary president (to 1911); the society is the institutional form of his programme"}
-  - {to: the-root, type: restates, register: common-inheritance, grade: WELD, source: "a learned society organized around improving the stock — the root in the register of the British establishment"}
+  - {to: the-root, type: restates, register: analogy, grade: WELD, source: "a learned society organized around improving the stock — the root in the register of the British establishment"}
 tags: [rail-enactment, enactment, eugenics]
 ---
 

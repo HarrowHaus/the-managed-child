@@ -26,8 +26,8 @@ The stage is measured and sorted. Terman wrote his dissertation under Hall at Cl
 In 1916 Terman published the Stanford revision of the Binet–Simon scale, the dominant American intelligence test for decades. The decisive move is an inversion of purpose: Binet had built a test to *aid* struggling schoolchildren; Terman proposed using it to classify children and place them on the appropriate job-track. His eugenic commitments are on the record in his society memberships.
 
 ## Edges
-- **influenced → `managed-child`** (same-field): the child becomes a tracked population.
-- **cited → `galton-francis`** (same-field): the Galtonian tradition is the obvious lineage, but no specific documented citation is attached — held open, not asserted as transmission.
+- **influenced → `managed-child`**: the child becomes a tracked population.
+- **cited → `galton-francis`**: the Galtonian tradition is the obvious lineage, but no specific documented citation is attached — held open, not asserted as transmission.
 
 ## Held-open / discard
 The eugenics-society memberships are standard biographical record; left unverified until checked against a primary roll. The claim as carded — that Terman advocated tracking by test — rests on the 1916 text and survives regardless.

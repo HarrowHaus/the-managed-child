@@ -28,8 +28,8 @@ The fourth idiom. Puharich, a physician and parapsychology researcher, ran the c
 Through the medium Phyllis Schlemmer, the communicating "Council of Nine" claimed to be directing human civilization; the session material was published as *The Only Planet of Choice* (1993). Puharich's parapsychology career and his investigation of Uri Geller are documented. The elect is now a channeled council — the idiom secularizes into the vocabulary of contact and reaches toward television.
 
 ## Edges
-- **influenced → `four-idiom-through-line`** (same-field): the Nine as the fourth idiom.
-- **met → `roddenberry-gene`** (worked-off): Roddenberry attended the Ossining sessions.
+- **influenced → `four-idiom-through-line`**: the Nine as the fourth idiom.
+- **met → `roddenberry-gene`**: Roddenberry attended the Ossining sessions.
 
 ## Held-open / discard
 The idiom's "reach toward mass media" runs through **Gene Roddenberry, who attended Puharich's Ossining sessions in 1974–75** and was commissioned to write a screenplay from the material — documented in Jeffrey Kripal's *Mutants and Mystics* (2011) and the transcript volume *The Only Planet of Choice* (1993). What is *not* documented, and is discarded rather than softened: that the sessions shaped *Star Trek*'s cosmology, and that *Deep Space Nine* is coded from the Council of Nine (the series postdates Roddenberry's death). The documented fact is the attendance and the commission; the rest is reader-supplied.

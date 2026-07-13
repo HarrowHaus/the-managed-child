@@ -25,7 +25,7 @@ The doctrine names its own method. Founded in London in 1884, the Fabian Society
 The Fabians rejected revolution for **permeation** — placing a trained minority inside the civil service, the parties, and the machinery of policy, to steer reform from within. The programme is set out in *Fabian Essays in Socialism* (1889); the Society's members founded the **London School of Economics** in 1895. Sidney Webb gave the method its motto in his 26 June 1923 presidential address to the Labour Party — "the inevitability of gradualness" — the claim that a socialized economy would arrive by stages rather than rupture. The Society's own historian, Margaret Cole, described the technique as "honeycombing."
 
 ## Edges
-- **influenced → `rule-by-trained-elite`** (same-field): the doctrine's modern operating method, openly published.
+- **influenced → `rule-by-trained-elite`**: the doctrine's modern operating method, openly published.
 
 ## Held-open / discard
 Permeation was a boast delivered from podiums, not a hidden conspiracy; the "secret society" and "wolf in sheep's clothing coat of arms" glosses attached to the Fabians in the lineage map were not verified and are not repeated. What is documented is a doctrine of quiet institutional steering, stated by its holders in their own signed texts.

@@ -12,7 +12,7 @@ sources:
   - "Theosophical Society (Adyar), official early history — foundation New York, 17 Nov 1875 (Blavatsky, Olcott, Judge); residence taken at Adyar, Madras, 19 Dec 1882; Adyar Library founded 1886 — https://www.ts-adyar.org/early-history — [PRIMARY]"
   - "Theosophy Wiki, 'Founding of the Theosophical Society' — the founders and the September 1875 first organizing meeting vs the 17 Nov 1875 formal inauguration — https://www.theosophy.wiki/en/Founding_of_the_Theosophical_Society — [SECONDARY]"
 welds:
-  - {to: the-root, type: restates, register: common-inheritance, grade: WELD, source: "theosophy's doctrine of 'Masters' guiding human evolution states the root impulse — an elect administering the development of humanity — in the esoteric idiom; the institutional vehicle the four-idiom nodes descend into"}
+  - {to: the-root, type: restates, register: analogy, grade: WELD, source: "theosophy's doctrine of 'Masters' guiding human evolution states the root impulse — an elect administering the development of humanity — in the esoteric idiom; the institutional vehicle the four-idiom nodes descend into"}
 hypotheses: []
 tags: [rail-articulation, articulation, theosophy]
 ---

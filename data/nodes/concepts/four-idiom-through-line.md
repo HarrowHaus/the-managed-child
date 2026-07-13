@@ -18,7 +18,7 @@ sources:
   - "Jeffrey J. Kripal, Mutants and Mystics (2011) — scholarly anchor for the Roddenberry encounter and the commissioned screenplay — [SECONDARY]"
   - "David Alexander, Star Trek Creator (1994) — authorized Roddenberry biography — [VERIFY: not checked in this pass]"
 welds:
-  - {to: the-root, type: restates, register: common-inheritance, grade: WELD, source: "the four idioms are the root's esoteric self-articulation — mirrors the-root's own edge to this node"}
+  - {to: the-root, type: restates, register: analogy, grade: WELD, source: "the four idioms are the root's esoteric self-articulation — mirrors the-root's own edge to this node"}
   - {to: crowley-aleister, type: restates, register: convergent-selection, grade: WELD, source: "the Aeon idiom: Liber AL I:10 pairs the sovereign child with a few who rule the many, in the founding text itself (1904)"}
   - {to: besant-annie, type: restates, register: convergent-selection, grade: WELD, source: "the World-Teacher idiom: the Order of the Star in the East (1911), an institution built to produce a groomed vehicle for a coming teacher"}
   - {to: bailey-alice, type: restates, register: convergent-selection, grade: WELD, source: "the Hierarchy idiom: Lucis Trust (1922) and the Arcane School (1923); an initiated Hierarchy guiding humanity toward a planned unity"}
@@ -53,9 +53,9 @@ The same claim — that human development is properly steered by a superior init
 
 ## Edges
 
-Every edge from this node to its four component figures is **same-field**, and the register is the whole point. This is **reverberation, not coordination.** Besant did not execute Crowley's program; the two were antagonists in the same milieu, and no transmission runs between them. Bailey **broke from** the Theosophy Besant led — a schism, not a succession. Puharich's circle knew none of the three. Each worked off the ambient idea or arrived at it in the same field, with no shared intent and no coordinating body. The recurrence needs no cabal to be real, which is precisely why it *is* real.
+Every edge from this node to its four component figures is **convergent-selection**, and the register is the whole point. This is **reverberation, not coordination.** Besant did not execute Crowley's program; the two were antagonists in the same milieu, and no transmission runs between them. Bailey **broke from** the Theosophy Besant led — a schism, not a succession. Puharich's circle knew none of the three. Each worked off the ambient idea or arrived at it in the same field, with no shared intent and no coordinating body. The recurrence needs no cabal to be real, which is precisely why it *is* real.
 
-Two person-level relations are genuinely **worked-off** and belong on the component nodes, not here: Besant and Leadbeater's grooming of Krishnamurti (a documented institutional program), and Bailey's schism from the Theosophical Society (a documented encounter with the doctrine she then rewrote). This node makes neither claim; it links only.
+Two person-level relations are genuinely **direct-transmission** and belong on the component nodes, not here: Besant and Leadbeater's grooming of Krishnamurti (a documented institutional program), and Bailey's schism from the Theosophical Society (a documented encounter with the doctrine she then rewrote). This node makes neither claim; it links only.
 
 The four component nodes — `crowley-aleister`, `besant-annie`, `bailey-alice`, `puharich-andrija` — remain **stubs** and are deliberately not expanded here. They belong to the future Rail One work.
 

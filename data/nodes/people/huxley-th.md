@@ -24,7 +24,7 @@ The establishment naturalist who formed the technocrat. In 1884 the age's foremo
 Huxley, "Darwin's Bulldog," was the leading public defender of evolution in Victorian Britain and the man who coined "agnostic." In 1884 Wells entered the Normal School of Science in South Kensington on a scholarship and studied biology under him. Huxley's 1893 Romanes Lecture, *Evolution and Ethics*, argued that ethical progress runs against, not with, the cosmic evolutionary process. He was grandfather to Julian and Aldous Huxley.
 
 ## Edges
-- **mentored → `wells-hg`** (worked-off): taught Wells biology in 1884 — the naturalist forming the managerial futurist, in person.
+- **mentored → `wells-hg`**: taught Wells biology in 1884 — the naturalist forming the managerial futurist, in person.
 
 ## Held-open / discard
 Huxley was a skeptic of spiritualism, not a participant in it; any placement of him on the esoteric line is not supported and is not made here. The tie that matters is documented and narrow: he taught Wells. His kinship to Julian (grandson) is documented, but Julian was eight when Huxley died in 1895, so no personal intellectual transmission between them is claimed.

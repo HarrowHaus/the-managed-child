@@ -26,8 +26,8 @@ The Fabian method, named by the Fabians. Not a party in the open, but a minority
 The Fabian Society rejected open revolution for **permeation**: placing a trained minority inside the civil service, the parties, and the machinery of policy to steer reform from within, rather than mounting a visible cadre of its own. Its own historian, Margaret Cole, characterised the technique as "primarily honeycombing" — converting key persons, who need not be Society members, to carry the programme. Sidney Webb supplied the motto in his **26 June 1923** presidential address to the Labour Party: **"the inevitability of gradualness,"** a socialized economy reached by stages rather than by rupture.
 
 ## Edges
-- **influenced → `rule-by-trained-elite`** (same-field): the operating method of the trunk doctrine.
-- **influenced → `fabian-society`** (same-field): the Society's own characteristic technique.
+- **influenced → `rule-by-trained-elite`**: the operating method of the trunk doctrine.
+- **influenced → `fabian-society`**: the Society's own characteristic technique.
 
 ## Held-open / discard
 The stated ideal — a change the public is not required to notice — is the Fabians' own boast, delivered from podiums and printed in their tracts, not a hostile paraphrase. The conspiratorial reading of permeation as a secret infiltration is discarded: the doctrine was published openly in every generation, which is exactly why it needs no hidden cabal to explain it.

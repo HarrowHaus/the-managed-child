@@ -14,7 +14,8 @@ const edgeType = z.enum([
 // v1 legacy registers + v2 mechanism classes (EDGE-VOCABULARY.md v2, MASTER-SPEC
 // 2.1). Both valid during the Phase-4 per-edge migration.
 const transmission = z.enum([
-  'worked-off', 'same-field', 'none',
+  // v2 mechanism classes only — legacy registers (worked-off/same-field/none)
+  // retired after the Phase-4 migration completed.
   'direct-transmission', 'institutional-relay', 'network-exposure',
   'common-inheritance', 'convergent-selection', 'analogy',
 ]);

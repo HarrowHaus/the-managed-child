@@ -25,8 +25,8 @@ The statistician of the sort. Pearson gave the ranking of populations the author
 Pearson founded much of modern statistics — the **correlation coefficient**, the chi-squared test, the term "standard deviation" — and applied it to heredity through the Biometric Laboratory and the journal *Biometrika*. In **1906** he took charge of Galton's Eugenics Record Office at University College London, renamed it the **Galton Laboratory for National Eugenics**, and became the first **Galton Professor of Eugenics**. The measurement and sorting of human stock now wore the dress of exact science.
 
 ## Edges
-- **influenced → `galton-francis`** (worked-off): protégé and successor at the eugenics laboratory.
-- **influenced → `the-root`** (same-field): statistics in service of grading the stock.
+- **influenced → `galton-francis`**: protégé and successor at the eugenics laboratory.
+- **influenced → `the-root`**: statistics in service of grading the stock.
 
 ## Held-open / discard
 Pearson's eugenics is a co-symptom of the root, in the theater of measurement — never its hidden cause, and never resolved into any bloodline or ethnic collective. His statistical methods are used across science on their own merits; the point here is narrow and documented — that they were built, in his hands, to rank and select human populations.

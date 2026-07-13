@@ -26,7 +26,7 @@ The seed of the articulation. In Cairo, April 1904, Crowley received *Liber AL v
 The text's tenth verse sets the elect against the many in one line: "Let my servants be few & secret: they shall rule the many & the known." A sovereign child and a few who rule the many, welded inside one document. This is the root's earliest self-articulation in the esoteric register — testimony, not transmission.
 
 ## Held-open / discard
-No transmission line runs from Crowley into the child-institutions. Crowley and the Theosophists (Besant, Leadbeater) were antagonists in a shared milieu — **same-field**, never worked-off. Any claim of Crowley *causing* the technocratic machinery is discarded; the relation is resemblance, held open as the "either way" frame.
+No transmission line runs from Crowley into the child-institutions. Crowley and the Theosophists (Besant, Leadbeater) were antagonists in a shared milieu — the analyst's resemblance at most, never a documented transmission. Any claim of Crowley *causing* the technocratic machinery is discarded; the relation is resemblance, held open as the "either way" frame.
 
 ## Role in the thesis
 Pure articulation, never cause. Crowley named the impulse the institutions enacted without naming it. He earns his place by revealing *what the machinery is*, not by driving it.

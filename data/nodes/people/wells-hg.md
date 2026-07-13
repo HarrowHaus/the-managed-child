@@ -40,15 +40,15 @@ Across four decades Wells wrote the managerial future as explicit program. **A M
 **The biographical spine.** Wells entered biology in 1884 as a scholarship student at the Normal School of Science, South Kensington, where he **studied under Thomas Henry Huxley**. A generation later he **co-authored The Science of Life** (1929–30) with T. H.'s grandson **Julian Huxley** and his own son G. P. Wells. The naturalist taught the technocrat; the technocrat later co-wrote a book with the naturalist's grandson.
 
 ## Edges
-`huxley-julian` is the one true **worked-off** transmission out of this node: a dated, co-authored book. `fabian-society` and `coefficients-club` are documented memberships. `rule-by-trained-elite` is same-field — Wells restated the doctrine; he did not receive it as an order.
+`huxley-julian` is the one true **direct-transmission** out of this node: a dated, co-authored book. `fabian-society` and `coefficients-club` are documented memberships (**institutional-relay**). `rule-by-trained-elite` is **convergent-selection** — Wells restated the doctrine; he did not receive it as an order.
 
-**The T. H. Huxley mentorship is deliberately NOT an out-edge here.** It is an *in-edge*: T. H. Huxley mentored Wells, not the reverse. An earlier revision of this node carried `{to: huxley-th, type: mentored}`, which asserts the opposite of the record. The edge belongs on `huxley-th` as `{to: wells-hg, type: mentored, register: worked-off}` when that node is expanded; the build produces the backlink by inversion.
+**The T. H. Huxley mentorship is deliberately NOT an out-edge here.** It is an *in-edge*: T. H. Huxley mentored Wells, not the reverse. An earlier revision of this node carried `{to: huxley-th, type: mentored}`, which asserts the opposite of the record. The edge belongs on `huxley-th` as `{to: wells-hg, type: mentored, register: direct-transmission}` when that node is expanded; the build produces the backlink by inversion.
 
 ## Held-open / discard
 - **[FICTION-ALERT]** The tale that Crowley introduced Wells to hashish belongs to the initiation-legend genre and is **not used**.
 - **[HYPOTHESIS]** A direct Wells↔Crowley intellectual tie. Unproven in either direction. The defensible claim is shared literary milieu, nothing more.
 - **["especially active member" — attribution demoted]** The phrases describing Wells's Coefficients role ("capable of original thoughts on every subject"; "an especially active member") circulate in the secondary literature. The map attributes them to Wells's *Experiment in Autobiography*; **that attribution was not confirmed.** Use the phrases as the secondary literature's characterization, or verify against the memoir before quoting them as Wells's own words.
-- **[SCHEMA GAP surfaced]** The controlled edge vocabulary in `data/schema/node-schema.md` has no `co-authored` type. The Wells↔Julian Huxley collaboration is recorded as `influenced` + `worked-off` with the collaboration named in the `source` string. Consider adding `co-authored` to the vocabulary.
+- **[SCHEMA GAP resolved]** The controlled edge vocabulary now includes a `co-authored` type (added per R-Q4; used on the Webb nodes). The Wells↔Julian Huxley collaboration (*The Science of Life*, 1929–30) is currently recorded as `influenced` + `direct-transmission` with the collaboration named in the `source` string, and can be migrated to `co-authored`.
 
 ## Role in the thesis
 Wells is Thesis A in its purest technocratic form: the managerial idea stated openly, by a named man, in signed books — no cabal required. The Fabian schism is the honesty pivot this node must carry: documented association is not documented agreement.

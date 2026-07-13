@@ -26,8 +26,8 @@ The stage is conditioned. Watson founded behaviorism, ran the Little Albert stud
 *Psychological Care of Infant and Child* (1928) states the program in the author's own words: "not more babies but better brought up babies", and an ideal child who "has no great attachments to any place or person". Engineered detachment, named by the architect as a design goal. He is more damning unparaphrased than any critic could make him.
 
 ## Edges
-- **influenced → `managed-child`** (same-field): conditioning as the second move of the enactment rail.
-- **member-of → `jwt`** (worked-off): the conditioning method crosses from the nursery into the manufacture of consumer demand.
+- **influenced → `managed-child`**: conditioning as the second move of the enactment rail.
+- **member-of → `jwt`**: the conditioning method crosses from the nursery into the manufacture of consumer demand.
 
 ## Role in the thesis
 Thesis A, documented and primary-sourced, with no esoteric input. The card claims only what the book says; it does not assert that Watson's program was universally adopted.

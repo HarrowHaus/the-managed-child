@@ -17,7 +17,7 @@ sources:
   - "Margaret Cole, The Story of Fabian Socialism (1961) — 'What Fabian permeation meant was primarily honeycombing… key persons, or groups of persons, who were in a position either to take action themselves or to influence others' — [SECONDARY]"
   - "Sidney Webb, 'The Historic Basis of Socialism', in Fabian Essays (1889) — the 'unconscious socialism' passage: collectivism already advanced through municipal public control, 'our irresistible glide into collectivist Socialism' (verified against the text; see fabian-essays) — [PRIMARY]"
 welds:
-  - {to: the-root, type: restates, register: common-inheritance, grade: WELD, source: "the trunk is the root's political form — administration of the stock by an elect"}
+  - {to: the-root, type: restates, register: analogy, grade: WELD, source: "the trunk is the root's political form — administration of the stock by an elect"}
   - {to: fabian-society, type: restates, register: common-inheritance, grade: WELD, source: "permeation and 'the inevitability of gradualness' are the doctrine's modern operating method, stated in the Fabians' own texts (Fabian Essays 1889; Fabian Tract 207, 1923)"}
   - {to: besant-annie, type: influenced, register: institutional-relay, grade: WELD, source: "Besant encountered the doctrine as a member: joined the Fabian Society 1885 (fewer than 40 members); one of the seven contributors to Fabian Essays (1889); President of the Theosophical Society 1907–1933"}
   - {to: wells-hg, type: restates, register: convergent-selection, grade: WELD, source: "Wells was a Fabian who restated permeation as an openly declared managerial world order (The Open Conspiracy, 1928)"}
@@ -46,7 +46,7 @@ The conviction that society is properly ordered by a trained guardian minority �
 
 ## Edges
 
-The doctrine's relation to `the-root` is same-field: the trunk is the root's political expression, not a thing the root transmitted. Its relation to `fabian-society` is likewise same-field — permeation instantiates the doctrine; no documented claim is made here that the Fabians worked off Plato or Bacon specifically. The edge to `besant-annie` is the one true **worked-off** transmission in this node: she demonstrably encountered Fabian doctrine as a member and an essayist, and the dates are on record. Downstream, `wells-hg`, `huxley-julian`, and `bernays-edward` each restate the doctrine in a signed text of their own, and `coefficients-club` seats its holders at one table — all same-field. The trunk is a shared conviction that capable people keep arriving at independently, not a chain of command.
+The doctrine's relation to `the-root` is interpretive (an **analogy**): the trunk is the root's political expression, not a thing the root transmitted. Its relation to `fabian-society` is **common-inheritance** — permeation instantiates the doctrine, both descending from the same guardian-tradition; no documented claim is made here that the Fabians worked off Plato or Bacon specifically. The edge to `besant-annie` is **institutional-relay**: she encountered Fabian doctrine as a member and an essayist, and the dates are on record. Downstream, `wells-hg`, `huxley-julian`, and `bernays-edward` each restate the doctrine independently in a signed text of their own — **convergent-selection** — and `coefficients-club` seats its holders at one table. The trunk is a shared conviction that capable people keep arriving at independently, not a chain of command.
 
 ## Held-open / discard
 

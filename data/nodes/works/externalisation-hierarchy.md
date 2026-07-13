@@ -13,7 +13,7 @@ sources:
 welds:
   - {to: bailey-alice, type: authored, register: direct-transmission, grade: WELD, source: "Alice A. Bailey wrote The Externalisation of the Hierarchy (material 1919–1949; pub. Lucis Publishing 1957), presenting it as dictated by 'the Tibetan,' Djwhal Khul"}
   - {to: rule-by-trained-elite, type: restates, register: common-inheritance, grade: WELD, source: "states rule-by-a-trained-guardian-minority in the esoteric idiom — a hidden initiated Hierarchy administering 'the Plan' through the New Group of World Servers; the trunk's doctrine said aloud"}
-  - {to: the-root, type: restates, register: common-inheritance, grade: WELD, source: "the on-the-nose articulation of the root — humanity as administrable stock guided toward a planned end by a fit hidden elect — in Bailey's own words ('recognised as present upon the physical plane'; 'the Plan of Love and Light')"}
+  - {to: the-root, type: restates, register: analogy, grade: WELD, source: "the on-the-nose articulation of the root — humanity as administrable stock guided toward a planned end by a fit hidden elect — in Bailey's own words ('recognised as present upon the physical plane'; 'the Plan of Love and Light')"}
   - {to: four-idiom-through-line, type: restates, register: convergent-selection, grade: WELD, source: "the textual heart of the Hierarchy idiom (Bailey, one of the four idioms); its 'New Group of World Servers' and 'Great Invocation' coinages, held open on that node, are here verified against the text"}
 tags: [rail-esoteric, esoteric, articulation]
 ---

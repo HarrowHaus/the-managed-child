@@ -25,8 +25,8 @@ The taproot of measurement. Galton, Darwin's cousin, named eugenics and gave it 
 In *Inquiries into Human Faculty and Its Development* (1883) Galton coined **"eugenics,"** defining it as "the science of improving stock"; he had made the hereditarian case earlier in *Hereditary Genius* (1869). To pursue it he built much of the machinery of quantitative comparison — correlation, regression toward the mean, the anthropometric laboratory — the tools that let a population be measured, ranked, and sorted. He founded the Eugenics Record Office at University College London in 1904.
 
 ## Edges
-- **mentored → `pearson-karl`** (worked-off): his successor at the eugenics laboratory.
-- **influenced → `the-root`** (same-field): grade and improve the stock — the root in the register of breeding.
+- **mentored → `pearson-karl`**: his successor at the eugenics laboratory.
+- **influenced → `the-root`**: grade and improve the stock — the root in the register of breeding.
 
 ## Held-open / discard
 Galton is a co-symptom of the root, in the theater of measurement — never its hidden engine, and never routed to any ethnic or bloodline collective. The connection to later American testing runs by a documented, open genealogy: his postdoctoral student James McKeen Cattell coined "mental test" (1890) and carried the measurement to America; Cattell's doctoral student Edward Thorndike built the Columbia school of educational measurement; and Lewis Terman, though trained under G. Stanley Hall, cited Galton directly, building his *Genetic Studies of Genius* out of Galton's *Hereditary Genius*. It is a branched disciplinary descent — transmission by training and citation, carried in the open — not a hidden chain and not a cabal.
