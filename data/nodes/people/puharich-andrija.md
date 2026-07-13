@@ -15,6 +15,7 @@ sources:
 welds:
   - {to: four-idiom-through-line, type: restates, register: same-field, grade: WELD, source: "the Nine — a channeled council claimed to direct civilization — is the fourth idiom of rule-by-elect"}
   - {to: roddenberry-gene, type: met, register: worked-off, grade: WELD, source: "Roddenberry attended the 1974–75 Ossining sessions and was commissioned to write a screenplay from the material (Kripal, Mutants and Mystics, 2011; transcript record in The Only Planet of Choice, 1993)"}
+  - {to: lab-nine, type: founded, register: worked-off, grade: WELD, source: "Puharich founded the Round Table Foundation of Electrobiology (1948, Glen Cove, Maine) and the later Lab Nine (Ossining, NY), where the Nine were channelled"}
 hypotheses: []
 tags: [rail-articulation, articulation]
 ---

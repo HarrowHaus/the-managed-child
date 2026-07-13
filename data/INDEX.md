@@ -1,5 +1,5 @@
 # NODE INDEX (generated)
-*Machine-generated from data/nodes/** on every build — do not hand-edit. 128 nodes.*
+*Machine-generated from data/nodes/** on every build — do not hand-edit. 134 nodes.*
 
 ## people
 - `anger-kenneth` — Kenneth Anger *(WELD)*
@@ -19,6 +19,7 @@
 - `david-bowie` — David Bowie *(WELD)*
 - `dewey-john` — John Dewey *(WELD)*
 - `eliade-mircea` — Mircea Eliade *(WELD)*
+- `fleming-ian` — Ian Fleming *(WELD)*
 - `freud-sigmund` — Sigmund Freud *(WELD)*
 - `galton-francis` — Francis Galton *(WELD)*
 - `gardner-gerald` — Gerald Gardner *(WELD)*
@@ -26,6 +27,7 @@
 - `gesell-arnold` — Arnold Gesell *(WELD)*
 - `goddard-henry` — Henry H. Goddard *(WELD)*
 - `hall-g-stanley` — G. Stanley Hall *(WELD)*
+- `hall-manly-p` — Manly P. Hall *(WELD)*
 - `hank-harrison` — Hank Harrison *(HYPOTHESIS)*
 - `holt-l-emmett` — L. Emmett Holt *(WELD)*
 - `hubbard-lron` — L. Ron Hubbard *(WELD)*
@@ -65,6 +67,7 @@
 - `webb-sidney` — Sidney Webb *(WELD)*
 - `wells-hg` — H. G. Wells *(WELD)*
 - `west-louis-jolyon` — Louis Jolyon West *(WELD)*
+- `wheatley-dennis` — Dennis Wheatley *(WELD)*
 - `yerkes-robert` — Robert Yerkes *(WELD)*
 
 ## institutions
@@ -82,6 +85,7 @@
 - `iron-maiden` — Iron Maiden *(WELD)*
 - `jpl` — Jet Propulsion Laboratory *(WELD)*
 - `jwt` — J. Walter Thompson *(HYPOTHESIS)*
+- `lab-nine` — Lab Nine / Round Table Foundation *(WELD)*
 - `lucis-trust` — Lucis Trust *(HYPOTHESIS)*
 - `mkultra` — MKUltra *(WELD)*
 - `order-of-the-star` — Order of the Star in the East *(HYPOTHESIS)*
@@ -112,11 +116,13 @@
 ## works
 - `beatles-sgt-pepper` — Crowley on the Sgt. Pepper Cover *(WELD)*
 - `brave-new-world` — Brave New World *(WELD)*
+- `externalisation-hierarchy` — The Externalisation of the Hierarchy (Bailey) *(WELD)*
 - `fabian-essays` — Fabian Essays in Socialism *(WELD)*
 - `hero-thousand-faces` — The Hero with a Thousand Faces *(WELD)*
 - `liber-al-vel-legis` — Liber AL vel Legis (The Book of the Law) *(WELD)*
 - `new-atlantis` — New Atlantis *(WELD)*
 - `on-education-of-children` — On the Education of Children (Crowley) *(WELD)*
+- `only-planet-of-choice` — The Only Planet of Choice *(WELD)*
 - `psychological-care` — Psychological Care of Infant and Child (Watson) *(WELD)*
 - `public-opinion` — Public Opinion (Lippmann) *(WELD)*
 - `satanic-bible` — The Satanic Bible *(WELD)*
