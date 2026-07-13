@@ -17,7 +17,7 @@
 | `roddenberry-gene` | WELD | 11 | 2 | 2 | 2 | 1723 | 1 |
 | `puharich-andrija` | WELD | 10 | 2 | 2 | 2 | 1676 | 1 |
 | `terman-lewis` | WELD | 10 | 3 | 1 | 2 | 1341 | 1 |
-| `lucis-trust` | HYPOTHESIS | 9 | 1 | 3 | 1 | 814 | 0 |
+| `lucis-trust` | HYPOTHESIS | 9 | 1 | 3 | 1 | 1511 | 0 |
 | `hall-g-stanley` | WELD | 9 | 3 | 1 | 1 | 1338 | 1 |
 | `vogler-christopher` | WELD | 8 | 2 | 1 | 2 | 1410 | 0 |
 | `externalisation-hierarchy` | WELD | 8 | 1 | 3 | 0 | 3445 | 1 |

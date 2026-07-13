@@ -26,5 +26,7 @@ Lucis Trust (first the Lucifer Publishing Company) is the publishing and trainin
 ## Held-open / discard
 The "Lucifer Publishing" origin is a documented name, drawn from the Theosophical magazine *Lucifer* ("light-bearer"), and is a staple of conspiracy readings. It is recorded here as fact and explicitly **not** treated as evidence of a coded collective — the hard sourcing rule forbids that move.
 
+The other staple of those readings is the United Nations tie, and it too resolves to a mundane fact. Lucis Trust's World Goodwill holds **NGO consultative status with the UN Economic and Social Council (ECOSOC)** — a standing accreditation shared by roughly 6,494 organizations (as of end-2024), conferring advisory participation, not operational control. That a body with an esoteric doctrine holds the same common accreditation as thousands of charities is documented; the reading that Lucis Trust "runs" or is the "spiritual foundation of" the UN is the conspiracy corpus's inflation of a routine NGO status, and is refused here (the denominator error the hard sourcing rule exists to catch).
+
 ## Role in the thesis
 The articulation's most institutional expression. Cited as testimony to the impulse, never as a link in a chain into the child-institutions.

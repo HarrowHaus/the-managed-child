@@ -53,7 +53,7 @@ One restraint belongs here, and the same tongs are used on friendly evidence as 
 
 ## The articulation
 
-Alongside this machinery, and never inside it, a second register was saying the quiet part aloud. One motif — an initiated elect administering human development toward a planned end — recurs in [four idioms](../data/nodes/concepts/four-idiom-through-line.md) across seventy years.
+Alongside this machinery — mostly beside it, and at a few documented points braided into it — a second register was saying the quiet part aloud. One motif — an initiated elect administering human development toward a planned end — recurs in [four idioms](../data/nodes/concepts/four-idiom-through-line.md) across seventy years.
 
 **The Aeon.** [Crowley](../data/nodes/people/crowley-aleister.md)'s *[Liber AL vel Legis](../data/nodes/works/liber-al-vel-legis.md)*, received in Cairo in April 1904, declares the new age the age of the Crowned and Conquering Child. Its tenth verse sets the elect against the many in a single line: "Let my servants be few & secret: they shall rule the many & the known." A sovereign child and a few who rule the many, welded inside one document.
 
