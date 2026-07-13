@@ -31,5 +31,6 @@
 - either-way
 
 ## Planned readings (register on essay-density; provisional per AUTOPILOT branching law)
-- The Manufactured Faiths (§E) — harvest-gated
-- The Ranked Race (§G, branches off enactment per R-Q1) — harvest-gated
+- The Manufactured Faiths (§E) — head essay `scripture-with-a-bibliography` SHIPPED via two-key gate; reading PROVISIONAL, homepage override window OPEN (one full phase per C-2 step 4). The essay ships now individually (its own page + grounding nodes); on window close it promotes to a live Reading VI. Scientology stays a Reading-II node — essays may serve more than one reading.
+  - 1. scripture-with-a-bibliography
+- (The Ranked Race, §G — RESOLVED, not a standalone reading: per R-Q1 it deepened the enactment rail and ships inside Reading I as the entry `improving-the-stock`.)
