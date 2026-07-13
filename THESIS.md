@@ -1,5 +1,5 @@
-# THE MANAGED CHILD — THE THESIS
-### The argument, distilled
+# THE REVERBERATION — THE THESIS
+### The argument, distilled · The Managed Child is Reading I, the founding territory
 
 *The consolidated statement of the thesis as it stands. This is the argument at full strength and no further — the claims it makes, the distinctions that keep it rigorous, and the boundaries where it honestly stops. Everything here is graded in the graph body; nothing is asserted beyond what the evidence reaches. The corpus is not closed: it grows by documented adjacency and is re-read whole after every growth, and this document is rewritten to the corpus, never ahead of it.*
 
