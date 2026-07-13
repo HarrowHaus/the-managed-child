@@ -7,8 +7,8 @@
 
 ## Reading II — The Aeon Current
 *Crowley outward: one received book, four idioms of an initiated elect, and the documented chain of hands it passed through in America — rocketry, a new religion, film, and the record of what was claimed about all of it.*
-1. the-seed · 2. the-four-idioms · 3. the-links-hold
-*(extends as §C Music, §D Film, §E Religion-manufacture reach essay-density)*
+1. the-seed · 2. the-four-idioms · 3. the-links-hold · 4. a-face-in-the-crowd
+*(extends further as §D Film, §E Religion-manufacture reach essay-density)*
 
 ## Reading III — The Smoothing
 *The tidying reflex: files burned, testimony sanitized, retractions entered under law — and what the over-cleaning of a rough record makes people believe.*
