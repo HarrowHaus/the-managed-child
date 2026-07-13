@@ -23,9 +23,9 @@
 | `jwt` | HYPOTHESIS | 7 | 1 | 2 | 1 | 1166 | 0 |
 | `leadbeater-cw` | HYPOTHESIS | 7 | 0 | 3 | 1 | 916 | 0 |
 | `pearson-karl` | WELD | 7 | 1 | 2 | 1 | 1452 | 1 |
+| `psychological-care` | WELD | 7 | 0 | 2 | 2 | 1401 | 1 |
 | `lifespan-continuum` | FRAME | 6 | 1 | 1 | 1 | 1068 | 0 |
 | `new-atlantis` | WELD | 6 | 2 | 1 | 0 | 715 | 1 |
-| `psychological-care` | WELD | 6 | 0 | 2 | 2 | 1401 | 1 |
 | `double-parentage` | FRAME | 5 | 1 | 1 | 1 | 1311 | 0 |
 | `fcc-1984` | WELD | 5 | 0 | 2 | 1 | 1597 | 1 |
 | `eugenics-society-uk` | WELD | 5 | 0 | 2 | 1 | 1820 | 1 |

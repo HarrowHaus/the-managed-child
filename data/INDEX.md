@@ -1,5 +1,5 @@
 # NODE INDEX (generated)
-*Machine-generated from data/nodes/** on every build — do not hand-edit. 118 nodes.*
+*Machine-generated from data/nodes/** on every build — do not hand-edit. 122 nodes.*
 
 ## people
 - `anger-kenneth` — Kenneth Anger *(WELD)*
@@ -27,6 +27,7 @@
 - `hank-harrison` — Hank Harrison *(HYPOTHESIS)*
 - `holt-l-emmett` — L. Emmett Holt *(WELD)*
 - `hubbard-lron` — L. Ron Hubbard *(WELD)*
+- `huxley-aldous` — Aldous Huxley *(WELD)*
 - `huxley-julian` — Julian Huxley *(WELD)*
 - `huxley-th` — T. H. Huxley *(WELD)*
 - `james-william` — William James *(WELD)*
@@ -50,11 +51,13 @@
 - `puharich-andrija` — Andrija Puharich *(WELD)*
 - `roddenberry-gene` — Gene Roddenberry *(WELD)*
 - `russell-bertrand` — Bertrand Russell *(WELD)*
+- `shaw-george-bernard` — George Bernard Shaw *(WELD)*
 - `spock-benjamin` — Benjamin Spock *(WELD)*
 - `steiner-rudolf` — Rudolf Steiner *(WELD)*
 - `terman-lewis` — Lewis Terman *(WELD)*
 - `vogler-christopher` — Christopher Vogler *(WELD)*
 - `watson-john-b` — John B. Watson *(WELD)*
+- `webb-beatrice` — Beatrice Webb *(WELD)*
 - `webb-sidney` — Sidney Webb *(WELD)*
 - `wells-hg` — H. G. Wells *(WELD)*
 - `west-louis-jolyon` — Louis Jolyon West *(WELD)*
@@ -103,6 +106,7 @@
 
 ## works
 - `beatles-sgt-pepper` — Crowley on the Sgt. Pepper Cover *(WELD)*
+- `brave-new-world` — Brave New World *(WELD)*
 - `fabian-essays` — Fabian Essays in Socialism *(WELD)*
 - `hero-thousand-faces` — The Hero with a Thousand Faces *(WELD)*
 - `liber-al-vel-legis` — Liber AL vel Legis (The Book of the Law) *(WELD)*

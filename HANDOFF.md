@@ -50,7 +50,7 @@ A contribution enters `main` only if every new claim (a) states its **grade**, (
   - Reading IV — The Recurring Doctrine
   - Reading V — The State Laboratory
   - Reading VI — The Manufactured Faiths
-- **Phase:** C (the reverberation loop — a corpus that grows by documented adjacency and is re-read whole after every growth; research is NOT closed).
+- **Phase:** M (the reverberation loop — a corpus that grows by documented adjacency and is re-read whole after every growth; research is NOT closed).
 - **The build enforces:** edge-lint · index-count · grade-vocab guard, and the two-key gate (method-critic + operator-agent) on every keystone. These are binding law now, not future plans.
 - **Your next action:** read the **resume pointer at the bottom of `QUEUE.md`** — it is the single live description of where work stands and what ships next. Do not act on any "Phase 1 / stub / research complete" language elsewhere; it is stale.
 - **Open decisions (see DECISIONS.md):** D-3 (Public + participatory, or solo?) · D-4 (Imprint/brand surface for the essays vs the book) · D-site-2 (Similar-links embeddings provider) · D-site-3 (Auto-linkification) · D-site-4 (Archiving depth).

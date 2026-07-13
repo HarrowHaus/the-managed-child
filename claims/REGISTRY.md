@@ -263,3 +263,160 @@ confirmed/strongly-supported → **WELD** (documented) · unresolved/weakened �
 - **search universe:** Fabian Essays 1889; *Man and Superman* (1903); Fabian Tract 131 (1907); *Anticipations* (1901); *The Anglo-American Establishment*; *Tragedy and Hope*.
 - **standing:** **not established in/for the 1889 volume** (bounded negative, L3) — eugenics documented only in the authors' other works; no Quigley→Fabian edge.
 - **reopen:** a eugenic passage located in the 1889 text, or a Quigley passage making the Fabians his subject.
+
+---
+
+## shaw-george-bernard (Phase 4.2 resurrection — the doctrine's daylight popularizer, 0.2)
+*Four dated strata kept rigidly apart (R-3): 1884–89 Fabian articulation · 1892 permeation boast · 1903+ eugenics · 1930s dictatorship praise. Harvest: research/shaw-george-bernard-harvest.md.*
+
+### CLM-gbs-1
+- **proposition:** Shaw was a founding-generation Fabian — joined 1884, Executive Committee 1885–1911, drafted the Manifesto (Tract 2, 1884), edited *Fabian Essays* (1889, Preface + two essays).
+- **mechanism:** institutional-relay (`member-of`) + direct-transmission (`authored`).
+- **evidence for:** Fabian Tract 2 (1884); *Fabian Essays* (1889) title page + Preface; Spartacus Educational; Online Library of Liberty.
+- **alternatives:** a peripheral member — defeated (executive service, principal pamphleteer).
+- **search universe:** the Fabian tract archive; standard biographies (Holroyd); the `fabian-essays` harvest.
+- **standing:** confirmed → WELD.
+- **reopen:** a biographical revision of his Fabian dates/role.
+
+### CLM-gbs-2
+- **proposition:** Shaw stated the named permeation strategy — "we permeated the party organizations and pulled all the wires we could lay our hands on."
+- **mechanism:** direct-transmission (`authored`).
+- **evidence for:** Fabian Tract No. 41, *What It Has Done and How It Has Done It*, read 6 Feb 1892; archive.org full text.
+- **alternatives:** the boast is in the 1889 Essays — **defeated** (it is Tract 41, 1892; L2 dating trap).
+- **search universe:** Tract 41 text; `permeation.md`; `fabian-essays` harvest.
+- **standing:** confirmed → WELD — **dated 1892, NOT 1889**.
+- **reopen:** a passage in the 1889 volume using "permeation."
+
+### CLM-gbs-3
+- **proposition:** Shaw advocated eugenics in his own printed words — "the socialization of the selective breeding of Man."
+- **mechanism:** direct-transmission (`authored`, content of the text).
+- **evidence for:** "The Revolutionist's Handbook," appendix to *Man and Superman* (1903): "The only fundamental and possible Socialism is the socialization of the selective breeding of Man"; Gutenberg; Wikisource. The 1910 "lethal chamber" line is a *Daily Express* press report of a spoken lecture (weaker standing, provocation register); the 1934 "humane gas" is a *Listener* broadcast.
+- **alternatives:** it is only the character Tanner, not Shaw — weakened but not defeated (his device; he owned the doctrine); that it is 1889 — **defeated** (1903).
+- **search universe:** *Man and Superman* text; Cobley 2009; the eugenics-among-socialists literature; *The Listener* (1934).
+- **standing:** confirmed → WELD (printed line) — **dated 1903, NOT the 1889 Essays**; the lethal-chamber material attributed at press/broadcast standing.
+- **reopen:** a variant text altering the wording, or Shaw's own signed text of the 1910 remarks.
+
+### CLM-gbs-4
+- **proposition:** a documented transmission ran from Shaw or any Shaw text into a twentieth-century child-institution.
+- **mechanism:** direct-transmission (tested, not found).
+- **evidence for:** none located; the managed-child tie is shared-root `analogy`/`common-inheritance`.
+- **search universe:** progressive-education & child-science histories; Montessori/Watson/Hall biographies; Shaw correspondence.
+- **standing:** **not established in the sources checked** (bounded negative, L3).
+- **reopen:** any citation, letter, or borrowing linking Shaw to a child-institution.
+
+---
+
+## webb-beatrice (Phase 4.2 resurrection — co-architect of administrative socialism, 0.2)
+*Attribution scalpel (R-3): her own eugenics interest is hers; the race-suicide catalogue is Sidney's; the Soviet apology dated and contained. Harvest: research/webb-beatrice-harvest.md.*
+
+### CLM-bw-1
+- **proposition:** Beatrice married Sidney Webb (1892) and co-authored the Fabian social-science corpus; co-founded LSE (1895), the New Statesman (1913), the Coefficients (1902); lead author of the Poor Law Minority Report (1909).
+- **mechanism:** co-authored / founded (`worked-off`).
+- **evidence for:** *Industrial Democracy* (1897) and *Soviet Communism* (1935) title pages; *Our Partnership*; LSE history record; the Minority Report.
+- **alternatives:** a junior helper, not co-author — defeated (joint title-page authorship, her diaries).
+- **search universe:** MacKenzie/Seymour-Jones biographies; LSE Digital Library; the volumes.
+- **standing:** confirmed → WELD.
+- **reopen:** a bibliographic reattribution.
+
+### CLM-bw-2
+- **proposition:** her diary states the administrative-elite doctrine — the "professional expert" should govern; the "average sensual man" cannot prescribe.
+- **mechanism:** direct-transmission (content of her diary).
+- **evidence for:** verbatim "We wish to introduce into politics the professional expert…"; "we have little faith in the 'average sensual man' … we do not think that he can prescribe the remedies" — diary (Courtney comparison), via the MacKenzie *Diary* edition (Himmelfarb quoting the primary).
+- **alternatives:** a hostile paraphrase — defeated (consistent across hosts); citation to be lifted from secondary to the diary edition (R-Q3).
+- **search universe:** MacKenzie *Diary of Beatrice Webb*; LSE Passfield MSS; *Our Partnership*.
+- **standing:** confirmed → WELD (attach the diary edition to complete the citation).
+- **reopen:** a diary-edition reading altering the wording.
+
+### CLM-bw-3
+- **proposition:** the "national minimum" is the Webbs' welfare-state-by-experts, stated in *Industrial Democracy* (1897) and the Minority Report (1909).
+- **mechanism:** direct-transmission (co-authored text + office).
+- **evidence for:** *Industrial Democracy* Vol. II ("extend the Common Rule … by prescribing a National Minimum"); *Our Partnership* summary of the Minority Report's aim.
+- **alternatives:** a later coinage — defeated (in the 1897 text).
+- **search universe:** *Industrial Democracy* (archive.org); the Report; *Our Partnership*.
+- **standing:** confirmed → WELD.
+- **reopen:** a variant printing altering the wording.
+
+### CLM-bw-4
+- **proposition:** the "less thrifty … the negroes, the Chinese" race-suicide passage is Beatrice's.
+- **mechanism:** direct-transmission (tested).
+- **evidence for:** the passage is **Sidney's**, *The Decline in the Birth-Rate* (Fabian Tract 131, 1907); Beatrice's own eugenics tie is her diary line ("the most important question of all").
+- **search universe:** Fabian Tract 131 attribution; the Webbs' separate corpora; Decolonising LSE.
+- **standing:** **NOT established as Beatrice's** (bounded negative, L2/R-3) — attribute to Sidney.
+- **reopen:** a Beatrice text using that catalogue.
+
+### CLM-bw-5
+- **proposition:** a documented transmission line runs from Beatrice Webb into a specific child-institution.
+- **mechanism:** direct-transmission (tested, not found).
+- **evidence for:** none located; the tie to the managed child is shared-root `analogy` (the administered society, of which the administered child is the domestic case).
+- **search universe:** the Minority Report (children's provision); welfare-state & progressive-education histories; her diaries.
+- **standing:** **not established in the sources checked** (bounded negative, L3).
+- **reopen:** a citation linking her to a named child-institution.
+
+---
+
+## brave-new-world (Phase 4.2 resurrection — the fiction of the managed child, 3.3)
+*WELD on the text; the "predictive programming / blueprint" reading firewalled apocryphal (R-8). Harvest: research/brave-new-world-harvest.md.*
+
+### CLM-bnw-1
+- **proposition:** Huxley wrote *Brave New World*, pub. 1932 by Chatto & Windus (UK) and Doubleday, Doran (US).
+- **mechanism:** direct-transmission (`authored`).
+- **evidence for:** the book; bibliographic/first-edition records; both 1932 firsts confirmed (US first is Doubleday, Doran — NOT Harper, a later reprint).
+- **alternatives:** mis-dated/mis-published — defeated.
+- **search universe:** the 1932 editions; bibliographies; reference works.
+- **standing:** confirmed → WELD.
+- **reopen:** a bibliographic correction.
+
+### CLM-bnw-2
+- **proposition:** the text dramatizes a manufactured, conditioned managed-child society (hatchery, Neo-Pavlovian nursery, hypnopaedia, caste, soma) — verbatim.
+- **mechanism:** direct-transmission (content of the text).
+- **evidence for:** verbatim, Ch.1–2: "COMMUNITY, IDENTITY, STABILITY"; "CENTRAL LONDON HATCHERY AND CONDITIONING CENTRE"; "Ninety-six identical twins…"; "Books and loud noises, flowers and electric shocks…"; "Till at last the child's mind IS these suggestions…"; the caste script; "a gramme is better than a damn"; "Ending is better than mending" — cited by chapter (pagination varies).
+- **alternatives:** misquoted paraphrase — defeated (checked against full text).
+- **search universe:** the primary text; LitCharts; SparkNotes; scholarly criticism.
+- **standing:** confirmed → WELD.
+- **reopen:** a fuller textual check revising a line.
+
+### CLM-bnw-3
+- **proposition:** the nursery specifically restates Watson's *Psychological Care* / Little Albert (Huxley worked off Watson).
+- **mechanism:** analogy (interpretive) / direct-transmission (tested).
+- **evidence for:** structural resemblance (loud-noise aversion conditioning of an infant); but the novel names **Pavlov** ("Neo-Pavlovian"), and no Huxley-read-Watson document is located.
+- **search universe:** Huxley biography/letters; Watson corpus; the BNW-as-satire criticism.
+- **standing:** **unresolved / interpretive — possible, never documented as transmission**; documented only that BNW satirizes behaviorism at large.
+- **reopen:** a Huxley citation/letter/note naming Watson.
+
+### CLM-bnw-4
+- **proposition:** *Brave New World* is "predictive programming" / a leaked insider blueprint Huxley authored with intent to condition the public.
+- **mechanism:** analogy (attributed conspiracy claim).
+- **evidence for:** none located; asserted by the "predictive programming" milieu, leaning on the Huxley family lineage. The documented origin is a parody of H. G. Wells's optimism, which Huxley called a "nightmare."
+- **search universe:** Huxley's Foreword & *BNW Revisited*; biographies; the conspiracy literature; his correspondence.
+- **standing:** **apocryphal (R-8)** — firewalled behind its claimants; no documentary basis found.
+- **reopen:** any document showing authored design/intent to engineer consent.
+
+---
+
+## huxley-aldous (Phase 4.2 resurrection — the warning voice, 3.3)
+*WELD on authorship + the warning primaries; the "insider blueprint" reading firewalled apocryphal. Harvest: research/huxley-aldous-harvest.md.*
+
+### CLM-ah-1
+- **proposition:** Aldous Huxley wrote *Brave New World* (1932) and framed it, in his own nonfiction, as a warning/satire — not a plan he endorsed.
+- **mechanism:** direct-transmission (`authored` + his own texts).
+- **evidence for:** the 1946 Foreword ("love their servitude… ministries of propaganda… schoolteachers"); the 1949 Orwell letter (*Letters*, 1969); *Brave New World Revisited* (1958).
+- **alternatives:** that he endorsed/engineered it — defeated by three decades of his own alarm-raising.
+- **search universe:** the Foreword; *Letters of Aldous Huxley* (1969); *BNW Revisited*.
+- **standing:** confirmed → WELD.
+- **reopen:** a primary showing prescriptive (not warning) intent.
+
+### CLM-ah-2
+- **proposition:** Huxley later held reality was moving toward BNW faster than he feared, including the archived 1962 Berkeley "Ultimate Revolution."
+- **mechanism:** direct-transmission (nonfiction + recorded address).
+- **evidence for:** *BNW Revisited* (1958): "The prophecies made in 1931 are coming true much sooner than I thought they would"; Berkeley 20 Mar 1962, Berkeley Language Center Speech Archive SA 0269, "get people to love their servitude / the final revolution."
+- **search universe:** *BNW Revisited*; Berkeley Language Center SA 0269; the transcript.
+- **standing:** confirmed → WELD. (L2 caveat: the "painless concentration camp" phrase is absent from the verified 1962 transcript — it belongs to a conflated 1961 "Tavistock Group" talk; cite Berkeley-1962.)
+- **reopen:** the archive repudiating the recording.
+
+### CLM-ah-3
+- **proposition:** Aldous Huxley was an insider revealing an elite managed-society plan (Tavistock/MK-ULTRA/predictive-programming/Fabian-family); or a formal Eugenics Society member on Julian's level.
+- **mechanism:** analogy / institutional-relay (tested, not found).
+- **evidence for:** none documentary — the insider reading rests on a venue label and a surname; Aldous's eugenics is documented as *views* (the 1927 essay "A Note on Eugenics"), but formal Society membership is not established (a correspondence file only; the sterilization-committee claim likely conflated with Julian).
+- **search universe:** Huxley's corpus; the 1961/1962 talk provenance; biographies (Bedford, Murray); the Eugenics Society archive; the conspiracy sources.
+- **standing:** the insider reading **apocryphal (R-8)**; the formal membership **not established** (bounded negative, L3). Documented: authorship, warning intent, kinship, eugenic views.
+- **reopen:** a primary placing Huxley inside an actual program, or an archival membership record naming Aldous.
