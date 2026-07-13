@@ -420,3 +420,106 @@ confirmed/strongly-supported → **WELD** (documented) · unresolved/weakened �
 - **search universe:** Huxley's corpus; the 1961/1962 talk provenance; biographies (Bedford, Murray); the Eugenics Society archive; the conspiracy sources.
 - **standing:** the insider reading **apocryphal (R-8)**; the formal membership **not established** (bounded negative, L3). Documented: authorship, warning intent, kinship, eugenic views.
 - **reopen:** a primary placing Huxley inside an actual program, or an archival membership record naming Aldous.
+
+---
+
+## quigley-carroll (Phase 4.2 · method-hinge — documented network vs. firewalled cabal)
+*Harvest: research/quigley-carroll-harvest.md. The R-8 firewall is the whole job.*
+
+### CLM-cq-1
+- **proposition:** Quigley (Georgetown historian) documented a real Anglo-American governing network — the Rhodes secret society (1891) → Milner Group → Round Table → Chatham House — from the group's own papers.
+- **mechanism:** direct-transmission (`authored`, content of the text).
+- **evidence for:** *The Anglo-American Establishment* (1949/1981) and *Tragedy and Hope* (Macmillan, 1966); p.950 "permitted… to examine its papers and secret records."
+- **search universe:** both books (archive.org, carrollquigley.net); Round Table historiography.
+- **standing:** confirmed → WELD (the documented network, the trunk's "administrators" register).
+- **reopen:** a scholarly refutation of the archival basis.
+
+### CLM-cq-2
+- **proposition:** Quigley was an insider-sympathizer who objected to the network's secrecy, not its aims — not an exposer of an evil plot.
+- **mechanism:** direct-transmission (content).
+- **evidence for:** verbatim p.950, "I have no aversion to it nor to most of its aims… my chief difference of opinion is that it wishes to remain unknown."
+- **search universe:** *Tragedy and Hope* p.950; the surrounding chapter.
+- **standing:** confirmed → WELD (the load-bearing distinction).
+- **reopen:** a Quigley text reversing the stance.
+
+### CLM-cq-3
+- **proposition:** Quigley "proved" a controlling world conspiracy / Illuminati / bloodline / communist-banker plot.
+- **mechanism:** direct-transmission (tested) / attributed conspiracy claim.
+- **evidence for:** none in his text; the reading is Skousen's (*The Naked Capitalist*, 1970) and Allen's (1971), which Quigley repudiated: "I never called it a conspiracy and don't regard it as such… Skousen has simply taken extended passages… to make a picture very different from my own."
+- **search universe:** both books; the Skousen/Allen/Birch corpus; Quigley's response.
+- **standing:** **apocryphal (R-8)** — firewalled behind Skousen/Allen with Quigley's repudiation attached; the graph never states or implies a cabal.
+- **reopen:** a Quigley passage asserting a bloodline/Illuminati (none exists).
+
+---
+
+## burnham-james (Phase 4.2 · the managerial class named, 3.5)
+*Harvest: research/burnham-james-harvest.md. Lifts the trunk node's Machiavelli→Burnham [VERIFY] flag.*
+
+### CLM-jb-1
+- **proposition:** Burnham named the managerial class — capitalism replaced by "managerial society," the same revolution under the New Deal, Nazism, and the USSR.
+- **mechanism:** direct-transmission (`authored`) / restates the trunk in the managerial idiom.
+- **evidence for:** *The Managerial Revolution* (John Day, 1941): "Capitalist society will be replaced by 'managerial society'"; "the New Deal moves in the same direction as Stalinism and Nazism"; Russia "not a socialist revolution… but a managerial revolution."
+- **search universe:** the 1941 text (archive.org); reference works.
+- **standing:** confirmed → WELD.
+- **reopen:** a bibliographic revision.
+
+### CLM-jb-2
+- **proposition:** *The Machiavellians* (1943) bridges the classical elite-theorists (Machiavelli/Mosca/Pareto/Michels) into the managerial thesis — "all societies are ruled by a minority."
+- **mechanism:** common-inheritance (`restates` → rule-by-trained-elite).
+- **evidence for:** the 1943 text; Mosca's "ruling class"/"political formula," Pareto's "circulation of elites," Michels's "iron law of oligarchy."
+- **search universe:** the 1943 text (archive.org); the elite-theory literature.
+- **standing:** confirmed → WELD — **lifts the trunk node's [VERIFY] flag** (the text was read against the claim).
+- **reopen:** a reading of the text contradicting the bridge.
+
+### CLM-jb-3
+- **proposition:** the CIA/OPC consultancy (Oct 1949) makes the managerial thesis a covert program.
+- **mechanism:** institutional-relay (biographical) — tested.
+- **evidence for:** the consultancy is documented and dated, but **post-dates both books** (1941, 1943) — connection, not intent (R-3).
+- **search universe:** Burnham biography (Kelly); CIA/CCF studies.
+- **standing:** the consultancy **documented**; the "books = covert program" reading **not established** (chronology + R-3).
+- **reopen:** declassified material tying the consultancy to the books.
+
+---
+
+## jung-cg & eliade-mircea (Phase 4.2 · the Eranos/Bollingen substrate, 1.2 / DP.2)
+*Harvests: research/jung-cg-harvest.md, research/eliade-mircea-harvest.md. Both charged strands (Jung's Nazi-era, Eliade's Iron Guard) documented-as-acts, contested-as-character, off-center.*
+
+### CLM-jung-1
+- **proposition:** Jung authored the archetype / collective-unconscious corpus — a universal, inherited-in-form deep structure of the psyche — and tied himself to the divine-child archetype.
+- **mechanism:** direct-transmission (`authored`).
+- **evidence for:** CW 9i ¶3–4, ¶42–43, and the form-not-content guard ¶155 ("the representations themselves are not inherited, only the forms"); *Modern Man in Search of a Soul* (1933); *The Psychology of the Child Archetype* (1940).
+- **search universe:** the primary texts; IAAP; Bollingen editions.
+- **standing:** confirmed → WELD.
+- **reopen:** a bibliographic/attribution correction.
+
+### CLM-jung-2
+- **proposition:** the Eranos (from 1933, Jung central) → Bollingen (Mellon-funded, named for Jung's tower, published his Collected Works + Campbell's Hero + the Eranos papers) relay carried the archetype-substrate into American elite culture; Campbell worked off Jung directly.
+- **mechanism:** institutional-relay + direct-transmission.
+- **evidence for:** Eranos Foundation history; Bollingen Series records (Princeton UP); Campbell edited *The Portable Jung* (1971) and Bollingen Series XXX.
+- **search universe:** Eranos/Bollingen histories; Campbell bibliography.
+- **standing:** confirmed → WELD (the relay + the Campbell tie); the managed-culture reading interpretive `analogy` (S-5).
+- **reopen:** a correction to the series/funding record.
+
+### CLM-jung-3
+- **proposition:** Jung's Nazi-era acts vs. character; and a documented Bollingen–CIA funding tie.
+- **mechanism:** direct-transmission (acts) / institutional-relay (tested).
+- **evidence for:** presidency June 1933 + *Zentralblatt* editorship to 1939/40 + the Dec-1933 editorial are **documented/dated acts**; the antisemitism/collaboration **character claim is attributed and contested** (the reorganization admitting barred Jewish members cuts the other way). No Bollingen–CIA tie located (Cold-War cultural money ran through Ford/CCF, per Saunders).
+- **search universe:** Samuels, *Jung and Antisemitism*; Jung Journal; Saunders, *The Cultural Cold War*.
+- **standing:** acts **documented**; character **contested/attributed, off-center**; Bollingen–CIA **not established** (bounded negative, L3).
+- **reopen:** new documentary evidence on the character claim, or a declassified Bollingen–CIA document.
+
+### CLM-el-1
+- **proposition:** Eliade authored a universalizing theory of "the sacred" and travelled the Eranos → Bollingen → Chicago prestige apparatus (the same as Jung and Campbell).
+- **mechanism:** direct-transmission (`authored`) + institutional-relay.
+- **evidence for:** *The Sacred and the Profane* (1957/1959), *Myth of the Eternal Return* (1949/Bollingen 1954), *Shamanism* (1951/Bollingen 1964); Eranos lecturer from 1950, Bollingen grant 1951, Chicago chair 1957–86.
+- **search universe:** the primaries; UChicago Eliade Papers finding aid; Wasserstrom, *Religion after Religion*.
+- **standing:** confirmed → WELD (authorship + relay); "the sacred" as a truth-claim held open (McCutcheon/J.Z. Smith critique), like the monomyth.
+- **reopen:** a correction to the network facts.
+
+### CLM-el-2
+- **proposition:** Eliade's interwar Iron Guard / Legionary involvement, and whether it stains the scholarship.
+- **mechanism:** direct-transmission (documented biographical fact) / attributed claim (degree).
+- **evidence for:** mid-1930s Legionary sympathy under Codreanu; the 1937 "Why I Believe in the Victory of the Legionary Movement" essay; last pro-Legion piece Feb 1938; lifelong postwar silence — documented by Volovici, Berger, Dubuisson, Lincoln, Strenski; degree contested by Ricketts, Rennie.
+- **search universe:** the Legionary-press record; the scholarly debate (both sides).
+- **standing:** the **connection documented/dated**; the **degree and infection-of-the-work contested/attributed, open seam (R-7)** — neither laundered nor inflated, not the node's center.
+- **reopen:** a decisive documentary or textual demonstration either way.

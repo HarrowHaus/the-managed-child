@@ -8,7 +8,7 @@
 |---|---|---|---|---|---|---|---|
 | `crowley-aleister` | WELD | 42 | 14 | 3 | 6 | 1059 | 1 |
 | `liber-al-vel-legis` | WELD | 19 | 4 | 4 | 3 | 662 | 1 |
-| `aeon-of-the-child` | WELD | 17 | 4 | 4 | 1 | 1275 | 1 |
+| `aeon-of-the-child` | WELD | 18 | 4 | 4 | 1 | 1275 | 1 |
 | `besant-annie` | WELD | 15 | 3 | 3 | 3 | 1058 | 1 |
 | `lippmann-walter` | WELD | 13 | 3 | 2 | 2 | 1449 | 1 |
 | `order-of-the-star` | HYPOTHESIS | 12 | 2 | 3 | 1 | 703 | 0 |
@@ -24,10 +24,10 @@
 | `leadbeater-cw` | HYPOTHESIS | 7 | 0 | 3 | 1 | 916 | 0 |
 | `pearson-karl` | WELD | 7 | 1 | 2 | 1 | 1452 | 1 |
 | `psychological-care` | WELD | 7 | 0 | 2 | 2 | 1401 | 1 |
+| `hard-sourcing-rule` | PRINCIPLE | 6 | 1 | 2 | 0 | 2842 | 0 |
 | `lifespan-continuum` | FRAME | 6 | 1 | 1 | 1 | 1068 | 0 |
 | `new-atlantis` | WELD | 6 | 2 | 1 | 0 | 715 | 1 |
 | `double-parentage` | FRAME | 5 | 1 | 1 | 1 | 1311 | 0 |
 | `fcc-1984` | WELD | 5 | 0 | 2 | 1 | 1597 | 1 |
 | `eugenics-society-uk` | WELD | 5 | 0 | 2 | 1 | 1820 | 1 |
 | `gardnerian-wicca` | WELD | 5 | 1 | 1 | 1 | 1341 | 1 |
-| `cubberley-ellwood` | WELD | 5 | 1 | 1 | 1 | 1153 | 1 |

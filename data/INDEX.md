@@ -1,5 +1,5 @@
 # NODE INDEX (generated)
-*Machine-generated from data/nodes/** on every build — do not hand-edit. 122 nodes.*
+*Machine-generated from data/nodes/** on every build — do not hand-edit. 127 nodes.*
 
 ## people
 - `anger-kenneth` — Kenneth Anger *(WELD)*
@@ -9,6 +9,7 @@
 - `besant-annie` — Annie Besant *(WELD)*
 - `binet-alfred` — Alfred Binet *(WELD)*
 - `blavatsky-helena` — Helena Blavatsky *(WELD)*
+- `burnham-james` — James Burnham *(WELD)*
 - `cameron-marjorie` — Marjorie Cameron *(WELD)*
 - `campbell-joseph` — Joseph Campbell *(WELD)*
 - `crowley-aleister` — Aleister Crowley *(WELD)*
@@ -17,6 +18,7 @@
 - `davenport-charles` — Charles Davenport *(WELD)*
 - `david-bowie` — David Bowie *(WELD)*
 - `dewey-john` — John Dewey *(WELD)*
+- `eliade-mircea` — Mircea Eliade *(WELD)*
 - `freud-sigmund` — Sigmund Freud *(WELD)*
 - `galton-francis` — Francis Galton *(WELD)*
 - `gardner-gerald` — Gerald Gardner *(WELD)*
@@ -34,6 +36,7 @@
 - `jay-z` — Jay-Z *(WELD)*
 - `jimmy-page` — Jimmy Page *(WELD)*
 - `judge-william-quan` — William Quan Judge *(WELD)*
+- `jung-cg` — C. G. Jung *(WELD)*
 - `ken-kesey` — Ken Kesey *(WELD)*
 - `krishnamurti-jiddu` — Jiddu Krishnamurti *(WELD)*
 - `laughlin-harry` — Harry Laughlin *(WELD)*
@@ -49,6 +52,7 @@
 - `pearson-karl` — Karl Pearson *(WELD)*
 - `plato` — Plato *(WELD)*
 - `puharich-andrija` — Andrija Puharich *(WELD)*
+- `quigley-carroll` — Carroll Quigley *(WELD)*
 - `roddenberry-gene` — Gene Roddenberry *(WELD)*
 - `russell-bertrand` — Bertrand Russell *(WELD)*
 - `shaw-george-bernard` — George Bernard Shaw *(WELD)*
@@ -123,6 +127,7 @@
 - `double-parentage` — Double-parentage (liberation + control) *(FRAME)*
 - `four-idiom-through-line` — The Four-Idiom Through-Line *(WELD)*
 - `grading-system` — The Grading System *(PRINCIPLE)*
+- `hard-sourcing-rule` — The Hard Sourcing Rule *(PRINCIPLE)*
 - `lifespan-continuum` — The Lifespan Continuum *(FRAME)*
 - `managed-child` — The Managed Child *(WELD)*
 - `method-stance` — The Method Stance (reverberation not coordination) *(PRINCIPLE)*

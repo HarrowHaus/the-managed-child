@@ -24,8 +24,7 @@ welds:
   - {to: coefficients-club, type: restates, register: same-field, grade: WELD, source: "the Webb-founded dining club (1902) seats the doctrine's holders at one table — trunk and technocrat branch"}
   - {to: huxley-julian, type: restates, register: same-field, grade: WELD, source: "'evolutionary humanism' is rule-by-the-fit restated in a UN founding document (UNESCO: Its Purpose and Its Philosophy, 1946)"}
   - {to: bernays-edward, type: restates, register: same-field, grade: WELD, source: "the 'invisible government' of an 'intelligent minority' is the doctrine in the mass-democratic age (Propaganda, 1928)"}
-hypotheses:
-  - {to: burnham-james, type: restates, register: worked-off, grade: HYPOTHESIS, source: "the map names Burnham's The Machiavellians (1943) as the bridge carrying Machiavelli into the managerial-elite thesis; the claim is plausible but the text has not been checked here — do not assert until read"}
+  - {to: burnham-james, type: restates, register: common-inheritance, grade: WELD, source: "The Machiavellians (John Day, 1943) is Burnham's popularization of Machiavelli/Mosca/Pareto/Michels/Sorel — 'all societies are ruled by a minority' — the explicit bridge carrying the classical elite-theory into his managerial-elite thesis (The Managerial Revolution, 1941); confirmed against the text (see burnham-james)"}
 tags: [trunk, spine, enactment, denominator]
 ---
 
@@ -55,7 +54,7 @@ The doctrine's relation to `the-root` is same-field: the trunk is the root's pol
 - **The map's Bacon "quotations" are paraphrase.** "Interface with the outer population" and "choosing what to share with the public" do not appear in *New Atlantis*. The sentence quoted above is Bacon's actual wording; the paraphrases must not be set in quotation marks.
 - **Unverified Fabian details, not asserted:** that Webb described the Fabians as "an intellectual advisory group"; that Besant "invented local Fabian branches" or was called "the greatest orator in England" by Shaw; that the Society's coat of arms was a wolf in sheep's clothing. Each is repeated in the map and none was checked here. Held open until sourced.
 - **Webb's "unconscious socialism"** ("The Historic Basis of Socialism," *Fabian Essays*, 1889) is now confirmed against the text (see `fabian-essays`): Webb argues that collectivism had already advanced unacknowledged through municipal public control — "our irresistible glide into collectivist Socialism." The passage is documented, not merely cited.
-- **Machiavelli → Burnham** is held open, not asserted as documented: the map names *The Machiavellians* (1943) as the bridge from the taproot to the managerial thesis, but the text has not been read against the claim.
+- **Machiavelli → Burnham** is now confirmed against the primary (see `burnham-james`): *The Machiavellians* (John Day, 1943) is Burnham's own popularization of Machiavelli, Mosca, Pareto, and Michels — "all societies are ruled by a minority" — the explicit bridge from the classical elite-theory into his managerial thesis. The edge is documented, not held open.
 - **Discarded:** the financier/bloodline gloss that conspiracy sources attach to elite-governance networks (the "Rothschild-trustee-of-a-secret-society" framing around the Milner cluster). Per the hard sourcing rule, the doctrine resolves to named people writing signed texts, never to a coded collective.
 
 ## Role in the thesis
