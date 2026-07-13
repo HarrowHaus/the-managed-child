@@ -14,7 +14,7 @@ export default function remarkAutolinkNodes() {
     const visit = (node) => {
       if (!node.children) return;
       node.children = node.children.map((child) => {
-        if (child.type === 'inlineCode' && index.has(child.value.trim())) {
+        if (child.type === 'inlineCode' && index.has(child.value.trim()) && index.get(child.value.trim()).routed !== false) {
           const id = child.value.trim();
           return {
             type: 'link',

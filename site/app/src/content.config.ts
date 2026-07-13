@@ -33,6 +33,11 @@ const nodes = defineCollection({
     grade: z.string().default('WELD'),
     map_node: z.string().optional(),
     status: z.enum(['stub', 'drafted', 'locked']).default('stub'),
+    // No-Stubs Law (MASTER-SPEC L1): a node below the density bar is UNROUTED —
+    // it keeps its file (never deleted) but does not render a page, list in the
+    // index, ground the partition, or resolve as a link. `routed: false` marks it
+    // as queued for absorption. Absent/true = routed. Links to it degrade to text.
+    routed: z.boolean().optional(),
     abstract: z.string().optional(),
     sources: strList,
     welds: edgeList,

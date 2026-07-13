@@ -5,6 +5,7 @@ type: person
 category: people
 dates: "1894-1963"
 grade: HYPOTHESIS
+routed: false
 map_node: "3.3"
 status: stub
 incubating: true

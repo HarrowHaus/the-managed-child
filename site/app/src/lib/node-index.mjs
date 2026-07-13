@@ -38,6 +38,9 @@ export function nodeIndex() {
     INDEX.set(id, {
       title: field(fm[1], 'title') ?? id,
       category: field(fm[1], 'category') ?? 'concepts',
+      // No-Stubs Law: unrouted nodes are known (so links can degrade) but never
+      // linked. `routed: false` → not routed; absent/anything else → routed.
+      routed: field(fm[1], 'routed') !== 'false',
     });
   }
   return INDEX;

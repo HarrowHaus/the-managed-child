@@ -96,6 +96,7 @@ function main() {
     if (!id) continue;
     const st = standing(scalar(fm, 'grade'));
     if (st.discarded) continue;
+    if (/^routed:\s*false\s*$/m.test(fm)) continue; // No-Stubs Law: no annotation card for unrouted nodes
 
     const title = scalar(fm, 'title') || id;
     const dates = scalar(fm, 'dates');

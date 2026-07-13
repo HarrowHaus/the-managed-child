@@ -127,11 +127,12 @@ const RAILS = [
   },
 ] as const;
 
-const nodes = await getCollection('nodes', (n) => !standingFromGrade(n.data.grade).discarded);
+const nodes = await getCollection('nodes', (n) => !standingFromGrade(n.data.grade).discarded && n.data.routed !== false);
 const byId = new Map(nodes.map((n) => [n.data.id, n]));
 
-// ---- Completeness guard: every published node in exactly one rail. ----
-const assigned = RAILS.flatMap((r) => r.ids);
+// ---- Completeness guard: every ROUTED node in exactly one rail. Unrouted
+// placeholders (No-Stubs Law) are dropped from the rails until absorbed. ----
+const assigned = RAILS.flatMap((r) => r.ids).filter((id) => byId.has(id));
 const assignedSet = new Set(assigned);
 const dupes = assigned.filter((id, i) => assigned.indexOf(id) !== i);
 const unknown = assigned.filter((id) => !byId.has(id));
@@ -189,6 +190,7 @@ function standingWord(grade: string) {
 const stripArticle = (t: string) => t.replace(/^(the|a|an)\s+/i, '');
 const sortRail = (ids: readonly string[]) =>
   [...ids]
+    .filter((id) => byId.has(id)) // drop unrouted placeholders (No-Stubs Law)
     .map((id) => byId.get(id)!)
     .sort((a, b) => stripArticle(a.data.title).localeCompare(stripArticle(b.data.title)));
 ---
@@ -206,7 +208,7 @@ const sortRail = (ids: readonly string[]) =>
 
   {RAILS.map((r) => (
     <section class="index-rail">
-      <h2 id={r.key}>{r.label} <span class="index-rail-count">({r.ids.length})</span></h2>
+      <h2 id={r.key}>{r.label} <span class="index-rail-count">({r.ids.filter((id) => byId.has(id)).length})</span></h2>
       <p class="index-rail-blurb">{r.blurb}</p>
       <ul class="index-entries">
         {sortRail(r.ids).map((n) => {

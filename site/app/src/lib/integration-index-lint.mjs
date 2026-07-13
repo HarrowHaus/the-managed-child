@@ -12,10 +12,17 @@ const NODES = resolve(here, '../../../../data/nodes');
 const INDEX = resolve(here, '../../../../data/INDEX.md');
 
 function countNodeFiles() {
+  // Count ROUTED node files only — the index lists routed nodes; unrouted
+  // placeholders (No-Stubs Law) keep their file but are not indexed.
   let n = 0;
   for (const cat of readdirSync(NODES, { withFileTypes: true })) {
     if (!cat.isDirectory()) continue;
-    n += readdirSync(resolve(NODES, cat.name)).filter((f) => f.endsWith('.md')).length;
+    for (const f of readdirSync(resolve(NODES, cat.name))) {
+      if (!f.endsWith('.md')) continue;
+      const raw = readFileSync(resolve(NODES, cat.name, f), 'utf8');
+      if (/^routed:\s*false\s*$/m.test(raw)) continue;
+      n++;
+    }
   }
   return n;
 }

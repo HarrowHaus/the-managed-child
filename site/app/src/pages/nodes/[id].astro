@@ -34,7 +34,7 @@ export async function getStaticPaths() {
     return stripMd(body.slice(a, b));
   };
 
-  const nodes = await getCollection('nodes', (n) => !standingFromGrade(n.data.grade).discarded);
+  const nodes = await getCollection('nodes', (n) => !standingFromGrade(n.data.grade).discarded && n.data.routed !== false);
   const essays = (await getCollection('essays')).filter((e) => e.id !== 'index');
   const byId = new Map(nodes.map((n) => [n.data.id, n]));
 

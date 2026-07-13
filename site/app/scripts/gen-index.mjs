@@ -38,7 +38,7 @@ for (const cat of CATEGORIES) {
   }
   const rows = files
     .map((f) => frontmatter(readFileSync(resolve(NODES, cat, f), 'utf8')))
-    .filter((fm) => fm.id)
+    .filter((fm) => fm.id && fm.routed !== 'false') // No-Stubs Law: unrouted nodes are not indexed
     .map((fm) => ({ id: fm.id, title: fm.title || fm.id, grade: fm.grade || '—' }))
     .sort((a, b) => a.id.localeCompare(b.id));
   total += rows.length;

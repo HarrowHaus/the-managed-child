@@ -1,5 +1,5 @@
 # NODE INDEX (generated)
-*Machine-generated from data/nodes/** on every build — do not hand-edit. 134 nodes.*
+*Machine-generated from data/nodes/** on every build — do not hand-edit. 114 nodes.*
 
 ## people
 - `anger-kenneth` — Kenneth Anger *(WELD)*
@@ -9,7 +9,6 @@
 - `besant-annie` — Annie Besant *(WELD)*
 - `binet-alfred` — Alfred Binet *(WELD)*
 - `blavatsky-helena` — Helena Blavatsky *(WELD)*
-- `burnham-james` — James Burnham *(HYPOTHESIS)*
 - `cameron-marjorie` — Marjorie Cameron *(WELD)*
 - `campbell-joseph` — Joseph Campbell *(WELD)*
 - `crowley-aleister` — Aleister Crowley *(WELD)*
@@ -18,8 +17,6 @@
 - `davenport-charles` — Charles Davenport *(WELD)*
 - `david-bowie` — David Bowie *(WELD)*
 - `dewey-john` — John Dewey *(WELD)*
-- `eliade-mircea` — Mircea Eliade *(HYPOTHESIS)*
-- `fleming-ian` — Ian Fleming *(HYPOTHESIS)*
 - `freud-sigmund` — Sigmund Freud *(WELD)*
 - `galton-francis` — Francis Galton *(WELD)*
 - `gardner-gerald` — Gerald Gardner *(WELD)*
@@ -27,18 +24,15 @@
 - `gesell-arnold` — Arnold Gesell *(WELD)*
 - `goddard-henry` — Henry H. Goddard *(WELD)*
 - `hall-g-stanley` — G. Stanley Hall *(WELD)*
-- `hall-manly-p` — Manly P. Hall *(HYPOTHESIS)*
 - `hank-harrison` — Hank Harrison *(HYPOTHESIS)*
 - `holt-l-emmett` — L. Emmett Holt *(WELD)*
 - `hubbard-lron` — L. Ron Hubbard *(WELD)*
-- `huxley-aldous` — Aldous Huxley *(HYPOTHESIS)*
 - `huxley-julian` — Julian Huxley *(WELD)*
 - `huxley-th` — T. H. Huxley *(WELD)*
 - `james-william` — William James *(WELD)*
 - `jay-z` — Jay-Z *(WELD)*
 - `jimmy-page` — Jimmy Page *(WELD)*
 - `judge-william-quan` — William Quan Judge *(WELD)*
-- `jung-cg` — C. G. Jung *(HYPOTHESIS)*
 - `ken-kesey` — Ken Kesey *(WELD)*
 - `krishnamurti-jiddu` — Jiddu Krishnamurti *(WELD)*
 - `laughlin-harry` — Harry Laughlin *(WELD)*
@@ -54,20 +48,16 @@
 - `pearson-karl` — Karl Pearson *(WELD)*
 - `plato` — Plato *(WELD)*
 - `puharich-andrija` — Andrija Puharich *(WELD)*
-- `quigley-carroll` — Carroll Quigley *(HYPOTHESIS)*
 - `roddenberry-gene` — Gene Roddenberry *(WELD)*
 - `russell-bertrand` — Bertrand Russell *(WELD)*
-- `shaw-george-bernard` — George Bernard Shaw *(HYPOTHESIS)*
 - `spock-benjamin` — Benjamin Spock *(WELD)*
 - `steiner-rudolf` — Rudolf Steiner *(WELD)*
 - `terman-lewis` — Lewis Terman *(WELD)*
 - `vogler-christopher` — Christopher Vogler *(WELD)*
 - `watson-john-b` — John B. Watson *(WELD)*
-- `webb-beatrice` — Beatrice Webb *(HYPOTHESIS)*
 - `webb-sidney` — Sidney Webb *(WELD)*
 - `wells-hg` — H. G. Wells *(WELD)*
 - `west-louis-jolyon` — Louis Jolyon West *(WELD)*
-- `wheatley-dennis` — Dennis Wheatley *(HYPOTHESIS)*
 - `yerkes-robert` — Robert Yerkes *(WELD)*
 
 ## institutions
@@ -85,7 +75,6 @@
 - `iron-maiden` — Iron Maiden *(WELD)*
 - `jpl` — Jet Propulsion Laboratory *(WELD)*
 - `jwt` — J. Walter Thompson *(HYPOTHESIS)*
-- `lab-nine` — Lab Nine / Round Table Foundation *(HYPOTHESIS)*
 - `lucis-trust` — Lucis Trust *(HYPOTHESIS)*
 - `mkultra` — MKUltra *(WELD)*
 - `order-of-the-star` — Order of the Star in the East *(HYPOTHESIS)*
@@ -108,23 +97,15 @@
 - `latey-judgment` — The Latey Judgment *(WELD)*
 - `lippmann-dewey-debate` — The Lippmann-Dewey Debate *(WELD)*
 - `mkultra-hearing-2026` — The June 2026 MKUltra Hearing *(WELD)*
-- `ojai-convergence` — The Ojai Convergence *(HYPOTHESIS)*
 - `operation-northwoods` — Operation Northwoods *(WELD)*
 - `process-v-sanders` — Process Church v. Sanders (the retraction) *(WELD)*
 - `sanitized-1977-testimony` — The Sanitized 1977 Testimony *(WELD)*
 
 ## works
 - `beatles-sgt-pepper` — Crowley on the Sgt. Pepper Cover *(WELD)*
-- `brave-new-world` — Brave New World *(HYPOTHESIS)*
-- `externalisation-hierarchy` — The Externalisation of the Hierarchy (Bailey) *(HYPOTHESIS)*
-- `fabian-essays` — Fabian Essays in Socialism *(HYPOTHESIS)*
-- `hero-thousand-faces` — The Hero with a Thousand Faces *(HYPOTHESIS)*
 - `liber-al-vel-legis` — Liber AL vel Legis (The Book of the Law) *(WELD)*
 - `new-atlantis` — New Atlantis *(WELD)*
-- `on-education-of-children` — On the Education of Children (Crowley) *(HYPOTHESIS)*
-- `only-planet-of-choice` — The Only Planet of Choice *(HYPOTHESIS)*
 - `psychological-care` — Psychological Care of Infant and Child (Watson) *(WELD)*
-- `public-opinion` — Public Opinion (Lippmann) *(HYPOTHESIS)*
 - `satanic-bible` — The Satanic Bible *(WELD)*
 - `the-republic` — The Republic *(WELD)*
 - `unesco-purpose-philosophy` — UNESCO: Its Purpose and Its Philosophy *(WELD)*
@@ -134,7 +115,6 @@
 - `double-parentage` — Double-parentage (liberation + control) *(FRAME)*
 - `four-idiom-through-line` — The Four-Idiom Through-Line *(WELD)*
 - `grading-system` — The Grading System *(PRINCIPLE)*
-- `hard-sourcing-rule` — The Hard Sourcing Rule *(PRINCIPLE)*
 - `lifespan-continuum` — The Lifespan Continuum *(FRAME)*
 - `managed-child` — The Managed Child *(WELD)*
 - `method-stance` — The Method Stance (reverberation not coordination) *(PRINCIPLE)*
