@@ -12,7 +12,7 @@ sources:
   - "Robert M. Yerkes (ed.), Psychological Examining in the United States Army, Memoirs of the National Academy of Sciences, vol. 15 (1921) — the official monograph reporting the Army testing — [PRIMARY]"
   - "Carl C. Brigham, A Study of American Intelligence (1923), and his retraction, 'Intelligence Tests of Immigrant Groups' (Psychological Review, 1930) — [PRIMARY]"
 welds:
-  - {to: the-root, type: restates, register: same-field, grade: WELD, source: "the test scaled from the clinic to the mass institution — the root administered to a million and a half men at once"}
+  - {to: the-root, type: restates, register: analogy, grade: WELD, source: "the test scaled from the clinic to the mass institution — the root administered to a million and a half men at once"}
 tags: [rail-enactment, enactment, eugenics]
 ---
 

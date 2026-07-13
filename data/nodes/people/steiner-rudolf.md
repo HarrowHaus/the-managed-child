@@ -12,7 +12,7 @@ sources:
   - "John Paull, 'Rudolf Steiner: From Theosophy to Anthroposophy (1902–1913)', European Journal of Theology and Philosophy — the German Section leadership, the founding (28 Dec 1912; formal assembly 2–3 Feb 1913), and the 7 Mar 1913 expulsion; ~55 of 69 German lodges leaving with him — https://philarchive.org/rec/PAURSF — [SECONDARY]"
   - "Wikipedia, 'Rudolf Steiner and the Theosophical Society' — the break over the Krishnamurti/World-Teacher identification — https://en.wikipedia.org/wiki/Rudolf_Steiner_and_the_Theosophical_Society — [SECONDARY]"
 welds:
-  - {to: theosophical-society, type: broke-from, register: worked-off, grade: WELD, source: "General Secretary of the German Section; founded the Anthroposophical Society (28 Dec 1912) and was expelled from the TS (7 Mar 1913) over the Krishnamurti/World-Teacher identification — a schism"}
+  - {to: theosophical-society, type: broke-from, register: direct-transmission, grade: WELD, source: "General Secretary of the German Section; founded the Anthroposophical Society (28 Dec 1912) and was expelled from the TS (7 Mar 1913) over the Krishnamurti/World-Teacher identification — a schism"}
 hypotheses: []
 tags: [rail-articulation, articulation, theosophy]
 ---

@@ -13,8 +13,8 @@ sources:
   - "Wikipedia, 'Babalon' / 'Babalon Working' — the Jan–Mar 1946 ritual series, Parsons with Hubbard as scribe/seer, drawing on Crowley's sex magick and the 'moonchild' concept; Marjorie Cameron's arrival read by Parsons as the elemental — [SECONDARY]"
 welds:
   - {to: parsons-jack, type: authored, register: direct-transmission, grade: WELD, source: "Parsons wrote the Book of Babalon (Liber 49), the working's primary record, and declared himself the Antichrist 'Belarion'"}
-  - {to: crowley-aleister, type: influenced, register: worked-off, grade: WELD, source: "the working drew on Crowley's sex magick; Liber 49 frames itself as 'the fourth chapter of the Book of the Law' (Crowley's Liber AL)"}
-  - {to: moonchild, type: influenced, register: worked-off, grade: WELD, source: "the working aimed to produce a magical child ('moonchild'/homunculus), the concept from Crowley's 1917 novel Moonchild"}
+  - {to: crowley-aleister, type: influenced, register: direct-transmission, grade: WELD, source: "the working drew on Crowley's sex magick; Liber 49 frames itself as 'the fourth chapter of the Book of the Law' (Crowley's Liber AL)"}
+  - {to: moonchild, type: influenced, register: direct-transmission, grade: WELD, source: "the working aimed to produce a magical child ('moonchild'/homunculus), the concept from Crowley's 1917 novel Moonchild"}
 hypotheses: []
 tags: [rail-articulation, articulation, crowley-in-america]
 ---

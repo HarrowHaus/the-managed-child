@@ -12,9 +12,9 @@ sources:
   - "Walter Lippmann, Public Opinion (1922) and The Phantom Public (1925); John Dewey, The Public and Its Problems (1927) and his New Republic reviews — the primary texts of the exchange — [PRIMARY]"
   - "Scholarship establishing the adversarial 'debate' as a 1980s–90s reframing resting on a rhetorical trope rather than contemporary documentation (e.g., Schudson; Jansen) — [SECONDARY]"
 welds:
-  - {to: lippmann-walter, type: influenced, register: worked-off, grade: WELD, source: "Lippmann's Public Opinion (1922) and The Phantom Public (1925) state the expert-management position"}
-  - {to: dewey-john, type: influenced, register: worked-off, grade: WELD, source: "Dewey's reviews and The Public and Its Problems (1927) answer the prescription"}
-  - {to: rule-by-trained-elite, type: restates, register: same-field, grade: WELD, source: "the question at stake — should an expert class manage the public — is the trunk doctrine in the age of mass media"}
+  - {to: lippmann-walter, type: influenced, register: direct-transmission, grade: WELD, source: "Lippmann's Public Opinion (1922) and The Phantom Public (1925) state the expert-management position"}
+  - {to: dewey-john, type: influenced, register: direct-transmission, grade: WELD, source: "Dewey's reviews and The Public and Its Problems (1927) answer the prescription"}
+  - {to: rule-by-trained-elite, type: restates, register: common-inheritance, grade: WELD, source: "the question at stake — should an expert class manage the public — is the trunk doctrine in the age of mass media"}
 tags: [rail-consent, consent]
 ---
 

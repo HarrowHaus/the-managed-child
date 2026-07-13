@@ -13,7 +13,7 @@ sources:
   - "Ragnar Redbeard, Might Is Right (1896) — the public-domain source of most of the 'Book of Satan' — [PRIMARY]"
   - "Aleister Crowley (ed.), The Equinox — the route by which Dee's Enochian Keys reached the closing section — [PRIMARY]"
 welds:
-  - {to: crowley-aleister, type: read, register: worked-off, grade: WELD, source: "its closing Enochian Keys are John Dee's, taken via Crowley's Equinox and inverted to Satanic references — a text-borrowing, not a doctrine-inheritance"}
+  - {to: crowley-aleister, type: read, register: direct-transmission, grade: WELD, source: "its closing Enochian Keys are John Dee's, taken via Crowley's Equinox and inverted to Satanic references — a text-borrowing, not a doctrine-inheritance"}
 hypotheses: []
 tags: [rail-articulation, articulation, manufactured-faiths]
 ---

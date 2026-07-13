@@ -12,8 +12,8 @@ sources:
   - "John B. Watson, Psychological Care of Infant and Child (New York: W. W. Norton, 1928) — 'not more babies but better brought up babies'; the ideal child 'has no great attachments to any place or person' — [PRIMARY]"
   - "Watson & Rosalie Rayner, 'Conditioned Emotional Reactions' (1920) — the Little Albert study — [PRIMARY]"
 welds:
-  - {to: managed-child, type: restates, register: same-field, grade: WELD, source: "Psychological Care (1928) states engineered detachment as a childrearing program in the author's own words"}
-  - {to: jwt, type: member-of, register: worked-off, grade: WELD, source: "Watson joined J. Walter Thompson in 1920 after leaving Johns Hopkins, carrying behaviorist conditioning into advertising"}
+  - {to: managed-child, type: restates, register: convergent-selection, grade: WELD, source: "Psychological Care (1928) states engineered detachment as a childrearing program in the author's own words"}
+  - {to: jwt, type: member-of, register: institutional-relay, grade: WELD, source: "Watson joined J. Walter Thompson in 1920 after leaving Johns Hopkins, carrying behaviorist conditioning into advertising"}
 hypotheses: []
 tags: [rail-enactment, enactment, denominator]
 ---

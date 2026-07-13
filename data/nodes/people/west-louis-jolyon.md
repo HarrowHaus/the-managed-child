@@ -15,7 +15,7 @@ sources:
   - "Tom O'Neill, CHAOS: Charles Manson, the CIA, and the Secret History of the Sixties (2019); The Intercept, 'Inside the Archive of an LSD Researcher with Ties to the CIA', 24 Nov. 2019, https://theintercept.com/2019/11/24/cia-mkultra-louis-jolyon-west/ — [SECONDARY]"
   - "The Sixth Floor Museum, 'Report of Psychiatric Examination of Jack Ruby' (West, dated 26 April 1964) — https://www.jfk.org/collections-archive/t25-photocopy-of-report-of-psychiatric-examination-of-jack-ruby/ — [SECONDARY]"
 welds:
-  - {to: mkultra, type: member-of, register: worked-off, grade: WELD, source: "West held MKUltra Subproject 43 (a CIA grant while he chaired psychiatry at the University of Oklahoma) and received top-secret CIA clearance"}
+  - {to: mkultra, type: member-of, register: institutional-relay, grade: WELD, source: "West held MKUltra Subproject 43 (a CIA grant while he chaired psychiatry at the University of Oklahoma) and received top-secret CIA clearance"}
 hypotheses: []
 tags: [rail-enactment, enactment, smoothing]
 ---

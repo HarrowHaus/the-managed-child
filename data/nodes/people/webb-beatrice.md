@@ -13,9 +13,9 @@ sources:
   - "Beatrice Webb, Our Partnership (1948, posthumous) — her summary of the 1909 Poor Law Minority Report's aim: 'a national minimum of civilised life … sufficient nourishment and training when young, a living wage when able-bodied, treatment when sick, and modest but secure livelihood when disabled or aged' — [PRIMARY]"
   - "Sidney & Beatrice Webb, Soviet Communism: A New Civilisation? (Longmans, 1935; question-mark dropped in the 1937 2nd ed.) — the defense of Stalin's USSR — [PRIMARY]"
 welds:
-  - {to: webb-sidney, type: co-authored, register: worked-off, grade: WELD, source: "married Sidney Webb (1892); co-authored the Fabian social-science corpus — Industrial Democracy (1897), English Local Government, Soviet Communism: A New Civilisation? (1935) — and co-founded the LSE (1895) and the Coefficients club (1902)"}
+  - {to: webb-sidney, type: co-authored, register: direct-transmission, grade: WELD, source: "married Sidney Webb (1892); co-authored the Fabian social-science corpus — Industrial Democracy (1897), English Local Government, Soviet Communism: A New Civilisation? (1935) — and co-founded the LSE (1895) and the Coefficients club (1902)"}
   - {to: fabian-society, type: member-of, register: institutional-relay, grade: WELD, source: "a leading Fabian from her marriage to Sidney (1892); co-founder of the Fabian Women's Group (1908); the Society's foremost social investigator alongside Sidney"}
-  - {to: coefficients-club, type: founded, register: worked-off, grade: WELD, source: "Sidney and Beatrice Webb founded the Coefficients dining club, 1902"}
+  - {to: coefficients-club, type: founded, register: direct-transmission, grade: WELD, source: "Sidney and Beatrice Webb founded the Coefficients dining club, 1902"}
   - {to: rule-by-trained-elite, type: restates, register: common-inheritance, grade: WELD, source: "her diary states the trunk doctrine in her own hand — the 'professional expert' should govern; the 'average sensual man … cannot prescribe the remedies'"}
   - {to: permeation, type: restates, register: common-inheritance, grade: WELD, source: "the Fabian administrative method she practiced — measurement, publicity, and the expert authority of the Minority Report — is gradualist permeation in the theater of policy"}
 hypotheses:

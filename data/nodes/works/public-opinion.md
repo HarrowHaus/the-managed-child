@@ -14,8 +14,8 @@ sources:
 welds:
   - {to: lippmann-walter, type: authored, register: direct-transmission, grade: WELD, source: "Walter Lippmann, Public Opinion, Harcourt, Brace & Co., 1922 (Gutenberg #6456; Wikisource)"}
   - {to: bernays-edward, type: influenced, register: direct-transmission, grade: WELD, source: "Bernays read and drew on Public Opinion in Crystallizing Public Opinion (1923) and later coined 'the engineering of consent' (1947); chronology runs Lippmann (1922) → Bernays — connection documented, coordination not imputed (R-3)"}
-  - {to: rule-by-trained-elite, type: restates, register: same-field, grade: WELD, source: "the 'specialized class' + 'intelligence bureaus' remedy is the trunk rule-by-the-fit doctrine in the mass-media age"}
-  - {to: lippmann-dewey-debate, type: influenced, register: same-field, grade: WELD, source: "Public Opinion (1922) is one of the two Lippmann primaries the debate turns on; Dewey answered its expert-remedy in The Public and Its Problems (1927)"}
+  - {to: rule-by-trained-elite, type: restates, register: common-inheritance, grade: WELD, source: "the 'specialized class' + 'intelligence bureaus' remedy is the trunk rule-by-the-fit doctrine in the mass-media age"}
+  - {to: lippmann-dewey-debate, type: influenced, register: common-inheritance, grade: WELD, source: "Public Opinion (1922) is one of the two Lippmann primaries the debate turns on; Dewey answered its expert-remedy in The Public and Its Problems (1927)"}
 hypotheses:
   - {to: managed-child, type: restates, register: convergent-selection, grade: HYPOTHESIS, source: "the administered public is the political sibling of the managed child — the same administrable-stock impulse turned on the adult citizen; one root, two theaters; testimony, not a transmission line (S-5, R-3)"}
   - {to: the-root, type: restates, register: analogy, grade: HYPOTHESIS, source: "articulates the root's political face — the public as stock whose consent is conditioned by a competent class"}

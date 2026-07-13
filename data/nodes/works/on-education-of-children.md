@@ -13,8 +13,8 @@ sources:
   - "Martin Booth, A Magick Life (2000); Lawrence Sutin, Do What Thou Wilt (2000); Richard Kaczynski, Perdurabo (2010) — the Abbey of Thelema child-rearing regime, the resident children, and the death of 'Poupée' (Oct 1920) — [SECONDARY]"
 welds:
   - {to: crowley-aleister, type: authored, register: direct-transmission, grade: WELD, source: "Crowley, as 'The Master Therion', wrote the essay at the Abbey of Thelema in 1921; first printed in The Revival of Magick and Other Essays (Oriflamme 2), New Falcon 1998"}
-  - {to: aeon-of-the-child, type: restates, register: same-field, grade: WELD, source: "the essay operationalizes the Aeon-of-the-Child doctrine into a curriculum — 'Every child is absolute' is the pedagogical form of Liber AL I:3, 'Every man and every woman is a star'"}
-  - {to: liber-al-vel-legis, type: restates, register: same-field, grade: WELD, source: "the applied-pedagogy statement of the Book of the Law's child-aeon doctrine (I:3; the Crowned and Conquering Child)"}
+  - {to: aeon-of-the-child, type: restates, register: common-inheritance, grade: WELD, source: "the essay operationalizes the Aeon-of-the-Child doctrine into a curriculum — 'Every child is absolute' is the pedagogical form of Liber AL I:3, 'Every man and every woman is a star'"}
+  - {to: liber-al-vel-legis, type: restates, register: common-inheritance, grade: WELD, source: "the applied-pedagogy statement of the Book of the Law's child-aeon doctrine (I:3; the Crowned and Conquering Child)"}
 hypotheses:
   - {to: the-root, type: restates, register: analogy, grade: HYPOTHESIS, source: "articulates the root's liberation face — the child as sovereign material to be brought to its destined form under an elect's guardianship — in the esoteric idiom; testimony, not cause (S-3)"}
   - {to: montessori-maria, type: restates, register: analogy, grade: HYPOTHESIS, source: "shared educere / 'leading out', child-led autonomy; no documented contact, and Crowley's antagonism to the Theosophists who housed Montessori cuts against any line — the analyst's resemblance only (S-3)"}

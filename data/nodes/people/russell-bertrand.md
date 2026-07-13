@@ -12,7 +12,7 @@ sources:
   - "Bertrand Russell, The Impact of Science on Society (1952) — the passages on scientific manipulation, quoted in warning — [PRIMARY]"
   - "Russell's Coefficients membership and 1903 resignation over Grey's policy (Bertrand Russell, Autobiography, 1967) — [PRIMARY]"
 welds:
-  - {to: coefficients-club, type: member-of, register: worked-off, grade: WELD, source: "member of the Coefficients; resigned in 1903 when Grey espoused the Entente policy Russell believed would lead to war"}
+  - {to: coefficients-club, type: member-of, register: institutional-relay, grade: WELD, source: "member of the Coefficients; resigned in 1903 when Grey espoused the Entente policy Russell believed would lead to war"}
 tags: [rail-administrators, administrators, honesty-case]
 ---
 

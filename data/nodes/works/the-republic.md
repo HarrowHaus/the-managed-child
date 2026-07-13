@@ -12,7 +12,7 @@ sources:
   - "Plato, Republic, Bk III, 414b–415c — the noble lie / myth of the metals — [PRIMARY]"
   - "Plato, Republic, Bk V, 457c–466d — the guardians' children raised in common — [PRIMARY]"
 welds:
-  - {to: rule-by-trained-elite, type: influenced, register: worked-off, grade: WELD, source: "the founding text the guardian doctrine is read off — the Fabians took no instruction from Plato but reached his conclusion by reading his book"}
+  - {to: rule-by-trained-elite, type: influenced, register: common-inheritance, grade: WELD, source: "the founding text the guardian doctrine is read off — the Fabians took no instruction from Plato but reached his conclusion by reading his book"}
 tags: [trunk]
 ---
 

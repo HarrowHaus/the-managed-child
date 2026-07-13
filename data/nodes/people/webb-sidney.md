@@ -13,10 +13,10 @@ sources:
   - "Fabian Essays in Socialism (1889) — Webb one of the contributors — [PRIMARY]"
   - "Co-founding of the London School of Economics (1895) and the Coefficients dining club (1902) — [SECONDARY: standard biographical record]"
 welds:
-  - {to: fabian-society, type: member-of, register: worked-off, grade: WELD, source: "founding-era Fabian; contributor to Fabian Essays (1889); author of the 1923 'inevitability of gradualness' address"}
-  - {to: rule-by-trained-elite, type: restates, register: same-field, grade: WELD, source: "gradualist permeation is the trunk doctrine's modern administrative form, stated in Webb's own address"}
-  - {to: coefficients-club, type: founded, register: worked-off, grade: WELD, source: "Sidney and Beatrice Webb founded the Coefficients dining club in 1902"}
-  - {to: webb-beatrice, type: co-authored, register: worked-off, grade: WELD, source: "married Beatrice Potter (1892); co-authored the Fabian social-science corpus — Industrial Democracy (1897), English Local Government, Soviet Communism: A New Civilisation? (1935) — and co-founded the LSE (1895) and the Coefficients (1902)"}
+  - {to: fabian-society, type: member-of, register: institutional-relay, grade: WELD, source: "founding-era Fabian; contributor to Fabian Essays (1889); author of the 1923 'inevitability of gradualness' address"}
+  - {to: rule-by-trained-elite, type: restates, register: common-inheritance, grade: WELD, source: "gradualist permeation is the trunk doctrine's modern administrative form, stated in Webb's own address"}
+  - {to: coefficients-club, type: founded, register: direct-transmission, grade: WELD, source: "Sidney and Beatrice Webb founded the Coefficients dining club in 1902"}
+  - {to: webb-beatrice, type: co-authored, register: direct-transmission, grade: WELD, source: "married Beatrice Potter (1892); co-authored the Fabian social-science corpus — Industrial Democracy (1897), English Local Government, Soviet Communism: A New Civilisation? (1935) — and co-founded the LSE (1895) and the Coefficients (1902)"}
 tags: [rail-administrators, administrators, trunk]
 ---
 

@@ -13,7 +13,7 @@ sources:
   - "The Canadian Encyclopedia, 'MKUltra' — Cameron at the Allan Memorial; the 1992 compensation of 77 survivors (C$100,000 each) under the Allan Memorial Institute Depatterned Persons Assistance Plan, and 250+ claimants denied; the 2025 class action (Ponting, Tanny) — https://www.thecanadianencyclopedia.ca/en/article/mkultra — [SECONDARY]"
   - "Wikipedia, 'Montreal experiments' — Cameron paid $69,000 through the front company 'Society for the Investigation of Human Ecology', 1957–1964 — https://en.wikipedia.org/wiki/Montreal_experiments — [SECONDARY]"
 welds:
-  - {to: mkultra, type: member-of, register: worked-off, grade: WELD, source: "Cameron's Allan Memorial work was funded as MKUltra Subproject 68 through the Society for the Investigation of Human Ecology, a CIA front"}
+  - {to: mkultra, type: member-of, register: institutional-relay, grade: WELD, source: "Cameron's Allan Memorial work was funded as MKUltra Subproject 68 through the Society for the Investigation of Human Ecology, a CIA front"}
 hypotheses: []
 tags: [rail-enactment, enactment, smoothing]
 ---

@@ -12,8 +12,8 @@ sources:
   - "House Oversight, 'Luna Opens Hearing on MKULTRA Project Transparency', 30 June 2026 — quoting the CIA's own document ('Over my stated objections, the MKULTRA files were destroyed by the order of DCI shortly before his departure from office') and the destruction of 152 files — https://oversight.house.gov/release/luna-opens-hearing-on-mkultra-project-transparency/ — [PRIMARY]"
   - "National Security Archive — Helms, as DCI in 1973, ordered the destruction of the CIA's MKUltra files, days before he was replaced — [SECONDARY]"
 welds:
-  - {to: sanitized-1977-testimony, type: precedes, register: same-field, grade: WELD, source: "the 1973 destruction preceded and set the conditions for the sanitized 1977 testimony; chronological, no causal claim beyond sequence"}
-  - {to: the-smoothing, type: restates, register: same-field, grade: WELD, source: "destroying the primary record — the over-tidying pattern in its bluntest instance"}
+  - {to: sanitized-1977-testimony, type: precedes, register: analogy, grade: WELD, source: "the 1973 destruction preceded and set the conditions for the sanitized 1977 testimony; chronological, no causal claim beyond sequence"}
+  - {to: the-smoothing, type: restates, register: analogy, grade: WELD, source: "destroying the primary record — the over-tidying pattern in its bluntest instance"}
 hypotheses: []
 tags: [rail-smoothing, smoothing]
 ---

@@ -13,7 +13,7 @@ sources:
   - "Church of Scientology statement to the Sunday Times, December 1969: Hubbard 'was sent in to handle the situation [of black magic being practised in a house in Pasadena]… The black magic group was dispersed and never recovered.' — [PRIMARY]"
   - "Russell Miller, Bare-Faced Messiah (1987), and the Carnegie Mellon 'Shelf' archive of the Latey judgment — https://www.cs.cmu.edu/~dst/Library/Shelf/lamont/guru.htm — [SECONDARY]"
 welds:
-  - {to: the-smoothing, type: restates, register: same-field, grade: WELD, source: "a tidy cover story entered and rejected from the bench — the over-tidying pattern caught in court"}
+  - {to: the-smoothing, type: restates, register: analogy, grade: WELD, source: "a tidy cover story entered and rejected from the bench — the over-tidying pattern caught in court"}
 hypotheses: []
 tags: [rail-smoothing, smoothing]
 ---

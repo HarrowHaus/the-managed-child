@@ -11,8 +11,8 @@ abstract: "The seed text of the esoteric articulation, received by Aleister Crow
 sources:
   - "Liber AL vel Legis sub figura CCXX (The Book of the Law), 1904 — I:10, 'Let my servants be few & secret: they shall rule the many & the known'; Ch. III, the Crowned and Conquering Child — [PRIMARY] (text confirmed against Wikisource / Hermetic Library)"
 welds:
-  - {to: the-root, type: restates, register: same-field, grade: WELD, source: "'few & secret… rule the many & the known' is the root — administration of the many by an elect — stated in the text"}
-  - {to: aeon-of-the-child, type: restates, register: same-field, grade: WELD, source: "Chapter III proclaims the Aeon of the Crowned and Conquering Child"}
+  - {to: the-root, type: restates, register: common-inheritance, grade: WELD, source: "'few & secret… rule the many & the known' is the root — administration of the many by an elect — stated in the text"}
+  - {to: aeon-of-the-child, type: restates, register: common-inheritance, grade: WELD, source: "Chapter III proclaims the Aeon of the Crowned and Conquering Child"}
 hypotheses: []
 tags: [rail-articulation, articulation, seed]
 ---

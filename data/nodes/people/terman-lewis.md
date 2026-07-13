@@ -12,9 +12,9 @@ sources:
   - "Lewis M. Terman, The Measurement of Intelligence (1916) — the Stanford revision of the Binet–Simon scale (Stanford–Binet) — [PRIMARY]"
   - "Terman's 1905 Clark doctorate under G. Stanley Hall; memberships in the Human Betterment Foundation, American Eugenics Society, and Eugenics Research Association — [SECONDARY: standard biographical record; VERIFY membership rolls against primary]"
 welds:
-  - {to: managed-child, type: restates, register: same-field, grade: WELD, source: "the Stanford–Binet (1916) turns the child into a tracked, sorted population — the measurement move of the enactment rail"}
+  - {to: managed-child, type: restates, register: convergent-selection, grade: WELD, source: "the Stanford–Binet (1916) turns the child into a tracked, sorted population — the measurement move of the enactment rail"}
 hypotheses:
-  - {to: galton-francis, type: restates, register: same-field, grade: HYPOTHESIS, source: "Terman worked squarely in the Galtonian hereditarian-eugenic tradition; a documented direct citation has not been attached here — held as parallel, not asserted as transmission"}
+  - {to: galton-francis, type: restates, register: common-inheritance, grade: HYPOTHESIS, source: "Terman worked squarely in the Galtonian hereditarian-eugenic tradition; a documented direct citation has not been attached here — held as parallel, not asserted as transmission"}
 tags: [rail-enactment, enactment]
 ---
 

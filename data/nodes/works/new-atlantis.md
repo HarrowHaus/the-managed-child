@@ -11,7 +11,7 @@ abstract: "Bacon's unfinished utopia, published 1627. The island of Bensalem is 
 sources:
   - "Francis Bacon, New Atlantis (1627) — 'we take all an oath of secrecy for the concealing of those which we think fit to keep secret' — [PRIMARY]"
 welds:
-  - {to: rule-by-trained-elite, type: influenced, register: worked-off, grade: WELD, source: "the scientific version of the guardian doctrine: an elect that interfaces with the public and decides what it may know"}
+  - {to: rule-by-trained-elite, type: influenced, register: common-inheritance, grade: WELD, source: "the scientific version of the guardian doctrine: an elect that interfaces with the public and decides what it may know"}
 tags: [trunk]
 ---
 

@@ -13,8 +13,8 @@ sources:
   - "Phyllis Schlemmer, The Only Planet of Choice (1993) — transcript record naming Roddenberry among the participants — [PRIMARY: partisan channeling source]"
   - "Gene Roddenberry as creator of Star Trek (debuted 1966) — [standard biographical record]"
 welds:
-  - {to: puharich-andrija, type: met, register: worked-off, grade: WELD, source: "attended the 1974–75 Ossining 'Nine' sessions run through Puharich's circle, Schlemmer as medium (Kripal 2011; transcript record in The Only Planet of Choice)"}
-  - {to: four-idiom-through-line, type: restates, register: same-field, grade: WELD, source: "the point at which the channeled-council idiom reaches mass media — a television creator at the séance table"}
+  - {to: puharich-andrija, type: met, register: direct-transmission, grade: WELD, source: "attended the 1974–75 Ossining 'Nine' sessions run through Puharich's circle, Schlemmer as medium (Kripal 2011; transcript record in The Only Planet of Choice)"}
+  - {to: four-idiom-through-line, type: restates, register: convergent-selection, grade: WELD, source: "the point at which the channeled-council idiom reaches mass media — a television creator at the séance table"}
 tags: [rail-articulation, articulation]
 ---
 

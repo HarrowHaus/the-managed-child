@@ -11,8 +11,8 @@ abstract: "Christopher Vogler (b. 1949), a Hollywood story analyst, distilled Ca
 sources:
   - "Christopher Vogler, 'A Practical Guide to Joseph Campbell's The Hero with a Thousand Faces' (Walt Disney internal memo, 1985); The Writer's Journey: Mythic Structure for Writers (1992 and later editions); story contribution to Disney's The Lion King — [PRIMARY / documented industrial record]"
 welds:
-  - {to: campbell-joseph, type: influenced, register: worked-off, grade: WELD, source: "adapted Campbell's monomyth into the 1985 Disney memo and The Writer's Journey"}
-  - {to: lifespan-continuum, type: restates, register: same-field, grade: WELD, source: "the industrial adoption of one story-template — the grown child fed a standardized narrative through mass media"}
+  - {to: campbell-joseph, type: influenced, register: direct-transmission, grade: WELD, source: "adapted Campbell's monomyth into the 1985 Disney memo and The Writer's Journey"}
+  - {to: lifespan-continuum, type: restates, register: convergent-selection, grade: WELD, source: "the industrial adoption of one story-template — the grown child fed a standardized narrative through mass media"}
 tags: [rail-lifespan, lifespan]
 ---
 

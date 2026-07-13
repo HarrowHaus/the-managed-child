@@ -12,7 +12,7 @@ sources:
   - "Buck v. Bell, 274 U.S. 200 (1927), majority opinion of Holmes J. — 'Three generations of imbeciles are enough'; the compulsory-vaccination analogy — [PRIMARY]"
   - "The Virginia Sterilization Act of 1924, modeled on Laughlin's Model Eugenical Sterilization Law (1922); Laughlin supplied an expert deposition — [SECONDARY]"
 welds:
-  - {to: the-root, type: restates, register: same-field, grade: WELD, source: "the ranking of the stock made binding constitutional law — the root in the register of the court"}
+  - {to: the-root, type: restates, register: common-inheritance, grade: WELD, source: "the ranking of the stock made binding constitutional law — the root in the register of the court"}
 tags: [rail-enactment, enactment, eugenics]
 ---
 

@@ -17,12 +17,12 @@ sources:
   - "H.G. Wells, 'Faults of the Fabian' (paper delivered to a members-only meeting, February 1906) — [PRIMARY]"
   - "H.G. Wells, Experiment in Autobiography (1934) — [VERIFY: cited in the map for the Coefficients material; not checked against the text]"
 welds:
-  - {to: huxley-julian, type: influenced, register: worked-off, grade: WELD, source: "co-authored The Science of Life (1929–30) with Julian Huxley and G.P. Wells — a documented collaboration, not a resemblance"}
-  - {to: fabian-society, type: member-of, register: worked-off, grade: WELD, source: "Fabian who delivered 'Faults of the Fabian' (Feb 1906), was defeated by Shaw at the general meeting of 14 December 1906, and resigned in 1908"}
-  - {to: coefficients-club, type: member-of, register: worked-off, grade: WELD, source: "member of the Webb-founded dining club (1902–09)"}
-  - {to: rule-by-trained-elite, type: restates, register: same-field, grade: WELD, source: "The Open Conspiracy is Fabian permeation rewritten as an openly declared managerial world order"}
+  - {to: huxley-julian, type: influenced, register: direct-transmission, grade: WELD, source: "co-authored The Science of Life (1929–30) with Julian Huxley and G.P. Wells — a documented collaboration, not a resemblance"}
+  - {to: fabian-society, type: member-of, register: institutional-relay, grade: WELD, source: "Fabian who delivered 'Faults of the Fabian' (Feb 1906), was defeated by Shaw at the general meeting of 14 December 1906, and resigned in 1908"}
+  - {to: coefficients-club, type: member-of, register: institutional-relay, grade: WELD, source: "member of the Webb-founded dining club (1902–09)"}
+  - {to: rule-by-trained-elite, type: restates, register: common-inheritance, grade: WELD, source: "The Open Conspiracy is Fabian permeation rewritten as an openly declared managerial world order"}
 hypotheses:
-  - {to: crowley-aleister, type: restates, register: same-field, grade: HYPOTHESIS, source: "shared early-20thC London literary milieu only; no documented intellectual tie in either direction"}
+  - {to: crowley-aleister, type: restates, register: analogy, grade: HYPOTHESIS, source: "shared early-20thC London literary milieu only; no documented intellectual tie in either direction"}
 tags: [administrators, technocrat, trunk, enactment]
 ---
 

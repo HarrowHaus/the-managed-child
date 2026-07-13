@@ -10,7 +10,7 @@ status: drafted
 sources:
   - "The Only Planet of Choice: Essential Briefings from Deep Space, channelled through Phyllis V. Schlemmer, compiled & edited by Palden Jenkins (Gateway Books, 1993, ISBN 1-85860-003-1) — transmissions attributed to a 'Council of Nine' (spokesperson 'Tom'), presenting humanity as guided toward a planned end and Earth as 'the only planet of choice'; full text on archive.org — [PRIMARY]"
 welds:
-  - {to: four-idiom-through-line, type: restates, register: same-field, grade: WELD, source: "the channeled idiom's clearest late text — a hidden council steering human evolution toward a planned destiny; the belief itself is the datum (the current that says out loud what the institutions did quietly)"}
+  - {to: four-idiom-through-line, type: restates, register: convergent-selection, grade: WELD, source: "the channeled idiom's clearest late text — a hidden council steering human evolution toward a planned destiny; the belief itself is the datum (the current that says out loud what the institutions did quietly)"}
 hypotheses:
   - {to: the-root, type: restates, register: analogy, grade: HYPOTHESIS, source: "the on-the-nose channeled restatement of the root — humanity as stock guided toward a planned end by a superior council; symptom/articulation in the esoteric-dispersal register, not a cause (S-5)"}
 tags: [rail-esoteric, esoteric, dispersal]
