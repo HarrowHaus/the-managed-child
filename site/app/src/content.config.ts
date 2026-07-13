@@ -11,13 +11,22 @@ const edgeType = z.enum([
   'read', 'authored', 'co-authored', 'met', 'influenced', 'mentored', 'groomed', 'advised',
   'funded', 'founded', 'member-of', 'broke-from', 'restates', 'precedes', 'no-relay',
 ]);
-const transmission = z.enum(['worked-off', 'same-field', 'none']);
+// v1 legacy registers + v2 mechanism classes (EDGE-VOCABULARY.md v2, MASTER-SPEC
+// 2.1). Both valid during the Phase-4 per-edge migration.
+const transmission = z.enum([
+  'worked-off', 'same-field', 'none',
+  'direct-transmission', 'institutional-relay', 'network-exposure',
+  'common-inheritance', 'convergent-selection', 'analogy',
+]);
 const edge = z.object({
   to: z.string(),
   type: edgeType,
   register: transmission.optional(),
   grade: z.string().optional(),
   source: z.string().optional(),
+  // MASTER-SPEC 2.5 (the Sgt. Pepper principle): what the act cost, meant, and
+  // signalled in its year — required on cultural-reference edges, backfilled in Phase 4.
+  period_context: z.string().optional(),
 });
 const edgeList = z.array(edge).nullish().transform((v) => v ?? []);
 const strList = z.array(z.string()).nullish().transform((v) => v ?? []);

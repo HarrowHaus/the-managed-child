@@ -21,7 +21,14 @@ export const EDGE_TYPES = new Set([
   'read', 'authored', 'co-authored', 'met', 'influenced', 'mentored', 'groomed', 'advised',
   'funded', 'founded', 'member-of', 'broke-from', 'restates', 'precedes', 'no-relay',
 ]);
-export const EDGE_REGISTERS = new Set(['worked-off', 'same-field', 'none']);
+// v1 legacy registers + v2 mechanism classes (MASTER-SPEC 2.1). Both are valid
+// during the Phase-4 per-edge migration; `no-relay`/`none` is retired per L3 but
+// still lints while legacy edges carry it, pending migration to a bounded negative.
+export const EDGE_REGISTERS = new Set([
+  'worked-off', 'same-field', 'none',
+  'direct-transmission', 'institutional-relay', 'network-exposure',
+  'common-inheritance', 'convergent-selection', 'analogy',
+]);
 
 function walk(dir) {
   const out = [];
