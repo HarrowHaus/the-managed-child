@@ -1,5 +1,5 @@
 # NODE INDEX (generated)
-*Machine-generated from data/nodes/** on every build — do not hand-edit. 115 nodes.*
+*Machine-generated from data/nodes/** on every build — do not hand-edit. 118 nodes.*
 
 ## people
 - `anger-kenneth` — Kenneth Anger *(WELD)*
@@ -103,10 +103,13 @@
 
 ## works
 - `beatles-sgt-pepper` — Crowley on the Sgt. Pepper Cover *(WELD)*
+- `fabian-essays` — Fabian Essays in Socialism *(WELD)*
+- `hero-thousand-faces` — The Hero with a Thousand Faces *(WELD)*
 - `liber-al-vel-legis` — Liber AL vel Legis (The Book of the Law) *(WELD)*
 - `new-atlantis` — New Atlantis *(WELD)*
 - `on-education-of-children` — On the Education of Children (Crowley) *(WELD)*
 - `psychological-care` — Psychological Care of Infant and Child (Watson) *(WELD)*
+- `public-opinion` — Public Opinion (Lippmann) *(WELD)*
 - `satanic-bible` — The Satanic Bible *(WELD)*
 - `the-republic` — The Republic *(WELD)*
 - `unesco-purpose-philosophy` — UNESCO: Its Purpose and Its Philosophy *(WELD)*
