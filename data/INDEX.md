@@ -1,5 +1,5 @@
 # NODE INDEX (generated)
-*Machine-generated from data/nodes/** on every build — do not hand-edit. 133 nodes.*
+*Machine-generated from data/nodes/** on every build — do not hand-edit. 134 nodes.*
 
 ## people
 - `anger-kenneth` — Kenneth Anger *(WELD)*
@@ -143,3 +143,4 @@
 - `real-enemies` — Real Enemies (Olmsted) *(FRAME)*
 - `rule-by-trained-elite` — The Trunk: rule-by-trained-elite *(WELD)*
 - `the-root` — The Root: humanity as administrable stock *(WELD)*
+- `the-smoothing` — The Smoothing *(WELD)*

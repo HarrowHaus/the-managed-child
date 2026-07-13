@@ -13,6 +13,7 @@ sources:
   - "National Security Archive (George Washington University) — the facsimile of the substituted MKUltra document O'Neill located — [PRIMARY]"
 welds:
   - {to: west-louis-jolyon, type: authored, register: worked-off, grade: WELD, source: "the 1956 report is West's own; its documented finding was replaced by another hand before reaching the 1977 committee (O'Neill testimony; NSA facsimile)"}
+  - {to: the-smoothing, type: restates, register: same-field, grade: WELD, source: "the finding rewritten in another hand — the over-tidying pattern in the register of the document"}
 hypotheses: []
 tags: [rail-smoothing, smoothing]
 ---

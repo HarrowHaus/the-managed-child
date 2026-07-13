@@ -10,8 +10,10 @@ status: drafted
 abstract: "The interpretive spine of the smoothing rail, from historian Kathryn Olmsted's Real Enemies (Oxford University Press): documented government secrecy, lies, and real conspiracies are what fuel conspiracy theories — 'if antigovernment conspiracy theorists get the details wrong… they get the basic issue right.' A lens for reading the smoothing, not a licence for any intent-claim: it explains why over-tidying breeds false certainty, and never validates a particular one."
 sources:
   - "Kathryn S. Olmsted, Real Enemies: Conspiracy Theories and American Democracy, World War I to 9/11 (Oxford University Press) — the thesis that state secrecy and real conspiracies fuel conspiracy escalation; cites Operation Northwoods — [SECONDARY]"
+  - "Operation Northwoods — Joint Chiefs of Staff memorandum, 13 March 1962 (National Security Archive facsimile) — the documented real conspiracy Olmsted's frame rests an instance on — [PRIMARY]"
   - "Christopher R. Leslie, 'How To Hide A Price-Fixing Conspiracy: Denial, Deception, and Destruction of Evidence', University of Illinois Law Review (2021) — a non-political analogue: destroyed records + reflexive denial are a recognized concealment signature — [SECONDARY]"
-welds: []
+welds:
+  - {to: the-smoothing, type: authored, register: worked-off, grade: WELD, source: "Olmsted's Real Enemies is the account that names the over-tidying pattern and states its consequence"}
 hypotheses: []
 tags: [audit, smoothing, frame]
 ---

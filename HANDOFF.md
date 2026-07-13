@@ -43,7 +43,7 @@ A contribution enters `main` only if every new claim (a) states its **grade**, (
 <!-- GEN:STATE:START -->
 ## 6. Project state & next action — GENERATED (do not hand-edit; `npm run gen-handoff`)
 
-- **Corpus:** 133 nodes across data/nodes/**, 24 shipped reading-entries, **6 live readings**.
+- **Corpus:** 134 nodes across data/nodes/**, 24 shipped reading-entries, **6 live readings**.
   - Reading I — The Managed Child
   - Reading II — The Aeon Current
   - Reading III — The Smoothing
