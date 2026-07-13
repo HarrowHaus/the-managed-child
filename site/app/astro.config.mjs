@@ -6,6 +6,7 @@ import rehypeSourceFootnotes from './src/lib/rehype-source-footnotes.mjs';
 import rehypeEssayNodeLinks from './src/lib/rehype-essay-node-links.mjs';
 import gradeVocabGuard from './src/lib/integration-grade-vocab.mjs';
 import edgeLint from './src/lib/integration-edge-lint.mjs';
+import indexCountLint from './src/lib/integration-index-lint.mjs';
 
 // The Managed Child — reading environment on a fork of Gwern's frontend.
 // build.format 'directory' keeps URLs extensionless and dot-free (e.g.
@@ -16,7 +17,7 @@ export default defineConfig({
   site: 'https://the-managed-child.example',
   trailingSlash: 'ignore',
   build: { format: 'directory' },
-  integrations: [edgeLint(), gradeVocabGuard()],
+  integrations: [edgeLint(), indexCountLint(), gradeVocabGuard()],
   markdown: {
     smartypants: true,
     gfm: true,

@@ -1,74 +1,137 @@
 # NODE INDEX (generated)
+*Machine-generated from data/nodes/** on every build — do not hand-edit. 133 nodes.*
 
 ## people
+- `anger-kenneth` — Kenneth Anger *(WELD)*
+- `bacon-francis` — Francis Bacon *(WELD)*
 - `bailey-alice` — Alice Bailey *(WELD)*
 - `bernays-edward` — Edward Bernays *(WELD)*
 - `besant-annie` — Annie Besant *(WELD)*
-- `burnham-james` — James Burnham *(WELD)*
+- `binet-alfred` — Alfred Binet *(WELD)*
+- `blavatsky-helena` — Helena Blavatsky *(WELD)*
+- `burnham-james` — James Burnham *(HYPOTHESIS)*
+- `cameron-marjorie` — Marjorie Cameron *(WELD)*
 - `campbell-joseph` — Joseph Campbell *(WELD)*
 - `crowley-aleister` — Aleister Crowley *(WELD)*
 - `cubberley-ellwood` — Ellwood Cubberley *(WELD)*
+- `dana-rotting-jewels` — Dana / Rotting Jewels *(WELD)*
+- `davenport-charles` — Charles Davenport *(WELD)*
+- `david-bowie` — David Bowie *(WELD)*
 - `dewey-john` — John Dewey *(WELD)*
-- `eliade-mircea` — Mircea Eliade *(WELD)*
-- `fleming-ian` — Ian Fleming *(WELD)*
+- `eliade-mircea` — Mircea Eliade *(HYPOTHESIS)*
+- `fleming-ian` — Ian Fleming *(HYPOTHESIS)*
+- `freud-sigmund` — Sigmund Freud *(WELD)*
 - `galton-francis` — Francis Galton *(WELD)*
+- `gardner-gerald` — Gerald Gardner *(WELD)*
+- `genesis-p-orridge` — Genesis P-Orridge *(WELD)*
 - `gesell-arnold` — Arnold Gesell *(WELD)*
+- `goddard-henry` — Henry H. Goddard *(WELD)*
 - `hall-g-stanley` — G. Stanley Hall *(WELD)*
-- `hall-manly-p` — Manly P. Hall *(WELD)*
+- `hall-manly-p` — Manly P. Hall *(HYPOTHESIS)*
+- `hank-harrison` — Hank Harrison *(HYPOTHESIS)*
 - `holt-l-emmett` — L. Emmett Holt *(WELD)*
 - `hubbard-lron` — L. Ron Hubbard *(WELD)*
-- `huxley-aldous` — Aldous Huxley *(WELD)*
+- `huxley-aldous` — Aldous Huxley *(HYPOTHESIS)*
 - `huxley-julian` — Julian Huxley *(WELD)*
 - `huxley-th` — T. H. Huxley *(WELD)*
-- `jung-cg` — C. G. Jung *(WELD-parallel)*
+- `james-william` — William James *(WELD)*
+- `jay-z` — Jay-Z *(WELD)*
+- `jimmy-page` — Jimmy Page *(WELD)*
+- `judge-william-quan` — William Quan Judge *(WELD)*
+- `jung-cg` — C. G. Jung *(HYPOTHESIS)*
+- `ken-kesey` — Ken Kesey *(WELD)*
 - `krishnamurti-jiddu` — Jiddu Krishnamurti *(WELD)*
-- `leadbeater-cw` — Charles Leadbeater *(WELD)*
+- `laughlin-harry` — Harry Laughlin *(WELD)*
+- `lavey-anton` — Anton LaVey *(WELD)*
+- `leadbeater-cw` — C. W. Leadbeater *(HYPOTHESIS)*
 - `lippmann-walter` — Walter Lippmann *(WELD)*
 - `mann-horace` — Horace Mann *(WELD)*
+- `montessori-maria` — Maria Montessori *(WELD)*
+- `olcott-henry-steel` — Henry Steel Olcott *(WELD)*
+- `owsley-stanley` — Owsley Stanley *(WELD)*
+- `ozzy-osbourne` — Ozzy Osbourne *(WELD)*
 - `parsons-jack` — Jack Parsons *(WELD)*
 - `pearson-karl` — Karl Pearson *(WELD)*
+- `plato` — Plato *(WELD)*
 - `puharich-andrija` — Andrija Puharich *(WELD)*
-- `quigley-carroll` — Carroll Quigley *(HYPOTHESIS-fenced)*
+- `quigley-carroll` — Carroll Quigley *(HYPOTHESIS)*
 - `roddenberry-gene` — Gene Roddenberry *(WELD)*
-- `russell-bertrand` — Bertrand Russell *(WELD-verified)*
-- `shaw-george-bernard` — George Bernard Shaw *(WELD)*
+- `russell-bertrand` — Bertrand Russell *(WELD)*
+- `shaw-george-bernard` — George Bernard Shaw *(HYPOTHESIS)*
 - `spock-benjamin` — Benjamin Spock *(WELD)*
 - `steiner-rudolf` — Rudolf Steiner *(WELD)*
 - `terman-lewis` — Lewis Terman *(WELD)*
 - `vogler-christopher` — Christopher Vogler *(WELD)*
 - `watson-john-b` — John B. Watson *(WELD)*
-- `webb-beatrice` — Beatrice Webb *(WELD)*
+- `webb-beatrice` — Beatrice Webb *(HYPOTHESIS)*
 - `webb-sidney` — Sidney Webb *(WELD)*
 - `wells-hg` — H. G. Wells *(WELD)*
-- `wheatley-dennis` — Dennis Wheatley *(WELD)*
-
-## works
-- `brave-new-world` — Brave New World *(WELD)*
-- `externalisation-hierarchy` — The Externalisation of the Hierarchy (Bailey) *(WELD)*
-- `fabian-essays` — Fabian Essays in Socialism *(WELD)*
-- `hero-thousand-faces` — The Hero with a Thousand Faces *(WELD)*
-- `liber-al-vel-legis` — Liber AL vel Legis (The Book of the Law) *(WELD)*
-- `on-education-of-children` — On the Education of Children (Crowley) *(WELD)*
-- `only-planet-of-choice` — The Only Planet of Choice *(WELD)*
-- `psychological-care` — Psychological Care of Infant and Child (Watson) *(WELD)*
-- `public-opinion` — Public Opinion (Lippmann) *(WELD)*
-- `unesco-purpose-philosophy` — UNESCO: Its Purpose and Its Philosophy *(WELD)*
+- `west-louis-jolyon` — Louis Jolyon West *(WELD)*
+- `wheatley-dennis` — Dennis Wheatley *(HYPOTHESIS)*
+- `yerkes-robert` — Robert Yerkes *(WELD)*
 
 ## institutions
-- `coefficients-club` — The Coefficients Dining Club *(WELD)*
+- `agape-lodge` — Agapé Lodge No. 2 *(WELD)*
+- `church-committee` — The Church Committee *(WELD)*
+- `church-of-satan` — The Church of Satan *(WELD)*
+- `coefficients-club` — The Coefficients Dining Club *(HYPOTHESIS)*
+- `cointelpro` — COINTELPRO *(WELD)*
+- `eugenics-record-office` — The Eugenics Record Office *(WELD)*
+- `eugenics-society-uk` — The Eugenics Society (UK) *(WELD)*
 - `fabian-society` — Fabian Society *(WELD)*
+- `gardnerian-wicca` — Gardnerian Wicca *(WELD)*
+- `grateful-dead` — The Grateful Dead *(WELD)*
+- `human-betterment-foundation` — The Human Betterment Foundation *(WELD)*
+- `iron-maiden` — Iron Maiden *(WELD)*
 - `jpl` — Jet Propulsion Laboratory *(WELD)*
-- `jwt` — J. Walter Thompson *(WELD)*
-- `lab-nine` — Lab Nine / Round Table Foundation *(WELD)*
-- `lucis-trust` — Lucis Trust *(WELD)*
-- `order-of-the-star` — Order of the Star in the East *(WELD)*
+- `jwt` — J. Walter Thompson *(HYPOTHESIS)*
+- `lab-nine` — Lab Nine / Round Table Foundation *(HYPOTHESIS)*
+- `lucis-trust` — Lucis Trust *(HYPOTHESIS)*
+- `mkultra` — MKUltra *(WELD)*
+- `order-of-the-star` — Order of the Star in the East *(HYPOTHESIS)*
+- `royal-society` — The Royal Society *(WELD)*
+- `scientology` — Scientology *(WELD)*
 - `spr` — Society for Psychical Research *(WELD)*
 - `theosophical-society` — Theosophical Society *(WELD)*
 - `unesco` — UNESCO *(WELD)*
 
+## events
+- `acid-tests` — The Acid Tests *(WELD)*
+- `altered-west-document` — The Altered West Report *(WELD)*
+- `babalon-working` — The Babalon Working *(WELD)*
+- `buck-v-bell` — Buck v. Bell *(WELD)*
+- `cameron-allan-memorial` — Cameron & the Allan Memorial (Subproject 68) *(WELD)*
+- `fcc-1984` — FCC Deregulation 1984 *(WELD)*
+- `gulf-of-tonkin` — The Gulf of Tonkin (the distortion) *(WELD)*
+- `helms-file-destruction-1973` — The 1973 MKUltra File Destruction *(WELD)*
+- `krishnamurti-custody` — The Krishnamurti Custody Case *(WELD)*
+- `latey-judgment` — The Latey Judgment *(WELD)*
+- `lippmann-dewey-debate` — The Lippmann-Dewey Debate *(WELD)*
+- `mkultra-hearing-2026` — The June 2026 MKUltra Hearing *(WELD)*
+- `ojai-convergence` — The Ojai Convergence *(HYPOTHESIS)*
+- `operation-northwoods` — Operation Northwoods *(WELD)*
+- `process-v-sanders` — Process Church v. Sanders (the retraction) *(WELD)*
+- `sanitized-1977-testimony` — The Sanitized 1977 Testimony *(WELD)*
+
+## works
+- `beatles-sgt-pepper` — Crowley on the Sgt. Pepper Cover *(WELD)*
+- `brave-new-world` — Brave New World *(HYPOTHESIS)*
+- `externalisation-hierarchy` — The Externalisation of the Hierarchy (Bailey) *(HYPOTHESIS)*
+- `fabian-essays` — Fabian Essays in Socialism *(HYPOTHESIS)*
+- `hero-thousand-faces` — The Hero with a Thousand Faces *(HYPOTHESIS)*
+- `liber-al-vel-legis` — Liber AL vel Legis (The Book of the Law) *(WELD)*
+- `new-atlantis` — New Atlantis *(WELD)*
+- `on-education-of-children` — On the Education of Children (Crowley) *(HYPOTHESIS)*
+- `only-planet-of-choice` — The Only Planet of Choice *(HYPOTHESIS)*
+- `psychological-care` — Psychological Care of Infant and Child (Watson) *(WELD)*
+- `public-opinion` — Public Opinion (Lippmann) *(HYPOTHESIS)*
+- `satanic-bible` — The Satanic Bible *(WELD)*
+- `the-republic` — The Republic *(WELD)*
+- `unesco-purpose-philosophy` — UNESCO: Its Purpose and Its Philosophy *(WELD)*
+
 ## concepts
 - `aeon-of-the-child` — The Aeon of the Child *(WELD)*
-- `double-parentage` — Double-parentage (liberation + control) *(WELD)*
+- `double-parentage` — Double-parentage (liberation + control) *(FRAME)*
 - `four-idiom-through-line` — The Four-Idiom Through-Line *(WELD)*
 - `grading-system` — The Grading System *(PRINCIPLE)*
 - `hard-sourcing-rule` — The Hard Sourcing Rule *(PRINCIPLE)*
@@ -77,14 +140,6 @@
 - `method-stance` — The Method Stance (reverberation not coordination) *(PRINCIPLE)*
 - `moonchild` — The Moonchild / managed divine-child *(WELD)*
 - `permeation` — Permeation / gradualness *(WELD)*
+- `real-enemies` — Real Enemies (Olmsted) *(FRAME)*
 - `rule-by-trained-elite` — The Trunk: rule-by-trained-elite *(WELD)*
 - `the-root` — The Root: humanity as administrable stock *(WELD)*
-
-## events
-- `babalon-working` — The Babalon Working *(WELD)*
-- `coefficients-1902` — Founding of the Coefficients *(WELD)*
-- `fcc-1984` — FCC Deregulation 1984 *(WELD)*
-- `krishnamurti-custody` — The Krishnamurti Custody Case *(WELD)*
-- `lippmann-dewey-debate` — The Lippmann-Dewey Debate *(WELD)*
-- `ojai-convergence` — The Ojai Convergence *(WELD)*
-
