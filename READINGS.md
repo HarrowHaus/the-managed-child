@@ -24,6 +24,11 @@
 1. the-seed-and-the-flood
 *(extends as §B/§J deepens — the West/Haight hinge, the contested Menlo hop, and the counterculture's private economy each reach entry-density)*
 
+## Reading VI — The Manufactured Faiths
+*Twentieth-century faiths built in the open by named founders from identifiable older sources — modern witchcraft, the Church of Satan, Scientology — each borrowing from Crowley while claiming an antiquity or a revelation the record does not carry.*
+1. scripture-with-a-bibliography
+*(extends as §E deepens — the Gardner/Valiente authorship split, the LaVey biography seam, and further constructed movements each reach entry-density)*
+
 ## The Method *(serves every reading)*
 - a-great-deal-of-reading (reverberation-not-conspiracy)
 
@@ -31,6 +36,6 @@
 - either-way
 
 ## Planned readings (register on essay-density; provisional per AUTOPILOT branching law)
-- The Manufactured Faiths (§E) — head essay `scripture-with-a-bibliography` SHIPPED via two-key gate; reading PROVISIONAL, homepage override window OPEN (one full phase per C-2 step 4). The essay ships now individually (its own page + grounding nodes); on window close it promotes to a live Reading VI. Scientology stays a Reading-II node — essays may serve more than one reading.
-  - 1. scripture-with-a-bibliography
+- The Manufactured Faiths (§E) — PROMOTED to live Reading VI (operator confirmed 2026-07-13).
 - (The Ranked Race, §G — RESOLVED, not a standalone reading: per R-Q1 it deepened the enactment rail and ships inside Reading I as the entry `improving-the-stock`.)
+- §D Film — harvest-gated (next).

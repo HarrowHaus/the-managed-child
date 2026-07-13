@@ -64,6 +64,16 @@
       "essays": [
         "the-seed-and-the-flood"
       ]
+    },
+    {
+      "num": "VI",
+      "order": 6,
+      "slug": "reading-vi",
+      "title": "The Manufactured Faiths",
+      "argument": "Twentieth-century faiths built in the open by named founders from identifiable older sources — modern witchcraft, the Church of Satan, Scientology — each borrowing from Crowley while claiming an antiquity or a revelation the record does not carry.",
+      "essays": [
+        "scripture-with-a-bibliography"
+      ]
     }
   ],
   "method": [
