@@ -16,7 +16,10 @@ const ROOT = resolve(here, '../../..');
 // Bare negative-universal patterns (L3's illegal phrases + close kin).
 const NEG = /\b(no relay|cannot be found|never touched|none read|built nothing|no line of contact|no evidence (?:that|of)|no thread|never met|no documented (?:connection|tie|contact)|no trace)\b/i;
 // Scoping markers that make a negative LEGAL (bounded / claim-scoped / a search).
-const SCOPED = /\b(claimed|in the (?:record|sources) (?:searched|checked)?|not established|is established|searched|documented absence|not asserted|no source stands|no such claim)\b/i;
+// A negative is LEGAL when it is scoped to the project's claim, bounded to a
+// search, or scoped to "documented" (a bounded evidentiary negative, not a
+// universal). "no documented connection/tie/contact" is the correct bounded form.
+const SCOPED = /\b(claimed|in the (?:record|sources)(?: (?:searched|checked))?|not established|is established|searched|documented absence|not asserted|no source stands|no such claim|no documented|does not (?:support|show)|the record does not)\b/i;
 
 function walk(dir) {
   const out = [];
